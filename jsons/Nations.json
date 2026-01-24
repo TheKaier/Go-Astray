@@ -1,0 +1,205 @@
+[
+	//Spectator
+	{
+		"name": "Spectator",
+		"outerColor": [255,255,255]
+//		"innerColor": [255,255,255]
+
+	},
+	{
+		"name": "[Area] [China]",//
+		"leaderName": "Leader",
+		"adjective": [""],
+		//"startBias": ["air"],
+		//"preferredVictoryType": "Diplomatic",
+		//"favoredReligion": "Humanism",
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+		"outerColor": [153,5,3],
+        "innerColor": [244,232,54],
+		"style": "",
+		"uniqueName": "",
+		"uniques": [
+		//"[+15]% Production when constructing [Unit.Mobilizer] units [in all cities]",
+		"Successor <when above [0] [Progress of Successor]> <hidden from users>",
+		"Cenozoic <when above [0] [Progress of Cenozoic]> <hidden from users>",
+		"Warlord <when above [0] [Progress of Warlord]> <hidden from users>",
+		"Chaos <when above [0] [Progress of Chaos]> <hidden from users>",
+		
+		
+		],
+		"cities": [
+			"Beijing","Shanghai","Guangzhou","Nanjing","Xian","Chengdu","Hangzhou","Tianjin","Macau","Shandong",
+			"Kaifeng","Ningbo","Baoding","Yangzhou","Harbin","Chongqing","Luoyang","Kunming","Taipei","Shenyang",
+			"Taiyuan","Tainan","Dalian","Lijiang","Wuxi","Suzhou","Maoming","Shaoguan","Yangjiang","Heyuan","Huangshi",
+			"Yichang","Yingtian","Xinyu","Xinzheng","Handan","Dunhuang","Gaoyu","Nantong","Weifang","Xikang"
+		]
+	},
+	{
+		"name": "[Area] [America]",//
+		"leaderName": "Leader",
+		"adjective": [""],
+		//"startBias": ["air"],
+		//"preferredVictoryType": "Diplomatic",
+		//"favoredReligion": "Humanism",
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+		"outerColor": [ 28,51,119],
+        "innerColor": [255,255,255],
+		"style": "",
+		"uniqueName": "",
+		"uniques": [
+		//"[+1 Gold] per [2] population [in all cities]",
+		"Successor <when above [0] [Progress of Successor]> <hidden from users>",
+		"Cenozoic <when above [0] [Progress of Cenozoic]> <hidden from users>",
+		"Warlord <when above [0] [Progress of Warlord]> <hidden from users>",
+		"Chaos <when above [0] [Progress of Chaos]> <hidden from users>",
+		],
+		"cities": [
+			"Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
+			"Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas","Memphis",
+			"Cleveland","Kansas City","San Diego","Richmond","Las Vegas","Phoenix","Albuquerque","Minneapolis","Pittsburgh",
+			"Oakland","Tampa Bay","Orlando","Tacoma","Santa Fe","Olympia","Hunt Valley","Springfield","Palo Alto","Centralia",
+			"Spokane","Jacksonville","Svannah","Charleston","San Antonio","Birmingham","Anchorage","Sacramento","Reno",
+			"Salt Lake City","Boise","Milwaukee","Santa Cruz","Little Rock"
+		]
+	},
+	{
+		"name": "[Area] [Russia]",//
+		"leaderName": "Leader",
+		"adjective": [""],
+		//"startBias": ["air"],
+		//"preferredVictoryType": "Diplomatic",
+		//"favoredReligion": "Humanism",
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+		"outerColor": [239, 180, 0],
+		"innerColor": [0, 0, 0],
+		"style": "",
+		"uniqueName": "",
+		"uniques": [
+		//"Free [Unit.Militia] appears",
+		"Successor <when above [0] [Progress of Successor]> <hidden from users>",
+		"Cenozoic <when above [0] [Progress of Cenozoic]> <hidden from users>",
+		"Warlord <when above [0] [Progress of Warlord]> <hidden from users>",
+		"Chaos <when above [0] [Progress of Chaos]> <hidden from users>",
+		],
+		"cities": [
+			"Moscow","St. Petersburg","Novgorod","Rostov","Yaroslavl","Yekaterinburg","Yakutsk","Vladivostok","Smolensk","Orenburg",
+			"Krasnoyarsk","Khabarovsk","Bryansk","Tver","Novosibirsk","Magadan","Murmansk","Irkutsk","Chita","Samara",
+			"Arkhangelsk","Chelyabinsk","Tobolsk","Vologda","Omsk","Astrakhan","Kursk","Saratov","Tula","Vladimir","Perm",
+			"Voronezh","Pskov","Starayarussa","Kostoma","Nizhniy Novgorod","Suzdal","Magnitogorsk"],
+		
+	},
+	{
+		"name": "[Area] [Europe]",//
+		"leaderName": "Leader",
+		"adjective": [""],
+		//"startBias": ["air"],
+		//"preferredVictoryType": "Diplomatic",
+		//"favoredReligion": "Humanism",
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+		"outerColor": [114, 162, 233],
+		"innerColor": [61, 0, 109],
+		"style": "",
+		"uniqueName": "",
+		"uniques": [
+		//"[+1 Production] from every [Strategic resource]",
+		"Successor <when above [0] [Progress of Successor]> <hidden from users>",
+		"Cenozoic <when above [0] [Progress of Cenozoic]> <hidden from users>",
+		"Warlord <when above [0] [Progress of Warlord]> <hidden from users>",
+		"Chaos <when above [0] [Progress of Chaos]> <hidden from users>",
+		],
+		"cities": [
+			"London","Paris","Berlin","Madrid","York","Orleans","Hamburg","Barcelona","Nottingham","Lyon",
+"Munich","Seville","Hastings","Troyes","Cologne","Cordoba","Canterbury","Tours","Frankfurt","Toledo",
+"Coventry","Marseille","Essen","Santiago","Warwick","Chartres","Dortmund","Salamanca","Newcastle","Avignon",
+"Stuttgart","Murcia","Oxford","Rouen","Düsseldorf","Valencia","Liverpool","Grenoble","Bremen","Zaragoza",
+"Dover","Dijon","Hannover","Pamplona","Brighton","Amiens","Duisburg","Vitoria","Norwich","Cherbourg",
+"Leipzig","Santander","Leeds","Poitiers","Dresden","Oviedo","Reading","Toulouse","Bonn","Jaen",
+"Birmingham","Bayonne","Bochum","Logroño","Richmond","Strasbourg","Bielefeld","Valladolid","Exeter","Brest",
+"Karlsruhe","Palma","Cambridge","Bordeaux","Gelsenkirchen","Teruel","Gloucester","Rennes","Wiesbaden","Almeria",
+"Manchester","Nice","Münster","Leon","Bristol","Saint Etienne","Rostock","Zamora","Leicester","Nantes",
+"Chemnitz","Mida","Carlisle","Reims","Braunschweig","Lugo","Ipswich","Le Mans","Halle","Alicante",
+"Portsmouth","Montpellier","Mönchengladbach","Càdiz","Berwick","Limoges","Kiel","Eiche","Bath","Nancy",
+"Wuppertal","Alcorcon","Mumbles","Lille","Freiburg","Burgos","Southampton","Caen","Hagen","Vigo",
+"Sheffield","Toulon","Erfurt","Badajoz","Salisbury","Le Havre","Kaiserslautern","La Coruña","Colchester","Lourdes",
+"Kassel","Guadalquivir","Plymouth","Cannes","Oberhausen","Bilbao","Lancaster","Aix-En-Provence","Hamm","San Sebastian",
+"Blackpool","La Rochelle","Saarbrücken","Granada","Winchester","Bourges","Krefeld","Mérida","Hull","Calais",
+"Pirmasens","Huelva","Potsdam","Ibiza","Solingen","Las Palmas","Osnabrück","Tenerife","Ludwigshafen","Leverkusen",
+"Oldenburg","Neuss","Mülheim","Darmstadt","Herne","Würzburg","Recklinghausen","Göttingen","Wolfsburg","Koblenz",
+"Hildesheim","Erlangen"
+		]
+	},
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	//Barbarian
+	{
+		"name": "Barbarians",
+		"outerColor": [0,0,0],
+        "innerColor": [185,12,12],
+		"uniques": ["Can only heal by pillaging"]
+	},
+
+
+    
+    
+    
+    
+    
+    
+    
+   // <during the [Ancient era]> <upon conquering a city>
+    /*"Discover [Resource Technology]"//开资源
+		"Instantly provides [1] [Magic power]"//拿魔力
+		"Provides [1] [Magic power]<every [1] turns>"//回合魔
+		"Provides [-24] [Magic power]<every [24] turns>"//清空*/
+    //<during a Golden Age>
+    //"May Paradrop up to [3] tiles from inside friendly territory",
+    //"Production to [Gold] conversion in cities changed by [+25]%",
+
+]

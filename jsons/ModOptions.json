@@ -1,0 +1,26 @@
+{
+"constants": {
+        "maxXPfromBarbarians": 100,
+    "pantheonBase": 10,
+    "pantheonGrowth": 0,
+    "cityStrengthFromTechsFullMultiplier": 0.1,
+    "minimalCityDistance":2,
+    "cityWorkRange":3,
+    "baseCityBombardRange":1,
+    "cityExpandRange":4,
+    "riverCountMultiplier": 0.02,
+    "religionLimitMultiplier": 1.0,
+    },
+    "uniques":[
+    //"Can trade civilization introductions for [10] Gold",
+    "Cannot be used as permanent audiovisual mod",
+    "Allow raze capital",
+    "Allow raze holy city"
+    
+    
+    
+    
+    ]
+    "isBaseRuleset": true,
+    
+}

@@ -1,0 +1,386 @@
+[
+    {
+		"name": "Stability bias",//稳定偏向
+		"resourceType": "Strategic",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		"Not shown on world screen",//不显示
+		]
+	},
+    {
+		"name": "Radical bias",//激进偏向
+		"resourceType": "Strategic",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		"Not shown on world screen",//不显示
+		]
+	},
+    {
+		"name": "Event-driven",//事件驱动
+		"resourceType": "Strategic",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		"Not shown on world screen",//不显示
+		]
+	},
+	{
+		"name": "Progress of Successor",//继任者进度
+		"resourceType": "Strategic",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		//"Stockpiled"//库存
+		"Not shown on world screen",//不显示
+		]
+	},
+	{
+		"name": "Progress of Cenozoic",//新生代进度
+		"resourceType": "Strategic",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		//"Stockpiled"//库存
+		"Not shown on world screen",//不显示
+		]
+	},
+	{
+		"name": "Progress of Warlord",//军阀进度
+		"resourceType": "Strategic",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		//"Stockpiled"//库存
+		"Not shown on world screen",//不显示
+		]
+	},
+	{
+		"name": "Progress of Chaos",//混沌进度
+		"resourceType": "Strategic",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		//"Stockpiled"//库存
+		"Not shown on world screen",//不显示
+		]
+	},
+	
+	
+	
+	
+    {
+		"name": "RN1",//随机数
+		"resourceType": "Strategic",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		//"Stockpiled"//库存
+		"Not shown on world screen",//不显示
+		]
+	},
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+		"name": "Resource.Scientific Level",//科研等级
+		"resourceType": "Strategic",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		//"Not shown on world screen",//不显示
+		]
+	},
+    {
+		"name": "Resource.Manpower",//人力
+		"resourceType": "Strategic",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		//"Not shown on world screen",//不显示
+		]
+	},
+	{
+		"name": "Resource.Manpower max",//人力
+		"resourceType": "Strategic",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		//"Stockpiled"//库存
+		//"Not shown on world screen",//不显示
+		]
+	},
+    {
+		"name": "Resource.Tools",//工具
+		"resourceType": "Strategic",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		//"Not shown on world screen",//不显示
+		]
+	},
+    {
+		"name": "Resource.Gun",//枪支
+		"resourceType": "Strategic",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		//"Not shown on world screen",//不显示
+		]
+	},
+    {
+		"name": "Resource.Electricity",//电力
+		"resourceType": "Strategic",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		//"Not shown on world screen",//不显示
+		]
+	},
+    {
+		"name": "Resource.Water",//水
+		"resourceType": "Strategic",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		"Not shown on world screen",//不显示
+		]
+	},
+    {
+		"name": "Resource.Water capacity",//水容量
+		"resourceType": "Strategic",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		//"Stockpiled"//库存
+		"Not shown on world screen",//不显示
+		]
+	},
+    {
+		"name": "Resource.Scientific Research Point",//科研点
+		"resourceType": "Strategic",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		"Not shown on world screen",//不显示
+		]
+	},
+    {
+		"name": "Resource.Steel",//钢
+		"resourceType": "Strategic",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		//"Not shown on world screen",//不显示
+		]
+	},
+    
+    
+    {
+		"name": "Resource.Horses",
+		"resourceType": "Strategic",
+		"revealedBy": "Tech.wasteland environment",
+		"terrainsCanBeFoundOn": ["Plains","Grassland","Hill"], // Hill only if plains or grassland
+		"production": 1,
+		"improvedBy": ["TileImprovement.Ranch"],
+		"improvementStats": {"production": 1},
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		//"Not shown on world screen",//不显示
+		
+		
+		
+		"Guaranteed with Strategic Balance resource option",
+					"Generated with weight [100] <in [{Featureless} {Grassland}] tiles>",
+					"Generated with weight [100] <in [{Featureless} {Plains}] tiles>",
+					"Minor deposits generated with weight [15] <in [{Grassland} {Hill}] tiles> <in tiles without [Forest]>",
+					"Minor deposits generated with weight [15] <in [{Plains} {Hill}] tiles> <in tiles without [Forest]>",
+					"Minor deposits generated with weight [100] <in [{Featureless} {Grassland}] tiles> <in [Fresh Water] tiles>",
+					"Minor deposits generated with weight [25] <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
+					"Minor deposits generated with weight [30] <in [{Featureless} {Plains}] tiles>"],
+		"majorDepositAmount": {"sparse": 3, "default": 3, "abundant": 4},
+		"minorDepositAmount": {"sparse": 3, "default": 3, "abundant": 4}
+	},
+	{
+		"name": "Resource.Iron",
+		"resourceType": "Strategic",
+		"revealedBy": "Tech.Fine collection",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Hill","Marsh"],
+		"production": 1,
+		"improvementStats": {"production": 1},
+		"improvedBy": ["TileImprovement.Mine","TileImprovement.Coal Mine"],
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		//"Not shown on world screen",//不显示
+		
+		
+		"Guaranteed with Strategic Balance resource option",
+					"Generated with weight [45] <in [{Featureless} {Tundra}] tiles>",
+					
+					"Generated with weight [35] <in [{Featureless} {Desert}] tiles>",
+					"Generated with weight [35] <in [Hill] tiles>",
+					"Minor deposits generated with weight [15] <in [Marsh] tiles> <in tiles without [Hill]>",
+					
+					"Minor deposits generated with weight [25] <in [Forest] tiles>",
+					
+					"Minor deposits generated with weight [30] <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
+					"Minor deposits generated with weight [20] <in [{Featureless} {Plains}] tiles>",
+					"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>",
+					"Minor deposits generated with weight [10] <in [{Featureless} {Tundra}] tiles>",
+					],
+		"majorDepositAmount": {"sparse": 3, "default": 4, "abundant": 5},
+		"minorDepositAmount": {"sparse": 3, "default": 4, "abundant": 5}
+	},
+	{
+		"name": "Resource.Coal",
+		"resourceType": "Strategic",
+		"revealedBy": "Tech.Mining",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Hill","Forest","Marsh"],
+		"production": 1,
+		"improvedBy": ["TileImprovement.Mine","TileImprovement.Coal Mine"],
+		"improvementStats": {"production": 2},
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		//"Not shown on world screen",//不显示
+		
+		"Generated with weight [45] <in [Hill] tiles>",
+					
+					"Generated with weight [35] <in [Forest] tiles> <in tiles without [Hill]>",
+					"Minor deposits generated with weight [10] <in [Marsh] tiles> <in tiles without [Hill]>",
+					
+					"Minor deposits generated with weight [20] <in [Forest] tiles>",
+					"Minor deposits generated with weight [20] <in [{Grassland} {Hill}] tiles>",
+					"Minor deposits generated with weight [20] <in [{Plains} {Hill}] tiles>",
+					"Minor deposits generated with weight [30] <in [{Desert} {Hill}] tiles>",
+					"Minor deposits generated with weight [30] <in [{Tundra} {Hill}] tiles>",
+					],
+		"majorDepositAmount": {"sparse": 4, "default": 5, "abundant": 6},
+		"minorDepositAmount": {"sparse": 4, "default": 5, "abundant": 6}
+	},
+	{
+		"name": "Resource.Uranium",
+		"resourceType": "Strategic",
+		"revealedBy": "Tech.Particle Engineering",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Hill","Marsh","Forest","Tundra"],
+		"production": 1,
+		"improvedBy": ["TileImprovement.Mine"],
+		"improvementStats": {"production": 3},
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		//"Not shown on world screen",//不显示
+		
+		"Generated with weight [35] <in [Marsh] tiles> <in tiles without [Hill]>",
+					
+					"Generated with weight [70] <in [Forest] tiles> <in tiles without [Hill]>",
+					"Minor deposits generated with weight [10] <in [Forest] tiles>",
+					"Minor deposits generated with weight [10] <in [{Featureless} {Tundra}] tiles>",
+					],
+		"majorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3},
+		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
+	},
+    {
+		"name": "Resource.Stone",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Grassland","Tundra","Plains","Desert","Hill"],
+		"production": 1,
+		"revealedBy": "Tech.Explore the ruins",
+		"improvedBy": ["TileImprovement.Mine"],
+		"improvementStats": {"production": 1},
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		//"Not shown on world screen",//不显示
+		"Provides [1] [Resource.Stone] <after discovering [Tech.Resource Survey]> <hidden from users>",
+		"Comment [[Resource.Stone] additional provides [1] [Resource.Stone] after discovering [Tech.Resource Survey]]",
+		
+		
+		
+		"Generated on every [15] tiles <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
+		"Generated on every [15] tiles <in [{Featureless} {Plains}] tiles> <in tiles without [Fresh Water]>",
+		"Generated on every [12] tiles <in [{Featureless} {Hill}] tiles>",
+					"Generated on every [12] tiles <in [{Featureless} {Tundra}] tiles>",
+					"Generated on every [15] tiles <in [{Featureless} {Desert}] tiles>"]
+		"majorDepositAmount": {"sparse": 1, "default": 1, "abundant": 2},
+		"minorDepositAmount": {"sparse": 1, "default": 1, "abundant": 2}
+	},
+	{
+		"name": "Resource.Wood",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Grassland","Forest","Hill","Tundra","Plains"],
+		"food": 1,
+		"revealedBy": "Tech.Explore the ruins",
+		"improvedBy": ["TileImprovement.Lumberyard","TileImprovement.Logging"],
+		"improvementStats": {"food": 1},
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		//"Not shown on world screen",//不显示
+		"Provides [1] [Resource.Wood] <after discovering [Tech.Resource Survey]> <hidden from users>",
+        "Comment [[Resource.Wood] additional provides [1] [Resource.Wood] after discovering [Tech.Resource Survey]]",
+        
+        "Generated on every [12] tiles <in [{Featureless} {Hill}] tiles>",
+        "Generated on every [12] tiles <in [{Featureless} {Plains}] tiles>",
+					"Generated on every [11] tiles <in [{Featureless} {Grassland}] tiles>"]
+		"majorDepositAmount": {"sparse": 1, "default": 1, "abundant": 2},
+		"minorDepositAmount": {"sparse": 1, "default": 1, "abundant": 2}
+	},
+	{
+		"name": "Resource.Fish",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Coast"],
+		//"food": 1,
+		"revealedBy": "Tech.Resource Survey",
+		"improvedBy": ["TileImprovement.Fishing ground"],
+		"improvementStats": {"food": 1},
+		"uniques": ["Generated on every [8] tiles <in [{Featureless} {Coast}] tiles>"]
+	},
+	{
+		"name": "Resource.Herd",//兽群
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland","Forest","Tundra","Hill","Plains"],
+		//"food": 1,
+		"revealedBy": "Tech.wasteland environment",
+		"improvedBy": ["TileImprovement.Ranch"],
+		"improvementStats": {"food": 1},
+		"uniques": ["Generated on every [18] tiles <in [{Featureless} {Grassland}] tiles>",
+					"Generated on every [22] tiles <in [{Featureless} {Grassland}] tiles> <in [Hill] Regions>",
+					
+					"Generated on every [13] tiles <in [Hill] tiles> <in tiles without [Forest]>",
+					"Generated on every [10] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Fresh Water]> <in [Hill] Regions>",
+					
+					"Generated on every [8] tiles <in [{Tundra} {Forest}] tiles>",
+					"Generated on every [12] tiles <in [{Featureless} {Tundra}] tiles>",
+					"Generated on every [25] tiles <in [{Plains} {Forest}] tiles> <in tiles without [Hill]>",
+					"Generated on every [25] tiles <in [{Grassland} {Forest}] tiles> <in tiles without [Hill]>",
+					"Generated on every [16] tiles <in [{Featureless} {Tundra}] tiles> <in [Hill] Regions>",
+					"Generated on every [28] tiles <in [Forest] tiles> <in [Hill] Regions>"]
+	},
+	{
+		"name": "Resource.Wheat",//小麦
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Plains","Desert","Plains"],
+		"food": 1,
+		"revealedBy": "Tech.wasteland environment",
+		"improvedBy": ["TileImprovement.Farm"],
+		"uniques": ["Generated on every [27] tiles <in [{Featureless} {Plains}] tiles>",
+					"Generated on every [10] tiles <in [{Desert} {Fresh Water}] tiles> <in tiles without [Hill]>",
+					"Generated on every [20] tiles <in [{Featureless} {Plains}] tiles> <in [Hill] Regions>",
+					"Generated on every [20] tiles <in [{Fresh Water} {Desert}] tiles> <in tiles without [Hill]> <in [Hill] Regions>"]
+	},
+	
+	
+	
+	
+	
+	
+	
+]
+
+
+
+
+
+

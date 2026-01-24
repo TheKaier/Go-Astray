@@ -1,0 +1,64 @@
+{
+    "name": "Global uniques",
+    "uniques": [
+    "Requires establishing embassies to conduct advanced diplomacy",
+        "[-100]% unhappiness from the number of cities",//城市不扣快乐
+        "[-100]% Unhappiness from [Population] [in all cities]",//人口不扣快乐
+        "[-1 Happiness] for every known Natural Wonder",//发现奇观不加快乐
+        "[-4] Happiness from each type of luxury resource",//奢侈品不加快乐
+		//"[-1 Science] per [1] population [in all cities]",//取消人头瓶
+		//"[-85]% Strength for cities <when attacking>",//取消初始城市攻击
+        //"[-100]% maintenance costs",//单位维护费修正
+        //"[-1 Gold] from every [River]",//删除河流给钱
+        "[-100]% [Gold] from Trade Routes",//取消贸易路线产出
+        //"[-100]% Golden Age length",//取消黄金时代
+        //"[-100]% Culture cost of adopting new Policies",
+        //"[+99999]% Culture cost of natural border growth [in all cities]",
+        "[-25]% growth [in all cities] <when between [-5] and [-1] [Happiness]>",
+        "[-50]% growth [in all cities] <when between [-10] and [-6] [Happiness]>",
+        "[-25]% growth [in all cities] <when between [-15] and [-11] [Happiness]>",
+        "Nullifies Growth [in all cities] <when below [-16] [Happiness]>",
+        "[-25]% [Production] [in all cities] <when below [-10] [Happiness]>",
+        "[-25]% [Production] [in all cities] <when below [-15] [Happiness]>",
+        "[-33]% Strength <for [All] units> <when below [-10] [Happiness]>",
+        "Cannot build [Settler] units <when below [-10] [Happiness]>",
+        "Rebel units may spawn <when below [-15] [Happiness]>",
+        
+        //"[1] free random researchable Tech(s) from the [Era.Wasteland] <when number of [Resource.Scientific Level] is less than [Resource.Scientific Research Point]> <upon turn end>",
+        //"[1] Free Technologies <when number of [Resource.Scientific Level] is less than [Resource.Scientific Research Point]> <upon turn end>",
+        //"[+1 Production] per [1] population [in all cities]",
+        //"[+1 Gold] per [2] population [in all cities]",
+//"[+1 Culture] [in all cities]",
+        //"Instantly provides [300] [Resource.Scientific Research Point]",
+        "Provides [40] [Resource.Manpower max]",
+        "Adopt [Reign panel]",
+        
+        "Provides [1] [RN1] <for every [([turns] * 154 * [[Plains] Tiles] + [Gold] * 126 * [[Grassland] Tiles] + [Culture] * 198 * [[Plains] Tiles] + [Happiness] * 161 * [[City center] Tiles] + 233 * [[Barbarian encampment] Tiles]) % 1000]>",
+        //"Provides [1] [RN1]",
+        
+        
+        
+        //
+        "Triggers a [Event.1.Title] event <when number of [Event-driven] is equal to [0]> <upon turn start> <when above [5] [Culture]>",
+        "Triggers a [Event.2.Title] event <when number of [Event-driven] is equal to [1]> <upon turn start> <when above [10] [Culture]>",
+        "Triggers a [Event.3.Title] event <when number of [Event-driven] is equal to [2]> <upon turn start> <when above [15] [Culture]>",
+        "Triggers a [Event.4.Title] event <when number of [Event-driven] is equal to [3]> <upon turn start> <when above [20] [Culture]>",
+        "Triggers a [Event.5.Title] event <when number of [Event-driven] is equal to [4]> <upon turn start> <when above [25] [Culture]>",
+        "Triggers a [Event.6.Title] event <when number of [Event-driven] is equal to [5]> <upon turn start> <when above [30] [Culture]>",
+        "Triggers a [Event.7.Title] event <when number of [Event-driven] is equal to [6]> <upon turn start> <when above [35] [Culture]>",
+        "Triggers a [Event.8.Title] event <when number of [Event-driven] is equal to [7]> <upon turn start> <when above [40] [Culture]>",
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    ]
+}

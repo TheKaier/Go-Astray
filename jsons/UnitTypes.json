@@ -1,0 +1,81 @@
+[
+    {
+        "name": "UnitType.Civilian",
+        "movementType": "Land"
+        "uniques": [
+        
+                   ]
+    },
+    {
+        "name": "UnitType.Militia",
+        "movementType": "Land"
+        "uniques": [
+        
+                   ]
+    },
+    {
+        "name": "UnitType.LightInfantry",
+        "movementType": "Land"
+        "uniques": [
+        "[This Unit] takes [10] damage <upon entering a [TileImprovement.Barbed Wire] tile>",
+        
+                   ]
+    },
+    {
+        "name": "UnitType.HeavyInfantry",
+        "movementType": "Land"
+        "uniques": [
+        "[This Unit] takes [10] damage <upon entering a [TileImprovement.Barbed Wire] tile>",
+        
+                   ]
+    },
+    {
+        "name": "UnitType.Instrument",//器械
+        "movementType": "Land"
+        "uniques": [
+        
+                   ]
+    },
+    {
+        "name": "UnitType.Motility",
+        "movementType": "Land"
+        "uniques": [
+        "[This Unit] takes [10] damage <upon entering a [TileImprovement.Barbed Wire] tile>",
+                   ]
+    },
+    {
+        "name": "UnitType.Nuclear",
+        "movementType": "Air"
+        "uniques": [
+        
+                   ]
+    },
+    {
+        "name": "UnitType.Armoured",
+        "movementType": "Land"
+        "uniques": [
+        
+                   ]
+    },
+    {
+        "name": "UnitType.Drone",
+        "movementType": "Air"
+        "uniques": [
+        
+                   ]
+    },
+]
+//"uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",]
+
+/*UnitType.Civilian = 平民
+UnitType.Militia = 民兵
+UnitType.LightInfantry = 轻步兵
+UnitType.HeavyInfantry = 重步兵
+UnitType.Instrument = 器械
+UnitType.Motility = 机动
+UnitType.Nuclear = 核武器
+UnitType.Armoured = 装甲
+UnitType.Drone = 无人机*/
+
+
+

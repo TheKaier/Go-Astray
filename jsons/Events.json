@@ -1,0 +1,394 @@
+[//"Triggers a [事件名] event"
+
+{
+    "name":"Event.1.Title",
+    "text":"Event.1.Text",
+    "choices":[
+        {
+            "text":"Event.1.Choice1",
+            "uniques":[
+            "Instantly provides [1] [Event-driven] <hidden from users>",
+            "Instantly consumes [1] [Stability bias] <hidden from users>",
+            ],
+        },
+        {
+            "text":"Event.1.Choice2",
+            "uniques":[
+            "Instantly provides [1] [Event-driven] <hidden from users>",
+            "Instantly provides [1] [Stability bias] <hidden from users>",
+            ],
+        },
+    ]
+},
+{
+    "name":"Event.2.Title",
+    "text":"Event.2.Text",
+    "choices":[
+        {
+            "text":"Event.2.Choice1",
+            "uniques":[
+            "Instantly provides [1] [Event-driven] <hidden from users>",
+            "Instantly consumes [1] [Radical bias] <hidden from users>",
+            ],
+        },
+        {
+            "text":"Event.2.Choice2",
+            "uniques":[
+            "Instantly provides [1] [Event-driven] <hidden from users>",
+            "Instantly provides [1] [Radical bias] <hidden from users>",
+            ],
+        },
+    ]
+},
+{
+    "name":"Event.3.Title",
+    "text":"Event.3.Text",
+    "choices":[
+        {
+            "text":"Event.3.Choice1",
+            "uniques":[
+            "Instantly provides [1] [Event-driven] <hidden from users>",
+            "Instantly consumes [1] [Stability bias] <hidden from users>",
+            ],
+        },
+        {
+            "text":"Event.3.Choice2",
+            "uniques":[
+            "Instantly provides [1] [Event-driven] <hidden from users>",
+            "Instantly provides [1] [Stability bias] <hidden from users>",
+            ],
+        },
+    ]
+},
+{
+    "name":"Event.4.Title",
+    "text":"Event.4.Text",
+    "choices":[
+        {
+            "text":"Event.4.Choice1",
+            "uniques":[
+            "Instantly provides [1] [Event-driven] <hidden from users>",
+            "Instantly provides [1] [Radical bias] <hidden from users>",
+            ],
+        },
+        {
+            "text":"Event.4.Choice2",
+            "uniques":[
+            "Instantly provides [1] [Event-driven] <hidden from users>",
+            "Instantly consumes [1] [Radical bias] <hidden from users>",
+            ],
+        },
+    ]
+},
+{
+    "name":"Event.5.Title",
+    "text":"Event.5.Text",
+    "choices":[
+        {
+            "text":"Event.5.Choice1",
+            "uniques":[
+            "Instantly provides [1] [Event-driven] <hidden from users>",
+            "Instantly provides [1] [Stability bias] <hidden from users>",
+            "Instantly provides [1] [Radical bias] <hidden from users>",
+            ],
+        },
+        {
+            "text":"Event.5.Choice2",
+            "uniques":[
+            "Instantly provides [1] [Event-driven] <hidden from users>",
+            "Instantly consumes [1] [Stability bias] <hidden from users>",
+            "Instantly consumes [1] [Radical bias] <hidden from users>",
+            ],
+        },
+    ]
+},
+{
+    "name":"Event.6.Title",
+    "text":"Event.6.Text",
+    "choices":[
+        {
+            "text":"Event.6.Choice1",
+            "uniques":[
+            "Instantly provides [1] [Event-driven] <hidden from users>",
+            "Instantly provides [1] [Stability bias] <hidden from users>",
+            "Instantly consumes [1] [Radical bias] <hidden from users>",
+            ],
+        },
+        {
+            "text":"Event.6.Choice2",
+            "uniques":[
+            "Instantly provides [1] [Event-driven] <hidden from users>",
+            "Instantly provides [1] [Radical bias] <hidden from users>",
+            "Instantly consumes [1] [Stability bias] <hidden from users>",
+            ],
+        },
+    ]
+},
+{
+    "name":"Event.7.Title",
+    "text":"Event.7.Text",
+    "choices":[
+        {
+            "text":"Event.7.Choice1",
+            "uniques":[
+            "Instantly provides [1] [Event-driven] <hidden from users>",
+            //"Instantly provides [1] [Stability bias] <hidden from users>",
+            ],
+        },
+        {
+            "text":"Event.7.Choice2",
+            "uniques":[
+            "Instantly provides [1] [Event-driven] <hidden from users>",
+            //"Instantly provides [1] [Stability bias] <hidden from users>",
+            ],
+        },
+        {
+            "text":"Event.7.Choice3",
+            "uniques":[
+            "Instantly provides [1] [Event-driven] <hidden from users>",
+            //"Instantly provides [1] [Stability bias] <hidden from users>",
+            ],
+        },
+        {
+            "text":"Event.7.Choice4",
+            "uniques":[
+            "Instantly provides [1] [Event-driven] <hidden from users>",
+            //"Instantly provides [1] [Stability bias] <hidden from users>",
+            ],
+        },
+    ]
+},
+{
+    "name":"Event.8.Title",
+    "text":"Event.8.Text",
+    "choices":[
+        //兜底
+        {
+            "text":"[Successor] [Choice]",//继任者
+            "uniques":[
+            "Instantly provides [1] [Event-driven] <hidden from users>",
+            "Gain a free [Successor] [in capital]",
+            "Only available <when above [-1] [Stability bias]> <when below [1] [Radical bias]>",
+            ],
+        },
+        {
+            "text":"[Cenozoic] [Choice]",//新生代
+            "uniques":[
+            "Instantly provides [1] [Event-driven] <hidden from users>",
+            "Gain a free [Cenozoic] [in capital]",
+            "Only available <when above [-1] [Stability bias]> <when above [-1] [Radical bias]>",
+            ],
+        },
+        {
+            "text":"[Warlord] [Choice]",//军阀
+            "uniques":[
+            "Instantly provides [1] [Event-driven] <hidden from users>",
+            "Gain a free [Warlord] [in capital]",
+            "Only available <when below [1] [Stability bias]>",
+            ],
+        },
+        
+        
+        
+        
+        
+        {//中国
+            "text":"[Collective Security Organization] [Choice]",//
+            "uniques":[
+            "Instantly provides [1] [Event-driven] <hidden from users>",
+            "Gain a free [Collective Security Organization] [in capital]",
+            "Only available <for [[Area] [China]] Civilizations> <when above [0] [Stability bias]> <when below [0] [Radical bias]> <when number of [RN1] is more than [100]> <when number of [RN1] is less than [600]>",
+            ],
+        },
+        {
+            "text":"[People's Front] [Choice]",
+            "uniques":[
+            "Instantly provides [1] [Event-driven] <hidden from users>",
+            "Gain a free [People's Front] [in capital]",
+            "Only available <for [[Area] [China]] Civilizations> <when above [0] [Stability bias]> <when above [0] [Radical bias]> <when number of [RN1] is more than [200]> <when number of [RN1] is less than [700]>",
+            ],
+        },
+        {
+            "text":"[Long March] [Choice]",//长征
+            "uniques":[
+            "Instantly provides [1] [Event-driven] <hidden from users>",
+            "Gain a free [Long March] [in capital]",
+            "Only available <for [[Area] [China]] Civilizations> <when above [1] [Stability bias]> <when above [1] [Radical bias]> <when number of [RN1] is more than [800]>",//特殊
+            ],
+        },
+        {
+            "text":"[Celestial Empire of China] [Choice]",//中华天朝
+            "uniques":[
+            "Instantly provides [1] [Event-driven] <hidden from users>",
+            "Gain a free [Celestial Empire of China] [in capital]",
+            "Only available <for [[Area] [China]] Civilizations> <when below [0] [Stability bias]> <when above [0] [Radical bias]> <when number of [RN1] is more than [300]> <when number of [RN1] is less than [800]>",
+            ],
+        },
+        /*{
+            "text":"[Chinese Communist Party] [Choice]",
+            "uniques":[
+            "Instantly provides [1] [Event-driven] <hidden from users>",
+            "Gain a free [Chinese Communist Party] [in capital]",
+            "Only available <for [[Area] [China]] Civilizations> <when above [1] [Stability bias]> <when below [1] [Radical bias]> <when number of [RN1] is more than [800]>",//特殊
+            ],
+        },*/
+        {
+            "text":"[Production and Construction Corps] [Choice]",
+            "uniques":[
+            "Instantly provides [1] [Event-driven] <hidden from users>",
+            "Gain a free [Production and Construction Corps] [in capital]",
+            "Only available <for [[Area] [China]] Civilizations> <when above [0] [Stability bias]> <when below [0] [Radical bias]> <when number of [RN1] is more than [400]> <when number of [RN1] is less than [900]>",
+            ],
+        },
+        {
+            "text":"[Autonomous Special Zone of Trade] [Choice]",
+            "uniques":[
+            "Instantly provides [1] [Event-driven] <hidden from users>",
+            "Gain a free [Autonomous Special Zone of Trade] [in capital]",
+            "Only available <for [[Area] [China]] Civilizations> <when below [0] [Stability bias]> <when above [0] [Radical bias]> <when number of [RN1] is more than [400]> <when number of [RN1] is less than [900]>",
+            ],
+        },
+        {//美国
+            "text":"[United States Constitutional Government] [Choice]",
+            "uniques":[
+            "Instantly provides [1] [Event-driven] <hidden from users>",
+            "Gain a free [United States Constitutional Government] [in capital]",
+            "Only available <for [[Area] [China]] Civilizations> <when above [0] [Stability bias]> <when below [0] [Radical bias]> <when number of [RN1] is more than [200]> <when number of [RN1] is less than [700]>",
+            ],
+        },
+        {
+            "text":"[American Union] [Choice]",
+            "uniques":[
+            "Instantly provides [1] [Event-driven] <hidden from users>",
+            "Gain a free [American Union] [in capital]",
+            "Only available <for [[Area] [America]] Civilizations> <when above [0] [Stability bias]> <when below [0] [Radical bias]> <when number of [RN1] is more than [300]> <when number of [RN1] is less than [800]>",
+            ],
+        },
+        {
+            "text":"[People's Liberation Army of America] [Choice]",
+            "uniques":[
+            "Instantly provides [1] [Event-driven] <hidden from users>",
+            "Gain a free [People's Liberation Army of America] [in capital]",
+            "Only available <for [[Area] [America]] Civilizations> <when above [0] [Stability bias]> <when above [0] [Radical bias]> <when number of [RN1] is more than [500]> <when number of [RN1] is less than [1000]>",
+            ],
+        },
+        {
+            "text":"[Patriotic Front] [Choice]",
+            "uniques":[
+            "Instantly provides [1] [Event-driven] <hidden from users>",
+            "Gain a free [Patriotic Front] [in capital]",
+            "Only available <for [[Area] [America]] Civilizations> <when above [0] [Stability bias]> <when above [0] [Radical bias]> <when number of [RN1] is more than [200]> <when number of [RN1] is less than [700]>",
+            ],
+        },
+        {
+            "text":"[National Socialist Movement] [Choice]",
+            "uniques":[
+            "Instantly provides [1] [Event-driven] <hidden from users>",
+            "Gain a free [National Socialist Movement] [in capital]",
+            "Only available <for [[Area] [America]] Civilizations> <when above [0] [Stability bias]> <when above [0] [Radical bias]> <when number of [RN1] is more than [300]> <when number of [RN1] is less than [800]>",
+            ],
+        },
+        {
+            "text":"[Atomic Division] [Choice]",//
+            "uniques":[
+            "Instantly provides [1] [Event-driven] <hidden from users>",
+            "Gain a free [Atomic Division] [in capital]",
+            "Only available <for [[Area] [America]] Civilizations> <when below [1] [Stability bias]> <when above [1] [Radical bias]> <when number of [RN1] is more than [800]>",//特殊
+            ],
+        },
+        /*{
+            "text":"[United Nations] [Choice]",//联合国
+            "uniques":[
+            "Instantly provides [1] [Event-driven] <hidden from users>",
+            "Gain a free [United Nations] [in capital]",
+            "Only available <for [[Area] [America]] Civilizations> <when above [1] [Stability bias]> <when above [1] [Radical bias]> <when number of [RN1] is more than [800]>",//特殊
+            ],
+        },*/
+        {
+            "text":"[Russian Federation] [Choice]",//俄罗斯联邦
+            "uniques":[
+            "Instantly provides [1] [Event-driven] <hidden from users>",
+            "Gain a free [Russian Federation] [in capital]",
+            "Only available <for [[Area] [Russia]] Civilizations> <when above [0] [Stability bias]> <when below [0] [Radical bias]> <when number of [RN1] is more than [100]> <when number of [RN1] is less than [600]>",
+            ],
+        },
+        {
+            "text":"[Tsarist Russia] [Choice]",//沙皇俄国
+            "uniques":[
+            "Instantly provides [1] [Event-driven] <hidden from users>",
+            "Gain a free [Tsarist Russia] [in capital]",
+            "Only available <for [[Area] [Russia]] Civilizations> <when below [0] [Stability bias]> <when above [0] [Radical bias]> <when number of [RN1] is more than [300]> <when number of [RN1] is less than [800]>",
+            ],
+        },
+        {
+            "text":"[Soviet Union] [Choice]",
+            "uniques":[
+            "Instantly provides [1] [Event-driven] <hidden from users>",
+            "Gain a free [Soviet Union] [in capital]",
+            "Only available <for [[Area] [Russia]] Civilizations> <when above [0] [Stability bias]> <when above [0] [Radical bias]> <when number of [RN1] is more than [300]> <when number of [RN1] is less than [800]>",
+            ],
+        },
+        {
+            "text":"[Russian State] [Choice]",
+            "uniques":[
+            "Instantly provides [1] [Event-driven] <hidden from users>",
+            "Gain a free [Russian State] [in capital]",
+            "Only available <for [[Area] [Russia]] Civilizations> <when above [0] [Stability bias]> <when below [0] [Radical bias]> <when number of [RN1] is more than [400]> <when number of [RN1] is less than [900]>",
+            ],
+        },
+        
+    ]
+},
+/*
+{
+    "name":"Event.9.Title",
+    "text":"Event.9.Text",
+    "choices":[
+        {
+            "text":"Event.9.Choice1",
+            "uniques":[],
+        },
+        {
+            "text":"Event.9.Choice2",
+            "uniques":[],
+        },
+    ]
+},
+{
+    "name":"Event.10.Title",
+    "text":"Event.10.Text",
+    "choices":[
+        {
+            "text":"Event.10.Choice1",
+            "uniques":[],
+        },
+        {
+            "text":"Event.10.Choice2",
+            "uniques":[],
+        },
+    ]
+},
+{
+    "name":"Event.11.Title",
+    "text":"Event.11.Text",
+    "choices":[
+        {
+            "text":"Event.11.Choice1",
+            "uniques":[],
+        },
+        {
+            "text":"Event.11.Choice2",
+            "uniques":[],
+        },
+    ]
+}
+*/
+]
+    //<hidden from users>
+    //<with [20]% chance>
+    //<after [40] turns>
+    //<when at war>
+    //<when not at war>
+    //<for [28] turns>
+    //<every [8] turns>
+    //<when number of [Stability] is less than [Faith]>

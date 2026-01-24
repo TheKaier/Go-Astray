@@ -1,0 +1,376 @@
+[
+	{
+		"name": "Remove Forest",
+		"turnsToBuild": 3,
+		"uniques": ["Can be built outside your borders", ]
+	},
+	{
+		"name": "Remove Marsh",
+		"turnsToBuild": 3,
+		"uniques": ["Can be built outside your borders", ]
+	},
+	{
+		"name": "Remove Fallout",
+		"turnsToBuild": 3,
+		"uniques": ["Can be built outside your borders", ]
+	},
+	
+	{
+		"name": "Remove Road",
+		"turnsToBuild": 3,
+		"uniques": ["Can be built outside your borders", ]
+	},
+	{
+		"name": "Remove Railroad",
+		"turnsToBuild": 3,
+		"uniques": ["Can be built outside your borders", ]
+	},
+	{
+		"name": "Remove TileImprovement.Farm",
+		"turnsToBuild": 3,
+		"uniques": ["Can be built outside your borders", ]
+	},
+	{
+		"name": "Remove TileImprovement.Logging",
+		"turnsToBuild": 3,
+		"uniques": ["Can be built outside your borders", ]
+	},
+	{
+		"name": "Remove TileImprovement.Mine",
+		"turnsToBuild": 3,
+		"uniques": ["Can be built outside your borders", ]
+	},
+	{
+		"name": "Remove TileImprovement.Ranch",
+		"turnsToBuild": 3,
+		"uniques": ["Can be built outside your borders", ]
+	},
+	{
+		"name": "Remove TileImprovement.Drainage area",
+		"turnsToBuild": 3,
+		"uniques": ["Can be built outside your borders", ]
+	},
+	{
+		"name": "Remove TileImprovement.Bunkers",
+		"turnsToBuild": 3,
+		"uniques": ["Can be built outside your borders", ]
+	},
+	{
+		"name": "Remove TileImprovement.Quarry",
+		"turnsToBuild": 3,
+		"uniques": ["Can be built outside your borders", ]
+	},
+	{
+		"name": "Remove TileImprovement.Water drilling",
+		"turnsToBuild": 3,
+		"uniques": ["Can be built outside your borders", ]
+	},
+	{
+		"name": "Remove TileImprovement.Coal Mine",
+		"turnsToBuild": 3,
+		"uniques": ["Can be built outside your borders", ]
+	},
+	{
+		"name": "Remove TileImprovement.Fossil-fuel power station",
+		"turnsToBuild": 3,
+		"uniques": ["Can be built outside your borders", ]
+	},
+	
+	
+	
+	
+	{
+		"name": "Road",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 3,
+		"techRequired": "Tech.Mechanical",
+		"uniques": [
+		"Can be built outside your borders",
+		],
+		"shortcutKey": "R",
+        "civilopediaText": [
+            {"text":"Reduces movement cost to ½ if the other tile also has a Road or Railroad"},
+            {"text":"Reduces movement cost to ⅓ with Machinery", "link":"Technology/Machinery"},
+            {"text":"Requires Engineering to bridge rivers", "link":"Technology/Engineering"}
+        ]
+	},
+	{
+		"name": "Railroad",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 3,
+		"techRequired": "Tech.Electricity",
+		"uniques": [
+		"Can be built outside your borders",
+		],
+		"shortcutKey": "R",
+        "civilopediaText": [{"text":"Reduces movement cost to ⅒ if the other tile also has a Railroad"}]
+	},
+
+	// Removals
+	// Any improvement that starts with 'Remove ' is automatically changed into
+	// the improvement that removes the terrainfeature after it.
+	{
+		"name": "Cancel improvement order",
+		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "."
+	},
+    // Purely for turnsToBuild and civilopediaText. Unbuildable so it doesn't show in ImprovementPicker
+    {
+        "name": "Repair",
+        "terrainsCanBeBuiltOn": ["Land"],
+        "turnsToBuild": 2,
+        "shortcutKey": "E",
+        "uniques": ["Unbuildable"],
+        "civilopediaText": [{"text":"Repairs a pillaged Improvement or Route"}]
+    },
+
+
+    // Great Person improvements
+
+	// Unbuildable improvements
+	{
+		"name": "Ancient ruins",//远古遗迹
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Provides a random bonus when entered", 
+		"Unbuildable"
+		]
+	},
+	{
+		"name": "City ruins",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Unbuildable", "Will be replaced by automated workers"],
+        "civilopediaText": [{"text":"A bleak reminder of the destruction wreaked by War"}]
+	},
+	{
+		"name": "City center",//市中心
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+		"Ensures a minimum tile yield of [+2 Food, +2 Production]",
+            "Unpillagable", "Irremovable", "Unbuildable"],
+        "civilopediaText": [
+			{"text":"Marks the center of a city"},
+			{"text":"Appearance changes with the technological era of the owning civilization"}
+		]
+	},
+	{
+		"name": "Barbarian encampment",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Unbuildable"],
+        "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
+	},
+/*{
+		"name": "TileImprovement.Expansion",//扩张
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 5,
+		"techRequired": "Tech.Explore the ruins",
+		"uniques": [
+			"Gain control over [all] tiles in a [1]-tile radius",
+			//"Can be built outside your borders",
+			],
+		"shortcutKey": "F"
+	},*/
+	{
+		"name": "TileImprovement.Farm",//农田
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert"],
+		"food": 1,
+		"turnsToBuild": 4,
+		"techRequired": "Tech.Initial clean water",
+		"uniques": [
+			"Can also be built on tiles adjacent to fresh water",
+			"Costs [1] [Gold] per turn <in cities without a [Building.Cistern]>",
+			//"Consumes [1] [Resource.Water] <when above [0] [Resource.Water]> <in cities without a [Building.Cistern]>",
+			//"[+1 Food] <when above [0] [Resource.Water]>",
+			//"Consumes [1] [Resource.Water] <with [2] to [6] neighboring [TileImprovement.Farm] tiles>",
+			],
+		"shortcutKey": "G"
+	},
+	{
+		"name": "TileImprovement.Demolition area",//拆迁区，如果无法实现生成就弃用
+		"terrainsCanBeBuiltOn": ["Terrain.Abandoned building"],
+		"production": 1,
+		"turnsToBuild": 4,
+		"techRequired": "Tech.Recycling of building materials",
+		"uniques": [
+			//"Consumes [2] [Resource.Water] <when above [1] [Resource.Water]>",
+			"Costs [1] [Gold] per turn",
+			"Provides [1] [Resource.Stone]",
+			],
+		"shortcutKey": "H"
+	},
+	{
+		"name": "TileImprovement.Logging",//伐木林
+		"terrainsCanBeBuiltOn": ["Forest"],
+		"production": 1,
+		"turnsToBuild": 4,
+		"techRequired": "Tech.wasteland environment",
+		"uniques": [
+			//"Consumes [1] [Resource.Water] <when above [0] [Resource.Water]>",
+			"Costs [1] [Gold] per turn",
+			"Provides [1] [Resource.Wood]",
+			],
+		"shortcutKey": "J"
+	},
+	{
+		"name": "TileImprovement.Mine",//矿井
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"production": 1,
+		"turnsToBuild": 4,
+		"techRequired": "Tech.Harvesting equipment",
+		"uniques": [
+			//"Consumes [2] [Resource.Water] <when above [1] [Resource.Water]>",
+			"Costs [1] [Gold] per turn",
+			"Provides [1] [Resource.Stone]",
+			],
+		"shortcutKey": "K"
+	},
+	{
+		"name": "TileImprovement.Ranch",//牧场
+		//"terrainsCanBeBuiltOn": ["Hill"],
+		//"food": 1,
+		"turnsToBuild": 4,
+		"techRequired": "Tech.wasteland environment",
+		"uniques": [
+			"Can only be built to improve a resource",
+			"Does not need removal of [Forest]",
+			],
+		"shortcutKey": "L"
+	},
+	{
+		"name": "TileImprovement.Drainage area",//沥水区
+		"terrainsCanBeBuiltOn": ["Forest"],
+		"gold": 1,
+		"turnsToBuild": 4,
+		"techRequired": "Tech.Plant water",
+		"uniques": [
+			//"Provides [1] [Resource.Water]",
+			],
+		"shortcutKey": "K"
+	},
+	{
+		"name": "TileImprovement.Bunkers",//简易掩体
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 4,
+		"techRequired": "Tech.The fence",
+		"uniques": [
+			"Can be built outside your borders",
+			"Gives a defensive bonus of [33]%"
+			],
+		"shortcutKey": "F"
+	},
+	{
+		"name": "TileImprovement.Lumberyard",//伐木场
+		"terrainsCanBeBuiltOn": ["Forest"],
+		"production": 1,
+		"turnsToBuild": 6,
+		"techRequired": "Tech.Scale harvesting",
+		"uniques": [
+			//"Consumes [2] [Resource.Water] <when above [1] [Resource.Water]>",
+			"Costs [1] [Gold] per turn",
+			"Provides [3] [Resource.Wood]",
+			],
+		"shortcutKey": "J"
+	},
+	{
+		"name": "TileImprovement.Quarry",//采石场
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"production": 1,
+		"turnsToBuild": 6,
+		"techRequired": "Tech.Scale harvesting",
+		"uniques": [
+			//"Consumes [2] [Resource.Water] <when above [1] [Resource.Water]>",
+			"Costs [1] [Gold] per turn",
+			"Provides [2] [Resource.Stone]",
+			],
+		"shortcutKey": "K"
+	},
+	{
+		"name": "TileImprovement.Water drilling",//采水钻井
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"food": 1,
+		"gold": 2
+		"turnsToBuild": 6,
+		"techRequired": "Tech.Extractive Industries",
+		"uniques": [
+			//"Provides [2] [Resource.Water]",
+			],
+		"shortcutKey": "J"
+	},
+	{
+		"name": "TileImprovement.Coal Mine",//煤矿井
+		"terrainsCanBeBuiltOn": ["Forest"],
+		"production": 1,
+		"turnsToBuild": 6,
+		"techRequired": "Tech.Mining",
+		"uniques": [
+			//"Consumes [2] [Resource.Coal] <when above [1] [Resource.Water]>",
+			"Costs [1] [Gold] per turn",
+			"Provides [1] [Resource.Coal]",
+			],
+		"shortcutKey": "J"
+	},
+	{
+		"name": "TileImprovement.Fossil-fuel power station",//火力发电站
+		"terrainsCanBeBuiltOn": ["Land"],
+		"production": 2,
+		"turnsToBuild": 6,
+		"techRequired": "Tech.Coal-fired generator",
+		"uniques": [
+			//"Consumes [1] [Resource.Water] <when above [0] [Resource.Water]> <when above [0] [Resource.Coal]>",
+			"Costs [2] [Gold] per turn",
+			"Consumes [1] [Resource.Coal] <when above [0] [Resource.Coal]>",
+			"Provides [3] [Resource.Electricity] <when above [0] [Resource.Coal]>",
+			],
+		"shortcutKey": "J"
+	},
+	{
+		"name": "TileImprovement.Barbed Wire",//铁丝网
+		"terrainsCanBeBuiltOn": ["Land"],
+		//"food": 1,
+		"turnsToBuild": 3,
+		"techRequired": "Tech.Microdevices",
+		"uniques": [
+			"Adjacent enemy units ending their turn take [5] damage",
+			"Can be built just outside your borders",
+			"Costs [1] [Gold] per turn",
+		]
+	},
+	{
+		"name": "TileImprovement.Fishing ground",//渔场
+		"terrainsCanBeBuiltOn": ["Coast","Ocean"],
+		"food": 1,
+		"production": 1,
+		"gold": 1,
+		"turnsToBuild": 6,
+		"techRequired": "Tech.Aquaculture",
+		"uniques": [
+		
+		
+		],
+	},
+	{
+		"name": "TileImprovement.Hydroelectricity",//水力发电站
+		"terrainsCanBeBuiltOn": ["Land"],
+		"production": 1,
+		"gold": 1,
+		"turnsToBuild": 6,
+		"techRequired": "Tech.Hydroelectric generator",
+		"uniques": [
+		"Can also be built on tiles adjacent to fresh water",
+			"Provides [2] [Resource.Electricity]",
+			],
+	},
+	{
+		"name": "TileImprovement.Computing terminal",//计算终端
+		"terrainsCanBeBuiltOn": ["Land"],
+		"Science": 5,
+		"turnsToBuild": 6,
+		"techRequired": "Tech.Efficient computer",
+		"uniques": [
+		"Costs [3] [Gold] per turn",
+			"Consumes [2] [Resource.Electricity]",
+			],
+	},
+	//<when below [0] [Universe Point]>
+	//<hidden from users>
+	//<with [1] to [1] neighboring [The_Great_Wall_Qin] tiles>
+]

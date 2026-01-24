@@ -1,0 +1,842 @@
+[
+    {//科技点与科技比例为1:5
+        "columnNumber": 0,
+        "era": "Era.Wasteland",
+        "techCost": 100,
+        "buildingCost": 40,
+        "wonderCost": 185,
+        "techs": [
+            {
+                "name": "Era.Wasteland",
+                "row": 6,
+                "quote": "",
+                "uniques": ["Starting tech",
+                "Enables Defensive Pacts",
+                "Enables Open Borders agreements",
+                "Enables establishment of embassies"
+                ]
+            },
+                ]
+    },
+    {
+        "columnNumber": 1,
+        "era": "Era.Wasteland",
+        "techCost": 40,
+        "buildingCost": 40,
+        "wonderCost": 185,
+        "techs": [
+            {
+                "name": "Tech.Initial clean water",
+                "row": 8,
+		"prerequisites": ["Era.Wasteland"],
+                "quote": "",
+                "uniques": [
+		//"Instantly consumes [40] [Resource.Scientific Research Point]",
+		//"Instantly provides [5] [Resource.Scientific Level]",
+                ]
+            },
+            {
+                "name": "Tech.Explore the ruins",
+                "row": 6,
+		"prerequisites": ["Era.Wasteland"],
+                "quote": "",
+                "uniques": [
+                "Enables establishment of embassies",
+		//"Instantly consumes [40] [Resource.Scientific Research Point]",
+		//"Instantly provides [5] [Resource.Scientific Level]",
+                ]
+            },
+            {
+                "name": "Tech.wasteland environment",
+                "row": 4,
+		"prerequisites": ["Era.Wasteland"],
+                "quote": "",
+                "uniques": [
+		//"Instantly consumes [40] [Resource.Scientific Research Point]",
+		//"Instantly provides [5] [Resource.Scientific Level]",
+                ]
+            },
+                ]
+    },
+    {
+        "columnNumber": 2,
+        "era": "Era.Wasteland",
+        "techCost": 60,
+        "buildingCost": 40,
+        "wonderCost": 185,
+        "techs": [
+            {
+                "name": "Tech.Pipe making",
+                "row": 7,
+		"prerequisites": ["Tech.Explore the ruins"],
+                "quote": "",
+                "uniques": [
+		//"Instantly consumes [50] [Resource.Scientific Research Point]",
+		//"Instantly provides [5] [Resource.Scientific Level]",
+                ]
+            },
+            {
+                "name": "Tech.Recycling of building materials",
+                "row": 5,
+		"prerequisites": ["Tech.Explore the ruins","Tech.wasteland environment"],
+                "quote": "",
+                "uniques": [
+		//"Instantly consumes [50] [Resource.Scientific Research Point]",
+		//"Instantly provides [5] [Resource.Scientific Level]",
+                ]
+            },
+            {
+                "name": "Tech.Rough paper",
+                "row": 3,
+		"prerequisites": ["Tech.wasteland environment"],
+                "quote": "",
+                "uniques": [
+		//"Instantly consumes [50] [Resource.Scientific Research Point]",
+		//"Instantly provides [5] [Resource.Scientific Level]",
+                ]
+            },
+                ]
+    },
+    {
+        "columnNumber": 3,
+        "era": "Era.Wasteland",
+        "techCost": 85,
+        "buildingCost": 40,
+        "wonderCost": 185,
+        "techs": [
+            {
+                "name": "Tech.Water Storage Project",
+                "row": 8,
+		"prerequisites": ["Tech.Initial clean water","Tech.Pipe making"],
+                "quote": "",
+                "uniques": [
+		//"Instantly consumes [70] [Resource.Scientific Research Point]",
+		//"Instantly provides [4] [Resource.Scientific Level]",
+                ]
+            },
+            {
+                "name": "Tech.Tool improvement",
+                "row": 7,
+		"prerequisites": ["Tech.Pipe making"],
+                "quote": "",
+                "uniques": [
+                "[+1 Production] from every [Building.Workshops]",
+                "[+1 Production] from every [Building.Paper Mill]",
+                "[+1 Food] from every [Building.Granary]",
+                
+                
+		//"Instantly consumes [70] [Resource.Scientific Research Point]",
+		//"Instantly provides [4] [Resource.Scientific Level]",
+                ]
+            },
+            {
+                "name": "Tech.Mechanical",
+                "row": 6,
+		"prerequisites": ["Tech.Recycling of building materials"],
+                "quote": "",
+                "uniques": [
+		//"Instantly consumes [70] [Resource.Scientific Research Point]",
+		//"Instantly provides [4] [Resource.Scientific Level]",
+                ]
+            },
+	    {
+                "name": "Tech.Rough work",
+                "row": 4,
+		"prerequisites": ["Tech.Recycling of building materials"],
+                "quote": "",
+                "uniques": [
+		//"Instantly consumes [70] [Resource.Scientific Research Point]",
+		//"Instantly provides [4] [Resource.Scientific Level]",
+                ]
+            },
+            {
+                "name": "Tech.Harvesting equipment",
+                "row": 2,
+		"prerequisites": ["Tech.Rough paper"],
+                "quote": "",
+                "uniques": [
+		//"Instantly consumes [70] [Resource.Scientific Research Point]",
+		//"Instantly provides [4] [Resource.Scientific Level]",
+                ]
+            },
+                ]
+    },
+{
+        "columnNumber": 4,
+        "era": "Era.Wasteland",
+        "techCost": 120,
+        "buildingCost": 40,
+        "wonderCost": 185,
+        "techs": [
+            {
+                "name": "Tech.Workshop production",
+                "row": 6,
+		"prerequisites": ["Tech.Mechanical","Tech.Tool improvement"],
+                "quote": "",
+                "uniques": [
+		//"Instantly consumes [90] [Resource.Scientific Research Point]",
+		//"Instantly provides [10] [Resource.Scientific Level]",
+                ]
+            },
+	    {
+                "name": "Tech.The fence",
+                "row": 4,
+		"prerequisites": ["Tech.Mechanical","Tech.Rough work"],
+                "quote": "",
+                "uniques": [
+                "Enables Defensive Pacts",
+				"Enables Open Borders agreements",
+		//"Instantly consumes [90] [Resource.Scientific Research Point]",
+		//"Instantly provides [10] [Resource.Scientific Level]",
+                ]
+            },
+            {
+                "name": "Tech.Fine collection",
+                "row": 2,
+		"prerequisites": ["Tech.Harvesting equipment"],
+                "quote": "",
+                "uniques": [
+                "[+1 Food] from every [Building.Granary]",
+                "[+1 Gold] from every [Building.Rough Sink]",
+                
+                
+                
+		//"Instantly consumes [90] [Resource.Scientific Research Point]",
+		//"Instantly provides [10] [Resource.Scientific Level]",
+                ]
+            },
+                ]
+    },
+    {
+        "columnNumber": 5,
+        "era": "Era.Wasteland",
+        "techCost": 160,
+        "buildingCost": 40,
+        "wonderCost": 185,
+        "techs": [
+            {
+                "name": "Tech.Plant water",
+                "row": 9,
+		"prerequisites": ["Tech.Water Storage Project","Tech.Fine collection"],
+                "quote": "",
+                "uniques": [
+		//"Instantly consumes [120] [Resource.Scientific Research Point]",
+		//"Instantly provides [6] [Resource.Scientific Level]",
+                ]
+            },
+	    {
+                "name": "Tech.The water cycle",
+                "row": 8,
+		"prerequisites": ["Tech.Water Storage Project"],
+                "quote": "",
+                "uniques": [
+                "[+1 Gold] from every [Building.Cistern]",
+		//"Instantly consumes [120] [Resource.Scientific Research Point]",
+		//"Instantly provides [6] [Resource.Scientific Level]",
+                ]
+            },
+            /*{
+                "name": "Tech.Fine collection",
+                "row": 6,
+		"prerequisites": ["Tech.Harvesting equipment"],
+                "quote": "",
+                "uniques": [
+		//"Instantly consumes [120] [Resource.Scientific Research Point]",
+                ]
+            },*/
+	    {
+                "name": "Tech.Batch engineering",
+                "row": 5,
+		"prerequisites": ["Tech.Workshop production","Tech.The fence"],
+                "quote": "",
+                "uniques": [
+		//"Instantly consumes [120] [Resource.Scientific Research Point]",
+		//"Instantly provides [6] [Resource.Scientific Level]",
+                ]
+            },
+	    {
+                "name": "Tech.Resource Survey",
+                "row": 4,
+		"prerequisites": ["Tech.Fine collection","Tech.Rough work"],
+                "quote": "",
+                "uniques": [
+                "Comment [[Resource.Stone] additional provides [1] [Resource.Stone]]",
+                "Comment [[Resource.Wood] additional provides [1] [Resource.Wood]]",
+                
+                
+                
+                //"Comment [[Resource.Stone] additional provides [1] [Resource.Stone] after discovering [Tech.Resource Survey]]",
+                //"Comment [[Resource.Wood] additional provides [1] [Resource.Wood] after discovering [Tech.Resource Survey]]",
+		//"Instantly consumes [120] [Resource.Scientific Research Point]",
+		//"Instantly provides [6] [Resource.Scientific Level]",
+                ]
+            },
+	    {
+                "name": "Tech.Scale harvesting",
+                "row": 2,
+		"prerequisites": ["Tech.Workshop production","Tech.Fine collection"],
+                "quote": "",
+                "uniques": [
+                "Roads connect tiles across rivers",
+		//"Instantly consumes [120] [Resource.Scientific Research Point]",
+		//"Instantly provides [6] [Resource.Scientific Level]",
+                ]
+            },
+                ]
+    },
+    {
+        "columnNumber": 6,
+        "era": "Era.Wasteland",
+        "techCost": 195,
+        "buildingCost": 40,
+        "wonderCost": 185,
+        "techs": [
+            {
+                "name": "Tech.Extractive Industries",
+                "row": 9,
+		"prerequisites": ["Tech.Plant water","Tech.The water cycle"],
+                "quote": "",
+                "uniques": [
+		//"Instantly consumes [150] [Resource.Scientific Research Point]",
+		//"Instantly provides [15] [Resource.Scientific Level]",
+                ]
+            },
+	    {
+                "name": "Tech.Industrial water",
+                "row": 7,
+		"prerequisites": ["Tech.Workshop production"],
+                "quote": "",
+                "uniques": [
+		//"Instantly consumes [150] [Resource.Scientific Research Point]",
+		//"Instantly provides [15] [Resource.Scientific Level]",
+                ]
+            },
+            {
+                "name": "Tech.The watch alternates",
+                "row": 5,
+		"prerequisites": ["Tech.Batch engineering","Tech.Resource Survey"],
+                "quote": "",
+                "uniques": [
+		//"Instantly consumes [150] [Resource.Scientific Research Point]",
+		//"Instantly provides [15] [Resource.Scientific Level]",
+                ]
+            },
+	    {
+                "name": "Tech.Mining",
+                "row": 3,
+		"prerequisites": ["Tech.Scale harvesting"],
+                "quote": "",
+                "uniques": [
+		//"Instantly consumes [150] [Resource.Scientific Research Point]",
+		//"Instantly provides [15] [Resource.Scientific Level]",
+                ]
+            },
+                ]
+    },
+{
+        "columnNumber": 7,
+        "era": "Era.Wasteland",
+        "techCost": 250,
+        "buildingCost": 40,
+        "wonderCost": 185,
+        "techs": [
+            {
+                "name": "Tech.Distilled water",
+                "row": 9,
+		"prerequisites": ["Tech.Extractive Industries"],
+                "quote": "",
+                "uniques": [
+                "[+1 Gold] from every [TileImprovement.Farm]",
+		//"Instantly consumes [200] [Resource.Scientific Research Point]",
+		//"Instantly provides [10] [Resource.Scientific Level]",
+                ]
+            },
+	    {
+                "name": "Tech.Electricity",
+                "row": 7,
+		"prerequisites": ["Tech.Batch engineering","Tech.Industrial water"],
+                "quote": "",
+                "uniques": [
+		//"Instantly consumes [200] [Resource.Scientific Research Point]",
+		//"Instantly provides [10] [Resource.Scientific Level]",
+                ]
+            },
+            {
+                "name": "Tech.Transistors",
+                "row": 5,
+		"prerequisites": ["Tech.Resource Survey","Tech.Mining"],
+                "quote": "",
+                "uniques": [
+		//"Instantly consumes [200] [Resource.Scientific Research Point]",
+		//"Instantly provides [10] [Resource.Scientific Level]",
+                ]
+            },
+	    {
+                "name": "Tech.Coal-fired generator",
+                "row": 3,
+		"prerequisites": ["Tech.Mining"],
+                "quote": "",
+                "uniques": [
+		//"Instantly consumes [200] [Resource.Scientific Research Point]",
+		//"Instantly provides [10] [Resource.Scientific Level]",
+                ]
+            },
+                ]
+    },
+    {
+        "columnNumber": 8,
+        "era": "Era.Wasteland",
+        "techCost": 325,
+        "buildingCost": 40,
+        "wonderCost": 185,
+        "techs": [
+            {
+                "name": "Tech.Pure water",
+                "row": 9,
+		"prerequisites": ["Tech.Distilled water","Tech.Coal-fired generator"],
+                "quote": "",
+                "uniques": [
+                "[+1 Production, +1 Food] from every [TileImprovement.Ranch]",
+		//"Instantly consumes [250] [Resource.Scientific Research Point]",
+		//"Instantly provides [16] [Resource.Scientific Level]",
+                ]
+            },
+	    {
+                "name": "Tech.Aquaculture",
+                "row": 8,
+		"prerequisites": ["Tech.Distilled water"],
+                "quote": "",
+                "uniques": [
+		//"Instantly consumes [250] [Resource.Scientific Research Point]",
+		//"Instantly provides [16] [Resource.Scientific Level]",
+                ]
+            },
+            {
+                "name": "Tech.Hydroelectric generator",
+                "row": 6,
+		"prerequisites": ["Tech.Extractive Industries","Tech.Electricity"],
+                "quote": "",
+                "uniques": [
+		//"Instantly consumes [250] [Resource.Scientific Research Point]",
+		//"Instantly provides [16] [Resource.Scientific Level]",
+                ]
+            },
+	    {
+                "name": "Tech.Computer",
+                "row": 4,
+		"prerequisites": ["Tech.Transistors","Tech.Electricity"],
+                "quote": "",
+                "uniques": [
+		//"Instantly consumes [250] [Resource.Scientific Research Point]",
+		//"Instantly provides [16] [Resource.Scientific Level]",
+                ]
+            },
+	    {
+                "name": "Tech.Engine",
+                "row": 2,
+		"prerequisites": ["Tech.Coal-fired generator"],
+                "quote": "",
+                "uniques": [
+                "Improves movement speed on roads",
+		//"Instantly consumes [250] [Resource.Scientific Research Point]",
+		//"Instantly provides [16] [Resource.Scientific Level]",
+                ]
+            },
+                ]
+    },
+    {
+        "columnNumber": 9,
+        "era": "Era.Wasteland",
+        "techCost": 445,
+        "buildingCost": 40,
+        "wonderCost": 185,
+        "techs": [
+            {
+                "name": "Tech.Refrigeration",
+                "row": 8,
+		"prerequisites": ["Tech.Pure water","Tech.Hydroelectric generator"],
+                "quote": "",
+                "uniques": [
+		//"Instantly consumes [330] [Resource.Scientific Research Point]",
+		//"Instantly provides [20] [Resource.Scientific Level]",
+                ]
+            },
+	    {
+                "name": "Tech.Dam",
+                "row": 6,
+		"prerequisites": ["Tech.Hydroelectric generator"],
+                "quote": "",
+                "uniques": [
+		//"Instantly consumes [330] [Resource.Scientific Research Point]",
+		//"Instantly provides [20] [Resource.Scientific Level]",
+                ]
+            },
+            {
+                "name": "Tech.Integration",
+                "row": 5,
+		"prerequisites": ["Tech.Computer"],
+                "quote": "",
+                "uniques": [
+		//"Instantly consumes [330] [Resource.Scientific Research Point]",
+		//"Instantly provides [20] [Resource.Scientific Level]",
+                ]
+            },
+	    {
+                "name": "Tech.Radio",
+                "row": 3,
+		"prerequisites": ["Tech.Computer","Tech.Engine"],
+                "quote": "",
+                "uniques": [
+		//"Instantly consumes [330] [Resource.Scientific Research Point]",
+		//"Instantly provides [20] [Resource.Scientific Level]",
+                ]
+            },
+                ]
+    },
+{
+        "columnNumber": 10,
+        "era": "Era.Wasteland",
+        "techCost": 650,
+        "buildingCost": 40,
+        "wonderCost": 185,
+        "techs": [
+            {
+                "name": "Tech.Efficient computer",
+                "row": 8,
+		"prerequisites": ["Tech.Integration","Tech.Refrigeration"],
+                "quote": "",
+                "uniques": [
+		//"Instantly consumes [400] [Resource.Scientific Research Point]",
+		//"Instantly provides [24] [Resource.Scientific Level]",
+                ]
+            },
+	    {
+                "name": "Tech.Fort",
+                "row": 7,
+		"prerequisites": ["Tech.Dam"],
+                "quote": "",
+                "uniques": [
+		//"Instantly consumes [400] [Resource.Scientific Research Point]",
+		//"Instantly provides [24] [Resource.Scientific Level]",
+                ]
+            },
+            {
+                "name": "Tech.Intelligent protection",
+                "row": 6,
+		"prerequisites": ["Tech.Dam","Tech.Integration"],
+                "quote": "",
+                "uniques": [
+		//"Instantly consumes [400] [Resource.Scientific Research Point]",
+		//"Instantly provides [24] [Resource.Scientific Level]",
+                ]
+            },
+	    {
+                "name": "Tech.Heavy Artillery",
+                "row": 4,
+		"prerequisites": ["Tech.Integration","Tech.Radio"],
+                "quote": "",
+                "uniques": [
+		//"Instantly consumes [400] [Resource.Scientific Research Point]",
+		//"Instantly provides [24] [Resource.Scientific Level]",
+                ]
+            },
+	    {
+                "name": "Tech.Microdevices",
+                "row": 1,
+		"prerequisites": ["Tech.Engine","Tech.Integration"],
+                "quote": "",
+                "uniques": [
+                "[+1 Production] from every [TileImprovement.Mine]",
+		//"Instantly consumes [400] [Resource.Scientific Research Point]",
+		//"Instantly provides [24] [Resource.Scientific Level]",
+                ]
+            },
+                ]
+    },
+    {
+        "columnNumber": 11,
+        "era": "Era.Wasteland",
+        "techCost": 685,
+        "buildingCost": 40,
+        "wonderCost": 185,
+        "techs": [
+            {
+                "name": "Tech.Particle Engineering",
+                "row": 8,
+		"prerequisites": ["Tech.Efficient computer","Tech.Fort"],
+                "quote": "",
+                "uniques": [
+		//"Instantly consumes [530] [Resource.Scientific Research Point]",
+		//"Instantly provides [30] [Resource.Scientific Level]",
+                ]
+            },
+	    {
+                "name": "Tech.Coordinated attack",
+                "row": 5,
+		"prerequisites": ["Tech.Intelligent protection","Tech.Heavy Artillery"],
+                "quote": "",
+                "uniques": [
+		//"Instantly consumes [530] [Resource.Scientific Research Point]",
+		//"Instantly provides [30] [Resource.Scientific Level]",
+                ]
+            },
+            {
+                "name": "Tech.Drones",
+                "row": 3,
+		"prerequisites": ["Tech.Microdevices","Tech.Heavy Artillery"],
+                "quote": "",
+                "uniques": [
+		//"Instantly consumes [530] [Resource.Scientific Research Point]",
+		//"Instantly provides [30] [Resource.Scientific Level]",
+                ]
+            },
+	    {
+                "name": "Tech.Nanobots",
+                "row": 1,
+		"prerequisites": ["Tech.Microdevices"],
+                "quote": "",
+                "uniques": [
+		//"Instantly consumes [530] [Resource.Scientific Research Point]",
+		//"Instantly provides [30] [Resource.Scientific Level]",
+                ]
+            },
+                ]
+    },
+    {
+        "columnNumber": 12,
+        "era": "Era.Wasteland",
+        "techCost": 845,
+        "buildingCost": 40,
+        "wonderCost": 185,
+        "techs": [
+            {
+                "name": "Tech.Nuclear reaction",
+                "row": 8,
+		"prerequisites": ["Tech.Particle Engineering"],
+                "quote": "",
+                "uniques": [
+		//"Instantly consumes [650] [Resource.Scientific Research Point]",
+		//"Instantly provides [44] [Resource.Scientific Level]",
+                ]
+            },
+	    {
+                "name": "Tech.Nuclear Recycling",
+                "row": 7,
+		"prerequisites": ["Tech.Particle Engineering"],
+                "quote": "",
+                "uniques": [
+		//"Instantly consumes [650] [Resource.Scientific Research Point]",
+		//"Instantly provides [44] [Resource.Scientific Level]",
+                ]
+            },
+            {
+                "name": "Tech.Blitzkrieg",
+                "row": 6,
+		"prerequisites": ["Tech.Coordinated attack"],
+                "quote": "",
+                "uniques": [
+		//"Instantly consumes [650] [Resource.Scientific Research Point]",
+		//"Instantly provides [44] [Resource.Scientific Level]",
+                ]
+            },
+	    {
+                "name": "Tech.Modular armaments",
+                "row": 4,
+		"prerequisites": ["Tech.Drones","Tech.Coordinated attack"],
+                "quote": "",
+                "uniques": [
+		//"Instantly consumes [650] [Resource.Scientific Research Point]",
+		//"Instantly provides [44] [Resource.Scientific Level]",
+                ]
+            },
+	    {
+                "name": "Tech.Artificial intelligence",
+                "row": 2,
+		"prerequisites": ["Tech.Nanobots"],
+                "quote": "",
+                "uniques": [
+		//"Instantly consumes [650] [Resource.Scientific Research Point]",
+		//"Instantly provides [44] [Resource.Scientific Level]",
+                ]
+            },
+                ]
+    },
+{
+        "columnNumber": 13,
+        "era": "Era.Wasteland",
+        "techCost": 1125,
+        "buildingCost": 40,
+        "wonderCost": 185,
+        "techs": [
+            {
+                "name": "Tech.Nuclear power armament",
+                "row": 6,
+		"prerequisites": ["Tech.Nuclear Recycling","Tech.Blitzkrieg"],
+                "quote": "",
+                "uniques": [
+		//"Instantly consumes [870] [Resource.Scientific Research Point]",
+		//"Instantly provides [80] [Resource.Scientific Level]",
+                ]
+            },
+	    {
+                "name": "Tech.Automatic production",
+                "row": 4,
+		"prerequisites": ["Tech.Modular armaments"],
+                "quote": "",
+                "uniques": [
+                "[+1 Production] from every [TileImprovement.Mine]",
+                "[+1 Food] from every [TileImprovement.Farm]",
+		//"Instantly consumes [870] [Resource.Scientific Research Point]",
+		//"Instantly provides [80] [Resource.Scientific Level]",
+                ]
+            },
+            {
+                "name": "Tech.AI battle command",
+                "row": 2,
+		"prerequisites": ["Tech.Artificial intelligence","Tech.Modular armaments"],
+                "quote": "",
+                "uniques": [
+		//"Instantly consumes [870] [Resource.Scientific Research Point]",
+		//"Instantly provides [80] [Resource.Scientific Level]",
+                ]
+            },
+                ]
+    },
+    {
+        "columnNumber": 14,
+        "era": "Era.Wasteland",
+        "techCost": 1425,
+        "buildingCost": 40,
+        "wonderCost": 185,
+        "techs": [
+            {
+                "name": "Tech.Intelligent guidance",
+                "row": 7,
+		"prerequisites": ["Tech.Nuclear reaction","Tech.AI battle command","Tech.Nuclear power armament"],
+                "quote": "",
+                "uniques": [
+		//"Instantly consumes [1100] [Resource.Scientific Research Point]",
+		//"Instantly provides [170] [Resource.Scientific Level]",
+                ]
+            },
+	    {
+                "name": "Tech.Satellite",
+                "row": 4,
+		"prerequisites": ["Tech.Automatic production"],
+                "quote": "",
+                "uniques": [
+		//"Instantly consumes [1100] [Resource.Scientific Research Point]",
+		//"Instantly provides [170] [Resource.Scientific Level]",
+                ]
+            },
+            {
+                "name": "Tech.Integrated Mech",
+                "row": 2,
+		"prerequisites": ["Tech.AI battle command","Tech.Nuclear power armament"],
+                "quote": "",
+                "uniques": [
+		//"Instantly consumes [1100] [Resource.Scientific Research Point]",
+		//"Instantly provides [170] [Resource.Scientific Level]",
+                ]
+            },
+                ]
+    },
+    {
+        "columnNumber": 15,
+        "era": "Era.Wasteland",
+        "techCost": 2000,
+        "buildingCost": 40,
+        "wonderCost": 185,
+        "techs": [
+            {
+                "name": "Tech.Doomsday Mech",
+                "row": 2,
+		"prerequisites": ["Tech.Satellite","Tech.Integrated Mech","Tech.Intelligent guidance"],
+                "quote": "",
+                "uniques": [
+		//"Instantly consumes [1600] [Resource.Scientific Research Point]",
+                ]
+            },
+                ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////"Instantly provides [1] [Resource.Scientific Research Point]",
+
+//"Instantly consumes [2] [Resource.Scientific Research Point]",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]

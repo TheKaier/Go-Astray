@@ -1,0 +1,450 @@
+[
+    {
+        "name": "Reign panel",
+        "era": "Era.Wasteland",
+        "priorities": {
+            
+        },
+        "uniques": [
+            
+            
+        ],
+        "policies": [
+            {
+                "name": "[Successor] I",
+                "uniques": [
+                "Only available <when above [0] [Progress of Successor]>",
+                "[-10]% unhappiness from the number of cities",
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "[Successor] II",
+                "uniques": [
+                "Only available <when above [0] [Progress of Successor]>",
+                "[-10]% unhappiness from the number of cities",
+                ],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "[Successor] III",
+                "uniques": [
+                "Only available <when above [0] [Progress of Successor]>",
+                "[-10]% unhappiness from the number of cities",
+                ],
+                "row": 3,
+                "column": 1
+            },
+            {
+                "name": "[Successor] IV",
+                "uniques": [
+                "Only available <when above [0] [Progress of Successor]>",
+                    "[-10]% unhappiness from the number of cities",
+                ],
+                "row": 4,
+                "column": 1
+            },
+            {
+                "name": "[Successor] V",
+                "uniques": [
+                "Only available <when above [0] [Progress of Successor]>",
+                    "[-10]% unhappiness from the number of cities",
+                ],
+                "row": 5,
+                "column": 1
+            },
+            {
+                "name": "[Successor][Radical] I",
+                "uniques": [
+                "Only available <when above [0] [Progress of Successor]>",
+                "[-10]% Unhappiness from [Population] [in annexed cities]",
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "[Successor][Radical] II",
+                "uniques": [
+                "Only available <when above [0] [Progress of Successor]>",
+                "[-10]% Unhappiness from [Population] [in annexed cities]",
+                ],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "[Successor][Radical] III",
+                "uniques": [
+                "Only available <when above [0] [Progress of Successor]>",
+                "[-10]% Unhappiness from [Population] [in annexed cities]",
+                ],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "[Successor][Radical] IV",
+                "uniques": [
+                "Only available <when above [0] [Progress of Successor]>",
+                    "[-10]% Unhappiness from [Population] [in annexed cities]",
+                ],
+                "row": 4,
+                "column": 3
+            },
+            {
+                "name": "[Successor][Radical] V",
+                "uniques": [
+                "Only available <when above [0] [Progress of Successor]>",
+                    "[-10]% Unhappiness from [Population] [in annexed cities]",
+                ],
+                "row": 5,
+                "column": 3
+            },
+            {
+                "name": "[Successor][Stability] I",
+                "uniques": [
+                "Only available <when above [0] [Progress of Successor]>",
+                "[-5]% Unhappiness from [Population] [in all non-occupied cities]",
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "[Successor][Stability] II",
+                "uniques": [
+                "Only available <when above [0] [Progress of Successor]>",
+                "[-5]% Unhappiness from [Population] [in all non-occupied cities]",
+                ],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "[Successor][Stability] III",
+                "uniques": [
+                "Only available <when above [0] [Progress of Successor]>",
+                "[-5]% Unhappiness from [Population] [in all non-occupied cities]",
+                ],
+                "row": 3,
+                "column": 5
+            },
+            {
+                "name": "[Successor][Stability] IV",
+                "uniques": [
+                "Only available <when above [0] [Progress of Successor]>",
+                "[-5]% Unhappiness from [Population] [in all non-occupied cities]",
+                ],
+                "row": 4,
+                "column": 5
+            },
+            {
+                "name": "[Successor][Stability] V",
+                "uniques": [
+                "Only available <when above [0] [Progress of Successor]>",
+                    "[-5]% Unhappiness from [Population] [in all non-occupied cities]",
+                ],
+                "row": 5,
+                "column": 5
+            },
+            {
+                "name": "[Cenozoic] I",
+                "uniques": [
+                "Only available <when above [0] [Progress of Cenozoic]>",
+                "[+7]% [Science] [in all non-occupied cities]",
+                "[+7]% [Production] [in all non-occupied cities]",
+                ],
+                "row": 1,
+                "column": 7
+            },
+            {
+                "name": "[Cenozoic] II",
+                "uniques": [
+                "Only available <when above [0] [Progress of Cenozoic]>",
+                "[+7]% [Science] [in all non-occupied cities]",
+                "[+7]% [Production] [in all non-occupied cities]",
+                ],
+                "row": 2,
+                "column": 7
+            },
+            {
+                "name": "[Cenozoic] III",
+                "uniques": [
+                "Only available <when above [0] [Progress of Cenozoic]>",
+                "[+7]% [Science] [in all non-occupied cities]",
+                "[+7]% [Production] [in all non-occupied cities]",
+                ],
+                "row": 3,
+                "column": 7
+            },
+            {
+                "name": "[Cenozoic] IV",
+                "uniques": [
+                "Only available <when above [0] [Progress of Cenozoic]>",
+                    "[+7]% [Science] [in all non-occupied cities]",
+                    "[+7]% [Production] [in all non-occupied cities]",
+                ],
+                "row": 4,
+                "column": 7
+            },
+            {
+                "name": "[Cenozoic] V",
+                "uniques": [
+                "Only available <when above [0] [Progress of Cenozoic]>",
+                    "[+7]% [Science] [in all non-occupied cities]",
+                    "[+7]% [Production] [in all non-occupied cities]",
+                ],
+                "row": 5,
+                "column": 7
+            },
+            {
+                "name": "[Cenozoic][Radical] I",
+                "uniques": [
+                "Only available <when above [0] [Progress of Cenozoic]>",
+                "[+12]% [Science] [in annexed cities]",
+                "[+12]% [Production] [in annexed cities]",
+                ],
+                "row": 1,
+                "column": 9
+            },
+            {
+                "name": "[Cenozoic][Radical] II",
+                "uniques": [
+                "Only available <when above [0] [Progress of Cenozoic]>",
+                "[+12]% [Science] [in annexed cities]",
+                "[+12]% [Production] [in annexed cities]",
+                ],
+                "row": 2,
+                "column": 9
+            },
+            {
+                "name": "[Cenozoic][Radical] III",
+                "uniques": [
+                "Only available <when above [0] [Progress of Cenozoic]>",
+                "[+12]% [Science] [in annexed cities]",
+                "[+12]% [Production] [in annexed cities]",
+                ],
+                "row": 3,
+                "column": 9
+            },
+            {
+                "name": "[Cenozoic][Radical] IV",
+                "uniques": [
+                "Only available <when above [0] [Progress of Cenozoic]>",
+                    "[+12]% [Science] [in annexed cities]",
+                "[+12]% [Production] [in annexed cities]",
+                ],
+                "row": 4,
+                "column": 9
+            },
+            {
+                "name": "[Cenozoic][Radical] V",
+                "uniques": [
+                "Only available <when above [0] [Progress of Cenozoic]>",
+                    "[+12]% [Science] [in annexed cities]",
+                "[+12]% [Production] [in annexed cities]",
+                ],
+                "row": 5,
+                "column": 9
+            },
+            {
+                "name": "[Cenozoic][Stability] I",
+                "uniques": [
+                "Only available <when above [0] [Progress of Cenozoic]>",
+                "[+15]% [Science] [in capital]",
+                "[+15]% [Production] [in capital]",
+                ],
+                "row": 1,
+                "column": 11
+            },
+            {
+                "name": "[Cenozoic][Stability] II",
+                "uniques": [
+                "Only available <when above [0] [Progress of Cenozoic]>",
+                "[+15]% [Science] [in capital]",
+                "[+15]% [Production] [in capital]",
+                ],
+                "row": 2,
+                "column": 11
+            },
+            {
+                "name": "[Cenozoic][Stability] III",
+                "uniques": [
+                "Only available <when above [0] [Progress of Cenozoic]>",
+                "[+15]% [Science] [in capital]",
+                "[+15]% [Production] [in capital]",
+                ],
+                "row": 3,
+                "column": 11
+            },
+            {
+                "name": "[Cenozoic][Stability] IV",
+                "uniques": [
+                "Only available <when above [0] [Progress of Cenozoic]>",
+                    "[+15]% [Science] [in capital]",
+                "[+15]% [Production] [in capital]",
+                ],
+                "row": 4,
+                "column": 11
+            },
+            {
+                "name": "[Cenozoic][Stability] V",
+                "uniques": [
+                "Only available <when above [0] [Progress of Cenozoic]>",
+                    "[+15]% [Science] [in capital]",
+                "[+15]% [Production] [in capital]",
+                ],
+                "row": 5,
+                "column": 11
+            },
+            
+            
+            
+            
+            {
+                "name": "[Warlord] I",
+                "uniques": [
+                "Only available <when above [0] [Progress of Warlord]>",
+                "[+5]% Strength",
+                "New [Military] units start with [3] XP [in all cities]",
+                ],
+                "row": 1,
+                "column": 13
+            },
+            {
+                "name": "[Warlord] II",
+                "uniques": [
+                "Only available <when above [0] [Progress of Warlord]>",
+                "[+5]% Strength",
+                "New [Military] units start with [3] XP [in all cities]",
+                ],
+                "row": 2,
+                "column": 13
+            },
+            {
+                "name": "[Warlord] III",
+                "uniques": [
+                "Only available <when above [0] [Progress of Warlord]>",
+                "[+5]% Strength",
+                "New [Military] units start with [3] XP [in all cities]",
+                ],
+                "row": 3,
+                "column": 13
+            },
+            {
+                "name": "[Warlord] IV",
+                "uniques": [
+                "Only available <when above [0] [Progress of Warlord]>",
+                    "[+5]% Strength",
+                "New [Military] units start with [3] XP [in all cities]",
+                ],
+                "row": 4,
+                "column": 13
+            },
+            {
+                "name": "[Warlord] V",
+                "uniques": [
+                "Only available <when above [0] [Progress of Warlord]>",
+                    "[+5]% Strength",
+                "New [Military] units start with [3] XP [in all cities]",
+                ],
+                "row": 5,
+                "column": 13
+            },
+            {
+                "name": "[Warlord][Radical] I",
+                "uniques": [
+                "Only available <when above [0] [Progress of Warlord]>",
+                "[+15]% Strength <for [Military] units> <for [15] turns>",
+                ],
+                "row": 1,
+                "column": 15
+            },
+            {
+                "name": "[Warlord][Radical] II",
+                "uniques": [
+                "Only available <when above [0] [Progress of Warlord]>",
+                "[+15]% Strength <for [Military] units> <for [15] turns>",
+                ],
+                "row": 2,
+                "column": 15
+            },
+            {
+                "name": "[Warlord][Radical] III",
+                "uniques": [
+                "Only available <when above [0] [Progress of Warlord]>",
+                "[+15]% Strength <for [Military] units> <for [15] turns>",
+                ],
+                "row": 3,
+                "column": 15
+            },
+            {
+                "name": "[Warlord][Radical] IV",
+                "uniques": [
+                "Only available <when above [0] [Progress of Warlord]>",
+                    "[+15]% Strength <for [Military] units> <for [15] turns>",
+                ],
+                "row": 4,
+                "column": 15
+            },
+            {
+                "name": "[Warlord][Radical] V",
+                "uniques": [
+                "Only available <when above [0] [Progress of Warlord]>",
+                    "[+15]% Strength <for [Military] units> <for [15] turns>",
+                ],
+                "row": 5,
+                "column": 15
+            },
+            {
+                "name": "[Warlord][Stability] I",
+                "uniques": [
+                "Only available <when above [0] [Progress of Warlord]>",
+                "[+10]% Production when constructing [Military] units [in all cities]",
+                ],
+                "row": 1,
+                "column": 17
+            },
+            {
+                "name": "[Warlord][Stability] II",
+                "uniques": [
+                "Only available <when above [0] [Progress of Warlord]>",
+                "[+10]% Production when constructing [Military] units [in all cities]",
+                ],
+                "row": 2,
+                "column": 17
+            },
+            {
+                "name": "[Warlord][Stability] III",
+                "uniques": [
+                "Only available <when above [0] [Progress of Warlord]>",
+                "[+10]% Production when constructing [Military] units [in all cities]",
+                ],
+                "row": 3,
+                "column": 17
+            },
+            {
+                "name": "[Warlord][Stability] IV",
+                "uniques": [
+                "Only available <when above [0] [Progress of Warlord]>",
+                    "[+10]% Production when constructing [Military] units [in all cities]",
+                ],
+                "row": 4,
+                "column": 17
+            },
+            {
+                "name": "[Warlord][Stability] V",
+                "uniques": [
+                "Only available <when above [0] [Progress of Warlord]>",
+                    "[+10]% Production when constructing [Military] units [in all cities]",
+                ],
+                "row": 5,
+                "column": 17
+            },
+            {
+                "name": "Reign panel Complete",
+                "uniques": [
+                
+                ]
+            }
+        ]
+    },
+]

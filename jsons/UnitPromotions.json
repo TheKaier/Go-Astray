@@ -1,0 +1,88 @@
+[
+{
+    "name": "Basic Training", // 基础训练
+    "uniques": [
+    "[+10]% Strength",
+    
+    ],
+    "unitTypes": ["UnitType.Militia","UnitType.LightInfantry","UnitType.HeavyInfantry","UnitType.Instrument","UnitType.Motility"],
+    "column": 0,
+    "row": 0
+},
+{
+    "name": "Trench Tactics", // 堑壕战术
+    "prerequisites": ["Basic Training"],
+    "uniques": [
+    "[+35]% Strength <in [Friendly Land] tiles> <when defending>",
+    ],
+    "unitTypes": ["UnitType.Militia","UnitType.LightInfantry","UnitType.HeavyInfantry","UnitType.Instrument","UnitType.Motility"],
+    "column": 0,
+    "row": 1
+},
+{
+    "name": "Assault Tactics", // 突击战术
+    "prerequisites": ["Basic Training"],
+    "uniques": [
+    "[+20]% Strength <when attacking>",
+    
+    ],
+    "unitTypes": ["UnitType.Militia","UnitType.LightInfantry","UnitType.HeavyInfantry","UnitType.Instrument","UnitType.Motility"],
+    "column": 1,
+    "row": 1
+},
+{
+    "name": "Infiltration Tactics", // 渗透作战
+    "prerequisites": ["Assault Tactics"],
+    "uniques": [
+    
+    "Ignores Zone of Control",
+    ],
+    "unitTypes": ["UnitType.Militia","UnitType.LightInfantry","UnitType.HeavyInfantry","UnitType.Instrument","UnitType.Motility"],
+    "column": 1,
+    "row": 2
+},
+{
+    "name": "Battlefield First Aid", // 战场急救
+    "prerequisites": ["Basic Training"],
+    "uniques": [
+    "[+15] HP when healing",
+    
+    ],
+    "unitTypes": ["UnitType.Militia","UnitType.LightInfantry","UnitType.HeavyInfantry","UnitType.Instrument","UnitType.Motility"],
+    "column": 2,
+    "row": 1
+},
+{
+    "name": "Fearless Charge", // 无畏冲锋
+    "prerequisites": ["Infiltration Tactics"],
+    "uniques": [
+    "Can move after attacking",
+    "[+20]% Strength <when attacking>",
+    ],
+    "unitTypes": ["UnitType.Militia","UnitType.LightInfantry","UnitType.HeavyInfantry","UnitType.Instrument","UnitType.Motility"],
+    "column": 1,
+    "row": 3
+},
+{
+    "name": "Undying Veteran", // 不死老兵
+    "prerequisites": ["Battlefield First Aid"],
+    "uniques": [
+    "[+50]% Strength <when below [50] HP>",
+    
+    ],
+    "unitTypes": ["UnitType.Militia","UnitType.LightInfantry","UnitType.HeavyInfantry","UnitType.Instrument","UnitType.Motility"],
+    "column": 2,
+    "row": 2
+},
+	//<after discovering [Horseback Riding]>
+	//
+	//
+	//"Can build [Road] improvements on tiles <for [Military] units>",
+	//Music Game Master
+	//The wrath of the sun God
+	//Nightmare in the North
+	//Inheritance of Loulan
+	//Desert yellow sand
+	//Steel of Heart
+	//<when above [300] [Visionary]>
+]

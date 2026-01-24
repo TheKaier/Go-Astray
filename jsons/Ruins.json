@@ -1,0 +1,25 @@
+[
+    {
+        "name": "discover guns",
+        "notification": "We have discovered guns in the ruins!",
+        "uniques": ["Instantly provides [15] [Resource.Gun]",]
+        "color": "#cf8ff7"
+    },
+    {
+        "name": "discover tools",
+        "notification": "We have discovered tools in the ruins!",
+        "uniques": ["Instantly provides [15] [Resource.Tools]",]
+        "color": "#cf8ff7"
+    },
+    {
+        "name": "discover a lost technology",
+        "notification": "We have discovered the lost technology of [techName] in the ruins!",
+        "uniques": ["[1] free random researchable Tech(s) from the [Era.Wasteland]"],
+		"color": "#7f7fff"
+    },
+    {
+        "name": "advanced weaponry for your explorer",
+        "notification": "Our unit finds advanced weaponry hidden in the ruins!",
+        "uniques": ["[This Unit] upgrades for free including special upgrades"]
+    },
+]
