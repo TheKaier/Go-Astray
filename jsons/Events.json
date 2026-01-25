@@ -162,31 +162,7 @@
     "name":"Event.8.Title",
     "text":"Event.8.Text",
     "choices":[
-        //兜底
-        {
-            "text":"[Successor] [Choice]",//继任者
-            "uniques":[
-            "Instantly provides [1] [Event-driven] <hidden from users>",
-            "Gain a free [Successor] [in capital]",
-            "Only available <when above [-1] [Stability bias]> <when below [1] [Radical bias]>",
-            ],
-        },
-        {
-            "text":"[Cenozoic] [Choice]",//新生代
-            "uniques":[
-            "Instantly provides [1] [Event-driven] <hidden from users>",
-            "Gain a free [Cenozoic] [in capital]",
-            "Only available <when above [-1] [Stability bias]> <when above [-1] [Radical bias]>",
-            ],
-        },
-        {
-            "text":"[Warlord] [Choice]",//军阀
-            "uniques":[
-            "Instantly provides [1] [Event-driven] <hidden from users>",
-            "Gain a free [Warlord] [in capital]",
-            "Only available <when below [1] [Stability bias]>",
-            ],
-        },
+        
         
         
         
@@ -337,6 +313,37 @@
             ],
         },
         
+        
+        
+        
+        //兜底
+        {
+            "text":"[Successor] [Choice]",//继任者
+            "uniques":[
+            "Instantly provides [1] [Event-driven] <hidden from users>",
+            "Gain a free [Successor] [in capital]",
+            "Only available <when above [-1] [Stability bias]> <when below [1] [Radical bias]>",
+            "[-100]% weight to this choice for AI decisions",
+            ],
+        },
+        {
+            "text":"[Cenozoic] [Choice]",//新生代
+            "uniques":[
+            "Instantly provides [1] [Event-driven] <hidden from users>",
+            "Gain a free [Cenozoic] [in capital]",
+            "Only available <when above [-1] [Stability bias]> <when above [-1] [Radical bias]>",
+            "[-100]% weight to this choice for AI decisions",
+            ],
+        },
+        {
+            "text":"[Warlord] [Choice]",//军阀
+            "uniques":[
+            "Instantly provides [1] [Event-driven] <hidden from users>",
+            "Gain a free [Warlord] [in capital]",
+            "Only available <when below [1] [Stability bias]>",
+            "[-100]% weight to this choice for AI decisions",
+            ],
+        },
     ]
 },
 /*

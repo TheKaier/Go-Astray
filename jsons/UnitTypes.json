@@ -64,6 +64,15 @@
         
                    ]
     },
+    {
+        "name": "UnitType.Navy",//海军
+        "movementType": "Air"
+        "uniques": [
+        
+                   ]
+    },
+    
+    
 ]
 //"uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",]
 

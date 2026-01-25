@@ -11,9 +11,9 @@
                 "row": 6,
                 "quote": "",
                 "uniques": ["Starting tech",
-                "Enables Defensive Pacts",
-                "Enables Open Borders agreements",
-                "Enables establishment of embassies"
+                //"Enables Defensive Pacts",
+                //"Enables Open Borders agreements",
+                
                 ]
             },
                 ]
@@ -71,6 +71,7 @@
 		"prerequisites": ["Tech.Explore the ruins"],
                 "quote": "",
                 "uniques": [
+                "Enables establishment of embassies"
 		//"Instantly consumes [50] [Resource.Scientific Research Point]",
 		//"Instantly provides [5] [Resource.Scientific Level]",
                 ]
@@ -100,7 +101,7 @@
     {
         "columnNumber": 3,
         "era": "Era.Wasteland",
-        "techCost": 85,
+        "techCost": 90,
         "buildingCost": 40,
         "wonderCost": 185,
         "techs": [
@@ -135,6 +136,7 @@
 		"prerequisites": ["Tech.Recycling of building materials"],
                 "quote": "",
                 "uniques": [
+                "Enables embarkation for land units",
 		//"Instantly consumes [70] [Resource.Scientific Research Point]",
 		//"Instantly provides [4] [Resource.Scientific Level]",
                 ]
@@ -164,7 +166,7 @@
 {
         "columnNumber": 4,
         "era": "Era.Wasteland",
-        "techCost": 120,
+        "techCost": 150,
         "buildingCost": 40,
         "wonderCost": 185,
         "techs": [
@@ -210,7 +212,7 @@
     {
         "columnNumber": 5,
         "era": "Era.Wasteland",
-        "techCost": 160,
+        "techCost": 225,
         "buildingCost": 40,
         "wonderCost": 185,
         "techs": [
@@ -231,6 +233,7 @@
                 "quote": "",
                 "uniques": [
                 "[+1 Gold] from every [Building.Cistern]",
+                "Enables conversion of city production to [Gold]",
 		//"Instantly consumes [120] [Resource.Scientific Research Point]",
 		//"Instantly provides [6] [Resource.Scientific Level]",
                 ]
@@ -250,6 +253,7 @@
 		"prerequisites": ["Tech.Workshop production","Tech.The fence"],
                 "quote": "",
                 "uniques": [
+                "Enables [Embarked] units to enter ocean tiles",
 		//"Instantly consumes [120] [Resource.Scientific Research Point]",
 		//"Instantly provides [6] [Resource.Scientific Level]",
                 ]
@@ -287,7 +291,7 @@
     {
         "columnNumber": 6,
         "era": "Era.Wasteland",
-        "techCost": 195,
+        "techCost": 275,
         "buildingCost": 40,
         "wonderCost": 185,
         "techs": [
@@ -336,7 +340,7 @@
 {
         "columnNumber": 7,
         "era": "Era.Wasteland",
-        "techCost": 250,
+        "techCost": 300,
         "buildingCost": 40,
         "wonderCost": 185,
         "techs": [
@@ -367,6 +371,7 @@
 		"prerequisites": ["Tech.Resource Survey","Tech.Mining"],
                 "quote": "",
                 "uniques": [
+                "Enables Research agreements",
 		//"Instantly consumes [200] [Resource.Scientific Research Point]",
 		//"Instantly provides [10] [Resource.Scientific Level]",
                 ]
@@ -386,7 +391,7 @@
     {
         "columnNumber": 8,
         "era": "Era.Wasteland",
-        "techCost": 325,
+        "techCost": 400,
         "buildingCost": 40,
         "wonderCost": 185,
         "techs": [
@@ -447,7 +452,7 @@
     {
         "columnNumber": 9,
         "era": "Era.Wasteland",
-        "techCost": 445,
+        "techCost": 525,
         "buildingCost": 40,
         "wonderCost": 185,
         "techs": [
@@ -496,7 +501,7 @@
 {
         "columnNumber": 10,
         "era": "Era.Wasteland",
-        "techCost": 650,
+        "techCost": 775,
         "buildingCost": 40,
         "wonderCost": 185,
         "techs": [
@@ -556,7 +561,7 @@
     {
         "columnNumber": 11,
         "era": "Era.Wasteland",
-        "techCost": 685,
+        "techCost": 850,
         "buildingCost": 40,
         "wonderCost": 185,
         "techs": [
@@ -605,7 +610,7 @@
     {
         "columnNumber": 12,
         "era": "Era.Wasteland",
-        "techCost": 845,
+        "techCost": 1000,
         "buildingCost": 40,
         "wonderCost": 185,
         "techs": [
@@ -664,7 +669,7 @@
 {
         "columnNumber": 13,
         "era": "Era.Wasteland",
-        "techCost": 1125,
+        "techCost": 1450,
         "buildingCost": 40,
         "wonderCost": 185,
         "techs": [
@@ -705,7 +710,7 @@
     {
         "columnNumber": 14,
         "era": "Era.Wasteland",
-        "techCost": 1425,
+        "techCost": 1950,
         "buildingCost": 40,
         "wonderCost": 185,
         "techs": [
@@ -744,7 +749,7 @@
     {
         "columnNumber": 15,
         "era": "Era.Wasteland",
-        "techCost": 2000,
+        "techCost": 2500,
         "buildingCost": 40,
         "wonderCost": 185,
         "techs": [
