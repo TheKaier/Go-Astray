@@ -59,7 +59,7 @@
                 "name": "[Successor][Radical] I",
                 "uniques": [
                 "Only available <when above [0] [Progress of Successor]>",
-                "[-10]% Unhappiness from [Population] [in annexed cities]",
+                "[+5]% [Food] [in all cities]",
                 ],
                 "row": 1,
                 "column": 3
@@ -68,7 +68,7 @@
                 "name": "[Successor][Radical] II",
                 "uniques": [
                 "Only available <when above [0] [Progress of Successor]>",
-                "[-10]% Unhappiness from [Population] [in annexed cities]",
+                "[+5]% [Food] [in all cities]",
                 ],
                 "row": 2,
                 "column": 3
@@ -77,7 +77,7 @@
                 "name": "[Successor][Radical] III",
                 "uniques": [
                 "Only available <when above [0] [Progress of Successor]>",
-                "[-10]% Unhappiness from [Population] [in annexed cities]",
+                "[+5]% [Food] [in all cities]",
                 ],
                 "row": 3,
                 "column": 3
@@ -86,7 +86,7 @@
                 "name": "[Successor][Radical] IV",
                 "uniques": [
                 "Only available <when above [0] [Progress of Successor]>",
-                    "[-10]% Unhappiness from [Population] [in annexed cities]",
+                    "[+5]% [Food] [in all cities]",
                 ],
                 "row": 4,
                 "column": 3
@@ -95,7 +95,7 @@
                 "name": "[Successor][Radical] V",
                 "uniques": [
                 "Only available <when above [0] [Progress of Successor]>",
-                    "[-10]% Unhappiness from [Population] [in annexed cities]",
+                    "[+5]% [Food] [in all cities]",
                 ],
                 "row": 5,
                 "column": 3
@@ -104,7 +104,7 @@
                 "name": "[Successor][Stability] I",
                 "uniques": [
                 "Only available <when above [0] [Progress of Successor]>",
-                "[-5]% Unhappiness from [Population] [in all non-occupied cities]",
+                "[+2 Happiness]",
                 ],
                 "row": 1,
                 "column": 5
@@ -113,7 +113,7 @@
                 "name": "[Successor][Stability] II",
                 "uniques": [
                 "Only available <when above [0] [Progress of Successor]>",
-                "[-5]% Unhappiness from [Population] [in all non-occupied cities]",
+                "[+2 Happiness]",
                 ],
                 "row": 2,
                 "column": 5
@@ -122,7 +122,7 @@
                 "name": "[Successor][Stability] III",
                 "uniques": [
                 "Only available <when above [0] [Progress of Successor]>",
-                "[-5]% Unhappiness from [Population] [in all non-occupied cities]",
+                "[+2 Happiness]",
                 ],
                 "row": 3,
                 "column": 5
@@ -131,7 +131,7 @@
                 "name": "[Successor][Stability] IV",
                 "uniques": [
                 "Only available <when above [0] [Progress of Successor]>",
-                "[-5]% Unhappiness from [Population] [in all non-occupied cities]",
+                "[+2 Happiness]",
                 ],
                 "row": 4,
                 "column": 5
@@ -140,7 +140,7 @@
                 "name": "[Successor][Stability] V",
                 "uniques": [
                 "Only available <when above [0] [Progress of Successor]>",
-                    "[-5]% Unhappiness from [Population] [in all non-occupied cities]",
+                    "[+2 Happiness]",
                 ],
                 "row": 5,
                 "column": 5
@@ -441,6 +441,33 @@
             },
             {
                 "name": "Reign panel Complete",
+                "uniques": [
+                
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Space Orbit Seizure",
+        "era": "Era.Wasteland",
+        "priorities": {
+            
+        },
+        "uniques": [
+            "Unavailable",
+            
+        ],
+        "policies": [
+        /*{
+                "name": "",
+                "uniques": [
+
+                ],
+                "row": 1,
+                "column": 1
+            },*/
+            {
+                "name": "Space Orbit Seizure Complete",
                 "uniques": [
                 
                 ]

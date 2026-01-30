@@ -75,10 +75,35 @@
 		"Not shown on world screen",//不显示
 		]
 	},
+    {
+		"name": "RN2",//随机数
+		"resourceType": "Strategic",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		//"Stockpiled"//库存
+		"Not shown on world screen",//不显示
+		]
+	},
+    {
+		"name": "RN3",//随机数
+		"resourceType": "Strategic",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		//"Stockpiled"//库存
+		"Not shown on world screen",//不显示
+		]
+	},
     
-    
-    
-    
+    {
+		"name": "Satellite",//卫星
+		"resourceType": "Strategic",
+		"revealedBy": "Tech.Satellite",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		//"Not shown on world screen",//不显示
+		]
+	},
     
     
     
@@ -89,7 +114,7 @@
 		"uniques": [
 		"Cannot be traded"//不能交易
 		"Stockpiled"//库存
-		//"Not shown on world screen",//不显示
+		"Not shown on world screen",//不显示
 		]
 	},
     {
@@ -98,7 +123,7 @@
 		"uniques": [
 		"Cannot be traded"//不能交易
 		"Stockpiled"//库存
-		//"Not shown on world screen",//不显示
+		"Not shown on world screen <when above [1024] [Resource.Manpower]>",//不显示
 		]
 	},
 	{
@@ -116,7 +141,7 @@
 		"uniques": [
 		"Cannot be traded"//不能交易
 		"Stockpiled"//库存
-		//"Not shown on world screen",//不显示
+		"Not shown on world screen <when above [1024] [Resource.Tools]>",//不显示
 		]
 	},
     {
@@ -125,7 +150,7 @@
 		"uniques": [
 		"Cannot be traded"//不能交易
 		"Stockpiled"//库存
-		//"Not shown on world screen",//不显示
+		"Not shown on world screen <when above [1024] [Resource.Gun]>",//不显示
 		]
 	},
     {
@@ -134,7 +159,7 @@
 		"uniques": [
 		"Cannot be traded"//不能交易
 		"Stockpiled"//库存
-		//"Not shown on world screen",//不显示
+		"Not shown on world screen <when above [1024] [Resource.Electricity]>",//不显示
 		]
 	},
     {
@@ -170,7 +195,7 @@
 		"uniques": [
 		"Cannot be traded"//不能交易
 		"Stockpiled"//库存
-		//"Not shown on world screen",//不显示
+		"Not shown on world screen <when above [1024] [Resource.Steel]>",//不显示
 		]
 	},
     
@@ -186,7 +211,7 @@
 		"uniques": [
 		"Cannot be traded"//不能交易
 		"Stockpiled"//库存
-		//"Not shown on world screen",//不显示
+		"Not shown on world screen <when above [1024] [Resource.Horses]>",//不显示
 		
 		
 		
@@ -212,7 +237,7 @@
 		"uniques": [
 		"Cannot be traded"//不能交易
 		"Stockpiled"//库存
-		//"Not shown on world screen",//不显示
+		"Not shown on world screen <when above [1024] [Resource.Iron]>",//不显示
 		
 		
 		"Guaranteed with Strategic Balance resource option",
@@ -243,7 +268,7 @@
 		"uniques": [
 		"Cannot be traded"//不能交易
 		"Stockpiled"//库存
-		//"Not shown on world screen",//不显示
+		"Not shown on world screen <when above [1024] [Resource.Coal]>",//不显示
 		
 		"Generated with weight [45] <in [Hill] tiles>",
 					
@@ -270,7 +295,7 @@
 		"uniques": [
 		"Cannot be traded"//不能交易
 		"Stockpiled"//库存
-		//"Not shown on world screen",//不显示
+		"Not shown on world screen <when above [1024] [Resource.Uranium]>",//不显示
 		
 		"Generated with weight [35] <in [Marsh] tiles> <in tiles without [Hill]>",
 					
@@ -292,7 +317,7 @@
 		"uniques": [
 		"Cannot be traded"//不能交易
 		"Stockpiled"//库存
-		//"Not shown on world screen",//不显示
+		"Not shown on world screen <when above [1024] [Resource.Stone]>",//不显示
 		"Provides [1] [Resource.Stone] <after discovering [Tech.Resource Survey]> <hidden from users>",
 		"Comment [[Resource.Stone] additional provides [1] [Resource.Stone] after discovering [Tech.Resource Survey]]",
 		
@@ -317,7 +342,7 @@
 		"uniques": [
 		"Cannot be traded"//不能交易
 		"Stockpiled"//库存
-		//"Not shown on world screen",//不显示
+		"Not shown on world screen <when above [1024] [Resource.Wood]>",//不显示
 		"Provides [1] [Resource.Wood] <after discovering [Tech.Resource Survey]> <hidden from users>",
         "Comment [[Resource.Wood] additional provides [1] [Resource.Wood] after discovering [Tech.Resource Survey]]",
         

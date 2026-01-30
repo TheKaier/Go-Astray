@@ -10,7 +10,7 @@
 		"cost": 1,
 		"uniques": [
 		"Indicates the capital city",
-		"Instantly provides [100] [Resource.Manpower]",
+		"Instantly provides [140] [Resource.Manpower]",
 		"Instantly provides [40] [Resource.Scientific Level]",
 		//"Provides [5] [Resource.Scientific Research Point]",
 		"Provides [30] [Resource.Water capacity]",
@@ -21,7 +21,309 @@
 		]
 	},
 	
+	//{
+	//	"name": "NationWonder.xxxxxxx",
+	//	"isNationalWonder": true,
+	//	"cost": 120,
+	//	"uniques": [
+	//	"Gain a free [NationWonderExpand.xxxxxxx] [in capital] <if [NationWonder.xxxxxxx] is not constructed by anybody> <hidden from users>",
+	//	]
+	//},
+    {
+	"name": "NationWonder.Production Line Planning",//生产线规划
+	"isNationalWonder": true,
+	"happiness": 2,
+	"cost": 120,
+	"requiredTech": "Tech.Mechanical"
+	"uniques": [
+		"Gain a free [NationWonderExpand.Production Line Planning] [in capital] <if [NationWonder.Production Line Planning] is not constructed by anybody> <hidden from users>",
+		"[+15]% [Production] [in all cities]",
+	]
+    },
+    {
+	"name": "NationWonder.Wastewater Treatment System",//废水处理系统
+	"isNationalWonder": true,
+	"happiness": 2,
+	"cost": 240,
+	"requiredTech": "Tech.The water cycle"
+	"uniques": [
+		"Gain a free [NationWonderExpand.Wastewater Treatment System] [in capital] <if [NationWonder.Wastewater Treatment System] is not constructed by anybody> <hidden from users>",
+		"[+15]% [Food] [in all cities]",
+	]
+    },
+    {
+	"name": "NationWonder.Blast Furnace Design",//高炉设计
+	"isNationalWonder": true,
+	"happiness": 2,
+	"production": 6,
+	"cost": 240,
+	"requiredTech": "Tech.Mining"
+	"uniques": [
+		"Gain a free [NationWonderExpand.Blast Furnace Design] [in capital] <if [NationWonder.Blast Furnace Design] is not constructed by anybody> <hidden from users>",
+	]
+    },
+    {
+	"name": "NationWonder.Energy-Efficient Distillation",//节能蒸馏
+	"isNationalWonder": true,
+	"happiness": 3,
+	"cost": 500,
+	"requiredTech": "Tech.Distilled water"
+	"uniques": [
+		"Gain a free [NationWonderExpand.Energy-Efficient Distillation] [in capital] <if [NationWonder.Energy-Efficient Distillation] is not constructed by anybody> <hidden from users>",
+		"[+35]% [Gold] [in all cities]",
+	]
+    },
+    {
+	"name": "NationWonder.Independent Systems Design",//独立系统设计
+	"isNationalWonder": true,
+	"happiness": 3,
+	"cost": 500,
+	"requiredTech": "Tech.Computer"
+	"uniques": [
+		"Gain a free [NationWonderExpand.Independent Systems Design] [in capital] <if [NationWonder.Independent Systems Design] is not constructed by anybody> <hidden from users>",
+		"[+100]% [Science] [in this city]",
+	]
+    },
+    {
+	"name": "NationWonder.Super Dam Project",//超级水坝计划
+	"isNationalWonder": true,
+	"happiness": 3,
+	"cost": 500,
+	"requiredTech": "Tech.Dam"
+	"uniques": [
+		"Gain a free [NationWonderExpand.Super Dam Project] [in capital] <if [NationWonder.Super Dam Project] is not constructed by anybody> <hidden from users>",
+		"[+1 Production, +1 Gold] from [River] tiles [in this city]",
+		"[+25]% [Production] [in this city]",
+	]
+    },
+    {
+	"name": "NationWonder.Machine Tool Manufacturing",//工业母机制造
+	"isNationalWonder": true,
+	"happiness": 4,
+	"cost": 1000,
+	"requiredTech": "Tech.Microdevices"
+	"uniques": [
+		"Gain a free [NationWonderExpand.Machine Tool Manufacturing] [in capital] <if [NationWonder.Machine Tool Manufacturing] is not constructed by anybody> <hidden from users>",
+		"[+100]% [Production] [in this city]",
+		"Cannot be hurried",
+	]
+    },
+    {
+	"name": "NationWonder.Nuclear Warfare Plan",//核战计划
+	"isNationalWonder": true,
+	"happiness": 4,
+	"cost": 1000,
+	"requiredTech": "Tech.Particle Engineering"
+	"uniques": [
+		"Gain a free [NationWonderExpand.Nuclear Warfare Plan] [in capital] <if [NationWonder.Nuclear Warfare Plan] is not constructed by anybody> <hidden from users>",
+		"Enables nuclear weapon",
+		"Cannot be hurried",
+	]
+    },
+    {
+	"name": "NationWonder.AI Governance Experiment",//AI执政尝试
+	"isNationalWonder": true,
+	"happiness": 5,
+	"cost": 1500,
+	"requiredTech": "Tech.Artificial intelligence"
+	"uniques": [
+		"Gain a free [NationWonderExpand.AI Governance Experiment] [in capital] <if [NationWonder.AI Governance Experiment] is not constructed by anybody> <hidden from users>",
+		"[+30]% [Production] [in all cities]",
+        "[+30]% [Science] [in all cities]",
+        "[+30]% [Gold] [in all cities]",
+        "Cannot be hurried",
+	]
+    },
+    {
+	"name": "NationWonder.Complete Industry Deployment",//全产业布置
+	"isNationalWonder": true,
+	"happiness": 5,
+	"cost": 1500,
+	"requiredTech": "Tech.Automatic production"
+	"uniques": [
+		"Gain a free [NationWonderExpand.Complete Industry Deployment] [in capital] <if [NationWonder.Complete Industry Deployment] is not constructed by anybody> <hidden from users>",
+		"[+1 Happiness] from all [Happiness] buildings",
+        "[+1 Culture] from all [Culture] buildings",
+        "[+1 Food] from all [Food] buildings",
+        "[+1 Production] from all [Science] buildings",
+        "[+1 Gold] from all [Gold] buildings",
+        "[+1 Science] from all [Science] buildings",
+		"Cannot be hurried",
+	]
+    },
+    {
+	"name": "NationWonder.Space Orbit Seizure",//太空轨道夺取
+	"isNationalWonder": true,
+	"happiness": 5,
+	"cost": 1500,
+	"requiredTech": "Tech.Satellite"
+	"uniques": [
+		"Gain a free [NationWonderExpand.Space Orbit Seizure] [in capital] <if [NationWonder.Space Orbit Seizure] is not constructed by anybody> <hidden from users>",
+		"Adopt [Space Orbit Seizure]",
+		"Reveals the entire map",
+		"Cannot be hurried",
+	]
+    },
+    /*{
+	"name": "NationWonder.Self-Iterative Design",//自迭代设计
+	"isNationalWonder": true,
+	"happiness": 5,
+	"cost": 2000,
+	"requiredTech": "Tech.Doomsday Mech"
+	"uniques": [
+		"Gain a free [NationWonderExpand.Self-Iterative Design] [in capital] <if [NationWonder.Self-Iterative Design] is not constructed by anybody> <hidden from users>",
+		
+		"Cannot be hurried",
+	]
+    },*/
 	
+	
+	
+	
+	//{
+	//	"name": "NationWonderExpand.xxxxxxx",
+	//	"cost": 1,
+	//	"uniques": [
+	//	"Unsellable",
+	//	
+	//	
+	//	]
+	//},
+    {
+    "name": "NationWonderExpand.Production Line Planning",
+    "cost": 1,
+    "uniques": [
+        "Unsellable",
+        "Unbuildable",
+        "Triggers a global alert upon completion",
+        "[+15]% Production when constructing [UnitType.LightInfantry] units [in all cities]",
+    ]
+    },
+    {
+    "name": "NationWonderExpand.Wastewater Treatment System",
+    "cost": 1,
+    "uniques": [
+        "Unsellable",
+        "Unbuildable",
+        "Triggers a global alert upon completion",
+        "[-25]% maintenance cost for [all] buildings [in all cities]",
+    ]
+    },
+    {
+    "name": "NationWonderExpand.Blast Furnace Design",
+    "cost": 1,
+    "uniques": [
+        "Unsellable",
+        "Unbuildable",
+        "Triggers a global alert upon completion",
+        "[+1 Production] from all [Production] buildings",
+    ]
+    },
+    {
+    "name": "NationWonderExpand.Energy-Efficient Distillation",
+    "cost": 1,
+    "uniques": [
+        "Unsellable",
+        "Unbuildable",
+        "Triggers a global alert upon completion",
+        "[+1 Gold] from all [Gold] buildings",
+    ]
+    },
+    {
+    "name": "NationWonderExpand.Independent Systems Design",
+    "cost": 1,
+    "uniques": [
+        "Unsellable",
+        "Unbuildable",
+        "Triggers a global alert upon completion",
+        "[+1 Science] from all [Science] buildings",
+    ]
+    },
+    {
+    "name": "NationWonderExpand.Super Dam Project",
+    "cost": 1,
+    "uniques": [
+        "Unsellable",
+        "Unbuildable",
+        "Triggers a global alert upon completion",
+        "Provides [10] [Resource.Electricity]",
+    ]
+    },
+    {
+    "name": "NationWonderExpand.Machine Tool Manufacturing",
+    "cost": 1,
+    "uniques": [
+        "Unsellable",
+        "Unbuildable",
+        "Triggers a global alert upon completion",
+        "[+15]% [Production] [in all cities]",
+        "[+15]% [Science] [in all cities]",
+    ]
+    },
+    {
+    "name": "NationWonderExpand.Nuclear Warfare Plan",
+    "cost": 1,
+    "uniques": [
+        "Unsellable",
+        "Unbuildable",
+        "Triggers a global alert upon completion",
+        "Provides [3] [Resource.Uranium]",
+    ]
+    },
+    {
+    "name": "NationWonderExpand.AI Governance Experiment",
+    "cost": 1,
+    "uniques": [
+        "Unsellable",
+        "Unbuildable",
+        "Triggers a global alert upon completion",
+        "[+15]% [Production] [in all cities]",
+        "[+15]% [Science] [in all cities]",
+        "[+15]% [Food] [in all cities]",
+    ]
+    },
+    {
+    "name": "NationWonderExpand.Complete Industry Deployment",
+    "cost": 1,
+    "uniques": [
+        "Unsellable",
+        "Unbuildable",
+        "Triggers a global alert upon completion",
+        "[+1 Happiness] from all [Happiness] buildings",
+        "[+1 Culture] from all [Culture] buildings",
+        "[+1 Food] from all [Food] buildings",
+        "[+1 Production] from all [Science] buildings",
+        "[+1 Gold] from all [Gold] buildings",
+        "[+1 Science] from all [Science] buildings",
+    ]
+    },
+    {
+    "name": "NationWonderExpand.Space Orbit Seizure",
+    "cost": 1,
+    "uniques": [
+        "Unsellable",
+        "Unbuildable",
+        "Triggers a global alert upon completion",
+        "Instantly provides [1] [Satellite]",
+    ]
+    },
+    /*{
+    "name": "NationWonderExpand.Self-Iterative Design",
+    "cost": 1,
+    "uniques": [
+        "Unsellable",
+        "Unbuildable",
+        "Triggers a global alert upon completion",
+    ]
+    },*/
+	
+	
+	
+	
+	
+	
+	
+	//城市统治
 	{
 		"name": "City rank 0",//
 		"happiness": -2,
@@ -49,6 +351,7 @@
 		"Only available <in cities without a [City rank II]> <in cities without a [City rank III]> <in cities without a [City rank IV]> <in cities without a [City rank V]>",
 		"Nullifies Growth [in this city] <in cities with at least [5] [Population]>",
 		"Remove [City rank 0] [in this city] <hidden from users>",
+		
 		]
 	},
 	{
@@ -121,7 +424,16 @@
 		"[+25]% [Culture] [in this city]",
 		]
 	},
-	
+	{
+		"name": "City rank Stop",//
+		"cost": 0,
+		"uniques": [
+		"Unsellable",
+		"Destroyed when the city is captured",
+		"Unbuildable <for [AI player] Civilizations> <hidden from users>",
+		"Nullifies Growth [in this city]",
+		]
+	},
 	
 	
 	
@@ -969,6 +1281,7 @@
         "Triggers a global alert upon completion",
         "Free Social Policy",
         "Provides [1] [Progress of Successor]",
+        
     ]
 },
 {

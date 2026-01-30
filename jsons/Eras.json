@@ -7,8 +7,8 @@
         "researchAgreementCost": 150,
         "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
         "startingWorkerCount": 0,
-        "startingMilitaryUnitCount": 0,
-        "startingMilitaryUnit": "Settler",
+        "startingMilitaryUnitCount": 2,
+        "startingMilitaryUnit": "Unit.Militia",
         "settlerPopulation": 1,
         "baseUnitBuyCost": 200,
         "embarkDefense": 3,

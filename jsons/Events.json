@@ -8,14 +8,14 @@
             "text":"Event.1.Choice1",
             "uniques":[
             "Instantly provides [1] [Event-driven] <hidden from users>",
-            "Instantly consumes [1] [Stability bias] <hidden from users>",
+            "Instantly consumes [1] [Stability bias]",
             ],
         },
         {
             "text":"Event.1.Choice2",
             "uniques":[
             "Instantly provides [1] [Event-driven] <hidden from users>",
-            "Instantly provides [1] [Stability bias] <hidden from users>",
+            "Instantly provides [1] [Stability bias]",
             ],
         },
     ]
@@ -28,14 +28,14 @@
             "text":"Event.2.Choice1",
             "uniques":[
             "Instantly provides [1] [Event-driven] <hidden from users>",
-            "Instantly consumes [1] [Radical bias] <hidden from users>",
+            "Instantly consumes [1] [Radical bias]",
             ],
         },
         {
             "text":"Event.2.Choice2",
             "uniques":[
             "Instantly provides [1] [Event-driven] <hidden from users>",
-            "Instantly provides [1] [Radical bias] <hidden from users>",
+            "Instantly provides [1] [Radical bias]",
             ],
         },
     ]
@@ -48,14 +48,14 @@
             "text":"Event.3.Choice1",
             "uniques":[
             "Instantly provides [1] [Event-driven] <hidden from users>",
-            "Instantly consumes [1] [Stability bias] <hidden from users>",
+            "Instantly consumes [1] [Stability bias]",
             ],
         },
         {
             "text":"Event.3.Choice2",
             "uniques":[
             "Instantly provides [1] [Event-driven] <hidden from users>",
-            "Instantly provides [1] [Stability bias] <hidden from users>",
+            "Instantly provides [1] [Stability bias]",
             ],
         },
     ]
@@ -68,14 +68,14 @@
             "text":"Event.4.Choice1",
             "uniques":[
             "Instantly provides [1] [Event-driven] <hidden from users>",
-            "Instantly provides [1] [Radical bias] <hidden from users>",
+            "Instantly provides [1] [Radical bias]",
             ],
         },
         {
             "text":"Event.4.Choice2",
             "uniques":[
             "Instantly provides [1] [Event-driven] <hidden from users>",
-            "Instantly consumes [1] [Radical bias] <hidden from users>",
+            "Instantly consumes [1] [Radical bias]",
             ],
         },
     ]
@@ -88,16 +88,16 @@
             "text":"Event.5.Choice1",
             "uniques":[
             "Instantly provides [1] [Event-driven] <hidden from users>",
-            "Instantly provides [1] [Stability bias] <hidden from users>",
-            "Instantly provides [1] [Radical bias] <hidden from users>",
+            "Instantly provides [1] [Stability bias]",
+            "Instantly provides [1] [Radical bias]",
             ],
         },
         {
             "text":"Event.5.Choice2",
             "uniques":[
             "Instantly provides [1] [Event-driven] <hidden from users>",
-            "Instantly consumes [1] [Stability bias] <hidden from users>",
-            "Instantly consumes [1] [Radical bias] <hidden from users>",
+            "Instantly consumes [1] [Stability bias]",
+            "Instantly consumes [1] [Radical bias]",
             ],
         },
     ]
@@ -110,16 +110,16 @@
             "text":"Event.6.Choice1",
             "uniques":[
             "Instantly provides [1] [Event-driven] <hidden from users>",
-            "Instantly provides [1] [Stability bias] <hidden from users>",
-            "Instantly consumes [1] [Radical bias] <hidden from users>",
+            "Instantly provides [1] [Stability bias]",
+            "Instantly consumes [1] [Radical bias]",
             ],
         },
         {
             "text":"Event.6.Choice2",
             "uniques":[
             "Instantly provides [1] [Event-driven] <hidden from users>",
-            "Instantly provides [1] [Radical bias] <hidden from users>",
-            "Instantly consumes [1] [Stability bias] <hidden from users>",
+            "Instantly provides [1] [Radical bias]",
+            "Instantly consumes [1] [Stability bias]",
             ],
         },
     ]
@@ -132,28 +132,28 @@
             "text":"Event.7.Choice1",
             "uniques":[
             "Instantly provides [1] [Event-driven] <hidden from users>",
-            //"Instantly provides [1] [Stability bias] <hidden from users>",
+            //"Instantly provides [1] [Stability bias]",
             ],
         },
         {
             "text":"Event.7.Choice2",
             "uniques":[
             "Instantly provides [1] [Event-driven] <hidden from users>",
-            //"Instantly provides [1] [Stability bias] <hidden from users>",
+            //"Instantly provides [1] [Stability bias]",
             ],
         },
         {
             "text":"Event.7.Choice3",
             "uniques":[
             "Instantly provides [1] [Event-driven] <hidden from users>",
-            //"Instantly provides [1] [Stability bias] <hidden from users>",
+            //"Instantly provides [1] [Stability bias]",
             ],
         },
         {
             "text":"Event.7.Choice4",
             "uniques":[
             "Instantly provides [1] [Event-driven] <hidden from users>",
-            //"Instantly provides [1] [Stability bias] <hidden from users>",
+            //"Instantly provides [1] [Stability bias]",
             ],
         },
     ]
