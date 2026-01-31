@@ -1,25 +1,156 @@
 [
     {
-        "name": "discover guns",
-        "notification": "We have discovered guns in the ruins!",
-        "uniques": ["Instantly provides [15] [Resource.Gun]",]
-        "color": "#cf8ff7"
+        "name": "[Increased pollution] 1",
+        "notification": "Increased pollution",
+        "uniques": [
+        "Only available",
+        "Gain [1] [Faith]",
+        
+        ],
+        "excludedDifficulties": ["Leisurely Times","Fair and Just","Under Slight Pressure","Godlike","Forsaken by Heaven"]
+		"color": "#CDDDF4"
     },
     {
-        "name": "discover tools",
-        "notification": "We have discovered tools in the ruins!",
-        "uniques": ["Instantly provides [15] [Resource.Tools]",]
-        "color": "#cf8ff7"
+        "name": "[Increased pollution] 2",
+        "notification": "Increased pollution",
+        "uniques": [
+        "Only available",
+        "Gain [2] [Faith]",
+        
+        ],
+        "excludedDifficulties": ["Leisurely Times","Fair and Just","Under Slight Pressure","Godlike","Forsaken by Heaven"]
+		"color": "#CDDDF4"
     },
     {
-        "name": "discover a lost technology",
-        "notification": "We have discovered the lost technology of [techName] in the ruins!",
-        "uniques": ["[1] free random researchable Tech(s) from the [Era.Wasteland]"],
-		"color": "#7f7fff"
+        "name": "[Increased pollution] 3",
+        "notification": "Increased pollution",
+        "uniques": [
+        "Only available",
+        "Gain [3] [Faith]",
+        
+        ],
+        "excludedDifficulties": ["Leisurely Times","Fair and Just","Under Slight Pressure","Godlike","Forsaken by Heaven"]
+		"color": "#CDDDF4"
     },
     {
-        "name": "advanced weaponry for your explorer",
-        "notification": "Our unit finds advanced weaponry hidden in the ruins!",
-        "uniques": ["[This Unit] upgrades for free including special upgrades"]
+        "name": "[Increased pollution] 4",
+        "notification": "Increased pollution",
+        "uniques": [
+        "Only available",
+        "Gain [4] [Faith]",
+        
+        ],
+        "excludedDifficulties": ["Leisurely Times","Fair and Just","Under Slight Pressure","Godlike","Forsaken by Heaven"]
+		"color": "#CDDDF4"
+    },
+    {
+        "name": "[Increased pollution] 5",
+        "notification": "Increased pollution",
+        "uniques": [
+        "Only available",
+        "Gain [5] [Faith]",
+        
+        ],
+        "excludedDifficulties": ["Leisurely Times","Fair and Just","Under Slight Pressure","Godlike","Forsaken by Heaven"]
+		"color": "#CDDDF4"
+    },
+    {
+        "name": "[Increased pollution] 6",
+        "notification": "Increased pollution",
+        "uniques": [
+        "Only available",
+        "Gain [6] [Faith]",
+        
+        ],
+        "excludedDifficulties": ["Godlike","Forsaken by Heaven","Calamity Savior"]
+		"color": "#CDDDF4"
+    },
+    {
+        "name": "[Increased pollution] 7",
+        "notification": "Increased pollution",
+        "uniques": [
+        "Only available",
+        "Gain [7] [Faith]",
+        
+        ],
+        "excludedDifficulties": ["Godlike","Forsaken by Heaven","Calamity Savior"]
+		"color": "#CDDDF4"
+    },
+    {
+        "name": "[Increased pollution] 8",
+        "notification": "Increased pollution",
+        "uniques": [
+        "Only available",
+        "Gain [8] [Faith]",
+        
+        ],
+        "excludedDifficulties": ["Godlike","Forsaken by Heaven","Calamity Savior"]
+		"color": "#CDDDF4"
+    },
+    {
+        "name": "[Increased pollution] 9",
+        "notification": "Increased pollution",
+        "uniques": [
+        "Only available",
+        "Gain [9] [Faith]",
+        
+        ],
+        "excludedDifficulties": ["Godlike","Forsaken by Heaven","Calamity Savior"]
+		"color": "#CDDDF4"
+    },
+    {
+        "name": "[Increased pollution] 10",
+        "notification": "Increased pollution",
+        "uniques": [
+        "Only available",
+        "Gain [10] [Faith]",
+        
+        ],
+        "excludedDifficulties": ["Godlike","Forsaken by Heaven","Calamity Savior"]
+		"color": "#CDDDF4"
+    },
+    {
+        "name": "[Increased pollution] 11",
+        "notification": "Increased pollution",
+        "uniques": [
+        "Only available",
+        "Gain [10] [Faith]",
+        
+        ],
+        "excludedDifficulties": ["Calamity Savior"]
+		"color": "#CDDDF4"
+    },
+    {
+        "name": "[Increased pollution] 12",
+        "notification": "Increased pollution",
+        "uniques": [
+        "Only available",
+        "Gain [10] [Faith]",
+        
+        ],
+        "excludedDifficulties": ["Calamity Savior"]
+		"color": "#CDDDF4"
+    },
+    {
+        "name": "[Increased pollution] 13",
+        "notification": "Increased pollution",
+        "uniques": [
+        "Only available",
+        "Gain [10] [Faith]",
+        
+        ],
+        "excludedDifficulties": ["Calamity Savior"]
+		"color": "#CDDDF4"
+    },
+    {
+        "name": "[Increased pollution] 14",
+        "notification": "Increased pollution",
+        "uniques": [
+        "Only available",
+        "Gain [10] [Faith]",
+        
+        ],
+        "excludedDifficulties": ["Calamity Savior"]
+		"color": "#CDDDF4"
     },
 ]

@@ -1,22 +1,68 @@
 [
     {
-        "name": "Domination",
-        "victoryScreenHeader": "Destroy all enemies\nto win!",
-        "milestones": ["Destroy all players"],
-        "victoryString": "The world has been convulsed by war. Many great and powerful civilizations have fallen, but you have survived - and emerged victorious! The world will long remember your glorious triumph!",
-        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+    "name": "Vendetta Victory",//死仇
+    "victoryScreenHeader": "Complete Elimination of Your Sworn Enemy!",
+    "milestones": ["Destroy all players"],
+    "victoryString": "The old scores of World War III have been settled. Your civilization has proven with absolute force who the final victor is. The cycle of hatred ends in your hands—because there is no one left to hate.",
+    "defeatString": "Your civilization fell under the iron heel of your nemesis. They shouted slogans of revenge, razing everything you had to the ground. Victory belongs to others, and you have become the loser written in the history books"
+    },
+    /*{
+    "name": "Bewilderment Victory",
+    "victoryScreenHeader": "Complete Unfinished Hatred!",
+    "milestones": ["Destroy all players"],
+    "victoryString": "We still couldn't let go of our ancestors'hatred, but we won. The defeated will forever vanish from history, ceasing to exist.",
+    "defeatString": "You can no longer see the future. You can't even comprehend what this means. You are forever lost in the confusion you created."
+    },*/
+    {
+    "name": "Restoration Victory",
+    "victoryScreenHeader": "Restore the Glory of Civilization!",
+    "milestones": ["Build [City rank V]"],
+    "victoryString": "The shadow of world war did not bring eternal darkness. From the ashes of civilization, you recovered blueprints, green formulas, and golden dreams. The splendor of the old world is reborn in your hands, shining even brighter.",
+    "defeatString": "While you were still rummaging through the ruins, another civilization had already restored the pre-war glory. Their proclamation of restoration sounded, reminding you: those who cling to nostalgia cannot win the future."
+    },
+    {
+    "name": "Escape Victory",
+    "victoryScreenHeader": "Escape This Cursed Planet!",
+    "milestones": ["Build [NationWonder.Space Orbit Seizure]"],
+    "victoryString": "While other civilizations were still fighting over scorched earth, your gaze was already set on the stars. The Ark carried the last embers of your civilization into deep space. Earth's scars become the past; the universe is your new home.",
+    "defeatString": "You looked up and saw the arks of other civilizations streaking across the sky. They achieved the escape, while you and your people were forever abandoned in this wasteland."
+    },
+    {
+    "name": "Calamity Victory",//天灾
+    "victoryScreenHeader": "Spread the Calamity to the Entire World!",
+    "milestones": ["Become the world religion"],
+    "victoryString": "Did you harness the calamity, or were you harnessed by it? After the calamity swept the globe, nothing held any meaning.",
+    "defeatString": "Disaster swept the globe, and only chaos remains."
+    },
+    {
+    "name": "Reconciliation Victory",//和解
+    "victoryScreenHeader": "Mend the Rifts Between All Civilizations!",
+    "milestones": [
+    //"Anyone should build [United Nations]",
+    "Win diplomatic vote"
+    ],
+    "victoryString": "In a world deeply scarred by nuclear war and mutual suspicion, you achieved an incredible miracle. You laid down your ancestors' guns and swore together: World War III would be humanity's last act of self-destruction.",
+    "defeatString": "Your stubborn refusal to reconcile paved the way for others' greatness. When the declaration of Reconciliation Victory arrived, you found your civilization had become the sole outcast, unwelcome in the new era"
+    },
+    {
+    "name": "Mandate Victory",//天命
+    "victoryScreenHeader": "Prove Your Civilization is the Chosen One!",
+    "milestones": [
+    //"Anyone should build [United Nations]",
+    "Win diplomatic vote",
+    "Build [NationWonderExpand.Space Orbit Seizure]",
+    "Build [NationWonderExpand.Complete Industry Deployment]",
+    "Build [NationWonderExpand.AI Governance Experiment]",
+    "Build [NationWonderExpand.Nuclear Warfare Plan]",
+    "Build [City rank V]",
+    ],
+    "victoryString": "This is not conquest, but coronation. Other civilizations voluntarily offered their authority, acknowledging that your path is the future of humanity. You legally inherited the Earth, and the will of civilization unified under your banner.",
+    "defeatString": "The Mandate was decided, but it did not belong to you. When another civilization was crowned as the Mandate's master, your civilization was judged by history as an untimely relic of the old era."
     },
     {
         "name": "Time",
         "hiddenInVictoryScreen": true,
         "milestones": ["Have highest score after max turns"],
-        "victoryString": "The world has been convulsed by war. Many great and powerful civilizations have fallen, but you have survived - and emerged victorious! The world will long remember your glorious triumph!",
-        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
-    },
-    {//统一胜利
-        "name": "Unity",
-        "victoryScreenHeader": "Capture all capitals to win!",
-        "milestones": ["Capture all capitals"],
         "victoryString": "The world has been convulsed by war. Many great and powerful civilizations have fallen, but you have survived - and emerged victorious! The world will long remember your glorious triumph!",
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
     },

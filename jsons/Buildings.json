@@ -192,6 +192,8 @@
     {
     "name": "NationWonderExpand.Production Line Planning",
     "cost": 1,
+    "isNationalWonder": true,
+	"happiness": 1,
     "uniques": [
         "Unsellable",
         "Unbuildable",
@@ -202,6 +204,8 @@
     {
     "name": "NationWonderExpand.Wastewater Treatment System",
     "cost": 1,
+    "isNationalWonder": true,
+	"happiness": 1,
     "uniques": [
         "Unsellable",
         "Unbuildable",
@@ -212,6 +216,8 @@
     {
     "name": "NationWonderExpand.Blast Furnace Design",
     "cost": 1,
+    "isNationalWonder": true,
+	"happiness": 1,
     "uniques": [
         "Unsellable",
         "Unbuildable",
@@ -222,6 +228,8 @@
     {
     "name": "NationWonderExpand.Energy-Efficient Distillation",
     "cost": 1,
+    "isNationalWonder": true,
+	"happiness": 1,
     "uniques": [
         "Unsellable",
         "Unbuildable",
@@ -232,6 +240,8 @@
     {
     "name": "NationWonderExpand.Independent Systems Design",
     "cost": 1,
+    "isNationalWonder": true,
+	"happiness": 1,
     "uniques": [
         "Unsellable",
         "Unbuildable",
@@ -242,6 +252,8 @@
     {
     "name": "NationWonderExpand.Super Dam Project",
     "cost": 1,
+    "isNationalWonder": true,
+	"happiness": 1,
     "uniques": [
         "Unsellable",
         "Unbuildable",
@@ -252,6 +264,8 @@
     {
     "name": "NationWonderExpand.Machine Tool Manufacturing",
     "cost": 1,
+    "isNationalWonder": true,
+	"happiness": 1,
     "uniques": [
         "Unsellable",
         "Unbuildable",
@@ -263,6 +277,8 @@
     {
     "name": "NationWonderExpand.Nuclear Warfare Plan",
     "cost": 1,
+    "isNationalWonder": true,
+	"happiness": 1,
     "uniques": [
         "Unsellable",
         "Unbuildable",
@@ -273,6 +289,8 @@
     {
     "name": "NationWonderExpand.AI Governance Experiment",
     "cost": 1,
+    "isNationalWonder": true,
+	"happiness": 1,
     "uniques": [
         "Unsellable",
         "Unbuildable",
@@ -285,6 +303,8 @@
     {
     "name": "NationWonderExpand.Complete Industry Deployment",
     "cost": 1,
+    "isNationalWonder": true,
+	"happiness": 1,
     "uniques": [
         "Unsellable",
         "Unbuildable",
@@ -300,6 +320,8 @@
     {
     "name": "NationWonderExpand.Space Orbit Seizure",
     "cost": 1,
+    "isNationalWonder": true,
+	"happiness": 1,
     "uniques": [
         "Unsellable",
         "Unbuildable",
@@ -310,6 +332,8 @@
     /*{
     "name": "NationWonderExpand.Self-Iterative Design",
     "cost": 1,
+    "isNationalWonder": true,
+	"happiness": 1,
     "uniques": [
         "Unsellable",
         "Unbuildable",
@@ -1279,9 +1303,9 @@
         "Unbuildable",
         "Unsellable",
         "Triggers a global alert upon completion",
-        "Free Social Policy",
+        //"Free Social Policy",
         "Provides [1] [Progress of Successor]",
-        
+        "[+1]% Strength",
     ]
 },
 {
@@ -1292,8 +1316,9 @@
         "Unbuildable",
         "Unsellable",
         "Triggers a global alert upon completion",
-        "Free Social Policy",
+        //"Free Social Policy",
         "Provides [1] [Progress of Cenozoic]",
+        "[+1]% Strength",
     ]
 },
 {
@@ -1304,8 +1329,9 @@
         "Unbuildable",
         "Unsellable",
         "Triggers a global alert upon completion",
-        "Free Social Policy",
+        //"Free Social Policy",
         "Provides [1] [Progress of Warlord]",
+        "[+1]% Strength",
     ]
 },
 {
@@ -1317,6 +1343,7 @@
         "Unsellable",
         "Triggers a global alert upon completion",
         "Provides [1] [Progress of Chaos]",
+        "[+1]% Strength",
     ]
 },
 
@@ -1332,6 +1359,7 @@
         "Unsellable",
         "Triggers a global alert upon completion",
         "Provides [1] [Progress of Successor]",
+        "[+1]% Strength",
         
         "[+1] Sight <for [Land] units>",
         "[-33]% Gold cost of acquiring tiles [in all cities]",
@@ -1348,6 +1376,7 @@
         "Unsellable",
         "Triggers a global alert upon completion",
         "Provides [1] [Progress of Cenozoic]",
+        "[+1]% Strength",
         
         "Instantly provides [1] [Resource.Manpower] <for every [[Resource.Manpower max] / 5]> <upon declaring war on [Major] Civilizations>",
         "[+20]% Production when constructing [Military] units [in all cities]",
@@ -1362,6 +1391,7 @@
         "Unsellable",
         "Triggers a global alert upon completion",
         "Provides [1] [Progress of Cenozoic]",
+        "[+1]% Strength",
         
         "[+1 Science, +1 Production] from all [Science] buildings",
         "[+1 Science, +1 Production] from all [Production] buildings",
@@ -1377,6 +1407,7 @@
         "Unsellable",
         "Triggers a global alert upon completion",
         "Provides [1] [Progress of Warlord]",
+        "[+1]% Strength",
         
         "Gain [-1] [Faith] <for every [10] [Faith]> <upon turn start>",
         
@@ -1391,6 +1422,7 @@
         "Unsellable",
         "Triggers a global alert upon completion",
         "Provides [1] [Progress of Cenozoic]",
+        "[+1]% Strength",
     ]
 },*/
 {
@@ -1402,6 +1434,7 @@
         "Unsellable",
         "Triggers a global alert upon completion",
         "Provides [1] [Progress of Successor]",
+        "[+1]% Strength",
         
         "[+1 Production] from every [Strategic resource]",
         "[+20]% Production when constructing [UnitType.Civilian] units [in all cities]",
@@ -1416,6 +1449,7 @@
         "Unsellable",
         "Triggers a global alert upon completion",
         "Provides [1] [Progress of Warlord]",
+        "[+1]% Strength",
         
         "[+50]% [Gold] from Trade Routes",
         "Gain [50]-[100] [Gold] <upon declaring friendship>",
@@ -1434,6 +1468,7 @@
         "Unsellable",
         "Triggers a global alert upon completion",
         "Provides [1] [Progress of Successor]",
+        "[+1]% Strength",
         
         "[-10]% Strength <when fighting units from a Civilization with more Cities than you>",
         "[+10]% Strength",
@@ -1449,6 +1484,7 @@
         "Unsellable",
         "Triggers a global alert upon completion",
         "Provides [1] [Progress of Successor]",
+        "[+1]% Strength",
         
         "[+10]% Strength <when fighting units from a Civilization with more Cities than you>",
         "[+25]% [Science] [in all cities] <when number of [Resource.Manpower] is less than [[Resource.Manpower max] - 1]>",
@@ -1463,6 +1499,7 @@
         "Unsellable",
         "Triggers a global alert upon completion",
         "Provides [1] [Progress of Cenozoic]",
+        "[+1]% Strength",
         
         "Earn [100]% of killed [Military] unit's [Strength] as [Culture]",
         "[+15]% Strength <vs [Successor] units> <when attacking>",
@@ -1479,6 +1516,7 @@
         "Unsellable",
         "Triggers a global alert upon completion",
         "Provides [1] [Progress of Cenozoic]",
+        "[+1]% Strength",
         
         "[-110]% maintenance costs",
         "[+10]% Strength <in [Friendly Land] tiles>",
@@ -1493,6 +1531,7 @@
         "Unsellable",
         "Triggers a global alert upon completion",
         "Provides [1] [Progress of Cenozoic]",
+        "[+1]% Strength",
         
         "Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately",
         "[+50]% [Strategic] resource production",
@@ -1508,6 +1547,7 @@
         "Unsellable",
         "Triggers a global alert upon completion",
         "Provides [1] [Progress of Warlord]",
+        "[+1]% Strength",
         
         "[+50]% maintenance costs",
         "[-25]% Strength <in [Friendly Land] tiles>",
@@ -1523,6 +1563,7 @@
         "Unsellable",
         "Triggers a global alert upon completion",
         "Provides [1] [Progress of Cenozoic]",
+        "[+1]% Strength",
     ]
 },*/
 //俄罗斯
@@ -1537,6 +1578,7 @@
         "Unsellable",
         "Triggers a global alert upon completion",
         "Provides [1] [Progress of Successor]",
+        "[+1]% Strength",
         
         "[+20]% Production when constructing [Production] buildings [in all cities]",
         "[+20]% Production when constructing [Gold] buildings [in all cities]",
@@ -1551,6 +1593,7 @@
         "Unsellable",
         "Triggers a global alert upon completion",
         "Provides [1] [Progress of Warlord]",
+        "[+1]% Strength",
         
         "[-50]% Culture cost of natural border growth [in capital]",
         "[+1 Production, +1 Gold] from every [Strategic resource]",
@@ -1565,6 +1608,7 @@
         "Unsellable",
         "Triggers a global alert upon completion",
         "Provides [1] [Progress of Cenozoic]",
+        "[+1]% Strength",
         
         "[+1 Production] [in all cities]",
         "[-25]% maintenance cost for [all] buildings [in all cities]",
@@ -1580,6 +1624,7 @@
         "Unsellable",
         "Triggers a global alert upon completion",
         "Provides [1] [Progress of Successor]",
+        "[+1]% Strength",
         
         "[+2 Science, +2 Production, +2 Food, +2 Happiness] [in capital]",
         "[+33]% Unhappiness from [Population] [in all cities]",

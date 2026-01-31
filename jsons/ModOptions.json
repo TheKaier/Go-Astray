@@ -1,15 +1,17 @@
 {
 "constants": {
         "maxXPfromBarbarians": 100,
-    "pantheonBase": 10,
-    "pantheonGrowth": 0,
+    "pantheonBase": 50,
+    "pantheonGrowth": 10,
     "cityStrengthFromTechsFullMultiplier": 0.1,
     "minimalCityDistance":2,
     "cityWorkRange":3,
-    "baseCityBombardRange":1,
+    "baseCityBombardRange":2,
     "cityExpandRange":4,
     "riverCountMultiplier": 0.02,
     "religionLimitMultiplier": 1.0,
+    "naturalWonderCountMultiplier": 0.3,
+    "naturalWonderCountAddedConstant": 1,
     },
     "uniques":[
     //"Can trade civilization introductions for [10] Gold",

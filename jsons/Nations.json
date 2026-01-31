@@ -236,7 +236,7 @@
 	{
 		"name": "Barbarians",
 		"outerColor": [255,255,255],
-        "innerColor": [136,165,174],
+        "innerColor": [124,150,158],
 		"uniques": [
 		//"Can only heal by pillaging",
 		"Provides [100] [Resource.Steel]",

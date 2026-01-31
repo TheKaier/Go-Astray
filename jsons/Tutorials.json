@@ -16,7 +16,49 @@
                 "size":1
             },
         ]
-    }
-    
-    
+    },
+    {
+        "name":"About VictoryTypes",
+        "civilopediaText":[
+            { 
+                "text": "[Vendetta Victory] allow achieved by [[Successor] [Cenozoic] [Warlord] [Chaos]]",
+                "size":30
+            },
+            /*{ 
+                "text": "[Bewilderment Victory] allow achieved by [Cenozoic]",
+                "size":30
+            },*/
+            { 
+                "text": "[Restoration Victory] allow achieved by [[Successor] [Cenozoic] [Warlord]]",
+                "size":30
+            },
+            { 
+                "text": "[Escape Victory] allow achieved by [[Successor] [Cenozoic] [Warlord]]",
+                "size":30
+            },
+            { 
+                "text": "[Calamity Victory] allow achieved by [Chaos]",
+                "size":30
+            },
+            { 
+                "text": "[Reconciliation Victory] allow achieved by [[Successor] [Cenozoic] [Warlord]]",
+                "size":30
+            },
+            { 
+                "text": "[Mandate Victory] allow achieved by [[Successor] [Cenozoic]]",
+                "size":30
+            },
+            { 
+                "text": "[Time] allow achieved by [[Successor] [Cenozoic] [Warlord] [Chaos]]",
+                "size":30
+            },
+            
+            
+            {
+                "separator":true,
+                "color":"#FFFFFF",
+                "size":1
+            },
+        ]
+    },
 ]

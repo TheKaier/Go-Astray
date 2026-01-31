@@ -60,7 +60,98 @@ BuildingIcons/Building.Command Center
   orig: 270, 270
   offset: 0, 0
   index: -1
+BuildingIcons/NationWonderExpand.AI Governance Experiment
+  rotate: false
+  xy: 4, 1250
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+BuildingIcons/NationWonderExpand.Blast Furnace Design
+  rotate: false
+  xy: 4, 1250
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+BuildingIcons/NationWonderExpand.Complete Industry Deployment
+  rotate: false
+  xy: 4, 1250
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+BuildingIcons/NationWonderExpand.Energy-Efficient Distillation
+  rotate: false
+  xy: 4, 1250
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+BuildingIcons/NationWonderExpand.Independent Systems Design
+  rotate: false
+  xy: 4, 1250
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+BuildingIcons/NationWonderExpand.Machine Tool Manufacturing
+  rotate: false
+  xy: 4, 1250
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+BuildingIcons/NationWonderExpand.Nuclear Warfare Plan
+  rotate: false
+  xy: 4, 1250
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+BuildingIcons/NationWonderExpand.Production Line Planning
+  rotate: false
+  xy: 4, 1250
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+BuildingIcons/NationWonderExpand.Self-Iterative Design
+  rotate: false
+  xy: 4, 1250
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+BuildingIcons/NationWonderExpand.Space Orbit Seizure
+  rotate: false
+  xy: 4, 1250
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+BuildingIcons/NationWonderExpand.Super Dam Project
+  rotate: false
+  xy: 4, 1250
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+BuildingIcons/NationWonderExpand.Wastewater Treatment System
+  rotate: false
+  xy: 4, 1250
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
 BuildingIcons/Building.Computer
+  rotate: false
+  xy: 1040, 1654
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ImprovementIcons/TileImprovement.Computing terminal
   rotate: false
   xy: 1040, 1654
   size: 128, 128
@@ -117,6 +208,13 @@ BuildingIcons/Building.Hydroelectric generator
   offset: 0, 0
   index: -1
 BuildingIcons/Building.Storage Dam
+  rotate: false
+  xy: 1312, 1588
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/TileImprovement.Hydroelectricity
   rotate: false
   xy: 1312, 1588
   size: 100, 100
@@ -214,18 +312,193 @@ BuildingIcons/Building.Wall of nuclear power
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/NationWonder.AI Governance Experiment
+  rotate: false
+  xy: 4, 340
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/NationWonder.Blast Furnace Design
+  rotate: false
+  xy: 4, 340
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/NationWonder.Complete Industry Deployment
+  rotate: false
+  xy: 4, 340
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/NationWonder.Energy-Efficient Distillation
+  rotate: false
+  xy: 4, 340
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/NationWonder.Independent Systems Design
+  rotate: false
+  xy: 4, 340
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/NationWonder.Machine Tool Manufacturing
+  rotate: false
+  xy: 4, 340
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/NationWonder.Nuclear Warfare Plan
+  rotate: false
+  xy: 4, 340
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/NationWonder.Production Line Planning
+  rotate: false
+  xy: 4, 340
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/NationWonder.Self-Iterative Design
+  rotate: false
+  xy: 4, 340
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/NationWonder.Space Orbit Seizure
+  rotate: false
+  xy: 4, 340
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/NationWonder.Super Dam Project
+  rotate: false
+  xy: 4, 340
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/NationWonder.Wastewater Treatment System
+  rotate: false
+  xy: 4, 340
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ResourceIcons/Resource.Scientific Level
+  rotate: false
+  xy: 4, 340
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ResourceIcons/Resource.Scientific Research Point
+  rotate: false
+  xy: 4, 340
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Remove TileImprovement.Bunkers
+  rotate: false
+  xy: 956, 270
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Remove TileImprovement.Coal Mine
+  rotate: false
+  xy: 956, 270
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Remove TileImprovement.Drainage area
+  rotate: false
+  xy: 956, 270
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Remove TileImprovement.Farm
+  rotate: false
+  xy: 956, 270
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Remove TileImprovement.Fossil-fuel power station
+  rotate: false
+  xy: 956, 270
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Remove TileImprovement.Logging
+  rotate: false
+  xy: 956, 270
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Remove TileImprovement.Mine
+  rotate: false
+  xy: 956, 270
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Remove TileImprovement.Quarry
+  rotate: false
+  xy: 956, 270
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Remove TileImprovement.Ranch
+  rotate: false
+  xy: 956, 270
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Remove TileImprovement.Water drilling
+  rotate: false
+  xy: 956, 270
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 ImprovementIcons/TileImprovement.Barbed Wire
   rotate: false
-  xy: 1478, 1408
+  xy: 1478, 1299
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/TileImprovement.Barbed Wire
   rotate: false
-  xy: 1478, 1408
+  xy: 1478, 1299
   size: 64, 64
   orig: 64, 64
+  offset: 0, 0
+  index: -1
+ImprovementIcons/TileImprovement.Bunkers
+  rotate: false
+  xy: 1172, 486
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/TileImprovement.Coal Mine
@@ -277,6 +550,13 @@ ImprovementIcons/TileImprovement.Farm
   orig: 250, 250
   offset: 0, 0
   index: -1
+ImprovementIcons/TileImprovement.Fishing ground
+  rotate: false
+  xy: 1172, 378
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 ImprovementIcons/TileImprovement.Logging
   rotate: false
   xy: 782, 1532
@@ -307,406 +587,392 @@ ImprovementIcons/TileImprovement.Water drilling
   index: -1
 PolicyBranchIcons/Reign panel
   rotate: false
-  xy: 4, 340
+  xy: 282, 1256
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 PolicyIcons/[Cenozoic] I
   rotate: false
-  xy: 4, 340
+  xy: 282, 1256
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 PolicyIcons/[Cenozoic] II
   rotate: false
-  xy: 4, 340
+  xy: 282, 1256
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 PolicyIcons/[Cenozoic] III
   rotate: false
-  xy: 4, 340
+  xy: 282, 1256
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 PolicyIcons/[Cenozoic] IV
   rotate: false
-  xy: 4, 340
+  xy: 282, 1256
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 PolicyIcons/[Cenozoic] V
   rotate: false
-  xy: 4, 340
+  xy: 282, 1256
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 PolicyIcons/[Cenozoic][Radical] I
   rotate: false
-  xy: 4, 340
+  xy: 282, 1256
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 PolicyIcons/[Cenozoic][Radical] II
   rotate: false
-  xy: 4, 340
+  xy: 282, 1256
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 PolicyIcons/[Cenozoic][Radical] III
   rotate: false
-  xy: 4, 340
+  xy: 282, 1256
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 PolicyIcons/[Cenozoic][Radical] IV
   rotate: false
-  xy: 4, 340
+  xy: 282, 1256
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 PolicyIcons/[Cenozoic][Radical] V
   rotate: false
-  xy: 4, 340
+  xy: 282, 1256
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 PolicyIcons/[Cenozoic][Stability] I
   rotate: false
-  xy: 4, 340
+  xy: 282, 1256
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 PolicyIcons/[Cenozoic][Stability] II
   rotate: false
-  xy: 4, 340
+  xy: 282, 1256
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 PolicyIcons/[Cenozoic][Stability] III
   rotate: false
-  xy: 4, 340
+  xy: 282, 1256
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 PolicyIcons/[Cenozoic][Stability] IV
   rotate: false
-  xy: 4, 340
+  xy: 282, 1256
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 PolicyIcons/[Cenozoic][Stability] V
   rotate: false
-  xy: 4, 340
+  xy: 282, 1256
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 PolicyIcons/[Successor] I
   rotate: false
-  xy: 4, 340
+  xy: 282, 1256
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 PolicyIcons/[Successor] II
   rotate: false
-  xy: 4, 340
+  xy: 282, 1256
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 PolicyIcons/[Successor] III
   rotate: false
-  xy: 4, 340
+  xy: 282, 1256
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 PolicyIcons/[Successor] IV
   rotate: false
-  xy: 4, 340
+  xy: 282, 1256
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 PolicyIcons/[Successor] V
   rotate: false
-  xy: 4, 340
+  xy: 282, 1256
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 PolicyIcons/[Successor][Radical] I
   rotate: false
-  xy: 4, 340
+  xy: 282, 1256
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 PolicyIcons/[Successor][Radical] II
   rotate: false
-  xy: 4, 340
+  xy: 282, 1256
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 PolicyIcons/[Successor][Radical] III
   rotate: false
-  xy: 4, 340
+  xy: 282, 1256
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 PolicyIcons/[Successor][Radical] IV
   rotate: false
-  xy: 4, 340
+  xy: 282, 1256
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 PolicyIcons/[Successor][Radical] V
   rotate: false
-  xy: 4, 340
+  xy: 282, 1256
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 PolicyIcons/[Successor][Stability] I
   rotate: false
-  xy: 4, 340
+  xy: 282, 1256
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 PolicyIcons/[Successor][Stability] II
   rotate: false
-  xy: 4, 340
+  xy: 282, 1256
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 PolicyIcons/[Successor][Stability] III
   rotate: false
-  xy: 4, 340
+  xy: 282, 1256
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 PolicyIcons/[Successor][Stability] IV
   rotate: false
-  xy: 4, 340
+  xy: 282, 1256
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 PolicyIcons/[Successor][Stability] V
   rotate: false
-  xy: 4, 340
+  xy: 282, 1256
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 PolicyIcons/[Warlord] I
   rotate: false
-  xy: 4, 340
+  xy: 282, 1256
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 PolicyIcons/[Warlord] II
   rotate: false
-  xy: 4, 340
+  xy: 282, 1256
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 PolicyIcons/[Warlord] III
   rotate: false
-  xy: 4, 340
+  xy: 282, 1256
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 PolicyIcons/[Warlord] IV
   rotate: false
-  xy: 4, 340
+  xy: 282, 1256
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 PolicyIcons/[Warlord] V
   rotate: false
-  xy: 4, 340
+  xy: 282, 1256
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 PolicyIcons/[Warlord][Radical] I
   rotate: false
-  xy: 4, 340
+  xy: 282, 1256
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 PolicyIcons/[Warlord][Radical] II
   rotate: false
-  xy: 4, 340
+  xy: 282, 1256
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 PolicyIcons/[Warlord][Radical] III
   rotate: false
-  xy: 4, 340
+  xy: 282, 1256
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 PolicyIcons/[Warlord][Radical] IV
   rotate: false
-  xy: 4, 340
+  xy: 282, 1256
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 PolicyIcons/[Warlord][Radical] V
   rotate: false
-  xy: 4, 340
+  xy: 282, 1256
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 PolicyIcons/[Warlord][Stability] I
   rotate: false
-  xy: 4, 340
+  xy: 282, 1256
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 PolicyIcons/[Warlord][Stability] II
   rotate: false
-  xy: 4, 340
+  xy: 282, 1256
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 PolicyIcons/[Warlord][Stability] III
   rotate: false
-  xy: 4, 340
+  xy: 282, 1256
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 PolicyIcons/[Warlord][Stability] IV
   rotate: false
-  xy: 4, 340
+  xy: 282, 1256
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 PolicyIcons/[Warlord][Stability] V
   rotate: false
-  xy: 4, 340
+  xy: 282, 1256
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 ResourceIcons/Resource.Coal
   rotate: false
-  xy: 282, 1256
+  xy: 1434, 1912
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 ResourceIcons/Resource.Electricity
   rotate: false
-  xy: 1434, 1912
+  xy: 4, 204
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 ResourceIcons/Resource.Fish
   rotate: false
-  xy: 956, 270
+  xy: 1064, 378
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Resource.Gun
   rotate: false
-  xy: 1064, 378
+  xy: 956, 162
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Resource.Herd
   rotate: false
-  xy: 956, 162
+  xy: 1064, 270
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Resource.Horses
   rotate: false
-  xy: 4, 204
+  xy: 1570, 1912
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 ResourceIcons/Resource.Iron
   rotate: false
-  xy: 1064, 270
+  xy: 956, 54
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Resource.Manpower
   rotate: false
-  xy: 1586, 1530
+  xy: 1694, 1530
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 ResourceIcons/Resource.Manpower max
   rotate: false
-  xy: 1586, 1530
+  xy: 1694, 1530
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-ResourceIcons/Resource.Scientific Level
-  rotate: false
-  xy: 1570, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-ResourceIcons/Resource.Scientific Research Point
-  rotate: false
-  xy: 1570, 1912
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
 ResourceIcons/Resource.Steel
   rotate: false
-  xy: 956, 54
+  xy: 1064, 162
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -727,28 +993,28 @@ ResourceIcons/Resource.Tools
   index: -1
 ResourceIcons/Resource.Uranium
   rotate: false
-  xy: 1064, 162
+  xy: 1064, 54
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Resource.Water
   rotate: false
-  xy: 1064, 54
+  xy: 1852, 1696
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Resource.Water capacity
   rotate: false
-  xy: 1064, 54
+  xy: 1852, 1696
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Resource.Wheat
   rotate: false
-  xy: 1852, 1696
+  xy: 1852, 1588
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -803,6 +1069,13 @@ TechIcons/Tech.Blitzkrieg
   offset: 0, 0
   index: -1
 TechIcons/Tech.Coal-fired generator
+  rotate: false
+  xy: 418, 1392
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ImprovementIcons/TileImprovement.Fossil-fuel power station
   rotate: false
   xy: 418, 1392
   size: 128, 128
@@ -1238,28 +1511,28 @@ UnitIcons/Unit.Tactical Infantry
   index: -1
 UnitIcons/Unit.Atomic bomb
   rotate: false
-  xy: 1852, 1588
+  xy: 1172, 270
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Battleship
   rotate: false
-  xy: 1172, 486
+  xy: 1172, 162
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Canoe
   rotate: false
-  xy: 1172, 378
+  xy: 1172, 54
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Catapults
   rotate: false
-  xy: 1172, 270
+  xy: 1266, 594
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1273,28 +1546,28 @@ UnitIcons/Unit.Cavalry company
   index: -1
 UnitIcons/Unit.Charge the regiment
   rotate: false
-  xy: 1172, 162
+  xy: 1280, 486
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Light Chariots
   rotate: false
-  xy: 1172, 162
+  xy: 1280, 486
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Mechanical Chariots
   rotate: false
-  xy: 1172, 162
+  xy: 1280, 486
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Commando Regimen
   rotate: false
-  xy: 1172, 54
+  xy: 1280, 378
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1308,21 +1581,21 @@ UnitIcons/Unit.Compound archers
   index: -1
 UnitIcons/Unit.Destroyer
   rotate: false
-  xy: 1266, 594
+  xy: 1280, 270
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Electromagnetic Infantry
   rotate: false
-  xy: 1280, 486
+  xy: 1280, 162
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Power Infantry
   rotate: false
-  xy: 1280, 486
+  xy: 1280, 162
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1350,14 +1623,14 @@ UnitIcons/Unit.Guerrillas
   index: -1
 UnitIcons/Unit.Gunboat
   rotate: false
-  xy: 1280, 378
+  xy: 1280, 54
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Legion of succeeding generations
   rotate: false
-  xy: 1280, 270
+  xy: 1370, 1480
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1371,14 +1644,14 @@ UnitIcons/Unit.Light Cavalry
   index: -1
 UnitIcons/Unit.Light Cruiser
   rotate: false
-  xy: 1280, 162
+  xy: 1370, 1372
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Locomotive regiment
   rotate: false
-  xy: 1280, 54
+  xy: 1478, 1480
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1406,14 +1679,14 @@ UnitIcons/Unit.Modular Ship
   index: -1
 UnitIcons/Unit.Mortars
   rotate: false
-  xy: 1370, 1480
+  xy: 1370, 1264
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Motorboat
   rotate: false
-  xy: 1370, 1371
+  xy: 1478, 1371
   size: 100, 101
   orig: 100, 101
   offset: 0, 0
@@ -1455,7 +1728,7 @@ UnitIcons/Unit.Pioneer
   index: -1
 UnitIcons/Unit.Riprap
   rotate: false
-  xy: 1478, 1480
+  xy: 1586, 1480
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1476,7 +1749,7 @@ UnitIcons/Unit.Self-propelled gun
   index: -1
 UnitIcons/Unit.Special Force
   rotate: false
-  xy: 1370, 1263
+  xy: 1586, 1372
   size: 100, 100
   orig: 100, 100
   offset: 0, 0

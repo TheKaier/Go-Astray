@@ -21,7 +21,7 @@
         "[-25]% [Production] [in all cities] <when below [-10] [Happiness]>",
         "[-25]% [Production] [in all cities] <when below [-15] [Happiness]>",
         "[-33]% Strength <for [All] units> <when below [-10] [Happiness]>",
-        "Cannot build [Settler] units <when below [-10] [Happiness]>",
+        "Cannot build [Unit.Pioneer] units <when below [-10] [Happiness]>",
         "Rebel units may spawn <when below [-15] [Happiness]>",
         
         //"[1] free random researchable Tech(s) from the [Era.Wasteland] <when number of [Resource.Scientific Level] is less than [Resource.Scientific Research Point]> <upon turn end>",
@@ -33,9 +33,13 @@
         "Provides [40] [Resource.Manpower max]",
         "Adopt [Reign panel]",
         
-        "Provides [1] [RN1] <for every [([turns] * 154 * [[Plains] Tiles] + [Gold] * 126 * [[Grassland] Tiles] + [Culture] * 198 * [[Plains] Tiles] + [Happiness] * 161 * [[City center] Tiles] + 233 * [[Barbarian encampment] Tiles]) % 1000]>",
-        //"Provides [1] [RN1]",
+        "Provides [1] [RN1] <for every [([turns] * 184 * [[Plains] Tiles] + [Gold] * 106 * [[Grassland] Tiles] + [Culture] * 178 * [[Plains] Tiles] + [Happiness] * 141 * [[City center] Tiles] + 213 * [[Barbarian encampment] Tiles]) % 1000]>",
         
+        
+        
+        
+        
+        //"Provides [1] [RN2] <for every [([turns] * 34 + 59 * [[Barbarian encampment] Tiles] + [Gold] * 93 * [[Grassland] Tiles] + [Culture] * 46 * [[Plains] Tiles] + [Happiness] * 61 * [[Plains] Tiles] + 73 * [[Barbarian encampment] Tiles]) % 100]>",
         
         
         //
