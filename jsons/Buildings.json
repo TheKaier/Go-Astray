@@ -1,4 +1,42 @@
 [
+    
+    
+    
+    {
+	"name": "Space Orbit Seizure",//太空轨道
+	"cost": 0,
+	"requiredTech": "Tech.Satellite"
+	"uniques": [
+		"Only available <in cities with a [NationWonder.Space Orbit Seizure]>",
+		"Triggers a [Space Orbit Seizure] event",
+		"Remove [Space Orbit Seizure] [in this city] <hidden from users>",
+		"Unbuildable <for [AI player] Civilizations> <hidden from users>",
+		
+		
+	]
+    },
+    {
+	"name": "Launch a satellite",//发射卫星
+	"cost": 250,
+	"requiredTech": "Tech.Satellite"
+	"uniques": [
+		"Only available <in cities with a [NationWonder.Space Orbit Seizure]>",
+		//"Remove [Launch a satellite] [in this city] <hidden from users>",
+		"Instantly provides [1] [Satellite]",
+		
+	]
+    },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     {
 		"name": "Building.Command Center",
 		"isNationalWonder": true,
@@ -13,7 +51,7 @@
 		"Instantly provides [140] [Resource.Manpower]",
 		"Instantly provides [40] [Resource.Scientific Level]",
 		//"Provides [5] [Resource.Scientific Research Point]",
-		"Provides [30] [Resource.Water capacity]",
+		"Provides [75] [Resource.Water capacity]",
 		
 		//"Triggers a [super event] event",
 		
@@ -26,7 +64,7 @@
 	//	"isNationalWonder": true,
 	//	"cost": 120,
 	//	"uniques": [
-	//	"Gain a free [NationWonderExpand.xxxxxxx] [in capital] <if [NationWonder.xxxxxxx] is not constructed by anybody> <hidden from users>",
+	//	"Gain a free [NationWonderExpand.xxxxxxx] [in this city] <if [NationWonder.xxxxxxx] is not constructed by anybody> <hidden from users>",
 	//	]
 	//},
     {
@@ -36,7 +74,8 @@
 	"cost": 120,
 	"requiredTech": "Tech.Mechanical"
 	"uniques": [
-		"Gain a free [NationWonderExpand.Production Line Planning] [in capital] <if [NationWonder.Production Line Planning] is not constructed by anybody> <hidden from users>",
+		//"Gain a free [NationWonderExpand.Production Line Planning] [in this city] <if [NationWonder.Production Line Planning] is not constructed by anybody> <hidden from users>",
+		"Gain a free [NationWonderExpand.Production Line Planning] [in this city] <when number of [[NationWonder.Production Line Planning] Buildings by [Major] Civilizations] is less than [2]> <hidden from users>",
 		"[+15]% [Production] [in all cities]",
 	]
     },
@@ -47,7 +86,8 @@
 	"cost": 240,
 	"requiredTech": "Tech.The water cycle"
 	"uniques": [
-		"Gain a free [NationWonderExpand.Wastewater Treatment System] [in capital] <if [NationWonder.Wastewater Treatment System] is not constructed by anybody> <hidden from users>",
+		//"Gain a free [NationWonderExpand.Wastewater Treatment System] [in this city] <if [NationWonder.Wastewater Treatment System] is not constructed by anybody> <hidden from users>",
+		"Gain a free [NationWonderExpand.Wastewater Treatment System] [in this city] <when number of [[NationWonder.Wastewater Treatment System] Buildings by [Major] Civilizations] is less than [2]> <hidden from users>",
 		"[+15]% [Food] [in all cities]",
 	]
     },
@@ -59,7 +99,8 @@
 	"cost": 240,
 	"requiredTech": "Tech.Mining"
 	"uniques": [
-		"Gain a free [NationWonderExpand.Blast Furnace Design] [in capital] <if [NationWonder.Blast Furnace Design] is not constructed by anybody> <hidden from users>",
+		//"Gain a free [NationWonderExpand.Blast Furnace Design] [in this city] <if [NationWonder.Blast Furnace Design] is not constructed by anybody> <hidden from users>",
+		"Gain a free [NationWonderExpand.Blast Furnace Design] [in this city] <when number of [[NationWonderExpand.Blast Furnace Design] Buildings by [Major] Civilizations] is less than [2]> <hidden from users>",
 	]
     },
     {
@@ -69,7 +110,8 @@
 	"cost": 500,
 	"requiredTech": "Tech.Distilled water"
 	"uniques": [
-		"Gain a free [NationWonderExpand.Energy-Efficient Distillation] [in capital] <if [NationWonder.Energy-Efficient Distillation] is not constructed by anybody> <hidden from users>",
+		//"Gain a free [NationWonderExpand.Energy-Efficient Distillation] [in this city] <if [NationWonder.Energy-Efficient Distillation] is not constructed by anybody> <hidden from users>",
+		"Gain a free [NationWonderExpand.Energy-Efficient Distillation] [in this city] <when number of [[NationWonder.Energy-Efficient Distillation] Buildings by [Major] Civilizations] is less than [2]> <hidden from users>",
 		"[+35]% [Gold] [in all cities]",
 	]
     },
@@ -80,7 +122,8 @@
 	"cost": 500,
 	"requiredTech": "Tech.Computer"
 	"uniques": [
-		"Gain a free [NationWonderExpand.Independent Systems Design] [in capital] <if [NationWonder.Independent Systems Design] is not constructed by anybody> <hidden from users>",
+		//"Gain a free [NationWonderExpand.Independent Systems Design] [in this city] <if [NationWonder.Independent Systems Design] is not constructed by anybody> <hidden from users>",
+		"Gain a free [NationWonderExpand.Independent Systems Design] [in this city] <when number of [[NationWonder.Independent Systems Design] Buildings by [Major] Civilizations] is less than [2]> <hidden from users>",
 		"[+100]% [Science] [in this city]",
 	]
     },
@@ -91,7 +134,8 @@
 	"cost": 500,
 	"requiredTech": "Tech.Dam"
 	"uniques": [
-		"Gain a free [NationWonderExpand.Super Dam Project] [in capital] <if [NationWonder.Super Dam Project] is not constructed by anybody> <hidden from users>",
+		//"Gain a free [NationWonderExpand.Super Dam Project] [in this city] <if [NationWonder.Super Dam Project] is not constructed by anybody> <hidden from users>",
+		"Gain a free [NationWonderExpand.Super Dam Project] [in this city] <when number of [[NationWonder.Super Dam Project] Buildings by [Major] Civilizations] is less than [2]> <hidden from users>",
 		"[+1 Production, +1 Gold] from [River] tiles [in this city]",
 		"[+25]% [Production] [in this city]",
 	]
@@ -103,7 +147,8 @@
 	"cost": 1000,
 	"requiredTech": "Tech.Microdevices"
 	"uniques": [
-		"Gain a free [NationWonderExpand.Machine Tool Manufacturing] [in capital] <if [NationWonder.Machine Tool Manufacturing] is not constructed by anybody> <hidden from users>",
+		//"Gain a free [NationWonderExpand.Machine Tool Manufacturing] [in this city] <if [NationWonder.Machine Tool Manufacturing] is not constructed by anybody> <hidden from users>",
+		"Gain a free [NationWonderExpand.Machine Tool Manufacturing] [in this city] <when number of [[NationWonder.Machine Tool Manufacturing] Buildings by [Major] Civilizations] is less than [2]> <hidden from users>",
 		"[+100]% [Production] [in this city]",
 		"Cannot be hurried",
 	]
@@ -115,7 +160,8 @@
 	"cost": 1000,
 	"requiredTech": "Tech.Particle Engineering"
 	"uniques": [
-		"Gain a free [NationWonderExpand.Nuclear Warfare Plan] [in capital] <if [NationWonder.Nuclear Warfare Plan] is not constructed by anybody> <hidden from users>",
+		//"Gain a free [NationWonderExpand.Nuclear Warfare Plan] [in this city] <if [NationWonder.Nuclear Warfare Plan] is not constructed by anybody> <hidden from users>",
+		"Gain a free [NationWonderExpand.Nuclear Warfare Plan] [in this city] <when number of [[NationWonder.Nuclear Warfare Plan] Buildings by [Major] Civilizations] is less than [2]> <hidden from users>",
 		"Enables nuclear weapon",
 		"Cannot be hurried",
 	]
@@ -127,7 +173,8 @@
 	"cost": 1500,
 	"requiredTech": "Tech.Artificial intelligence"
 	"uniques": [
-		"Gain a free [NationWonderExpand.AI Governance Experiment] [in capital] <if [NationWonder.AI Governance Experiment] is not constructed by anybody> <hidden from users>",
+		//"Gain a free [NationWonderExpand.AI Governance Experiment] [in this city] <if [NationWonder.AI Governance Experiment] is not constructed by anybody> <hidden from users>",
+		"Gain a free [NationWonderExpand.AI Governance Experiment] [in this city] <when number of [[NationWonder.AI Governance Experiment] Buildings by [Major] Civilizations] is less than [2]> <hidden from users>",
 		"[+30]% [Production] [in all cities]",
         "[+30]% [Science] [in all cities]",
         "[+30]% [Gold] [in all cities]",
@@ -141,7 +188,8 @@
 	"cost": 1500,
 	"requiredTech": "Tech.Automatic production"
 	"uniques": [
-		"Gain a free [NationWonderExpand.Complete Industry Deployment] [in capital] <if [NationWonder.Complete Industry Deployment] is not constructed by anybody> <hidden from users>",
+		//"Gain a free [NationWonderExpand.Complete Industry Deployment] [in this city] <if [NationWonder.Complete Industry Deployment] is not constructed by anybody> <hidden from users>",
+		"Gain a free [NationWonderExpand.Complete Industry Deployment] [in this city] <when number of [[NationWonder.Complete Industry Deployment] Buildings by [Major] Civilizations] is less than [2]> <hidden from users>",
 		"[+1 Happiness] from all [Happiness] buildings",
         "[+1 Culture] from all [Culture] buildings",
         "[+1 Food] from all [Food] buildings",
@@ -158,8 +206,10 @@
 	"cost": 1500,
 	"requiredTech": "Tech.Satellite"
 	"uniques": [
-		"Gain a free [NationWonderExpand.Space Orbit Seizure] [in capital] <if [NationWonder.Space Orbit Seizure] is not constructed by anybody> <hidden from users>",
-		"Adopt [Space Orbit Seizure]",
+		//"Gain a free [NationWonderExpand.Space Orbit Seizure] [in this city] <if [NationWonder.Space Orbit Seizure] is not constructed by anybody> <hidden from users>",
+		"Gain a free [NationWonderExpand.Space Orbit Seizure] [in this city] <when number of [[NationWonder.Space Orbit Seizure] Buildings by [Major] Civilizations] is less than [2]> <hidden from users>",
+		//"Adopt [Space Orbit Seizure]",
+		"Instantly provides [1] [Satellite]",
 		"Reveals the entire map",
 		"Cannot be hurried",
 	]
@@ -171,8 +221,8 @@
 	"cost": 2000,
 	"requiredTech": "Tech.Doomsday Mech"
 	"uniques": [
-		"Gain a free [NationWonderExpand.Self-Iterative Design] [in capital] <if [NationWonder.Self-Iterative Design] is not constructed by anybody> <hidden from users>",
-		
+		//"Gain a free [NationWonderExpand.Self-Iterative Design] [in this city] <if [NationWonder.Self-Iterative Design] is not constructed by anybody> <hidden from users>",
+		"Gain a free [NationWonderExpand.Self-Iterative Design] [in this city] <when number of [[NationWonder.Self-Iterative Design] Buildings by [Major] Civilizations] is less than [2]> <hidden from users>",
 		"Cannot be hurried",
 	]
     },*/
@@ -597,7 +647,7 @@
 		//"maintenance": 1,
 		"cost": 30,
 		"uniques": [
-		"Provides [10] [Resource.Water capacity]",
+		"Provides [25] [Resource.Water capacity]",
 		//"Provides [1] [Resource.Water]",
 		],
 		"requiredTech": "Tech.Initial clean water"
@@ -632,12 +682,14 @@
 	},
 	{
 		"name": "Building.Aqueduct",//引水渠
-		"gold": 2,
+		"gold": 3,
 		//"requiredBuilding": "",
 		//"maintenance": 1,
-		"cost": 45,
+		"cost": 50,
 		"uniques": [
-		"Provides [5] [Resource.Water capacity]",
+		"Provides [25] [Resource.Water capacity]",
+		"[30]% Food is carried over after population increases [in this city]",
+        "[+15]% growth [in this city]",
 		//"Provides [1] [Resource.Water]",
 		"Must be next to [Fresh Water]",
 		],
@@ -645,12 +697,12 @@
 	},
 	{
 		"name": "Building.Cistern",//蓄水池
-		"gold": 2,
+		"gold": 3,
 		//"requiredBuilding": "",
 		//"maintenance": 1,
 		"cost": 45,
 		"uniques": [
-		"Provides [5] [Resource.Water capacity]",
+		"Provides [25] [Resource.Water capacity]",
 		//"Provides [1] [Resource.Water]",
 		],
 		"requiredTech": "Tech.Water Storage Project"
@@ -701,19 +753,19 @@
 		"uniques": [
 		"[+6 Gold] [in this city] <when above [1] [Resource.Wood]>",
 		"Consumes [2] [Resource.Wood] <when above [1] [Resource.Wood]>",
-		"Provides [5] [Resource.Water capacity]",
+		"Provides [25] [Resource.Water capacity]",
 		],
 		"requiredTech": "Tech.Plant water"
 	},
 	{
 		"name": "Building.Large water tank",//大型水箱
-		"gold": 3,
+		"gold": 4,
 		//"requiredBuilding": "",
 		//"maintenance": 1,
 		"cost": 100,
 		"uniques": [
 		//"Provides [1] [Resource.Water]",
-		"Provides [20] [Resource.Water capacity]",
+		"Provides [75] [Resource.Water capacity]",
 		],
 		"requiredTech": "Tech.The water cycle"
 	},
@@ -787,7 +839,7 @@
 		"cost": 120,
 		"uniques": [
 		"[+10]% [Production] [in this city] <when above [1] [Gold]>",
-		"Provides [5] [Resource.Water capacity]",
+		"Provides [25] [Resource.Water capacity]",
 		],
 		"requiredTech": "Tech.Industrial water"
 	},
@@ -798,7 +850,7 @@
 		//"maintenance": 1,
 		"cost": 120,
 		"uniques": [
-		"Provides [30] [Resource.Water capacity]",
+		"Provides [150] [Resource.Water capacity]",
 		],
 		"requiredTech": "Tech.Industrial water"
 	},
@@ -838,7 +890,7 @@
 		"uniques": [
 		"[+5 Gold] [in this city] <when above [1] [Resource.Electricity]>",
 		"Consumes [2] [Resource.Electricity] <when above [1] [Resource.Electricity]>",
-		"Provides [10] [Resource.Water capacity]",
+		"Provides [25] [Resource.Water capacity]",
 		//"Provides [2] [Resource.Water]",
 		],
 		"requiredTech": "Tech.Distilled water"
@@ -961,7 +1013,7 @@
 		"Must be on [River]",
 		"[+1 Gold] from [River] tiles [in this city]",
 		"Provides [2] [Resource.Electricity]",
-		"Provides [40] [Resource.Water capacity]",
+		"Provides [100] [Resource.Water capacity]",
 		],
 		"requiredTech": "Tech.Dam"
 	},
@@ -1138,122 +1190,122 @@
     {
 		"name": "Instruction.Field collection",//野外采集
 		//"requiredBuilding": "",
-		"cost": 10,
+		"cost": 20,
 		"uniques": [
 		"Remove [Instruction.Field collection] [in this city] <hidden from users>",
-		"Instantly provides [5] [Resource.Manpower]",
+		"Instantly provides [10] [Resource.Manpower]",
 		],
 		"requiredTech": "Tech.Recycling of building materials"
 	},
     {
 		"name": "Instruction.Expedited manufacturing I",//加急制造I
 		//"requiredBuilding": "",
-		"cost": 10,
+		"cost": 20,
 		"uniques": [
 		"Remove [Instruction.Expedited manufacturing I] [in this city] <hidden from users>",
-		"Consumes [2] [Resource.Wood]",
-		"Instantly provides [2] [Resource.Tools]",
-		"Instantly consumes [2] [Resource.Wood]",
+		"Consumes [4] [Resource.Wood]",
+		"Instantly provides [4] [Resource.Tools]",
+		"Instantly consumes [4] [Resource.Wood]",
 		],
 		"requiredTech": "Tech.Pipe making"
 	},
     {
 		"name": "Instruction.Expedited manufacturing II",//加急制造II
 		//"requiredBuilding": "",
-		"cost": 20,
+		"cost": 40,
 		"uniques": [
 		"Remove [Instruction.Expedited manufacturing II] [in this city] <hidden from users>",
-		"Consumes [3] [Resource.Iron]",
-		"Instantly provides [2] [Resource.Gun]",
-		"Instantly consumes [3] [Resource.Iron]",
+		"Consumes [6] [Resource.Iron]",
+		"Instantly provides [4] [Resource.Gun]",
+		"Instantly consumes [6] [Resource.Iron]",
 		],
 		"requiredTech": "Tech.Batch engineering"
 	},
     {
 		"name": "Instruction.Concentrate water resources I",//集中水资源I
 		//"requiredBuilding": "",
-		"cost": 10,
+		"cost": 20,
 		"uniques": [
 		"Remove [Instruction.Concentrate water resources I] [in this city] <hidden from users>",
-		"Gain [25] [Gold]",
+		"Gain [50] [Gold]",
 		],
 		"requiredTech": "Tech.Initial clean water"
 	},
     {
 		"name": "Instruction.Concentrate water resources II",//集中水资源II
 		//"requiredBuilding": "",
-		"cost": 20,
+		"cost": 40,
 		"uniques": [
 		"Remove [Instruction.Concentrate water resources II] [in this city] <hidden from users>",
-		"Gain [60] [Gold]",
+		"Gain [120] [Gold]",
 		],
 		"requiredTech": "Tech.Water Storage Project"
 	},
     {
 		"name": "Instruction.Concentrate water resources III",//集中水资源III
 		//"requiredBuilding": "",
-		"cost": 30,
+		"cost": 60,
 		"uniques": [
 		"Remove [Instruction.Concentrate water resources III] [in this city] <hidden from users>",
-		"Gain [150] [Gold]",
-		"Consumes [4] [Resource.Wood]",
-		"Instantly consumes [4] [Resource.Wood]",
+		"Gain [300] [Gold]",
+		"Consumes [8] [Resource.Wood]",
+		"Instantly consumes [8] [Resource.Wood]",
 		],
 		"requiredTech": "Tech.Extractive Industries"
 	},
     {
 		"name": "Instruction.Quarrying stone",//采收石料
 		//"requiredBuilding": "",
-		"cost": 10,
+		"cost": 20,
 		"uniques": [
 		"Remove [Instruction.Quarrying stone] [in this city] <hidden from users>",
-		"Instantly provides [2] [Resource.Stone]",
+		"Instantly provides [4] [Resource.Stone]",
 		],
 		"requiredTech": "Tech.Mechanical"
 	},
     {
 		"name": "Instruction.Trade in resources I",//资源贸易I
 		//"requiredBuilding": "",
-		"cost": 10,
+		"cost": 20,
 		"uniques": [
 		"Remove [Instruction.Trade in resources I] [in this city] <hidden from users>",
-		"Consumes [4] [Resource.Stone]",
-		"Instantly provides [3] [Resource.Wood]",
-		"Instantly consumes [4] [Resource.Stone]",
+		"Consumes [8] [Resource.Stone]",
+		"Instantly provides [6] [Resource.Wood]",
+		"Instantly consumes [8] [Resource.Stone]",
 		],
 		"requiredTech": "Tech.Scale harvesting"
 	},
     {
 		"name": "Instruction.Trade in resources II",//资源贸易II
 		//"requiredBuilding": "",
-		"cost": 10,
+		"cost": 20,
 		"uniques": [
 		"Remove [Instruction.Trade in resources II] [in this city] <hidden from users>",
-		"Consumes [4] [Resource.Stone]",
-		"Gain [35] [Gold]",
-		"Instantly consumes [4] [Resource.Stone]",
+		"Consumes [8] [Resource.Stone]",
+		"Gain [70] [Gold]",
+		"Instantly consumes [8] [Resource.Stone]",
 		],
 		"requiredTech": "Tech.Scale harvesting"
 	},
     {
 		"name": "Instruction.Finishing",//精加工
 		//"requiredBuilding": "",
-		"cost": 30,
+		"cost": 60,
 		"uniques": [
 		"Remove [Instruction.Finishing] [in this city] <hidden from users>",
-		"Consumes [7] [Resource.Stone]",
-		"Instantly provides [5] [Resource.Coal]",
-		"Instantly consumes [7] [Resource.Stone]",
+		"Consumes [14] [Resource.Stone]",
+		"Instantly provides [10] [Resource.Coal]",
+		"Instantly consumes [14] [Resource.Stone]",
 		],
 		"requiredTech": "Tech.Mining"
 	},
     {
 		"name": "Instruction.Scientific Research",//科研攻坚
 		//"requiredBuilding": "",
-		"cost": 40,
+		"cost": 100,
 		"uniques": [
 		"Remove [Instruction.Scientific Research] [in this city] <hidden from users>",
-		"Gain [50] [Science]",
+		"Gain [100] [Science]",
 		//"Instantly provides [10] [Resource.Scientific Research Point]",
 		],
 		"requiredTech": "Tech.Transistors"
@@ -1261,22 +1313,23 @@
     {
 		"name": "Instruction.Industrial water",//工业用水
 		//"requiredBuilding": "",
-		"cost": 40,
+		"cost": 100,
 		"uniques": [
 		"Remove [Instruction.Industrial water] [in this city] <hidden from users>",
-		"Instantly provides [20] [Resource.Scientific Research Point]",
-		"Gain [-50] [Gold]",
-		"Only available <when above [49] [Gold]>",
+		//"Instantly provides [40] [Resource.Scientific Research Point]",
+		"Gain [150] [Science]",
+		"Gain [-100] [Gold]",
+		"Only available <when above [99] [Gold]>",
 		],
 		"requiredTech": "Tech.Pure water"
 	},
 	{
 		"name": "Instruction.Uranium refining",//铀精炼
 		//"requiredBuilding": "",
-		"cost": 50,
+		"cost": 100,
 		"uniques": [
 		"Remove [Instruction.Uranium refining] [in this city] <hidden from users>",
-		"Instantly provides [2] [Resource.Uranium]",
+		"Instantly provides [4] [Resource.Uranium]",
 		],
 		"requiredTech": "Tech.Particle Engineering"
 	},

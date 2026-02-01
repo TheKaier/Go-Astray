@@ -447,7 +447,7 @@
             }
         ]
     },
-    {
+    /*{
         "name": "Space Orbit Seizure",
         "era": "Era.Wasteland",
         "priorities": {
@@ -458,14 +458,14 @@
             
         ],
         "policies": [
-        /*{
+        {
                 "name": "",
                 "uniques": [
 
                 ],
                 "row": 1,
                 "column": 1
-            },*/
+            },
             {
                 "name": "Space Orbit Seizure Complete",
                 "uniques": [
@@ -473,5 +473,5 @@
                 ]
             }
         ]
-    },
+    },*/
 ]

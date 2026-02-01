@@ -1085,7 +1085,7 @@
 		"requiredTech": "Tech.Artificial intelligence",
 		"uniques": [
 		"Cannot move",
-		
+		"Unbuildable",
 		],
 	},
 	
@@ -1282,7 +1282,26 @@
 	
 	
 	
-	
+	{
+		"name": "Orbital fire support",
+		"unitType": "UnitType.Nuclear",
+		"movement": 1,
+		"strength": 150,
+		"rangedStrength": 150,
+		"range": 20,
+		"cost": 1,
+		//"requiredTech": "Tech.Nuclear reaction",
+		//"promotions" : [],
+		"uniques": [
+		"Nuclear weapon of Strength [1]",
+		//"Only available <if [Manhattan Project] is constructed>",
+		"Self-destructs when attacking",
+			"Blast radius [2]",
+			"Unbuildable",
+			"[This Unit] takes [100] damage <upon turn end>",
+			],
+		"attackSound": "nuke"
+	},
 	
 	
 	

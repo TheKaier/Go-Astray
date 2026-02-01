@@ -390,6 +390,51 @@
     ]
 }
 */
+{
+    "name":"Space Orbit Seizure",
+    "text":"Welcome to the orbital capture system, commander",
+    "choices":[
+        {
+            "text":"[The extent to which our satellites occupy airspace] V",
+            "uniques":[
+            "Only available <when number of [[[Launch a satellite] Buildings by [Major] Civilizations] / [[Launch a satellite] Buildings by [Your] Civilizations]] is less than [2]>",
+            ],
+        },
+        {
+            "text":"[The extent to which our satellites occupy airspace] IV",
+            "uniques":[
+            "Only available <when number of [[[Launch a satellite] Buildings by [Major] Civilizations] / [[Launch a satellite] Buildings by [Your] Civilizations]] is less than [3]> <when number of [[[Launch a satellite] Buildings by [Major] Civilizations] / [[Launch a satellite] Buildings by [Your] Civilizations]] is more than [2]>",
+            ],
+        },
+        {
+            "text":"[The extent to which our satellites occupy airspace] III",
+            "uniques":[
+            "Only available <when number of [[[Launch a satellite] Buildings by [Major] Civilizations] / [[Launch a satellite] Buildings by [Your] Civilizations]] is less than [4]> <when number of [[[Launch a satellite] Buildings by [Major] Civilizations] / [[Launch a satellite] Buildings by [Your] Civilizations]] is more than [3]>",
+            ],
+        },
+        {
+            "text":"[The extent to which our satellites occupy airspace] II",
+            "uniques":[
+            "Only available <when number of [[[Launch a satellite] Buildings by [Major] Civilizations] / [[Launch a satellite] Buildings by [Your] Civilizations]] is less than [6]> <when number of [[[Launch a satellite] Buildings by [Major] Civilizations] / [[Launch a satellite] Buildings by [Your] Civilizations]] is more than [4]>",
+            ],
+        },
+        {
+            "text":"[The extent to which our satellites occupy airspace] I",
+            "uniques":[
+            "Only available <when number of [[[Launch a satellite] Buildings by [Major] Civilizations] / [[Launch a satellite] Buildings by [Your] Civilizations]] is more than [6]>",
+            ],
+        },
+        {
+            "text":"Provide orbital fire support",
+            "uniques":[
+            "Only available <when number of [[[Launch a satellite] Buildings by [Major] Civilizations] / [[Launch a satellite] Buildings by [Your] Civilizations]] is less than [4]> <when above [149] [Resource.Electricity]>",
+            
+            "Instantly consumes [150] [Resource.Electricity]",
+            "[1] free [Orbital fire support] units appear",
+            ],
+        },
+    ]
+},
 ]
     //<hidden from users>
     //<with [20]% chance>
