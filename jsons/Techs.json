@@ -301,6 +301,7 @@
 		"prerequisites": ["Tech.Plant water","Tech.The water cycle"],
                 "quote": "",
                 "uniques": [
+                "Comment [[Resource.Horses] additional provides [2] [Resource.Horses]]",
 		//"Instantly consumes [150] [Resource.Scientific Research Point]",
 		//"Instantly provides [15] [Resource.Scientific Level]",
                 ]
@@ -402,6 +403,8 @@
                 "quote": "",
                 "uniques": [
                 "[+1 Production, +1 Food] from every [TileImprovement.Ranch]",
+                "Comment [[Resource.Stone] additional provides [1] [Resource.Stone]]",
+                "Comment [[Resource.Wood] additional provides [1] [Resource.Wood]]",
 		//"Instantly consumes [250] [Resource.Scientific Research Point]",
 		//"Instantly provides [16] [Resource.Scientific Level]",
                 ]
@@ -482,6 +485,8 @@
 		"prerequisites": ["Tech.Computer"],
                 "quote": "",
                 "uniques": [
+                "Comment [[Resource.Iron] additional provides [2] [Resource.Iron]]",
+                "Comment [[Resource.Coal] additional provides [1] [Resource.Coal]]",
 		//"Instantly consumes [330] [Resource.Scientific Research Point]",
 		//"Instantly provides [20] [Resource.Scientific Level]",
                 ]

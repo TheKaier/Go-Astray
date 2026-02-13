@@ -406,7 +406,7 @@
 		"Unsellable",
 		"Destroyed when the city is captured",
 		"Automatically built in all cities where it is buildable",
-		"Only available <in cities without a [City rank I]> <in cities without a [City rank II]> <in cities without a [City rank III]> <in cities without a [City rank IV]> <in cities without a [City rank V]>",
+		"Only available <in cities without a [City rank I]> <in cities without a [City rank II]> <in cities without a [City rank III]> <in cities without a [City rank IV]> <in cities without a [City rank V]> <in cities without a [City rank VI]>",
 		"Nullifies Growth [in this city] <in cities with at least [2] [Population]>",
 		
 		"[-25]% [Production] [in this city]",
@@ -422,7 +422,7 @@
 		"Unsellable",
 		"Destroyed when the city is captured",
 		"Automatically built in all cities where it is buildable",
-		"Only available <in cities without a [City rank II]> <in cities without a [City rank III]> <in cities without a [City rank IV]> <in cities without a [City rank V]>",
+		"Only available <in cities without a [City rank II]> <in cities without a [City rank III]> <in cities without a [City rank IV]> <in cities without a [City rank V]> <in cities without a [City rank VI]>",
 		"Nullifies Growth [in this city] <in cities with at least [5] [Population]>",
 		"Remove [City rank 0] [in this city] <hidden from users>",
 		
@@ -436,7 +436,7 @@
 		"Unsellable",
 		"Destroyed when the city is captured",
 		"Automatically built in all cities where it is buildable",
-		"Only available <in cities without a [City rank III]> <in cities without a [City rank IV]> <in cities without a [City rank V]>",
+		"Only available <in cities without a [City rank III]> <in cities without a [City rank IV]> <in cities without a [City rank V]> <in cities without a [City rank VI]>",
 		"Nullifies Growth [in this city] <in cities with at least [7] [Population]>",
 		"Requires at least [5] population",
 		"Remove [City rank I] [in this city] <hidden from users>",
@@ -453,7 +453,7 @@
 		"Unsellable",
 		"Destroyed when the city is captured",
 		"Automatically built in all cities where it is buildable",
-		"Only available <in cities without a [City rank IV]> <in cities without a [City rank V]>",
+		"Only available <in cities without a [City rank IV]> <in cities without a [City rank V]> <in cities without a [City rank VI]>",
 		"Nullifies Growth [in this city] <in cities with at least [10] [Population]>",
 		"Requires at least [7] population",
 		"Remove [City rank II] [in this city] <hidden from users>",
@@ -470,7 +470,7 @@
 		"Unsellable",
 		"Destroyed when the city is captured",
 		"Automatically built in all cities where it is buildable",
-		"Only available <in cities without a [City rank V]>",
+		"Only available <in cities without a [City rank V]> <in cities without a [City rank VI]> <when below [4] [Progress of Chaos]>",
 		"Nullifies Growth [in this city] <in cities with at least [15] [Population]>",
 		"Requires at least [10] population",
 		"Remove [City rank III] [in this city] <hidden from users>",
@@ -488,14 +488,34 @@
 		"Unsellable",
 		"Destroyed when the city is captured",
 		"Automatically built in all cities where it is buildable",
-		//"Only available <in cities without a [City rank V]>",
-		//"Nullifies Growth [in this city] <in cities with at least [15] [Population]>",
+		"Only available <when below [1] [Progress of Chaos]>",
+		"Nullifies Growth [in this city] <in cities with at least [20] [Population]>",
+		"Triggers a global alert upon completion",
 		"Requires at least [15] population",
 		"Remove [City rank IV] [in this city] <hidden from users>",
 		"[+25]% [Production] [in this city]",
 		"[+25]% [Science] [in this city]",
 		"[+25]% [Gold] [in this city]",
 		"[+25]% [Culture] [in this city]",
+		]
+	},
+	{
+		"name": "City rank VI",//
+		"happiness": -15,
+		"cost": 0,
+		"uniques": [
+		"Unsellable",
+		"Destroyed when the city is captured",
+		"Automatically built in all cities where it is buildable",
+		"Only available <when below [1] [Progress of Chaos]>",
+		//"Nullifies Growth [in this city] <in cities with at least [15] [Population]>",
+		"Triggers a global alert upon completion",
+		"Requires at least [20] population",
+		"Remove [City rank V] [in this city] <hidden from users>",
+		"[+35]% [Production] [in this city]",
+		"[+35]% [Science] [in this city]",
+		"[+35]% [Gold] [in this city]",
+		"[+35]% [Culture] [in this city]",
 		]
 	},
 	{
@@ -1397,6 +1417,50 @@
         "Triggers a global alert upon completion",
         "Provides [1] [Progress of Chaos]",
         "[+1]% Strength",
+        
+        "Remove [Successor] [in this city] <hidden from users>",
+        "Remove [Cenozoic] [in this city] <hidden from users>",
+        "Remove [Warlord] [in this city] <hidden from users>",
+        
+        
+        "Remove [Collective Security Organization] [in this city] <hidden from users>",
+        "Remove [People's Front] [in this city] <hidden from users>",
+        "Remove [Long March] [in this city] <hidden from users>",
+        "Remove [Celestial Empire of China] [in this city] <hidden from users>",
+        //"Remove [Chinese Communist Party] [in this city] <hidden from users>",
+        "Remove [Production and Construction Corps] [in this city] <hidden from users>",
+        "Remove [Autonomous Special Zone of Trade] [in this city] <hidden from users>",
+        
+        
+        "Remove [United States Constitutional Government] [in this city] <hidden from users>",
+        "Remove [American Union] [in this city] <hidden from users>",
+        "Remove [People's Liberation Army of America] [in this city] <hidden from users>",
+        "Remove [Patriotic Front] [in this city] <hidden from users>",
+        "Remove [National Socialist Movement] [in this city] <hidden from users>",
+        "Remove [Atomic Division] [in this city] <hidden from users>",
+        //"Remove [United Nations] [in this city] <hidden from users>",
+        
+        
+        "Remove [Russian Federation] [in this city] <hidden from users>",
+        "Remove [Tsarist Russia] [in this city] <hidden from users>",
+        "Remove [Soviet Union] [in this city] <hidden from users>",
+        "Remove [Russian State] [in this city] <hidden from users>",
+        
+        
+        /*"Remove [xxxxx] [in this city] <hidden from users>",
+        "Remove [xxxxx] [in this city] <hidden from users>",
+        "Remove [xxxxx] [in this city] <hidden from users>",
+        */
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
     ]
 },
 
@@ -1602,8 +1666,9 @@
         "Provides [1] [Progress of Warlord]",
         "[+1]% Strength",
         
-        "[+50]% maintenance costs",
+        "[-50]% maintenance costs",
         "[-25]% Strength <in [Friendly Land] tiles>",
+        "[+25]% Strength <in [Enemy Land] tiles>",
         "[-25]% [Science] [in all cities]",
     ]
 },
@@ -1680,11 +1745,59 @@
         "[+1]% Strength",
         
         "[+2 Science, +2 Production, +2 Food, +2 Happiness] [in capital]",
-        "[+33]% Unhappiness from [Population] [in all cities]",
+        "[-33]% Unhappiness from [Population] [in all cities]",
     ]
 },
-    
-    
-    
+    //
+    //
+    //欧洲
+    {
+    "name": "European Union",//欧盟
+    "cost": 0,
+    "uniques": [
+        "Moves to new capital when capital changes",
+        "Unbuildable",
+        "Unsellable",
+        "Triggers a global alert upon completion",
+        "Provides [1] [Progress of Successor]",
+        "[+1]% Strength",
+        
+        "Provides [50] [Resource.Manpower max]",
+        "[+1 Happiness] [in all cities]",
+        "[+10]% Strength <when fighting in [Friendly Land] tiles>",
+    ]
+},
+    {
+    "name": "European Communist International",//欧洲共产国际
+    "cost": 0,
+    "uniques": [
+        "Moves to new capital when capital changes",
+        "Unbuildable",
+        "Unsellable",
+        "Triggers a global alert upon completion",
+        "Provides [1] [Progress of Cenozoic]",
+        "[+1]% Strength",
+        
+        "Provides [5] [Resource.Manpower]",
+        "[+1 Culture] [in all cities]",
+        "[+10]% Strength <when fighting in [Enemy Land] tiles>",
+    ]
+    },
+    {
+    "name": "Davos Forum",//达沃斯论坛
+    "cost": 0,
+    "uniques": [
+        "Moves to new capital when capital changes",
+        "Unbuildable",
+        "Unsellable",
+        "Triggers a global alert upon completion",
+        "Provides [1] [Progress of Cenozoic]",
+        "[+1]% Strength",
+        
+        "[+2 Science] [in all cities]",
+        "[+1 Science] from all [Science] buildings",
+        
+    ]
+    },
     
 ]

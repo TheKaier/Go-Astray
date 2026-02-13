@@ -16,7 +16,7 @@
     {
     "name": "Restoration Victory",
     "victoryScreenHeader": "Restore the Glory of Civilization!",
-    "milestones": ["Build [City rank V]"],
+    "milestones": ["Build [City rank VI]"],
     "victoryString": "The shadow of world war did not bring eternal darkness. From the ashes of civilization, you recovered blueprints, green formulas, and golden dreams. The splendor of the old world is reborn in your hands, shining even brighter.",
     "defeatString": "While you were still rummaging through the ruins, another civilization had already restored the pre-war glory. Their proclamation of restoration sounded, reminding you: those who cling to nostalgia cannot win the future."
     },

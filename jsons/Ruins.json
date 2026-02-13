@@ -7,7 +7,7 @@
         "Gain [1] [Faith]",
         
         ],
-        "excludedDifficulties": ["Leisurely Times","Fair and Just","Under Slight Pressure","Godlike","Forsaken by Heaven"]
+        "excludedDifficulties": ["Calamity Savior"]
 		"color": "#CDDDF4"
     },
     {
@@ -18,7 +18,7 @@
         "Gain [2] [Faith]",
         
         ],
-        "excludedDifficulties": ["Leisurely Times","Fair and Just","Under Slight Pressure","Godlike","Forsaken by Heaven"]
+        "excludedDifficulties": ["Calamity Savior"]
 		"color": "#CDDDF4"
     },
     {
@@ -29,7 +29,7 @@
         "Gain [3] [Faith]",
         
         ],
-        "excludedDifficulties": ["Leisurely Times","Fair and Just","Under Slight Pressure","Godlike","Forsaken by Heaven"]
+        "excludedDifficulties": ["Calamity Savior"]
 		"color": "#CDDDF4"
     },
     {
@@ -40,7 +40,7 @@
         "Gain [4] [Faith]",
         
         ],
-        "excludedDifficulties": ["Leisurely Times","Fair and Just","Under Slight Pressure","Godlike","Forsaken by Heaven"]
+        "excludedDifficulties": ["Calamity Savior"]
 		"color": "#CDDDF4"
     },
     {
@@ -51,7 +51,7 @@
         "Gain [5] [Faith]",
         
         ],
-        "excludedDifficulties": ["Leisurely Times","Fair and Just","Under Slight Pressure","Godlike","Forsaken by Heaven"]
+        "excludedDifficulties": ["Calamity Savior"]
 		"color": "#CDDDF4"
     },
     {
@@ -62,7 +62,7 @@
         "Gain [6] [Faith]",
         
         ],
-        "excludedDifficulties": ["Godlike","Forsaken by Heaven","Calamity Savior"]
+        "excludedDifficulties": ["Leisurely Times","Fair and Just","Under Slight Pressure"]
 		"color": "#CDDDF4"
     },
     {
@@ -73,7 +73,7 @@
         "Gain [7] [Faith]",
         
         ],
-        "excludedDifficulties": ["Godlike","Forsaken by Heaven","Calamity Savior"]
+        "excludedDifficulties": ["Leisurely Times","Fair and Just","Under Slight Pressure"]
 		"color": "#CDDDF4"
     },
     {
@@ -84,7 +84,7 @@
         "Gain [8] [Faith]",
         
         ],
-        "excludedDifficulties": ["Godlike","Forsaken by Heaven","Calamity Savior"]
+        "excludedDifficulties": ["Leisurely Times","Fair and Just","Under Slight Pressure"]
 		"color": "#CDDDF4"
     },
     {
@@ -95,7 +95,7 @@
         "Gain [9] [Faith]",
         
         ],
-        "excludedDifficulties": ["Godlike","Forsaken by Heaven","Calamity Savior"]
+        "excludedDifficulties": ["Leisurely Times","Fair and Just","Under Slight Pressure"]
 		"color": "#CDDDF4"
     },
     {
@@ -106,7 +106,7 @@
         "Gain [10] [Faith]",
         
         ],
-        "excludedDifficulties": ["Godlike","Forsaken by Heaven","Calamity Savior"]
+        "excludedDifficulties": ["Leisurely Times","Fair and Just","Under Slight Pressure"]
 		"color": "#CDDDF4"
     },
     {
@@ -117,7 +117,7 @@
         "Gain [10] [Faith]",
         
         ],
-        "excludedDifficulties": ["Calamity Savior"]
+        "excludedDifficulties": ["Leisurely Times","Fair and Just","Under Slight Pressure","Godlike","Forsaken by Heaven"]
 		"color": "#CDDDF4"
     },
     {
@@ -128,7 +128,7 @@
         "Gain [10] [Faith]",
         
         ],
-        "excludedDifficulties": ["Calamity Savior"]
+        "excludedDifficulties": ["Leisurely Times","Fair and Just","Under Slight Pressure","Godlike","Forsaken by Heaven"]
 		"color": "#CDDDF4"
     },
     {
@@ -139,7 +139,7 @@
         "Gain [10] [Faith]",
         
         ],
-        "excludedDifficulties": ["Calamity Savior"]
+        "excludedDifficulties": ["Leisurely Times","Fair and Just","Under Slight Pressure","Godlike","Forsaken by Heaven"]
 		"color": "#CDDDF4"
     },
     {
@@ -150,7 +150,7 @@
         "Gain [10] [Faith]",
         
         ],
-        "excludedDifficulties": ["Calamity Savior"]
+        "excludedDifficulties": ["Leisurely Times","Fair and Just","Under Slight Pressure","Godlike","Forsaken by Heaven"]
 		"color": "#CDDDF4"
     },
 ]

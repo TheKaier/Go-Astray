@@ -59,7 +59,7 @@
 		"uniques": [
 		"Cannot be traded"//不能交易
 		//"Stockpiled"//库存
-		"Not shown on world screen",//不显示
+		//"Not shown on world screen",//不显示
 		]
 	},
 	
@@ -212,7 +212,8 @@
 		"Cannot be traded"//不能交易
 		"Stockpiled"//库存
 		"Not shown on world screen <when above [1024] [Resource.Horses]>",//不显示
-		
+		"Provides [2] [Resource.Horses] <after discovering [Tech.Extractive Industries]> <hidden from users>",
+        "Comment [[Resource.Horses] additional provides [2] [Resource.Horses] after discovering [Tech.Extractive Industries]]",
 		
 		
 		"Guaranteed with Strategic Balance resource option",
@@ -223,8 +224,8 @@
 					"Minor deposits generated with weight [100] <in [{Featureless} {Grassland}] tiles> <in [Fresh Water] tiles>",
 					"Minor deposits generated with weight [25] <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
 					"Minor deposits generated with weight [30] <in [{Featureless} {Plains}] tiles>"],
-		"majorDepositAmount": {"sparse": 3, "default": 3, "abundant": 4},
-		"minorDepositAmount": {"sparse": 3, "default": 3, "abundant": 4}
+		"majorDepositAmount": {"sparse": 4, "default": 5, "abundant": 6},
+		"minorDepositAmount": {"sparse": 4, "default": 5, "abundant": 6}
 	},
 	{
 		"name": "Resource.Iron",
@@ -238,7 +239,8 @@
 		"Cannot be traded"//不能交易
 		"Stockpiled"//库存
 		"Not shown on world screen <when above [1024] [Resource.Iron]>",//不显示
-		
+		"Provides [2] [Resource.Iron] <after discovering [Tech.Integration]> <hidden from users>",
+        "Comment [[Resource.Iron] additional provides [2] [Resource.Iron] after discovering [Tech.Integration]]",
 		
 		"Guaranteed with Strategic Balance resource option",
 					"Generated with weight [45] <in [{Featureless} {Tundra}] tiles>",
@@ -254,8 +256,8 @@
 					"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>",
 					"Minor deposits generated with weight [10] <in [{Featureless} {Tundra}] tiles>",
 					],
-		"majorDepositAmount": {"sparse": 3, "default": 4, "abundant": 5},
-		"minorDepositAmount": {"sparse": 3, "default": 4, "abundant": 5}
+		"majorDepositAmount": {"sparse": 5, "default": 6, "abundant": 8},
+		"minorDepositAmount": {"sparse": 5, "default": 6, "abundant": 8}
 	},
 	{
 		"name": "Resource.Coal",
@@ -269,6 +271,10 @@
 		"Cannot be traded"//不能交易
 		"Stockpiled"//库存
 		"Not shown on world screen <when above [1024] [Resource.Coal]>",//不显示
+		"Provides [1] [Resource.Coal] <after discovering [Tech.Integration]> <hidden from users>",
+        "Comment [[Resource.Coal] additional provides [1] [Resource.Coal] after discovering [Tech.Integration]]",
+		
+		
 		
 		"Generated with weight [45] <in [Hill] tiles>",
 					
@@ -281,8 +287,8 @@
 					"Minor deposits generated with weight [30] <in [{Desert} {Hill}] tiles>",
 					"Minor deposits generated with weight [30] <in [{Tundra} {Hill}] tiles>",
 					],
-		"majorDepositAmount": {"sparse": 4, "default": 5, "abundant": 6},
-		"minorDepositAmount": {"sparse": 4, "default": 5, "abundant": 6}
+		"majorDepositAmount": {"sparse": 6, "default": 8, "abundant": 10},
+		"minorDepositAmount": {"sparse": 6, "default": 8, "abundant": 10}
 	},
 	{
 		"name": "Resource.Uranium",
@@ -321,7 +327,8 @@
 		"Provides [1] [Resource.Stone] <after discovering [Tech.Resource Survey]> <hidden from users>",
 		"Comment [[Resource.Stone] additional provides [1] [Resource.Stone] after discovering [Tech.Resource Survey]]",
 		
-		
+		"Provides [1] [Resource.Stone] <after discovering [Tech.Pure water]> <hidden from users>",
+		"Comment [[Resource.Stone] additional provides [1] [Resource.Stone] after discovering [Tech.Pure water]]",
 		
 		"Generated on every [15] tiles <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
 		"Generated on every [15] tiles <in [{Featureless} {Plains}] tiles> <in tiles without [Fresh Water]>",
@@ -345,6 +352,10 @@
 		"Not shown on world screen <when above [1024] [Resource.Wood]>",//不显示
 		"Provides [1] [Resource.Wood] <after discovering [Tech.Resource Survey]> <hidden from users>",
         "Comment [[Resource.Wood] additional provides [1] [Resource.Wood] after discovering [Tech.Resource Survey]]",
+        
+        "Provides [1] [Resource.Wood] <after discovering [Tech.Pure water]> <hidden from users>",
+        "Comment [[Resource.Wood] additional provides [1] [Resource.Wood] after discovering [Tech.Pure water]]",
+        
         
         "Generated on every [12] tiles <in [{Featureless} {Hill}] tiles>",
         "Generated on every [12] tiles <in [{Featureless} {Plains}] tiles>",

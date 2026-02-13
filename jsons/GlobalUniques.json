@@ -54,14 +54,24 @@
         
         
         
+        "Provides [1] [Progress of Chaos] <when above [49] [Faith]>",//+1
+        
+        "Gain a free [Chaos] [in capital] <when number of [Progress of Chaos] is equal to [1]> <upon turn start>",//+1
+        
+        "Gain a free [Pantheon] belief <when number of [Progress of Chaos] is equal to [2]> <upon turn start>",//+1
+        
+        "Provides [1] [Progress of Chaos] <when above [100] [Faith]>",//+1
+        
+        "Gain a free [Pantheon] belief <when number of [Progress of Chaos] is equal to [4]> <upon turn start>",
+        
+        //"Gain a free [Pantheon] belief <when number of [Progress of Chaos] is equal to [5]> <upon turn start>",
         
         
         
         
-        
-        
-        
-        
+        //Pantheon
+        //Follower
+        //Founder
         
         
     ]

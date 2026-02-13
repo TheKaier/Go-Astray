@@ -313,6 +313,32 @@
             ],
         },
         
+        //欧洲
+        {
+            "text":"[European Union] [Choice]",
+            "uniques":[
+            "Instantly provides [1] [Event-driven] <hidden from users>",
+            "Gain a free [European Union] [in capital]",
+            "Only available <for [[Area] [Europe]] Civilizations> <when above [0] [Stability bias]> <when below [0] [Radical bias]> <when number of [RN1] is more than [400]> <when number of [RN1] is less than [900]>",
+            ],
+        },
+        {
+            "text":"[European Communist International] [Choice]",
+            "uniques":[
+            "Instantly provides [1] [Event-driven] <hidden from users>",
+            "Gain a free [European Communist International] [in capital]",
+            "Only available <for [[Area] [Europe]] Civilizations> <when above [0] [Stability bias]> <when above [0] [Radical bias]> <when number of [RN1] is more than [300]> <when number of [RN1] is less than [800]>",
+            ],
+        },
+        {
+            "text":"[Davos Forum] [Choice]",
+            "uniques":[
+            "Instantly provides [1] [Event-driven] <hidden from users>",
+            "Gain a free [Davos Forum] [in capital]",
+            "Only available <for [[Area] [Europe]] Civilizations> <when above [0] [Stability bias]> <when above [0] [Radical bias]> <when number of [RN1] is more than [100]> <when number of [RN1] is less than [600]>",
+            ],
+        },
+        
         
         
         
@@ -344,6 +370,10 @@
             "[-100]% weight to this choice for AI decisions",
             ],
         },
+        
+        
+        
+        
     ]
 },
 /*
@@ -433,6 +463,27 @@
             "[1] free [Orbital fire support] units appear",
             ],
         },
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
     ]
 },
 ]

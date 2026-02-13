@@ -1,7 +1,7 @@
 {
 "constants": {
-        "maxXPfromBarbarians": 100,
-    "pantheonBase": 50,
+        "maxXPfromBarbarians": 1000,
+    "pantheonBase": 102400,
     "pantheonGrowth": 10,
     "cityStrengthFromTechsFullMultiplier": 0.1,
     "minimalCityDistance":2,
