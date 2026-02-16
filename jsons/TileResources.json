@@ -6,6 +6,7 @@
 		"Cannot be traded"//不能交易
 		"Stockpiled"//库存
 		"Not shown on world screen",//不显示
+		"Will not be displayed in Civilopedia",
 		]
 	},
     {
@@ -15,6 +16,7 @@
 		"Cannot be traded"//不能交易
 		"Stockpiled"//库存
 		"Not shown on world screen",//不显示
+		"Will not be displayed in Civilopedia",
 		]
 	},
     {
@@ -24,6 +26,7 @@
 		"Cannot be traded"//不能交易
 		"Stockpiled"//库存
 		"Not shown on world screen",//不显示
+		"Will not be displayed in Civilopedia",
 		]
 	},
 	{
@@ -33,6 +36,7 @@
 		"Cannot be traded"//不能交易
 		//"Stockpiled"//库存
 		"Not shown on world screen",//不显示
+		"Will not be displayed in Civilopedia",
 		]
 	},
 	{
@@ -42,6 +46,7 @@
 		"Cannot be traded"//不能交易
 		//"Stockpiled"//库存
 		"Not shown on world screen",//不显示
+		"Will not be displayed in Civilopedia",
 		]
 	},
 	{
@@ -51,6 +56,7 @@
 		"Cannot be traded"//不能交易
 		//"Stockpiled"//库存
 		"Not shown on world screen",//不显示
+		"Will not be displayed in Civilopedia",
 		]
 	},
 	{
@@ -60,9 +66,19 @@
 		"Cannot be traded"//不能交易
 		//"Stockpiled"//库存
 		//"Not shown on world screen",//不显示
+		"Will not be displayed in Civilopedia",
 		]
 	},
-	
+	{
+		"name": "Production Index",//生产指数
+		"resourceType": "Strategic",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		"Not shown on world screen",//不显示
+		"Will not be displayed in Civilopedia",
+		]
+	},
 	
 	
 	
@@ -73,6 +89,7 @@
 		"Cannot be traded"//不能交易
 		//"Stockpiled"//库存
 		"Not shown on world screen",//不显示
+		"Will not be displayed in Civilopedia",
 		]
 	},
     {
@@ -82,6 +99,7 @@
 		"Cannot be traded"//不能交易
 		//"Stockpiled"//库存
 		"Not shown on world screen",//不显示
+		"Will not be displayed in Civilopedia",
 		]
 	},
     {
@@ -91,6 +109,7 @@
 		"Cannot be traded"//不能交易
 		//"Stockpiled"//库存
 		"Not shown on world screen",//不显示
+		"Will not be displayed in Civilopedia",
 		]
 	},
     

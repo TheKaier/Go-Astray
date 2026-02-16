@@ -320,8 +320,8 @@
 		"uniques": [
 			//"Consumes [1] [Resource.Water] <when above [0] [Resource.Water]> <when above [0] [Resource.Coal]>",
 			"Costs [2] [Gold] per turn",
-			"Consumes [1] [Resource.Coal] <when above [0] [Resource.Coal]>",
-			"Provides [3] [Resource.Electricity] <when above [0] [Resource.Coal]>",
+			"Consumes [1] [Resource.Coal] <when above [0] [Resource.Coal]> <when number of [[Production Index] % 10000 - [Production Index] % 1000] is equal to [0]>",
+			"Provides [3] [Resource.Electricity] <when above [0] [Resource.Coal]> <when number of [[Production Index] % 10000 - [Production Index] % 1000] is equal to [0]>",
 			],
 		"shortcutKey": "J"
 	},
@@ -358,7 +358,7 @@
 		"turnsToBuild": 6,
 		"techRequired": "Tech.Hydroelectric generator",
 		"uniques": [
-		"Can also be built on tiles adjacent to fresh water",
+		"Can only be built on [River] tiles",
 			"Provides [2] [Resource.Electricity]",
 			],
 	},

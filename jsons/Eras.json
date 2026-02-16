@@ -5,7 +5,7 @@
     {
         "name": "Era.Wasteland",
         "researchAgreementCost": 150,
-        "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
+        "startingSettlerCount": 1,
         "startingWorkerCount": 0,
         "startingMilitaryUnitCount": 2,
         "startingMilitaryUnit": "Unit.Militia",
@@ -16,14 +16,14 @@
         "citySound": "cityAncient",
         "iconRGB": [255, 87, 35]
     },
-    /*{
+    {
         "name": "Era.Revival",
         "researchAgreementCost": 150,
-        "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
-        "startingWorkerCount": 0,
-        "startingMilitaryUnitCount": 0,
-        "startingMilitaryUnit": "Settler",
-        "settlerPopulation": 1,
+        "startingSettlerCount": 2,
+        "startingWorkerCount": 2,
+        "startingMilitaryUnitCount": 4,
+        "startingMilitaryUnit": "Unit.Mobilizer",
+        "settlerPopulation": 3,
         "baseUnitBuyCost": 200,
         "embarkDefense": 3,
         "startPercent": 0,
@@ -33,15 +33,15 @@
     {
         "name": "Era.Glory",
         "researchAgreementCost": 150,
-        "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
-        "startingWorkerCount": 0,
-        "startingMilitaryUnitCount": 0,
-        "startingMilitaryUnit": "Settler",
-        "settlerPopulation": 1,
+        "startingSettlerCount": 3,
+        "startingWorkerCount": 4,
+        "startingMilitaryUnitCount": 7,
+        "startingMilitaryUnit": "Unit.Power Infantry",
+        "settlerPopulation": 5,
         "baseUnitBuyCost": 200,
         "embarkDefense": 3,
         "startPercent": 0,
         "citySound": "cityAncient",
         "iconRGB": [255, 87, 35]
-    },*/
+    },
 ]

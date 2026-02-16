@@ -211,7 +211,7 @@
     },
     {
         "columnNumber": 5,
-        "era": "Era.Wasteland",
+        "era": "Era.Revival",
         "techCost": 225,
         "buildingCost": 40,
         "wonderCost": 185,
@@ -290,7 +290,7 @@
     },
     {
         "columnNumber": 6,
-        "era": "Era.Wasteland",
+        "era": "Era.Revival",
         "techCost": 275,
         "buildingCost": 40,
         "wonderCost": 185,
@@ -340,7 +340,7 @@
     },
 {
         "columnNumber": 7,
-        "era": "Era.Wasteland",
+        "era": "Era.Revival",
         "techCost": 300,
         "buildingCost": 40,
         "wonderCost": 185,
@@ -391,7 +391,7 @@
     },
     {
         "columnNumber": 8,
-        "era": "Era.Wasteland",
+        "era": "Era.Glory",
         "techCost": 400,
         "buildingCost": 40,
         "wonderCost": 185,
@@ -454,7 +454,7 @@
     },
     {
         "columnNumber": 9,
-        "era": "Era.Wasteland",
+        "era": "Era.Revival",
         "techCost": 525,
         "buildingCost": 40,
         "wonderCost": 185,
@@ -505,7 +505,7 @@
     },
 {
         "columnNumber": 10,
-        "era": "Era.Wasteland",
+        "era": "Era.Revival",
         "techCost": 775,
         "buildingCost": 40,
         "wonderCost": 185,
@@ -565,7 +565,7 @@
     },
     {
         "columnNumber": 11,
-        "era": "Era.Wasteland",
+        "era": "Era.Glory",
         "techCost": 850,
         "buildingCost": 40,
         "wonderCost": 185,
@@ -614,7 +614,7 @@
     },
     {
         "columnNumber": 12,
-        "era": "Era.Wasteland",
+        "era": "Era.Glory",
         "techCost": 1000,
         "buildingCost": 40,
         "wonderCost": 185,
@@ -673,7 +673,7 @@
     },
 {
         "columnNumber": 13,
-        "era": "Era.Wasteland",
+        "era": "Era.Glory",
         "techCost": 1450,
         "buildingCost": 40,
         "wonderCost": 185,
@@ -714,7 +714,7 @@
     },
     {
         "columnNumber": 14,
-        "era": "Era.Wasteland",
+        "era": "Era.Glory",
         "techCost": 1950,
         "buildingCost": 40,
         "wonderCost": 185,
@@ -753,7 +753,7 @@
     },
     {
         "columnNumber": 15,
-        "era": "Era.Wasteland",
+        "era": "Era.Glory",
         "techCost": 2500,
         "buildingCost": 40,
         "wonderCost": 185,

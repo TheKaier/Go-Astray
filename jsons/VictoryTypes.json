@@ -14,14 +14,14 @@
     "defeatString": "You can no longer see the future. You can't even comprehend what this means. You are forever lost in the confusion you created."
     },*/
     {
-    "name": "Restoration Victory",
+    "name": "Restoration Victory",//复兴
     "victoryScreenHeader": "Restore the Glory of Civilization!",
     "milestones": ["Build [City rank VI]"],
     "victoryString": "The shadow of world war did not bring eternal darkness. From the ashes of civilization, you recovered blueprints, green formulas, and golden dreams. The splendor of the old world is reborn in your hands, shining even brighter.",
     "defeatString": "While you were still rummaging through the ruins, another civilization had already restored the pre-war glory. Their proclamation of restoration sounded, reminding you: those who cling to nostalgia cannot win the future."
     },
     {
-    "name": "Escape Victory",
+    "name": "Escape Victory",//逃离
     "victoryScreenHeader": "Escape This Cursed Planet!",
     "milestones": ["Build [NationWonder.Space Orbit Seizure]"],
     "victoryString": "While other civilizations were still fighting over scorched earth, your gaze was already set on the stars. The Ark carried the last embers of your civilization into deep space. Earth's scars become the past; the universe is your new home.",
@@ -54,7 +54,7 @@
     "Build [NationWonderExpand.Complete Industry Deployment]",
     "Build [NationWonderExpand.AI Governance Experiment]",
     "Build [NationWonderExpand.Nuclear Warfare Plan]",
-    "Build [City rank V]",
+    "Build [City rank VI]",
     ],
     "victoryString": "This is not conquest, but coronation. Other civilizations voluntarily offered their authority, acknowledging that your path is the future of humanity. You legally inherited the Earth, and the will of civilization unified under your banner.",
     "defeatString": "The Mandate was decided, but it did not belong to you. When another civilization was crowned as the Mandate's master, your civilization was judged by history as an untimely relic of the old era."

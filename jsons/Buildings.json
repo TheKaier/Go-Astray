@@ -7,6 +7,7 @@
 	"cost": 0,
 	"requiredTech": "Tech.Satellite"
 	"uniques": [
+	
 		"Only available <in cities with a [NationWonder.Space Orbit Seizure]>",
 		"Triggers a [Space Orbit Seizure] event",
 		"Remove [Space Orbit Seizure] [in this city] <hidden from users>",
@@ -33,6 +34,93 @@
     
     
     
+    {
+	"name": "Production Command Panel",//国家生产面板
+	"cost": 0,
+	"uniques": [
+	"Can only be built <in [Capital] cities>",
+		"Triggers a [Production Command Panel] event",
+		"Remove [Production Command Panel] [in this city] <hidden from users>",
+		"Unbuildable <for [AI player] Civilizations> <hidden from users>",
+		
+		
+	]
+    },
+    
+    /*{
+        "name": "Allow [Resource.Tools] production",
+        "cost": 0,
+        "uniques":[
+        "Unbuildable",
+        "Will not be displayed in Civilopedia"]
+    },
+    {
+        "name": "Ban [Resource.Tools] production",
+        "cost": 0,
+        "uniques":[
+        "Unbuildable",
+        "Will not be displayed in Civilopedia"]
+    },
+    {
+        "name": "Allow [Resource.Gun] production",
+        "cost": 0,
+        "uniques":[
+        "Unbuildable",
+        "Will not be displayed in Civilopedia"]
+    },
+    {
+        "name": "Ban [Resource.Gun] production",
+        "cost": 0,
+        "uniques":[
+        "Unbuildable",
+        "Will not be displayed in Civilopedia"]
+    },
+    {
+        "name": "Allow [Resource.Steel] production",
+        "cost": 0,
+        "uniques":[
+        "Unbuildable",
+        "Will not be displayed in Civilopedia"]
+    },
+    {
+        "name": "Ban [Resource.Steel] production",
+        "cost": 0,
+        "uniques":[
+        "Unbuildable",
+        "Will not be displayed in Civilopedia"]
+    },
+    {
+        "name": "Allow [Resource.Electricity] production",
+        "cost": 0,
+        "uniques":[
+        "Unbuildable",
+        "Will not be displayed in Civilopedia"]
+    },
+    {
+        "name": "Ban [Resource.Electricity] production",
+        "cost": 0,
+        "uniques":[
+        "Unbuildable",
+        "Will not be displayed in Civilopedia"]
+    },*/
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     
@@ -51,11 +139,9 @@
 		"Instantly provides [140] [Resource.Manpower]",
 		"Instantly provides [40] [Resource.Scientific Level]",
 		//"Provides [5] [Resource.Scientific Research Point]",
-		"Provides [75] [Resource.Water capacity]",
+		"Provides [150] [Resource.Water capacity]",
 		
 		//"Triggers a [super event] event",
-		
-		
 		]
 	},
 	
@@ -522,7 +608,7 @@
 		"name": "City rank Stop",//
 		"cost": 0,
 		"uniques": [
-		"Unsellable",
+		//"Unsellable",
 		"Destroyed when the city is captured",
 		"Unbuildable <for [AI player] Civilizations> <hidden from users>",
 		"Nullifies Growth [in this city]",
@@ -667,7 +753,7 @@
 		//"maintenance": 1,
 		"cost": 30,
 		"uniques": [
-		"Provides [25] [Resource.Water capacity]",
+		"Provides [50] [Resource.Water capacity]",
 		//"Provides [1] [Resource.Water]",
 		],
 		"requiredTech": "Tech.Initial clean water"
@@ -679,10 +765,10 @@
 		//"maintenance": 1,
 		"cost": 40,
 		"uniques": [
-		"Provides [1] [Resource.Tools] <when above [1] [Resource.Wood]>",
-		"Consumes [2] [Resource.Wood] <when above [1] [Resource.Wood]>",
-		"Provides [3] [Resource.Gun] <when above [1] [Resource.Stone]>",
-		"Consumes [2] [Resource.Stone] <when above [1] [Resource.Stone]>",
+		"Provides [1] [Resource.Tools] <when above [1] [Resource.Wood]> <when number of [[Production Index] % 10] is equal to [0]>",
+		"Consumes [2] [Resource.Wood] <when above [1] [Resource.Wood]> <when number of [[Production Index] % 10] is equal to [0]>",
+		"Provides [3] [Resource.Gun] <when above [1] [Resource.Stone]> <when number of [[Production Index] % 100 - [Production Index] % 10] is equal to [0]>",
+		"Consumes [2] [Resource.Stone] <when above [1] [Resource.Stone]> <when number of [[Production Index] % 100 - [Production Index] % 10] is equal to [0]>",
 		],
 		"requiredTech": "Tech.Pipe making"
 	},
@@ -707,7 +793,7 @@
 		//"maintenance": 1,
 		"cost": 50,
 		"uniques": [
-		"Provides [25] [Resource.Water capacity]",
+		"Provides [50] [Resource.Water capacity]",
 		"[30]% Food is carried over after population increases [in this city]",
         "[+15]% growth [in this city]",
 		//"Provides [1] [Resource.Water]",
@@ -722,7 +808,7 @@
 		//"maintenance": 1,
 		"cost": 45,
 		"uniques": [
-		"Provides [25] [Resource.Water capacity]",
+		"Provides [50] [Resource.Water capacity]",
 		//"Provides [1] [Resource.Water]",
 		],
 		"requiredTech": "Tech.Water Storage Project"
@@ -757,10 +843,10 @@
 		"maintenance": 3,
 		"cost": 60,
 		"uniques": [
-		"Provides [2] [Resource.Tools] <when above [2] [Resource.Wood]>",
-		"Consumes [3] [Resource.Wood] <when above [2] [Resource.Wood]>",
-		"Provides [2] [Resource.Gun] <when above [2] [Resource.Iron]>",
-		"Consumes [3] [Resource.Iron] <when above [2] [Resource.Iron]>",
+		"Provides [2] [Resource.Tools] <when above [2] [Resource.Wood]> <when number of [[Production Index] % 10] is equal to [0]>",
+		"Consumes [3] [Resource.Wood] <when above [2] [Resource.Wood]> <when number of [[Production Index] % 10] is equal to [0]>",
+		"Provides [2] [Resource.Gun] <when above [2] [Resource.Iron]> <when number of [[Production Index] % 100 - [Production Index] % 10] is equal to [0]>",
+		"Consumes [3] [Resource.Iron] <when above [2] [Resource.Iron]> <when number of [[Production Index] % 100 - [Production Index] % 10] is equal to [0]>",
 		],
 		"requiredTech": "Tech.Workshop production"
 	},
@@ -773,7 +859,7 @@
 		"uniques": [
 		"[+6 Gold] [in this city] <when above [1] [Resource.Wood]>",
 		"Consumes [2] [Resource.Wood] <when above [1] [Resource.Wood]>",
-		"Provides [25] [Resource.Water capacity]",
+		"Provides [75] [Resource.Water capacity]",
 		],
 		"requiredTech": "Tech.Plant water"
 	},
@@ -785,7 +871,7 @@
 		"cost": 100,
 		"uniques": [
 		//"Provides [1] [Resource.Water]",
-		"Provides [75] [Resource.Water capacity]",
+		"Provides [150] [Resource.Water capacity]",
 		],
 		"requiredTech": "Tech.The water cycle"
 	},
@@ -833,8 +919,8 @@
 		"maintenance": 3,
 		"cost": 120,
 		"uniques": [
-		"Provides [4] [Resource.Gun] <when above [4] [Resource.Iron]>",
-		"Consumes [5] [Resource.Iron] <when above [4] [Resource.Iron]>",
+		"Provides [4] [Resource.Gun] <when above [4] [Resource.Iron]> <when number of [[Production Index] % 100 - [Production Index] % 10] is equal to [0]>",
+		"Consumes [5] [Resource.Iron] <when above [4] [Resource.Iron]> <when number of [[Production Index] % 100 - [Production Index] % 10] is equal to [0]>",
 		],
 		"requiredTech": "Tech.Batch engineering"
 	},
@@ -859,7 +945,7 @@
 		"cost": 120,
 		"uniques": [
 		"[+10]% [Production] [in this city] <when above [1] [Gold]>",
-		"Provides [25] [Resource.Water capacity]",
+		"Provides [75] [Resource.Water capacity]",
 		],
 		"requiredTech": "Tech.Industrial water"
 	},
@@ -870,7 +956,7 @@
 		//"maintenance": 1,
 		"cost": 120,
 		"uniques": [
-		"Provides [150] [Resource.Water capacity]",
+		"Provides [300] [Resource.Water capacity]",
 		],
 		"requiredTech": "Tech.Industrial water"
 	},
@@ -895,9 +981,9 @@
 		"maintenance": 2,
 		"cost": 120,
 		"uniques": [
-		"Provides [5] [Resource.Steel] <when above [4] [Resource.Iron]> <when above [2] [Resource.Coal]>",
-		"Consumes [5] [Resource.Iron] <when above [4] [Resource.Iron]> <when above [2] [Resource.Coal]>",
-		"Consumes [3] [Resource.Coal] <when above [4] [Resource.Iron]> <when above [2] [Resource.Coal]>",
+		"Provides [5] [Resource.Steel] <when above [4] [Resource.Iron]> <when above [2] [Resource.Coal]> <when number of [[Production Index] % 1000 - [Production Index] % 100] is equal to [0]>",
+		"Consumes [5] [Resource.Iron] <when above [4] [Resource.Iron]> <when above [2] [Resource.Coal]> <when number of [[Production Index] % 1000 - [Production Index] % 100] is equal to [0]>",
+		"Consumes [3] [Resource.Coal] <when above [4] [Resource.Iron]> <when above [2] [Resource.Coal]> <when number of [[Production Index] % 1000 - [Production Index] % 100] is equal to [0]>",
 		],
 		"requiredTech": "Tech.Mining"
 	},
@@ -910,7 +996,7 @@
 		"uniques": [
 		"[+5 Gold] [in this city] <when above [1] [Resource.Electricity]>",
 		"Consumes [2] [Resource.Electricity] <when above [1] [Resource.Electricity]>",
-		"Provides [25] [Resource.Water capacity]",
+		"Provides [100] [Resource.Water capacity]",
 		//"Provides [2] [Resource.Water]",
 		],
 		"requiredTech": "Tech.Distilled water"
@@ -951,8 +1037,8 @@
 		"cost": 200,
 		"uniques": [
 		"[+10]% [Production] [in this city] <when above [3] [Resource.Coal]>",
-		"Provides [10] [Resource.Electricity] <when above [3] [Resource.Coal]>",
-		"Consumes [4] [Resource.Coal] <when above [3] [Resource.Coal]>",
+		"Provides [10] [Resource.Electricity] <when above [3] [Resource.Coal]> <when number of [[Production Index] % 10000 - [Production Index] % 1000] is equal to [0]>",
+		"Consumes [4] [Resource.Coal] <when above [3] [Resource.Coal]> <when number of [[Production Index] % 10000 - [Production Index] % 1000] is equal to [0]>",
 		],
 		"requiredTech": "Tech.Coal-fired generator"
 	},
@@ -1033,7 +1119,7 @@
 		"Must be on [River]",
 		"[+1 Gold] from [River] tiles [in this city]",
 		"Provides [2] [Resource.Electricity]",
-		"Provides [100] [Resource.Water capacity]",
+		"Provides [200] [Resource.Water capacity]",
 		],
 		"requiredTech": "Tech.Dam"
 	},
@@ -1114,8 +1200,8 @@
 		"cost": 400,
 		"uniques": [
 		"[+15]% [Production] [in this city]",
-		"Provides [10] [Resource.Electricity] <when above [0] [Resource.Uranium]>",
-		"Consumes [1] [Resource.Uranium] <when above [0] [Resource.Uranium]>",
+		"Provides [10] [Resource.Electricity] <when above [0] [Resource.Uranium]> <when number of [[Production Index] % 10000 - [Production Index] % 1000] is equal to [0]>",
+		"Consumes [1] [Resource.Uranium] <when above [0] [Resource.Uranium]> <when number of [[Production Index] % 10000 - [Production Index] % 1000] is equal to [0]>",
 		],
 		"requiredTech": "Tech.Nuclear Recycling"
 	},
@@ -1210,122 +1296,122 @@
     {
 		"name": "Instruction.Field collection",//野外采集
 		//"requiredBuilding": "",
-		"cost": 20,
+		"cost": 30,
 		"uniques": [
 		"Remove [Instruction.Field collection] [in this city] <hidden from users>",
-		"Instantly provides [10] [Resource.Manpower]",
+		"Instantly provides [15] [Resource.Manpower]",
 		],
 		"requiredTech": "Tech.Recycling of building materials"
 	},
     {
 		"name": "Instruction.Expedited manufacturing I",//加急制造I
 		//"requiredBuilding": "",
-		"cost": 20,
+		"cost": 30,
 		"uniques": [
 		"Remove [Instruction.Expedited manufacturing I] [in this city] <hidden from users>",
-		"Consumes [4] [Resource.Wood]",
-		"Instantly provides [4] [Resource.Tools]",
-		"Instantly consumes [4] [Resource.Wood]",
+		"Consumes [6] [Resource.Wood]",
+		"Instantly provides [6] [Resource.Tools]",
+		"Instantly consumes [6] [Resource.Wood]",
 		],
 		"requiredTech": "Tech.Pipe making"
 	},
     {
 		"name": "Instruction.Expedited manufacturing II",//加急制造II
 		//"requiredBuilding": "",
-		"cost": 40,
+		"cost": 60,
 		"uniques": [
 		"Remove [Instruction.Expedited manufacturing II] [in this city] <hidden from users>",
-		"Consumes [6] [Resource.Iron]",
-		"Instantly provides [4] [Resource.Gun]",
-		"Instantly consumes [6] [Resource.Iron]",
+		"Consumes [9] [Resource.Iron]",
+		"Instantly provides [6] [Resource.Gun]",
+		"Instantly consumes [9] [Resource.Iron]",
 		],
 		"requiredTech": "Tech.Batch engineering"
 	},
     {
 		"name": "Instruction.Concentrate water resources I",//集中水资源I
 		//"requiredBuilding": "",
-		"cost": 20,
+		"cost": 30,
 		"uniques": [
 		"Remove [Instruction.Concentrate water resources I] [in this city] <hidden from users>",
-		"Gain [50] [Gold]",
+		"Gain [75] [Gold]",
 		],
 		"requiredTech": "Tech.Initial clean water"
 	},
     {
 		"name": "Instruction.Concentrate water resources II",//集中水资源II
 		//"requiredBuilding": "",
-		"cost": 40,
+		"cost": 60,
 		"uniques": [
 		"Remove [Instruction.Concentrate water resources II] [in this city] <hidden from users>",
-		"Gain [120] [Gold]",
+		"Gain [180] [Gold]",
 		],
 		"requiredTech": "Tech.Water Storage Project"
 	},
     {
 		"name": "Instruction.Concentrate water resources III",//集中水资源III
 		//"requiredBuilding": "",
-		"cost": 60,
+		"cost": 90,
 		"uniques": [
 		"Remove [Instruction.Concentrate water resources III] [in this city] <hidden from users>",
-		"Gain [300] [Gold]",
-		"Consumes [8] [Resource.Wood]",
-		"Instantly consumes [8] [Resource.Wood]",
+		"Gain [450] [Gold]",
+		"Consumes [12] [Resource.Wood]",
+		"Instantly consumes [12] [Resource.Wood]",
 		],
 		"requiredTech": "Tech.Extractive Industries"
 	},
     {
 		"name": "Instruction.Quarrying stone",//采收石料
 		//"requiredBuilding": "",
-		"cost": 20,
+		"cost": 30,
 		"uniques": [
 		"Remove [Instruction.Quarrying stone] [in this city] <hidden from users>",
-		"Instantly provides [4] [Resource.Stone]",
+		"Instantly provides [6] [Resource.Stone]",
 		],
 		"requiredTech": "Tech.Mechanical"
 	},
     {
 		"name": "Instruction.Trade in resources I",//资源贸易I
 		//"requiredBuilding": "",
-		"cost": 20,
+		"cost": 30,
 		"uniques": [
 		"Remove [Instruction.Trade in resources I] [in this city] <hidden from users>",
-		"Consumes [8] [Resource.Stone]",
-		"Instantly provides [6] [Resource.Wood]",
-		"Instantly consumes [8] [Resource.Stone]",
+		"Consumes [12] [Resource.Stone]",
+		"Instantly provides [9] [Resource.Wood]",
+		"Instantly consumes [12] [Resource.Stone]",
 		],
 		"requiredTech": "Tech.Scale harvesting"
 	},
     {
 		"name": "Instruction.Trade in resources II",//资源贸易II
 		//"requiredBuilding": "",
-		"cost": 20,
+		"cost": 30,
 		"uniques": [
 		"Remove [Instruction.Trade in resources II] [in this city] <hidden from users>",
-		"Consumes [8] [Resource.Stone]",
-		"Gain [70] [Gold]",
-		"Instantly consumes [8] [Resource.Stone]",
+		"Consumes [12] [Resource.Stone]",
+		"Gain [140] [Gold]",
+		"Instantly consumes [12] [Resource.Stone]",
 		],
 		"requiredTech": "Tech.Scale harvesting"
 	},
     {
 		"name": "Instruction.Finishing",//精加工
 		//"requiredBuilding": "",
-		"cost": 60,
+		"cost": 90,
 		"uniques": [
 		"Remove [Instruction.Finishing] [in this city] <hidden from users>",
-		"Consumes [14] [Resource.Stone]",
-		"Instantly provides [10] [Resource.Coal]",
-		"Instantly consumes [14] [Resource.Stone]",
+		"Consumes [21] [Resource.Stone]",
+		"Instantly provides [15] [Resource.Coal]",
+		"Instantly consumes [21] [Resource.Stone]",
 		],
 		"requiredTech": "Tech.Mining"
 	},
     {
 		"name": "Instruction.Scientific Research",//科研攻坚
 		//"requiredBuilding": "",
-		"cost": 100,
+		"cost": 150,
 		"uniques": [
 		"Remove [Instruction.Scientific Research] [in this city] <hidden from users>",
-		"Gain [100] [Science]",
+		"Gain [150] [Science]",
 		//"Instantly provides [10] [Resource.Scientific Research Point]",
 		],
 		"requiredTech": "Tech.Transistors"
@@ -1333,23 +1419,23 @@
     {
 		"name": "Instruction.Industrial water",//工业用水
 		//"requiredBuilding": "",
-		"cost": 100,
+		"cost": 150,
 		"uniques": [
 		"Remove [Instruction.Industrial water] [in this city] <hidden from users>",
 		//"Instantly provides [40] [Resource.Scientific Research Point]",
-		"Gain [150] [Science]",
-		"Gain [-100] [Gold]",
-		"Only available <when above [99] [Gold]>",
+		"Gain [225] [Science]",
+		"Gain [-150] [Gold]",
+		"Only available <when above [149] [Gold]>",
 		],
 		"requiredTech": "Tech.Pure water"
 	},
 	{
 		"name": "Instruction.Uranium refining",//铀精炼
 		//"requiredBuilding": "",
-		"cost": 100,
+		"cost": 150,
 		"uniques": [
 		"Remove [Instruction.Uranium refining] [in this city] <hidden from users>",
-		"Instantly provides [4] [Resource.Uranium]",
+		"Instantly provides [6] [Resource.Uranium]",
 		],
 		"requiredTech": "Tech.Particle Engineering"
 	},
@@ -1418,6 +1504,9 @@
         "Provides [1] [Progress of Chaos]",
         "[+1]% Strength",
         
+        
+        
+        
         "Remove [Successor] [in this city] <hidden from users>",
         "Remove [Cenozoic] [in this city] <hidden from users>",
         "Remove [Warlord] [in this city] <hidden from users>",
@@ -1440,7 +1529,7 @@
         "Remove [Atomic Division] [in this city] <hidden from users>",
         //"Remove [United Nations] [in this city] <hidden from users>",
         
-        
+        //俄罗斯
         "Remove [Russian Federation] [in this city] <hidden from users>",
         "Remove [Tsarist Russia] [in this city] <hidden from users>",
         "Remove [Soviet Union] [in this city] <hidden from users>",
@@ -1452,12 +1541,16 @@
         "Remove [xxxxx] [in this city] <hidden from users>",
         */
         
+        //欧洲
+        "Remove [European Union] [in this city] <hidden from users>",
+        "Remove [European Communist International] [in this city] <hidden from users>",
+        "Remove [Davos Forum] [in this city] <hidden from users>",
         
-        
-        
-        
-        
-        
+        //东南亚
+        "Remove [ASEAN Commonwealth] [in this city] <hidden from users>",
+        "Remove [Archipelagic League] [in this city] <hidden from users>",
+        "Remove [Greater Southeast Asia Co-Prosperity Sphere] [in this city] <hidden from users>",
+        "Remove [Southeast Asia Confederation] [in this city] <hidden from users>",
         
         
         
@@ -1766,7 +1859,7 @@
         "[+1 Happiness] [in all cities]",
         "[+10]% Strength <when fighting in [Friendly Land] tiles>",
     ]
-},
+    },
     {
     "name": "European Communist International",//欧洲共产国际
     "cost": 0,
@@ -1799,5 +1892,72 @@
         
     ]
     },
+    
+    
+    {
+    "name": "ASEAN Commonwealth",//东盟共同体
+    "cost": 0,
+    "uniques": [
+        "Moves to new capital when capital changes",
+        "Unbuildable",
+        "Unsellable",
+        "Triggers a global alert upon completion",
+        "Provides [1] [Progress of Cenozoic]",
+        "[+1]% Strength",
+        
+        "[+1 Science] from every [Strategic resource]",
+        "Gain [4] [Science] <for every [[Science] / 10]> <upon declaring war on [Major] Civilizations>",
+    ]
+    },
+    {
+    "name": "Archipelagic League",//群岛联盟
+    "cost": 0,
+    "uniques": [
+        "Moves to new capital when capital changes",
+        "Unbuildable",
+        "Unsellable",
+        "Triggers a global alert upon completion",
+        "Provides [1] [Progress of Cenozoic]",
+        "[+1]% Strength",
+        
+        "[+1 Culture] from every [Bonus resource]",
+        "[+2 Production, +2 Gold] [in all coastal cities]",
+    ]
+    },
+    {
+    "name": "Greater Southeast Asia Co-Prosperity Sphere",//大东南亚共荣圈
+    "cost": 0,
+    "uniques": [
+        "Moves to new capital when capital changes",
+        "Unbuildable",
+        "Unsellable",
+        "Triggers a global alert upon completion",
+        "Provides [1] [Progress of Warlord]",
+        "[+1]% Strength",
+        
+        "[+2 Happiness] [in annexed cities]",
+        "Upon capturing a city, receive [20] times its [Culture] production as [Culture] immediately",
+    ]
+    },
+    {
+    "name": "Southeast Asia Confederation",//东南亚邦联
+    "cost": 0,
+    "cityStrength": 3,
+	"cityHealth": 50,
+    "uniques": [
+        "Moves to new capital when capital changes",
+        "Unbuildable",
+        "Unsellable",
+        "Triggers a global alert upon completion",
+        "Provides [1] [Progress of Successor]",
+        "[+1]% Strength",
+        
+        
+        "[+1 Happiness] [in all cities]",
+        "[+50]% Strength for cities <when attacking>",
+    ]
+    },
+    
+    
     
 ]

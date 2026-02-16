@@ -342,6 +342,56 @@
         
         
         
+        
+        {
+            "text":"[ASEAN Commonwealth] [Choice]",//东盟共同体
+            "uniques":[
+            "Instantly provides [1] [Event-driven] <hidden from users>",
+            "Gain a free [ASEAN Commonwealth] [in capital]",
+            "Only available <for [[Area] [Southeast Asia]] Civilizations> <when above [0] [Stability bias]> <when above [0] [Radical bias]> <when number of [RN1] is more than [400]> <when number of [RN1] is less than [900]>",
+            ],
+        },
+        {
+            "text":"[Archipelagic League] [Choice]",//群岛联盟
+            "uniques":[
+            "Instantly provides [1] [Event-driven] <hidden from users>",
+            "Gain a free [Archipelagic League] [in capital]",
+            "Only available <for [[Area] [Southeast Asia]] Civilizations> <when above [0] [Stability bias]> <when above [0] [Radical bias]> <when number of [RN1] is more than [100]> <when number of [RN1] is less than [600]>",
+            ],
+        },
+        {
+            "text":"[Greater Southeast Asia Co-Prosperity Sphere] [Choice]",//大东南亚共荣圈
+            "uniques":[
+            "Instantly provides [1] [Event-driven] <hidden from users>",
+            "Gain a free [Greater Southeast Asia Co-Prosperity Sphere] [in capital]",
+            "Only available <for [[Area] [Southeast Asia]] Civilizations> <when below [0] [Stability bias]> <when above [0] [Radical bias]> <when number of [RN1] is more than [200]> <when number of [RN1] is less than [700]>",
+            ],
+        },
+        {
+            "text":"[Southeast Asia Confederation] [Choice]",//东南亚邦联
+            "uniques":[
+            "Instantly provides [1] [Event-driven] <hidden from users>",
+            "Gain a free [Southeast Asia Confederation] [in capital]",
+            "Only available <for [[Area] [Southeast Asia]] Civilizations> <when above [0] [Stability bias]> <when below [0] [Radical bias]> <when number of [RN1] is more than [300]> <when number of [RN1] is less than [800]>",
+            ],
+        },
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         //兜底
         {
             "text":"[Successor] [Choice]",//继任者
@@ -465,27 +515,113 @@
         },
         
         
+        ]
+    },
+        
+        
+        {
+    "name":"Production Command Panel",
+    "text":"The following shows the state of national production, click to switch states",
+    "choices":[
+        {
+            "text":"Allow [Resource.Tools] production",
+            "uniques":[
+            "Only available <when number of [[Production Index] % 10] is equal to [0]>",
+            "Instantly provides [1] [Production Index] <hidden from users>",
+            ],
+        },
+        {
+            "text":"Ban [Resource.Tools] production",
+            "uniques":[
+            "Only available <when number of [[Production Index] % 10] is equal to [1]>",
+            "Instantly consumes [1] [Production Index] <hidden from users>",
+            
+            ],
+        },
         
         
         
         
+        {
+            "text":"Allow [Resource.Gun] production",
+            "uniques":[
+            "Only available <when number of [[Production Index] % 100 - [Production Index] % 10] is equal to [0]>",
+            "Instantly provides [10] [Production Index] <hidden from users>",
+            ],
+        },
+        {
+            "text":"Ban [Resource.Gun] production",
+            "uniques":[
+            "Only available <when number of [[Production Index] % 100 - [Production Index] % 10] is equal to [10]>",
+            "Instantly consumes [10] [Production Index] <hidden from users>",
+            
+            ],
+        },
+        
+        
+        
+        {
+            "text":"Allow [Resource.Steel] production",
+            "uniques":[
+            "Only available <when number of [[Production Index] % 1000 - [Production Index] % 100] is equal to [0]>",
+            "Instantly provides [100] [Production Index] <hidden from users>",
+            ],
+        },
+        {
+            "text":"Ban [Resource.Steel] production",
+            "uniques":[
+            "Only available <when number of [[Production Index] % 1000 - [Production Index] % 100] is equal to [100]>",
+            "Instantly consumes [100] [Production Index] <hidden from users>",
+            
+            ],
+        },
         
         
         
         
-        
-        
-        
-        
-        
-        
-        
-        
+        {
+            "text":"Allow [Resource.Electricity] production",
+            "uniques":[
+            "Only available <when number of [[Production Index] % 10000 - [Production Index] % 1000] is equal to [0]>",
+            "Instantly provides [1000] [Production Index] <hidden from users>",
+            ],
+        },
+        {
+            "text":"Ban [Resource.Electricity] production",
+            "uniques":[
+            "Only available <when number of [[Production Index] % 10000 - [Production Index] % 1000] is equal to [1000]>",
+            "Instantly consumes [1000] [Production Index] <hidden from users>",
+            
+            ],
+        },
         
         
         
     ]
-},
+        },
+        
+        
+        
+        
+        
+        /*Allow [Resource] production = 允许[Resource]生产
+Ban [Resource] production = 禁止[Resource]生产
+
+
+Resource.Tools
+Resource.Steel
+Resource.Gun
+Resource.Electricity*/
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    
 ]
     //<hidden from users>
     //<with [20]% chance>

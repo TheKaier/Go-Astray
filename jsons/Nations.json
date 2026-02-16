@@ -380,7 +380,48 @@
 "Khartoum","Accra","Dar es Salaam","Cape Town","Dakar","Rabat","Luanda","Pretoria","Bamako","Tunis"
 		]
 	},
-	
+	{
+		"name": "[Area] [Southeast Asia]",//
+		"leaderName": "Leader",
+		"adjective": [""],
+		//"startBias": ["air"],
+		//"preferredVictoryType": "Diplomatic",
+		//"favoredReligion": "Humanism",
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+		"outerColor": [217,89,0],
+		"innerColor": [255,255,75],
+		"style": "",
+		"uniqueName": "",
+		"uniques": [
+		"Successor <when above [0] [Progress of Successor]> <hidden from users>",
+		"Cenozoic <when above [0] [Progress of Cenozoic]> <hidden from users>",
+		"Warlord <when above [0] [Progress of Warlord]> <hidden from users>",
+		"Chaos <when above [0] [Progress of Chaos]> <hidden from users>",
+		
+		"Comment [[ASEAN Commonwealth][[Stability bias] above] [0] [[Radical bias] above] [0]]",
+        "Comment [[Archipelagic League][[Stability bias] above] [0] [[Radical bias] above] [0]]",
+        "Comment [[Greater Southeast Asia Co-Prosperity Sphere][[Stability bias] below] [0] [[Radical bias] above] [0]]",
+		"Comment [[Southeast Asia Confederation][[Stability bias] above] [0] [[Radical bias] below] [0]]",
+		
+		
+		"Comment [[Successor][[Stability bias] above] [-1] [[Radical bias] below] [1]]",
+        "Comment [[Cenozoic][[Stability bias] above] [-1] [[Radical bias] above] [-1]]",
+        "Comment [[Warlord][[Stability bias] below] [1]]",
+		
+		
+		],
+		"cities": [
+			"Jakarta","Bangkok","Ho Chi Minh City","Hanoi","Singapore","Kuala Lumpur","Yangon","Manila","Phnom Penh","Vientiane","Bandung","Surabaya","Chiang Mai","Da Nang","George Town","Medan","Makassar","Cebu City","Palembang","Batam"
+		]
+	},
 	
 	
 	

@@ -420,9 +420,10 @@
 		"Only available <when above [19] [Resource.Manpower]>",
 		"Instantly consumes [25] [Resource.Tools]",
 		"Only available <when above [24] [Resource.Tools]>",
-		"Can only attack [UnitType.Instrument] units",
+		//"Can only attack [UnitType.Instrument] units",
 		"Must set up to ranged attack",
-		"[+100]% Strength <when attacking>",
+		"[+100]% Strength <vs cities> <when attacking>",
+		"[+100]% Strength <vs [UnitType.Instrument] units> <when attacking>",
 		],
 	},
 	{
@@ -444,9 +445,10 @@
 		"Only available <when above [29] [Resource.Manpower]>",
 		"Instantly consumes [40] [Resource.Tools]",
 		"Only available <when above [39] [Resource.Tools]>",
-		"Can only attack [UnitType.Instrument] units",
+		//"Can only attack [UnitType.Instrument] units",
 		"Must set up to ranged attack",
-		"[+100]% Strength <when attacking>",
+		"[+100]% Strength <vs cities> <when attacking>",
+		"[+100]% Strength <vs [UnitType.Instrument] units> <when attacking>",
 		],
 	},
 	{
@@ -472,10 +474,11 @@
 		"Only available <when above [14] [Resource.Electricity]>",
 		"Instantly consumes [40] [Resource.Tools]",
 		"Only available <when above [39] [Resource.Tools]>",
-		"Can only attack [UnitType.Instrument] units",
+		//"Can only attack [UnitType.Instrument] units",
 		"Must set up to ranged attack",
-		"[+200]% Strength <when attacking>",
-		"[+50]% Strength <vs [UnitType.Instrument] units>",
+		//"[+200]% Strength <when attacking>",
+		"[+200]% Strength <vs cities> <when attacking>",
+		"[+100]% Strength <vs [UnitType.Instrument] units> <when attacking>",
 		],
 	},
 	{
@@ -731,7 +734,8 @@
 		"Consumes [3] [Resource.Electricity]",
 		"Must set up to ranged attack",
 		"[+100]% Strength <when attacking> <vs [UnitType.Motility] units>",
-		"[+100]% Strength <when attacking> <vs [UnitType.Instrument] units>",
+		"[+100]% Strength <vs cities> <when attacking>",
+		"[+100]% Strength <vs [UnitType.Instrument] units> <when attacking>",
 		],
 	},
 	{
@@ -783,7 +787,7 @@
 		"Can move after attacking",
 		],
 	},
-	{
+	/*{
 		"name": "Unit.Shielding device",//遮蔽装置
 		"unitType": "UnitType.Instrument",
 		//"range": 3,
@@ -803,7 +807,7 @@
 		"Consumes [4] [Resource.Electricity]",
 		"Cannot attack",
 		],
-	},
+	},*/
 	{
 		"name": "Unit.World War III tank",//三战坦克
 		"unitType": "UnitType.Armoured",
@@ -856,7 +860,7 @@
 		"Only available <when above [14] [Resource.Steel]>",
 		"Instantly consumes [20] [Resource.Electricity]",
 		"Only available <when above [19] [Resource.Electricity]>",
-		"Can transform to [Unit.World War III Infantry-range]",
+		"Can transform to [Unit.World War III Infantry-range] <for [1] movement>",
 		],
 	},
 	{
@@ -874,6 +878,7 @@
 		//"obsoleteTech": "Tech.Modular armaments",
 		//"promotions": [],
 		"uniques": [
+		"Can transform to [Unit.World War III Infantry] <for [1] movement>",
 		"Can upgrade to [Unit.Legion of succeeding generations] <after discovering [Tech.Modular armaments]>",
 		"Can upgrade to [Unit.Special Force] <after discovering [Tech.Blitzkrieg]>",
 		"Can upgrade to [Unit.Commando Regiment] <after discovering [Tech.Blitzkrieg]>",
@@ -1314,7 +1319,27 @@
 	
 	
 	
-	
+	{
+		"name": "Great Prophet",//大预言家
+		"unitType": "UnitType.Civilian",
+		"uniques": [
+		"[This Unit] takes [100] damage <upon turn end> <when number of [Progress of Chaos] is equal to [2]>",
+            //"Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>",
+            //"Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>",
+			"Removes other religions when spreading religion",
+            "May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
+            //"May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
+			//"May enter foreign tiles without open borders",
+			//"[-1] Sight",
+			//"Great Person - [Faith]",
+			"Unbuildable",
+			"Religious Unit",
+			//"Only available <when religion is enabled>",
+			"Takes your religion over the one in their birth city",
+		],
+		"movement": 4,
+		"religiousStrength": 1000
+	},
 	
 	
 	
