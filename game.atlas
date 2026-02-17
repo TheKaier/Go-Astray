@@ -20,14 +20,14 @@ BuildingIcons/Building.Aqueduct
   index: -1
 BuildingIcons/Building.Archives
   rotate: false
-  xy: 1720, 1804
+  xy: 1584, 1668
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Building.Automatic Arsenal
   rotate: false
-  xy: 1584, 1668
+  xy: 1856, 1804
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -160,7 +160,7 @@ ImprovementIcons/TileImprovement.Computing terminal
   index: -1
 BuildingIcons/Building.Draft office
   rotate: false
-  xy: 1828, 1804
+  xy: 1692, 1668
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -293,7 +293,7 @@ BuildingIcons/Building.Reinforce the fence
   index: -1
 BuildingIcons/Building.Steel Works
   rotate: false
-  xy: 1370, 1258
+  xy: 1910, 1394
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -510,21 +510,21 @@ ImprovementIcons/Remove TileImprovement.Water drilling
   index: -1
 ImprovementIcons/TileImprovement.Barbed Wire
   rotate: false
-  xy: 1978, 1912
+  xy: 1978, 1976
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/TileImprovement.Barbed Wire
   rotate: false
-  xy: 1978, 1912
+  xy: 1978, 1976
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 ImprovementIcons/TileImprovement.Bunkers
   rotate: false
-  xy: 1388, 486
+  xy: 1388, 378
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -580,7 +580,7 @@ ImprovementIcons/TileImprovement.Farm
   index: -1
 ImprovementIcons/TileImprovement.Fishing ground
   rotate: false
-  xy: 1388, 378
+  xy: 1388, 270
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -615,35 +615,35 @@ ImprovementIcons/TileImprovement.Water drilling
   index: -1
 NationIcons/[Area] [Africa]
   rotate: false
-  xy: 1312, 1776
+  xy: 1312, 1640
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 NationIcons/[Area] [America]
   rotate: false
-  xy: 1312, 1640
+  xy: 1448, 1776
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 NationIcons/[Area] [China]
   rotate: false
-  xy: 1448, 1776
+  xy: 1584, 1776
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 NationIcons/[Area] [Russia]
   rotate: false
-  xy: 1584, 1776
+  xy: 1448, 1640
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 NationIcons/[Area] [Southeast Asia]
   rotate: false
-  xy: 1448, 1640
+  xy: 1720, 1776
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
@@ -1049,16 +1049,23 @@ ResourceIcons/Resource.Iron
   index: -1
 ResourceIcons/Resource.Manpower
   rotate: false
-  xy: 1428, 1258
+  xy: 76, 10
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 ResourceIcons/Resource.Manpower max
   rotate: false
-  xy: 1428, 1258
+  xy: 76, 10
   size: 50, 50
   orig: 50, 50
+  offset: 0, 0
+  index: -1
+ResourceIcons/Resource.Natural disasters crystallize
+  rotate: false
+  xy: 1176, 1654
+  size: 128, 128
+  orig: 128, 128
   offset: 0, 0
   index: -1
 ResourceIcons/Resource.Steel
@@ -1070,14 +1077,14 @@ ResourceIcons/Resource.Steel
   index: -1
 ResourceIcons/Resource.Stone
   rotate: false
-  xy: 1176, 1654
+  xy: 1176, 1518
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 ResourceIcons/Resource.Tools
   rotate: false
-  xy: 1176, 1518
+  xy: 140, 340
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
@@ -1112,420 +1119,427 @@ ResourceIcons/Resource.Wheat
   index: -1
 ResourceIcons/Resource.Wood
   rotate: false
-  xy: 140, 340
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-TechIcons/Tech.AI battle command
-  rotate: false
   xy: 140, 204
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TechIcons/Tech.Aquaculture
+ResourceIcons/Satellites
+  rotate: false
+  xy: 1388, 486
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Tech.AI battle command
   rotate: false
   xy: 140, 68
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TechIcons/Tech.Artificial intelligence
+TechIcons/Tech.Aquaculture
   rotate: false
   xy: 418, 1392
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TechIcons/Tech.Automatic production
+TechIcons/Tech.Artificial intelligence
   rotate: false
   xy: 418, 1256
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TechIcons/Tech.Batch engineering
+TechIcons/Tech.Automatic production
   rotate: false
   xy: 554, 1396
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TechIcons/Tech.Blitzkrieg
+TechIcons/Tech.Batch engineering
   rotate: false
   xy: 690, 1396
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
+TechIcons/Tech.Blitzkrieg
+  rotate: false
+  xy: 554, 1260
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
 TechIcons/Tech.Coal-fired generator
-  rotate: false
-  xy: 554, 1260
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-ImprovementIcons/TileImprovement.Fossil-fuel power station
-  rotate: false
-  xy: 554, 1260
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-TechIcons/Tech.Computer
   rotate: false
   xy: 826, 1396
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TechIcons/Tech.Coordinated attack
+ImprovementIcons/TileImprovement.Fossil-fuel power station
+  rotate: false
+  xy: 826, 1396
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TechIcons/Tech.Computer
   rotate: false
   xy: 690, 1260
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TechIcons/Tech.Dam
+TechIcons/Tech.Coordinated attack
   rotate: false
   xy: 826, 1260
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TechIcons/Tech.Distilled water
+TechIcons/Tech.Dam
   rotate: false
   xy: 962, 1382
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TechIcons/Tech.Doomsday Mech
+TechIcons/Tech.Distilled water
   rotate: false
   xy: 1098, 1382
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TechIcons/Tech.Drones
+TechIcons/Tech.Doomsday Mech
   rotate: false
   xy: 962, 1246
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TechIcons/Tech.Efficient computer
+TechIcons/Tech.Drones
   rotate: false
   xy: 1098, 1246
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TechIcons/Tech.Electricity
+TechIcons/Tech.Efficient computer
   rotate: false
   xy: 1234, 1382
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TechIcons/Tech.Engine
+TechIcons/Tech.Electricity
   rotate: false
   xy: 1234, 1246
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TechIcons/Tech.Explore the ruins
+TechIcons/Tech.Engine
   rotate: false
   xy: 262, 1114
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TechIcons/Tech.Extractive Industries
+TechIcons/Tech.Explore the ruins
   rotate: false
   xy: 262, 978
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TechIcons/Tech.Fine collection
+TechIcons/Tech.Extractive Industries
   rotate: false
   xy: 262, 842
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TechIcons/Tech.Fort
+TechIcons/Tech.Fine collection
   rotate: false
   xy: 262, 706
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TechIcons/Tech.Harvesting equipment
+TechIcons/Tech.Fort
   rotate: false
   xy: 262, 570
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
+TechIcons/Tech.Harvesting equipment
+  rotate: false
+  xy: 398, 1120
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
 TechIcons/Tech.Heavy Artillery
-  rotate: false
-  xy: 398, 1120
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-UnitIcons/Unit.Sentry guns
-  rotate: false
-  xy: 398, 1120
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-TechIcons/Tech.Hydroelectric generator
   rotate: false
   xy: 398, 984
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TechIcons/Tech.Industrial water
+UnitIcons/Unit.Sentry guns
+  rotate: false
+  xy: 398, 984
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TechIcons/Tech.Hydroelectric generator
   rotate: false
   xy: 398, 848
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TechIcons/Tech.Initial clean water
+TechIcons/Tech.Industrial water
   rotate: false
   xy: 398, 712
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TechIcons/Tech.Integrated Mech
+TechIcons/Tech.Initial clean water
   rotate: false
   xy: 398, 576
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TechIcons/Tech.Integration
+TechIcons/Tech.Integrated Mech
   rotate: false
   xy: 276, 434
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TechIcons/Tech.Intelligent guidance
+TechIcons/Tech.Integration
   rotate: false
   xy: 276, 298
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TechIcons/Tech.Intelligent protection
+TechIcons/Tech.Intelligent guidance
   rotate: false
   xy: 276, 162
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TechIcons/Tech.Mechanical
+TechIcons/Tech.Intelligent protection
   rotate: false
   xy: 412, 440
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TechIcons/Tech.Microdevices
+TechIcons/Tech.Mechanical
   rotate: false
   xy: 412, 304
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TechIcons/Tech.Mining
+TechIcons/Tech.Microdevices
   rotate: false
   xy: 412, 168
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TechIcons/Tech.Modular armaments
+TechIcons/Tech.Mining
   rotate: false
   xy: 276, 26
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TechIcons/Tech.Nanobots
+TechIcons/Tech.Modular armaments
   rotate: false
   xy: 412, 32
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TechIcons/Tech.Nuclear Recycling
+TechIcons/Tech.Nanobots
   rotate: false
   xy: 534, 1120
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TechIcons/Tech.Nuclear power armament
+TechIcons/Tech.Nuclear Recycling
   rotate: false
   xy: 534, 984
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TechIcons/Tech.Nuclear reaction
+TechIcons/Tech.Nuclear power armament
   rotate: false
   xy: 534, 848
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TechIcons/Tech.Particle Engineering
+TechIcons/Tech.Nuclear reaction
   rotate: false
   xy: 534, 712
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TechIcons/Tech.Pipe making
+TechIcons/Tech.Particle Engineering
   rotate: false
   xy: 534, 576
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TechIcons/Tech.Plant water
+TechIcons/Tech.Pipe making
   rotate: false
   xy: 670, 1124
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TechIcons/Tech.Pure water
+TechIcons/Tech.Plant water
   rotate: false
   xy: 806, 1124
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TechIcons/Tech.Radio
+TechIcons/Tech.Pure water
   rotate: false
   xy: 670, 988
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TechIcons/Tech.Recycling of building materials
+TechIcons/Tech.Radio
   rotate: false
   xy: 670, 852
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TechIcons/Tech.Refrigeration
+TechIcons/Tech.Recycling of building materials
   rotate: false
   xy: 806, 988
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TechIcons/Tech.Resource Fence
+TechIcons/Tech.Refrigeration
   rotate: false
   xy: 670, 716
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TechIcons/Tech.Rough paper
+TechIcons/Tech.Resource Fence
   rotate: false
   xy: 806, 852
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TechIcons/Tech.Rough work
+TechIcons/Tech.Rough paper
   rotate: false
   xy: 670, 580
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TechIcons/Tech.Satellite
+TechIcons/Tech.Rough work
   rotate: false
   xy: 806, 716
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TechIcons/Tech.Scale harvesting
+TechIcons/Tech.Satellite
   rotate: false
   xy: 806, 580
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TechIcons/Tech.The fence
+TechIcons/Tech.Scale harvesting
   rotate: false
   xy: 548, 440
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TechIcons/Tech.The watch alternates
+TechIcons/Tech.The fence
   rotate: false
   xy: 548, 304
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TechIcons/Tech.The water cycle
+TechIcons/Tech.The watch alternates
   rotate: false
   xy: 548, 168
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TechIcons/Tech.Tool improvement
+TechIcons/Tech.The water cycle
   rotate: false
   xy: 548, 32
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TechIcons/Tech.Transistors
+TechIcons/Tech.Tool improvement
   rotate: false
   xy: 684, 444
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TechIcons/Tech.Water Storage Project
+TechIcons/Tech.Transistors
   rotate: false
   xy: 684, 308
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TechIcons/Tech.Workshop production
+TechIcons/Tech.Water Storage Project
   rotate: false
   xy: 684, 172
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-TechIcons/Tech.wasteland environment
+TechIcons/Tech.Workshop production
   rotate: false
   xy: 684, 36
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TechIcons/Tech.wasteland environment
+  rotate: false
+  xy: 820, 444
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
@@ -1539,7 +1553,7 @@ TileSets/FantasyHex/Tiles/Terrain.Abandoned building
   index: -1
 TileSets/FantasyHex/Tiles/Terrain.Wasteland
   rotate: false
-  xy: 1978, 1984
+  xy: 1370, 1252
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -1553,7 +1567,7 @@ UnitIcons/Orbital fire support
   index: -1
 UnitIcons/Unit.Armed Militia
   rotate: false
-  xy: 820, 444
+  xy: 820, 308
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
@@ -1595,315 +1609,315 @@ UnitIcons/Unit.Supply drone
   index: -1
 UnitIcons/Unit.Assault Infantry
   rotate: false
-  xy: 820, 308
+  xy: 820, 172
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Tactical Infantry
   rotate: false
-  xy: 820, 308
+  xy: 820, 172
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Atomic bomb
   rotate: false
-  xy: 1388, 270
+  xy: 1388, 162
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Battleship
   rotate: false
-  xy: 1388, 162
+  xy: 1388, 54
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Canoe
   rotate: false
-  xy: 1388, 54
+  xy: 1528, 1532
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Catapults
   rotate: false
-  xy: 1528, 1532
+  xy: 1478, 1424
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Cavalry company
   rotate: false
-  xy: 820, 172
+  xy: 820, 36
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Charge the regiment
   rotate: false
-  xy: 1478, 1424
+  xy: 1478, 1316
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Light Chariots
   rotate: false
-  xy: 1478, 1424
+  xy: 1478, 1316
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Mechanical Chariots
   rotate: false
-  xy: 1478, 1424
+  xy: 1478, 1316
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Commando Regimen
   rotate: false
-  xy: 1478, 1316
+  xy: 1636, 1560
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Compound archers
   rotate: false
-  xy: 820, 36
+  xy: 942, 1110
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Destroyer
   rotate: false
-  xy: 1586, 1424
+  xy: 1800, 1668
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Electromagnetic Infantry
   rotate: false
-  xy: 1586, 1316
+  xy: 1744, 1560
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Power Infantry
   rotate: false
-  xy: 1586, 1316
+  xy: 1744, 1560
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Expedition
   rotate: false
-  xy: 942, 1110
+  xy: 942, 974
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Guard
   rotate: false
-  xy: 942, 974
+  xy: 1078, 1110
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Guerrillas
   rotate: false
-  xy: 1078, 1110
+  xy: 942, 838
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Gunboat
   rotate: false
-  xy: 1936, 1804
+  xy: 1852, 1560
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Legion of succeeding generations
   rotate: false
-  xy: 1486, 1208
+  xy: 1586, 1424
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Light Cavalry
   rotate: false
-  xy: 942, 838
+  xy: 1078, 974
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Light Cruiser
   rotate: false
-  xy: 1486, 1100
+  xy: 1586, 1316
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Locomotive regiment
   rotate: false
-  xy: 1486, 992
+  xy: 1694, 1452
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Militia
   rotate: false
-  xy: 1078, 974
+  xy: 1214, 1110
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Mobilizer
   rotate: false
-  xy: 1214, 1110
+  xy: 942, 702
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Modular Ship
   rotate: false
-  xy: 942, 702
+  xy: 1078, 838
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Mortars
   rotate: false
-  xy: 1486, 884
+  xy: 1694, 1344
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Motorboat
   rotate: false
-  xy: 1486, 775
+  xy: 1802, 1451
   size: 100, 101
   orig: 100, 101
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Outpost engineering team
   rotate: false
-  xy: 1078, 838
+  xy: 1214, 974
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Sentry
   rotate: false
-  xy: 1078, 838
+  xy: 1214, 974
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Sentry engineering team
   rotate: false
-  xy: 1078, 838
+  xy: 1214, 974
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Simple outposts
   rotate: false
-  xy: 1078, 838
+  xy: 1214, 974
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Pioneer
   rotate: false
-  xy: 1214, 974
+  xy: 1078, 702
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Riprap
   rotate: false
-  xy: 1594, 1208
+  xy: 1802, 1343
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Sapper
   rotate: false
-  xy: 1078, 702
+  xy: 1214, 838
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Self-propelled gun
   rotate: false
-  xy: 1214, 838
+  xy: 1214, 702
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Special Force
   rotate: false
-  xy: 1594, 1100
+  xy: 1910, 1452
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Stormtrooper
   rotate: false
-  xy: 1214, 702
+  xy: 1350, 1110
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Trench
   rotate: false
-  xy: 1486, 717
+  xy: 1442, 1258
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Trench builders
   rotate: false
-  xy: 1486, 717
+  xy: 1442, 1258
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Warden
   rotate: false
-  xy: 1350, 1110
+  xy: 1350, 974
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Worker
   rotate: false
-  xy: 1350, 974
+  xy: 1350, 838
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit.World War III Infantry
   rotate: false
-  xy: 1350, 838
+  xy: 1350, 702
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit.World War III Infantry-rang
   rotate: false
-  xy: 1350, 838
+  xy: 1350, 702
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit.World War III tank
   rotate: false
-  xy: 1350, 702
+  xy: 1312, 1776
   size: 128, 128
   orig: 128, 128
   offset: 0, 0

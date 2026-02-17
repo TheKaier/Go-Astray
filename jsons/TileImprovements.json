@@ -206,6 +206,7 @@
 		"production": 1,
 		"turnsToBuild": 4,
 		"techRequired": "Tech.wasteland environment",
+		
 		"uniques": [
 			//"Consumes [1] [Resource.Water] <when above [0] [Resource.Water]>",
 			"Costs [1] [Gold] per turn",
@@ -263,13 +264,13 @@
 	{
 		"name": "TileImprovement.Lumberyard",//伐木场
 		"terrainsCanBeBuiltOn": ["Forest"],
-		"production": 1,
+		"production": 2,
 		"turnsToBuild": 6,
 		"techRequired": "Tech.Scale harvesting",
 		"uniques": [
 			//"Consumes [2] [Resource.Water] <when above [1] [Resource.Water]>",
-			"Costs [1] [Gold] per turn",
-			"Provides [3] [Resource.Wood]",
+			"Costs [2] [Gold] per turn",
+			"Provides [4] [Resource.Wood]",
 			],
 		"shortcutKey": "J"
 	},
@@ -301,12 +302,12 @@
 	{
 		"name": "TileImprovement.Coal Mine",//煤矿井
 		"terrainsCanBeBuiltOn": ["Forest"],
-		"production": 1,
+		"production": 2,
 		"turnsToBuild": 6,
 		"techRequired": "Tech.Mining",
 		"uniques": [
 			//"Consumes [2] [Resource.Coal] <when above [1] [Resource.Water]>",
-			"Costs [1] [Gold] per turn",
+			"Costs [2] [Gold] per turn",
 			"Provides [1] [Resource.Coal]",
 			],
 		"shortcutKey": "J"
@@ -330,9 +331,9 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		//"food": 1,
 		"turnsToBuild": 3,
-		"techRequired": "Tech.Microdevices",
+		"techRequired": "Tech.Industrial water",
 		"uniques": [
-			"Adjacent enemy units ending their turn take [5] damage",
+			//"Adjacent enemy units ending their turn take [5] damage",
 			"Can be built just outside your borders",
 			"Costs [1] [Gold] per turn",
 		]

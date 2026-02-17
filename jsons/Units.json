@@ -35,7 +35,7 @@
 		"cost": 25,
 		//"requiredTech": "",
 		"upgradesTo": "Unit.Armed Militia",
-		"obsoleteTech": "Tech.Tool improvement",
+		"obsoleteTech": "Tech.Workshop production",
 		//"promotions": [],
 		"uniques": [
 		"Instantly consumes [20] [Resource.Manpower]",
@@ -83,7 +83,6 @@
 		"Instantly consumes [15] [Resource.Manpower]",
 		"Only available <when above [14] [Resource.Manpower]>",
 		"[-33]% Strength <when attacking>",
-		"Withdraw before melee combat <with [20]% chance>"
 		],
 	},
 	{
@@ -103,7 +102,7 @@
 		"uniques": [
 		"Instantly consumes [20] [Resource.Manpower]",
 		"Only available <when above [19] [Resource.Manpower]>",
-		"Can build [Land] improvements on tiles",
+		"Can build [All] improvements on tiles",
 		"Automation is a primary action",
 		],
 	},
@@ -126,7 +125,7 @@
 		"Only available <when above [24] [Resource.Manpower]>",
 		"Instantly consumes [10] [Resource.Tools]",
 		"Only available <when above [9] [Resource.Tools]>",
-		"Can build [Land] improvements on tiles",
+		"Can build [All] improvements on tiles",
 		"Automation is a primary action",
 		],
 	},
@@ -142,7 +141,7 @@
 		"cost": 35,
 		"requiredTech": "Tech.Mechanical",
 		"upgradesTo": "Unit.Guerrillas",
-		"obsoleteTech": "Tech.Batch engineering",
+		"obsoleteTech": "Tech.Electricity",
 		//"promotions": [],
 		"uniques": [
 		"Instantly consumes [30] [Resource.Manpower]",
@@ -227,7 +226,7 @@
 		"cost": 45,
 		"requiredTech": "Tech.Workshop production",
 		"upgradesTo": "Unit.Power Infantry",
-		"obsoleteTech": "Tech.Electricity",
+		"obsoleteTech": "Tech.Computer",
 		//"promotions": [],
 		"uniques": [
 		"Instantly consumes [40] [Resource.Manpower]",
@@ -250,7 +249,7 @@
 		"cost": 60,
 		"requiredTech": "Tech.Workshop production",
 		"upgradesTo": "Unit.Electromagnetic Infantry",
-		"obsoleteTech": "Tech.Electricity",
+		"obsoleteTech": "Tech.Computer",
 		//"promotions": [],
 		"uniques": [
 		"Instantly consumes [40] [Resource.Manpower]",
@@ -273,7 +272,7 @@
 		"cost": 60,
 		"requiredTech": "Tech.Batch engineering",
 		"upgradesTo": "Unit.Power Infantry",
-		"obsoleteTech": "Tech.Electricity",
+		"obsoleteTech": "Tech.Computer",
 		//"promotions": [],
 		"uniques": [
 		"Instantly consumes [40] [Resource.Manpower]",
@@ -298,7 +297,7 @@
 		"cost": 65,
 		"requiredTech": "Tech.Batch engineering",
 		"upgradesTo": "Unit.Electromagnetic Infantry",
-		"obsoleteTech": "Tech.Electricity",
+		"obsoleteTech": "Tech.Computer",
 		//"promotions": [],
 		"uniques": [
 		"Instantly consumes [40] [Resource.Manpower]",
@@ -365,7 +364,7 @@
 		"cost": 100,
 		"requiredTech": "Tech.Electricity",
 		"upgradesTo": "Unit.Tactical Infantry",
-		"obsoleteTech": "Tech.Integration",
+		"obsoleteTech": "Tech.Intelligent protection",
 		//"promotions": [],
 		"uniques": [
 		"Instantly consumes [50] [Resource.Manpower]",
@@ -388,7 +387,7 @@
 		"cost": 110,
 		"requiredTech": "Tech.Electricity",
 		"upgradesTo": "Unit.Assault Infantry",
-		"obsoleteTech": "Tech.Integration",
+		"obsoleteTech": "Tech.Intelligent protection",
 		//"promotions": [],
 		"uniques": [
 		"Instantly consumes [50] [Resource.Manpower]",
@@ -397,8 +396,8 @@
 		"Only available <when above [19] [Resource.Gun]>",
 		"Instantly consumes [10] [Resource.Electricity]",
 		"Only available <when above [9] [Resource.Electricity]>",
-		"[+1] Range <in [Hill] tiles>",
-		"Rough terrain penalty",
+		//"[+1] Range <in [Hill] tiles>",
+		//"Rough terrain penalty",
 		],
 	},
 	{
@@ -540,7 +539,7 @@
 		"cost": 50,
 		"requiredTech": "Tech.Harvesting equipment",
 		"upgradesTo": "Unit.Cavalry company",
-		"obsoleteTech": "Tech.Scale harvesting",
+		"obsoleteTech": "Tech.Mining",
 		//"promotions": [],
 		"uniques": [
 		"Instantly consumes [25] [Resource.Manpower]",
@@ -569,7 +568,7 @@
 		"cost": 80,
 		"requiredTech": "Tech.Scale harvesting",
 		"upgradesTo": "Unit.Locomotive regiment",
-		"obsoleteTech": "Tech.Engine",
+		"obsoleteTech": "Tech.Radio",
 		//"promotions": [],
 		"uniques": [
 		"Instantly consumes [35] [Resource.Manpower]",
@@ -626,7 +625,7 @@
 		"cost": 175,
 		"requiredTech": "Tech.Radio",
 		"upgradesTo": "Unit.World War III tank",
-		"obsoleteTech": "Tech.Coordinated attack",
+		"obsoleteTech": "Tech.Blitzkrieg",
 		//"promotions": [],
 		"uniques": [
 		"Instantly consumes [55] [Resource.Manpower]",
@@ -649,7 +648,7 @@
 		"cost": 175,
 		"requiredTech": "Tech.Radio",
 		"upgradesTo": "Unit.World War III tank",
-		"obsoleteTech": "Tech.Coordinated attack",
+		"obsoleteTech": "Tech.Blitzkrieg",
 		//"promotions": [],
 		"uniques": [
 		"Instantly consumes [55] [Resource.Manpower]",
@@ -672,7 +671,7 @@
 		"cost": 150,
 		"requiredTech": "Tech.Integration",
 		"upgradesTo": "Unit.World War III Infantry",
-		"obsoleteTech": "Tech.Coordinated attack",
+		"obsoleteTech": "Tech.Modular armaments",
 		//"promotions": [],
 		"uniques": [
 		"Instantly consumes [60] [Resource.Manpower]",
@@ -698,7 +697,7 @@
 		"cost": 150,
 		"requiredTech": "Tech.Integration",
 		"upgradesTo": "Unit.World War III Infantry",
-		"obsoleteTech": "Tech.Coordinated attack",
+		"obsoleteTech": "Tech.Modular armaments",
 		//"promotions": [],
 		"uniques": [
 		"Instantly consumes [60] [Resource.Manpower]",
@@ -750,7 +749,7 @@
 		"cost": 225,
 		"requiredTech": "Tech.Radio",
 		//"upgradesTo": "Unit.Charge the regiment",
-		"obsoleteTech": "Tech.Coordinated attack",
+		"obsoleteTech": "Tech.Blitzkrieg",
 		//"promotions": [],
 		"uniques": [
 		"Instantly consumes [60] [Resource.Manpower]",
@@ -1323,13 +1322,13 @@
 		"name": "Great Prophet",//大预言家
 		"unitType": "UnitType.Civilian",
 		"uniques": [
-		"[This Unit] takes [100] damage <upon turn end> <when number of [Progress of Chaos] is equal to [2]>",
+		"Instantly provides [5] [Progress of Chaos]",
             //"Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>",
-            //"Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>",
+            "Can Spread Religion <for [1] movement> <[4] times> <after which this unit is consumed>",
 			"Removes other religions when spreading religion",
             "May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
             //"May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
-			//"May enter foreign tiles without open borders",
+			"May enter foreign tiles without open borders",
 			//"[-1] Sight",
 			//"Great Person - [Faith]",
 			"Unbuildable",

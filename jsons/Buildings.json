@@ -1,7 +1,17 @@
 [
     
     
-    
+    {
+		"name": "United Nations",
+		"isWonder": true,
+		"cost": 0,
+		"requiredTech": "Tech.Radio",
+		"uniques": [
+		"Only available <when below [1] [Progress of Chaos]>",
+		"Triggers voting for the Diplomatic Victory", 
+		"Triggers a global alert upon completion"],
+		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
+	},
     {
 	"name": "Space Orbit Seizure",//太空轨道
 	"cost": 0,
@@ -292,6 +302,7 @@
 	"cost": 1500,
 	"requiredTech": "Tech.Satellite"
 	"uniques": [
+	"Only available <when below [1] [Progress of Chaos]>",
 		//"Gain a free [NationWonderExpand.Space Orbit Seizure] [in this city] <if [NationWonder.Space Orbit Seizure] is not constructed by anybody> <hidden from users>",
 		"Gain a free [NationWonderExpand.Space Orbit Seizure] [in this city] <when number of [[NationWonder.Space Orbit Seizure] Buildings by [Major] Civilizations] is less than [2]> <hidden from users>",
 		//"Adopt [Space Orbit Seizure]",
@@ -556,7 +567,7 @@
 		"Unsellable",
 		"Destroyed when the city is captured",
 		"Automatically built in all cities where it is buildable",
-		"Only available <in cities without a [City rank V]> <in cities without a [City rank VI]> <when below [4] [Progress of Chaos]>",
+		"Only available <in cities without a [City rank V]> <in cities without a [City rank VI]>",
 		"Nullifies Growth [in this city] <in cities with at least [15] [Population]>",
 		"Requires at least [10] population",
 		"Remove [City rank III] [in this city] <hidden from users>",
@@ -1504,7 +1515,7 @@
         "Provides [1] [Progress of Chaos]",
         "[+1]% Strength",
         
-        
+        "Triggers a [Degenerate] event",
         
         
         "Remove [Successor] [in this city] <hidden from users>",
@@ -1519,7 +1530,7 @@
         //"Remove [Chinese Communist Party] [in this city] <hidden from users>",
         "Remove [Production and Construction Corps] [in this city] <hidden from users>",
         "Remove [Autonomous Special Zone of Trade] [in this city] <hidden from users>",
-        
+        "Remove [National Collective Movement] [in this city] <hidden from users>",
         
         "Remove [United States Constitutional Government] [in this city] <hidden from users>",
         "Remove [American Union] [in this city] <hidden from users>",
@@ -1556,6 +1567,65 @@
         
     ]
 },
+{
+    "name": "Sun Goddess",//羲和
+    "cost": 0,
+    "uniques": [
+        "Moves to new capital when capital changes",
+        "Unbuildable",
+        "Unsellable",
+        "Triggers a global alert upon completion",
+        "[+25]% growth [in all cities] <when between [-5] and [-1] [Happiness]>",
+        "[+50]% growth [in all cities] <when between [-10] and [-6] [Happiness]>",
+        "[+25]% growth [in all cities] <when between [-15] and [-11] [Happiness]>",
+        "[+25]% [Production] [in all cities] <when below [-10] [Happiness]>",
+        "[+25]% [Production] [in all cities] <when below [-15] [Happiness]>",
+        "[+33]% Strength <for [All] units> <when below [-10] [Happiness]>",
+        
+    ]
+},
+{
+    "name": "Heavenly Father",//天父
+    "cost": 0,
+    "uniques": [
+        "Moves to new capital when capital changes",
+        "Unbuildable",
+        "Unsellable",
+        "Triggers a global alert upon completion",
+        "Gain [1] [Gold] <for every [[Resource.Manpower] - [Resource.Manpower max] / 2]> <upon turn start> <when number of [Gold] is less than [Resource.Water capacity]> <when number of [[Resource.Manpower max] / 2] is less than [Resource.Manpower]>",
+        "Instantly consumes [1] [Resource.Manpower] <for every [[Resource.Manpower] - [Resource.Manpower max] / 2]> <upon turn start> <when number of [Gold] is less than [Resource.Water capacity]> <when number of [[Resource.Manpower max] / 2] is less than [Resource.Manpower]>",
+        
+    ]
+},
+{
+    "name": "Omniscient One",//全知者
+    "cost": 0,
+    "uniques": [
+        "Moves to new capital when capital changes",
+        "Unbuildable",
+        "Unsellable",
+        "Triggers a global alert upon completion",
+        "Free Social Policy",
+        "Free Technology",
+        "Reveals the entire map <upon turn start>",
+    ]
+},
+{
+    "name": "Rusted Army",//锈化军
+    "cost": 0,
+    "uniques": [
+        "Moves to new capital when capital changes",
+        "Unbuildable",
+        "Unsellable",
+        "Triggers a global alert upon completion",
+        
+        "[+15]% Strength <when above [99] HP> <for [Land] units>",
+        "[+50]% Strength <when below [15] HP>",
+        "[+1] Sight <for [All] units>",
+    ]
+},
+
+
 
 //中国
 //
@@ -1605,7 +1675,7 @@
         
         "[+1 Science, +1 Production] from all [Science] buildings",
         "[+1 Science, +1 Production] from all [Production] buildings",
-        "[+1]% Strength <for every [([Science] / 10) % 30]>",
+        "[+1]% Strength <for every [([Science] / 10) % 25]>",
     ]
 },
 {
@@ -1620,7 +1690,7 @@
         "[+1]% Strength",
         
         "Gain [-1] [Faith] <for every [10] [Faith]> <upon turn start>",
-        
+        "[+1]% Strength <for every [[Faith] % 20]>",
     ]
 },
 /*{
@@ -1664,6 +1734,20 @@
         "[+50]% [Gold] from Trade Routes",
         "Gain [50]-[100] [Gold] <upon declaring friendship>",
         "Gain [50]-[100] [Gold] <upon declaring a defensive pact>",
+    ]
+},
+{
+    "name": "National Collective Movement",
+    "cost": 0,
+    "uniques": [
+        "Moves to new capital when capital changes",
+        "Unbuildable",
+        "Unsellable",
+        "Triggers a global alert upon completion",
+        "Provides [1] [Progress of Warlord]",
+        "[+1]% Strength",
+        
+        "[+1 Gold, +1 Culture, +1 Science] <for every [50] [Resource.Manpower]>",
     ]
 },
 //美国

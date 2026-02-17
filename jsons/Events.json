@@ -224,6 +224,15 @@
             "Only available <for [[Area] [China]] Civilizations> <when below [0] [Stability bias]> <when above [0] [Radical bias]> <when number of [RN1] is more than [400]> <when number of [RN1] is less than [900]>",
             ],
         },
+        {
+            "text":"[National Collective Movement] [Choice]",
+            "uniques":[
+            "Instantly provides [1] [Event-driven] <hidden from users>",
+            "Gain a free [National Collective Movement] [in capital]",
+            "Only available <for [[Area] [China]] Civilizations> <when below [0] [Stability bias]> <when above [0] [Radical bias]> <when number of [RN1] is more than [100]> <when number of [RN1] is less than [600]>",
+            ],
+        },
+        
         {//美国
             "text":"[United States Constitutional Government] [Choice]",
             "uniques":[
@@ -602,7 +611,51 @@
         
         
         
-        
+        {
+    "name":"Degenerate",
+    "text":"The natural disaster is eroding further and further. It has changed us in many ways. Only by abandoning the past can we embrace the new life.",
+    "choices":[
+        {
+            "text":"[Sun Goddess] [Choice]",
+            "uniques":[
+            
+            "Gain a free [Sun Goddess] [in capital]",
+            "Only available <for [[Area] [China]] Civilizations>",
+            ],
+        },
+        {
+            "text":"[Heavenly Father] [Choice]",
+            "uniques":[
+            
+            "Gain a free [Heavenly Father] [in capital]",
+            "Only available <for [[Area] [China]] Civilizations>",
+            ],
+        },
+        {
+            "text":"[Omniscient One] [Choice]",
+            "uniques":[
+            
+            "Gain a free [Omniscient One] [in capital]",
+            "Only available <for [[Area] [America]] Civilizations>",
+            ],
+        },
+        {
+            "text":"[Rusted Army] [Choice]",
+            "uniques":[
+            
+            "Gain a free [Rusted Army] [in capital]",
+            "Only available <for [[Area] [Europe]] Civilizations>",
+            ],
+        },
+        {
+            "text":"[Chaos] [Choice]",
+            "uniques":[
+            "Gain a free [Chaos] [in capital]",
+            //"Only available <for [[Area] [Southeast Asia]] Civilizations>",
+            ],
+        },
+    ]
+},
         
         /*Allow [Resource] production = 允许[Resource]生产
 Ban [Resource] production = 禁止[Resource]生产

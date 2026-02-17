@@ -25,7 +25,7 @@
 		"outerColor": [153,5,3],
         "innerColor": [244,232,54],
 		"style": "",
-		"uniqueName": "",
+		"uniqueName": "Alternative lines of influence and requirements",
 		//"uniqueText": "",
 		"uniques": [
 		//"[+15]% Production when constructing [Unit.Mobilizer] units [in all cities]",
@@ -42,7 +42,8 @@
         "Comment [[Celestial Empire of China][[Stability bias] below] [0] [[Radical bias] above] [0]]",
         "Comment [[Production and Construction Corps][[Stability bias] above] [0] [[Radical bias] below] [0]]",
         "Comment [[Autonomous Special Zone of Trade][[Stability bias] below] [0] [[Radical bias] above] [0]]",
-        
+        "Comment [[Sun Goddess][Accept pollution]]",
+        "Comment [[Heavenly Father][Accept pollution]]",
         
         
         "Comment [[Successor][[Stability bias] above] [-1] [[Radical bias] below] [1]]",
@@ -76,7 +77,7 @@
 		"outerColor": [ 28,51,119],
         "innerColor": [255,255,255],
 		"style": "",
-		"uniqueName": "",
+		"uniqueName": "Alternative lines of influence and requirements",
 		"uniques": [
 		//"[+1 Gold] per [2] population [in all cities]",
 		"Successor <when above [0] [Progress of Successor]> <hidden from users>",
@@ -84,12 +85,17 @@
 		"Warlord <when above [0] [Progress of Warlord]> <hidden from users>",
 		"Chaos <when above [0] [Progress of Chaos]> <hidden from users>",
 		
+		
+		
+		
 		"Comment [[United States Constitutional Government][[Stability bias] above] [0] [[Radical bias] below] [0]]",
         "Comment [[American Union][[Stability bias] above] [0] [[Radical bias] below] [0]]",
         "Comment [[People's Liberation Army of America][[Stability bias] above] [0] [[Radical bias] above] [0]]",
         "Comment [[Patriotic Front][[Stability bias] above] [0] [[Radical bias] above] [0]]",
         "Comment [[National Socialist Movement][[Stability bias] above] [0] [[Radical bias] above] [0]]",
         "Comment [[Atomic Division][[Stability bias] below] [1] [[Radical bias] above] [1]]",
+        "Comment [[Omniscient One][Accept pollution]]",
+        
         
         
         "Comment [[Successor][[Stability bias] above] [-1] [[Radical bias] below] [1]]",
@@ -125,7 +131,7 @@
 		"outerColor": [239, 180, 0],
 		"innerColor": [0, 0, 0],
 		"style": "",
-		"uniqueName": "",
+		"uniqueName": "Alternative lines of influence and requirements",
 		"uniques": [
 		//"Free [Unit.Militia] appears",
 		"Successor <when above [0] [Progress of Successor]> <hidden from users>",
@@ -176,7 +182,7 @@
 		"outerColor": [114, 162, 233],
 		"innerColor": [61, 0, 109],
 		"style": "",
-		"uniqueName": "",
+		"uniqueName": "Alternative lines of influence and requirements",
 		"uniques": [
 		//"[+1 Production] from every [Strategic resource]",
 		"Successor <when above [0] [Progress of Successor]> <hidden from users>",
@@ -188,7 +194,7 @@
 		"Comment [[European Union][[Stability bias] above] [0] [[Radical bias] below] [0]]",
         "Comment [[European Communist International][[Stability bias] above] [0] [[Radical bias] above] [0]]",
         "Comment [[Davos Forum][[Stability bias] above] [0] [[Radical bias] above] [0]]",
-		
+		"Comment [[Rusted Army][Accept pollution]]",
 		
 		"Comment [[Successor][[Stability bias] above] [-1] [[Radical bias] below] [1]]",
         "Comment [[Cenozoic][[Stability bias] above] [-1] [[Radical bias] above] [-1]]",
@@ -236,7 +242,7 @@
 		"outerColor": [245,248,185],
         "innerColor": [18,84,30],
 		"style": "",
-		"uniqueName": "",
+		"uniqueName": "Alternative lines of influence and requirements",
 		"uniques": [
 		"Successor <when above [0] [Progress of Successor]> <hidden from users>",
 		"Cenozoic <when above [0] [Progress of Cenozoic]> <hidden from users>",
@@ -276,7 +282,7 @@
 		"outerColor": [14, 113, 4],
         "innerColor": [255, 163, 71],
 		"style": "",
-		"uniqueName": "",
+		"uniqueName": "Alternative lines of influence and requirements",
 		"uniques": [
 		"Successor <when above [0] [Progress of Successor]> <hidden from users>",
 		"Cenozoic <when above [0] [Progress of Cenozoic]> <hidden from users>",
@@ -317,7 +323,7 @@
 		"outerColor": [255,184,33],
         "innerColor": [3,115,86],
 		"style": "",
-		"uniqueName": "",
+		"uniqueName": "Alternative lines of influence and requirements",
 		"uniques": [
 		"Successor <when above [0] [Progress of Successor]> <hidden from users>",
 		"Cenozoic <when above [0] [Progress of Cenozoic]> <hidden from users>",
@@ -358,7 +364,7 @@
 		"outerColor": [18, 66, 22],
         "innerColor": [255, 56, 56],
 		"style": "",
-		"uniqueName": "",
+		"uniqueName": "Alternative lines of influence and requirements",
 		"uniques": [
 		"Successor <when above [0] [Progress of Successor]> <hidden from users>",
 		"Cenozoic <when above [0] [Progress of Cenozoic]> <hidden from users>",
@@ -399,7 +405,7 @@
 		"outerColor": [217,89,0],
 		"innerColor": [255,255,75],
 		"style": "",
-		"uniqueName": "",
+		"uniqueName": "Alternative lines of influence and requirements",
 		"uniques": [
 		"Successor <when above [0] [Progress of Successor]> <hidden from users>",
 		"Cenozoic <when above [0] [Progress of Cenozoic]> <hidden from users>",

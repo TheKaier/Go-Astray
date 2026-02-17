@@ -2,21 +2,29 @@
     {
     "name": "Vendetta Victory",//死仇
     "victoryScreenHeader": "Complete Elimination of Your Sworn Enemy!",
-    "milestones": ["Destroy all players"],
+    "milestones": ["Destroy all players",
+    
+    
+    ],
     "victoryString": "The old scores of World War III have been settled. Your civilization has proven with absolute force who the final victor is. The cycle of hatred ends in your hands—because there is no one left to hate.",
     "defeatString": "Your civilization fell under the iron heel of your nemesis. They shouted slogans of revenge, razing everything you had to the ground. Victory belongs to others, and you have become the loser written in the history books"
     },
     /*{
     "name": "Bewilderment Victory",
     "victoryScreenHeader": "Complete Unfinished Hatred!",
-    "milestones": ["Destroy all players"],
+    "milestones": ["Destroy all players",
+    
+    ],
     "victoryString": "We still couldn't let go of our ancestors'hatred, but we won. The defeated will forever vanish from history, ceasing to exist.",
     "defeatString": "You can no longer see the future. You can't even comprehend what this means. You are forever lost in the confusion you created."
     },*/
     {
     "name": "Restoration Victory",//复兴
     "victoryScreenHeader": "Restore the Glory of Civilization!",
-    "milestones": ["Build [City rank VI]"],
+    "milestones": [
+    "Build [City rank VI]",
+    
+    ],
     "victoryString": "The shadow of world war did not bring eternal darkness. From the ashes of civilization, you recovered blueprints, green formulas, and golden dreams. The splendor of the old world is reborn in your hands, shining even brighter.",
     "defeatString": "While you were still rummaging through the ruins, another civilization had already restored the pre-war glory. Their proclamation of restoration sounded, reminding you: those who cling to nostalgia cannot win the future."
     },
@@ -30,7 +38,11 @@
     {
     "name": "Calamity Victory",//天灾
     "victoryScreenHeader": "Spread the Calamity to the Entire World!",
-    "milestones": ["Become the world religion"],
+    "milestones": [
+    "Become the world religion",
+    "Have more [Progress of Chaos] than each player's [Progress of Chaos]",
+    
+    ],
     "victoryString": "Did you harness the calamity, or were you harnessed by it? After the calamity swept the globe, nothing held any meaning.",
     "defeatString": "Disaster swept the globe, and only chaos remains."
     },
@@ -55,6 +67,7 @@
     "Build [NationWonderExpand.AI Governance Experiment]",
     "Build [NationWonderExpand.Nuclear Warfare Plan]",
     "Build [City rank VI]",
+    
     ],
     "victoryString": "This is not conquest, but coronation. Other civilizations voluntarily offered their authority, acknowledging that your path is the future of humanity. You legally inherited the Earth, and the will of civilization unified under your banner.",
     "defeatString": "The Mandate was decided, but it did not belong to you. When another civilization was crowned as the Mandate's master, your civilization was judged by history as an untimely relic of the old era."

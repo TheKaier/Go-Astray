@@ -34,7 +34,7 @@
 		"resourceType": "Strategic",
 		"uniques": [
 		"Cannot be traded"//不能交易
-		//"Stockpiled"//库存
+		"Stockpiled"//库存
 		"Not shown on world screen",//不显示
 		"Will not be displayed in Civilopedia",
 		]
@@ -44,7 +44,7 @@
 		"resourceType": "Strategic",
 		"uniques": [
 		"Cannot be traded"//不能交易
-		//"Stockpiled"//库存
+		"Stockpiled"//库存
 		"Not shown on world screen",//不显示
 		"Will not be displayed in Civilopedia",
 		]
@@ -54,7 +54,7 @@
 		"resourceType": "Strategic",
 		"uniques": [
 		"Cannot be traded"//不能交易
-		//"Stockpiled"//库存
+		"Stockpiled"//库存
 		"Not shown on world screen",//不显示
 		"Will not be displayed in Civilopedia",
 		]
@@ -64,8 +64,8 @@
 		"resourceType": "Strategic",
 		"uniques": [
 		"Cannot be traded"//不能交易
-		//"Stockpiled"//库存
-		//"Not shown on world screen",//不显示
+		"Stockpiled"//库存
+		"Not shown on world screen",//不显示
 		"Will not be displayed in Civilopedia",
 		]
 	},
@@ -337,7 +337,7 @@
 		"terrainsCanBeFoundOn": ["Grassland","Tundra","Plains","Desert","Hill"],
 		"production": 1,
 		"revealedBy": "Tech.Explore the ruins",
-		"improvedBy": ["TileImprovement.Mine"],
+		"improvedBy": ["TileImprovement.Mine","TileImprovement.Coal Mine"],
 		"improvementStats": {"production": 1},
 		"uniques": [
 		"Cannot be traded"//不能交易
@@ -363,7 +363,7 @@
 		"terrainsCanBeFoundOn": ["Grassland","Forest","Hill","Tundra","Plains"],
 		"food": 1,
 		"revealedBy": "Tech.Explore the ruins",
-		"improvedBy": ["TileImprovement.Lumberyard","TileImprovement.Logging"],
+		"improvedBy": ["TileImprovement.Lumberyard","TileImprovement.Logging","TileImprovement.Drainage area"],
 		"improvementStats": {"food": 1},
 		"uniques": [
 		"Cannot be traded"//不能交易
@@ -428,7 +428,35 @@
 	
 	
 	
-	
+	{
+		"name": "Resource.Natural disasters crystallize",//天灾结晶
+		"resourceType": "Strategic",
+		"revealedBy": "Tech.wasteland environment",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Forest","Hill","Marsh"],
+		//"faith": 1,
+		"improvementStats": {"faith": 1},
+		"improvedBy": ["TileImprovement.Mine","TileImprovement.Coal Mine"],
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		"Not shown on world screen",//不显示
+		"[+1 Faith, +1 Happiness] <after founding a Pantheon>",
+					"Generated with weight [45] <in [{Featureless} {Tundra}] tiles>",
+					
+					"Generated with weight [35] <in [{Featureless} {Desert}] tiles>",
+					"Generated with weight [35] <in [Hill] tiles>",
+					"Minor deposits generated with weight [15] <in [Marsh] tiles> <in tiles without [Hill]>",
+					
+					"Minor deposits generated with weight [25] <in [Forest] tiles>",
+					
+					"Minor deposits generated with weight [30] <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
+					"Minor deposits generated with weight [20] <in [{Featureless} {Plains}] tiles>",
+					"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>",
+					"Minor deposits generated with weight [10] <in [{Featureless} {Tundra}] tiles>",
+					],
+		"majorDepositAmount": {"sparse": 1, "default": 1, "abundant": 2},
+		"minorDepositAmount": {"sparse": 1, "default": 1, "abundant": 2}
+	},
 	
 	
 	

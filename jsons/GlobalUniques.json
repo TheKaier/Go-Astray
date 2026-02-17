@@ -36,8 +36,7 @@
         "Provides [1] [RN1] <for every [([turns] * 184 * [[Plains] Tiles] + [Gold] * 106 * [[Grassland] Tiles] + [Culture] * 178 * [[Plains] Tiles] + [Happiness] * 141 * [[City center] Tiles] + 213 * [[Barbarian encampment] Tiles]) % 1000]>",
         
         
-        
-        
+        "Gain [-1] [Gold] <for every [[Gold] - [Resource.Water capacity]]> <upon turn start> <when number of [Gold] is more than [Resource.Water capacity]>",
         
         //"Provides [1] [RN2] <for every [([turns] * 34 + 59 * [[Barbarian encampment] Tiles] + [Gold] * 93 * [[Grassland] Tiles] + [Culture] * 46 * [[Plains] Tiles] + [Happiness] * 61 * [[Plains] Tiles] + 73 * [[Barbarian encampment] Tiles]) % 100]>",
         
@@ -54,19 +53,9 @@
         
         
         
-        //"Provides [1] [Progress of Chaos] <when above [49] [Faith]>",//+1
         
-        "Gain a free [Chaos] [in capital] <when number of [Progress of Chaos] is equal to [1]> <upon turn start>",//+1
+        "Gain a free [Chaos] [in capital] <after founding a Pantheon> <upon turn start>",
         
-        //"Gain a free [Pantheon] belief <when number of [Progress of Chaos] is equal to [2]> <upon turn start>",//+1
-        
-        //"Provides [1] [Progress of Chaos] <when above [100] [Faith]>",//+1
-        
-        //"Gain a free [Pantheon] belief <when number of [Progress of Chaos] is equal to [4]> <upon turn start>",
-        
-        //"Gain a free [Pantheon] belief <when number of [Progress of Chaos] is equal to [5]> <upon turn start>",
-        //"Free [Great Prophet] appears <when above [150] [Faith]> <when number of [Progress of Chaos] is equal to [2]> <upon turn start>",
-        //"Gain [-150] [Faith] <when above [150] [Faith]> <when number of [Progress of Chaos] is equal to [2]> <upon turn start>",
         
         
         //Pantheon

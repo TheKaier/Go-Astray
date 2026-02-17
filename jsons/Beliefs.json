@@ -4,7 +4,7 @@
 "name": "Resource.Wheat",
 "type": "Pantheon",
 "uniques": [
-"Provides [1] [Progress of Chaos] <hidden from users>",
+//"Provides [1] [Progress of Chaos] <hidden from users>",
 "[+1 Faith] from every [Resource.Wheat]",
 ]
 },
@@ -12,7 +12,7 @@
 "name": "Resource.Herd",
 "type": "Pantheon",
 "uniques": [
-"Provides [1] [Progress of Chaos] <hidden from users>",
+//"Provides [1] [Progress of Chaos] <hidden from users>",
 "[+1 Faith] from every [Resource.Herd]",
 ]
 },
@@ -20,7 +20,7 @@
 "name": "Resource.Wood",
 "type": "Pantheon",
 "uniques": [
-"Provides [1] [Progress of Chaos] <hidden from users>",
+//"Provides [1] [Progress of Chaos] <hidden from users>",
 "[+1 Faith] from every [Resource.Wood]",
 ]
 },
@@ -28,7 +28,7 @@
 "name": "Resource.Stone",
 "type": "Pantheon",
 "uniques": [
-"Provides [1] [Progress of Chaos] <hidden from users>",
+//"Provides [1] [Progress of Chaos] <hidden from users>",
 "[+1 Faith] from every [Resource.Stone]",
 ]
 },
@@ -39,7 +39,7 @@
 "name": "Dance of the Aurora",
 "type": "Pantheon",
 "uniques": [
-"Provides [1] [Progress of Chaos] <hidden from users>",
+//"Provides [1] [Progress of Chaos] <hidden from users>",
 "[+1 Faith] from every [Tundra]",
 ]
 },
@@ -47,7 +47,7 @@
 "name": "Desert Folklore",
 "type": "Pantheon",
 "uniques": [
-"Provides [1] [Progress of Chaos] <hidden from users>",
+//"Provides [1] [Progress of Chaos] <hidden from users>",
 "[+1 Faith] from every [Desert]",
 ]
 },
@@ -55,7 +55,7 @@
 "name": "Mysteries of the Ocean",
 "type": "Pantheon",
 "uniques": [
-"Provides [1] [Progress of Chaos] <hidden from users>",
+//"Provides [1] [Progress of Chaos] <hidden from users>",
 "[+1 Faith] from every [Ocean]",
 ]
 },
@@ -66,7 +66,7 @@
 "name": "Majestic Splendor",
 "type": "Pantheon",
 "uniques": [
-"Provides [1] [Progress of Chaos] <hidden from users>",
+//"Provides [1] [Progress of Chaos] <hidden from users>",
 "[+2 Faith] from every [Wonder]",
 ]
 },
@@ -74,7 +74,7 @@
 "name": "Renowned Attraction",
 "type": "Pantheon",
 "uniques": [
-"Provides [1] [Progress of Chaos] <hidden from users>",
+//"Provides [1] [Progress of Chaos] <hidden from users>",
 "[+1 Faith] from all [Culture] buildings",
 ]
 },
@@ -82,7 +82,7 @@
 "name": "Multitude",
 "type": "Pantheon",
 "uniques": [
-"Provides [1] [Progress of Chaos] <hidden from users>",
+//"Provides [1] [Progress of Chaos] <hidden from users>",
 "[+1 Faith] [in all cities] <when number of [Resource.Manpower] is more than [[Resource.Manpower max] - 5]>",
 ]
 },
@@ -90,7 +90,7 @@
 "name": "Wounded Veterans",
 "type": "Pantheon",
 "uniques": [
-"Provides [1] [Progress of Chaos] <hidden from users>",
+//"Provides [1] [Progress of Chaos] <hidden from users>",
 "[+1 Faith] [in all cities] <when number of [Resource.Manpower] is less than [[Resource.Manpower max] / 2 - 1]>",
 ]
 },
@@ -98,7 +98,7 @@
 "name": "Self-Sufficiency",
 "type": "Pantheon",
 "uniques": [
-"Provides [1] [Progress of Chaos] <hidden from users>",
+//"Provides [1] [Progress of Chaos] <hidden from users>",
 "[+1 Faith] from every [Tundra]",
 ]
 },*/
@@ -106,7 +106,7 @@
 "name": "Endless War",
 "type": "Pantheon",
 "uniques": [
-"Provides [1] [Progress of Chaos] <hidden from users>",
+//"Provides [1] [Progress of Chaos] <hidden from users>",
 "Earn [100]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion",
 ]
 },
@@ -117,7 +117,7 @@
 "name": "Superstition",//迷信
 "type": "Pantheon",
 "uniques": [
-"Provides [1] [Progress of Chaos] <hidden from users>",
+//"Provides [1] [Progress of Chaos] <hidden from users>",
 "[-1 Science] per [2] population [in all cities]",
 ]
 },
@@ -125,7 +125,7 @@
 "name": "Waste",
 "type": "Pantheon",
 "uniques": [
-"Provides [1] [Progress of Chaos] <hidden from users>",
+//"Provides [1] [Progress of Chaos] <hidden from users>",
 "[-1 Gold] per [2] population [in all cities]",
 ]
 },
@@ -133,7 +133,7 @@
 "name": "Gluttony",
 "type": "Pantheon",
 "uniques": [
-"Provides [1] [Progress of Chaos] <hidden from users>",
+//"Provides [1] [Progress of Chaos] <hidden from users>",
 "[-1 Food] per [2] population [in all cities]",
 ]
 },
@@ -141,7 +141,7 @@
 "name": "Sloth",
 "type": "Pantheon",
 "uniques": [
-"Provides [1] [Progress of Chaos] <hidden from users>",
+//"Provides [1] [Progress of Chaos] <hidden from users>",
 "[-1 Production] per [2] population [in all cities]",
 ]
 },
@@ -149,7 +149,7 @@
 "name": "Rebellion",
 "type": "Pantheon",
 "uniques": [
-"Provides [1] [Progress of Chaos] <hidden from users>",
+//"Provides [1] [Progress of Chaos] <hidden from users>",
 "[-1 Happiness] per [2] population [in all cities]",
 ]
 },
@@ -159,7 +159,7 @@
 "name": "Ignorance",//无知愚昧
 "type": "Pantheon",
 "uniques": [
-"Provides [1] [Progress of Chaos] <hidden from users>",
+//"Provides [1] [Progress of Chaos] <hidden from users>",
 "[-1 Science] per [2] population [in all cities]",
 ]
 },
@@ -167,7 +167,7 @@
 "name": "Greed",//贪婪
 "type": "Pantheon",
 "uniques": [
-"Provides [1] [Progress of Chaos] <hidden from users>",
+//"Provides [1] [Progress of Chaos] <hidden from users>",
 "[-1 Gold] per [2] population [in all cities]",
 ]
 },
@@ -175,7 +175,7 @@
 "name": "Extravagance",
 "type": "Pantheon",
 "uniques": [
-"Provides [1] [Progress of Chaos] <hidden from users>",
+//"Provides [1] [Progress of Chaos] <hidden from users>",
 "[-1 Food] per [2] population [in all cities]",
 ]
 },
@@ -183,7 +183,7 @@
 "name": "Fragility",
 "type": "Pantheon",
 "uniques": [
-"Provides [1] [Progress of Chaos] <hidden from users>",
+//"Provides [1] [Progress of Chaos] <hidden from users>",
 "[-1 Production] per [2] population [in all cities]",
 ]
 },
@@ -191,7 +191,7 @@
 "name": "Lust",
 "type": "Pantheon",
 "uniques": [
-"Provides [1] [Progress of Chaos] <hidden from users>",
+//"Provides [1] [Progress of Chaos] <hidden from users>",
 "[-1 Happiness] per [2] population [in all cities]",
 ]
 },
@@ -203,7 +203,7 @@
 "name": "Flourishing",//蒸蒸日上
 "type": "Follower",
 "uniques": [
-"Provides [1] [Progress of Chaos] <hidden from users>",
+//"Provides [1] [Progress of Chaos] <hidden from users>",
 "[+1 Faith] from every [Bonus resource]",
 
 ]
@@ -212,7 +212,7 @@
 "name": "Mother Earth",
 "type": "Follower",
 "uniques": [
-"Provides [1] [Progress of Chaos] <hidden from users>",
+//"Provides [1] [Progress of Chaos] <hidden from users>",
 "[+1 Faith] from every [Strategic resource]",
 
 ]
@@ -221,7 +221,7 @@
 "name": "Divine Right of Kings",
 "type": "Follower",
 "uniques": [
-"Provides [1] [Progress of Chaos] <hidden from users>",
+//"Provides [1] [Progress of Chaos] <hidden from users>",
 "[+2 Faith] from every [Wonder]",
 
 ]
@@ -230,7 +230,7 @@
 "name": "Missionary's Journey",
 "type": "Follower",
 "uniques": [
-"Provides [1] [Progress of Chaos] <hidden from users>",
+//"Provides [1] [Progress of Chaos] <hidden from users>",
 "[+1 Faith] from all [Culture] buildings",
 
 ]
@@ -239,7 +239,7 @@
         "name": "Feed the World",
         "type": "Follower",
         "uniques": [
-        "Provides [1] [Progress of Chaos] <hidden from users>",
+        //"Provides [1] [Progress of Chaos] <hidden from users>",
         "[+1 Food] from every [Building.Granary]",
         "[+1 Food] from every [Building.Aqueduct]",
         "[+1 Food] from every [Building.Grain storage]",
@@ -249,7 +249,7 @@
         "name": "Sacred Waters",
         "type": "Follower",
         "uniques": [
-        "Provides [1] [Progress of Chaos] <hidden from users>",
+        //"Provides [1] [Progress of Chaos] <hidden from users>",
         "[+1 Happiness] in cities on [River] tiles",
         
         
@@ -259,14 +259,14 @@
         "name": "Faith Healers",
         "type": "Follower",
         "uniques": [
-        "Provides [1] [Progress of Chaos] <hidden from users>",
+        //"Provides [1] [Progress of Chaos] <hidden from users>",
         "[All] Units adjacent to this city heal [+25] HP per turn when healing",]
     },
     {
         "name": "Fertility Rites",
         "type": "Follower",
         "uniques": [
-        "Provides [1] [Progress of Chaos] <hidden from users>",
+        //"Provides [1] [Progress of Chaos] <hidden from users>",
         "[+10]% [Food] [in this city]",
         ]
     },
@@ -280,7 +280,7 @@
 "name": "Holy War",
 "type": "Founder",
 "uniques": [
-"Provides [1] [Progress of Chaos] <hidden from users>",
+//"Provides [1] [Progress of Chaos] <hidden from users>",
 "[+20]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>",
 
 ]
@@ -289,7 +289,7 @@
 "name": "Divine Punishment",
 "type": "Founder",
 "uniques": [
-"Provides [1] [Progress of Chaos] <hidden from users>",
+//"Provides [1] [Progress of Chaos] <hidden from users>",
 "[+10]% Strength <for [All] units>",
 
 ]
@@ -298,7 +298,7 @@
 "name": "Holy Fire",
 "type": "Founder",
 "uniques": [
-"Provides [1] [Progress of Chaos] <hidden from users>",
+//"Provides [1] [Progress of Chaos] <hidden from users>",
 "[+1 Happiness] for each global city following this religion",
 
 ]
@@ -307,7 +307,7 @@
 "name": "Divine Grace",
 "type": "Founder",
 "uniques": [
-"Provides [1] [Progress of Chaos] <hidden from users>",
+//"Provides [1] [Progress of Chaos] <hidden from users>",
 "[+34]% Natural religion spread [in all cities]",
 
 ]
@@ -316,7 +316,7 @@
 "name": "Divine Gift",
 "type": "Founder",
 "uniques": [
-"Provides [1] [Progress of Chaos] <hidden from users>",
+//"Provides [1] [Progress of Chaos] <hidden from users>",
 "Religion naturally spreads to cities [+4] tiles away",
 
 ]
@@ -325,14 +325,14 @@
         "name": "Pilgrimage",
         "type": "Founder",
         "uniques": [
-        "Provides [1] [Progress of Chaos] <hidden from users>",
+        //"Provides [1] [Progress of Chaos] <hidden from users>",
         "[+2 Faith] for each global city following this religion"]
     },
     {
         "name": "Tithe",
         "type": "Founder",
         "uniques": [
-        "Provides [1] [Progress of Chaos] <hidden from users>",
+        //"Provides [1] [Progress of Chaos] <hidden from users>",
         "[+1 Gold] from every [4] global followers [in all cities]"]
     },
 ]
