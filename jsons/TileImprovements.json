@@ -145,6 +145,7 @@
 		"name": "City center",//市中心
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
+		"Provides [1] [Number of cities]",
 		"Ensures a minimum tile yield of [+2 Food, +2 Production]",
             "Unpillagable", "Irremovable", "Unbuildable"],
         "civilopediaText": [
@@ -188,7 +189,7 @@
 		"shortcutKey": "G"
 	},
 	{
-		"name": "TileImprovement.Demolition area",//拆迁区，如果无法实现生成就弃用
+		"name": "TileImprovement.Demolition area",//拆迁区
 		"terrainsCanBeBuiltOn": ["Terrain.Abandoned building"],
 		"production": 1,
 		"turnsToBuild": 4,
@@ -198,7 +199,31 @@
 			"Costs [1] [Gold] per turn",
 			"Provides [1] [Resource.Stone]",
 			],
-		"shortcutKey": "H"
+	},
+	{
+		"name": "TileImprovement.Recycling yard",//回收场
+		"terrainsCanBeBuiltOn": ["Terrain.Abandoned building"],
+		"production": 2,
+		"turnsToBuild": 5,
+		"techRequired": "Tech.Resource Survey",
+		"uniques": [
+			//"Consumes [2] [Resource.Water] <when above [1] [Resource.Water]>",
+			"Costs [2] [Gold] per turn",
+			"Provides [1] [Resource.Iron]",
+			],
+	},
+	{
+		"name": "TileImprovement.Community",//社区
+		"terrainsCanBeBuiltOn": ["Terrain.Abandoned building"],
+		"science": 2,
+		"turnsToBuild": 5,
+		"techRequired": "Tech.The fence",
+		"uniques": [
+			//"Consumes [2] [Resource.Water] <when above [1] [Resource.Water]>",
+			"Costs [3] [Gold] per turn",
+			"Provides [20] [Resource.Manpower max]",
+			"Provides [2] [Resource.Manpower]",
+			],
 	},
 	{
 		"name": "TileImprovement.Logging",//伐木林
@@ -360,6 +385,17 @@
 		"techRequired": "Tech.Hydroelectric generator",
 		"uniques": [
 		"Can only be built on [River] tiles",
+			"Provides [2] [Resource.Electricity]",
+			],
+	},
+	{
+		"name": "TileImprovement.Solar Plant",//太阳能发电站
+		"terrainsCanBeBuiltOn": ["Land"],
+		"production": 1,
+		"turnsToBuild": 6,
+		"techRequired": "Tech.Hydroelectric generator",
+		"uniques": [
+		"Costs [4] [Gold] per turn",
 			"Provides [2] [Resource.Electricity]",
 			],
 	},

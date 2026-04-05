@@ -1,5 +1,5 @@
 [
-{
+/*{
     "name": "Basic Training", // 基础训练
     "uniques": [
     "[+10]% Strength",
@@ -10,14 +10,14 @@
     "row": 0
 },
 {
-    "name": "Trench Tactics", // 堑壕战术
-    "prerequisites": ["Basic Training"],
+    "name": "xxxxxxx",
+    "prerequisites": [""],
     "uniques": [
-    "[+35]% Strength <in [Friendly Land] tiles> <when defending>",
+    
     ],
     "unitTypes": ["UnitType.Militia","UnitType.LightInfantry","UnitType.HeavyInfantry","UnitType.Instrument","UnitType.Motility"],
     "column": 0,
-    "row": 1
+    "row": 0
 },
 {
     "name": "Assault Tactics", // 突击战术
@@ -73,7 +73,414 @@
     "unitTypes": ["UnitType.Militia","UnitType.LightInfantry","UnitType.HeavyInfantry","UnitType.Instrument","UnitType.Motility"],
     "column": 2,
     "row": 2
-},
+},*/
+
+
+    {
+        "name": "Open Terrain Combat I",
+        "uniques": [
+        "[+15]% Strength <when fighting in [Open terrain] tiles>",
+        
+        ],
+        "unitTypes": ["UnitType.Militia", "UnitType.LightInfantry", "UnitType.HeavyInfantry", "UnitType.Instrument", "UnitType.Motility"],
+        "column": 0,
+        "row": 1
+    },
+    {
+        "name": "Open Terrain Combat II",
+        "prerequisites": ["Open Terrain Combat I"],
+        "uniques": [
+        "[+15]% Strength <when fighting in [Open terrain] tiles>",
+        
+        ],
+        "unitTypes": ["UnitType.Militia", "UnitType.LightInfantry", "UnitType.HeavyInfantry", "UnitType.Instrument", "UnitType.Motility"],
+        "column": 1,
+        "row": 1
+    },
+    {
+        "name": "Open Terrain Combat III",
+        "prerequisites": ["Open Terrain Combat II"],
+        "uniques": [
+        "[+15]% Strength <when fighting in [Open terrain] tiles>",
+        
+        ],
+        "unitTypes": ["UnitType.Militia", "UnitType.LightInfantry", "UnitType.HeavyInfantry", "UnitType.Instrument", "UnitType.Motility"],
+        "column": 2,
+        "row": 1
+    },
+    {
+        "name": "Bandaging I",//包扎
+        "uniques": [
+        "[This Unit] heals [2] HP <upon turn start>",
+        "All adjacent units heal [+5] HP when healing",
+        ],
+        "unitTypes": ["UnitType.Militia", "UnitType.LightInfantry", "UnitType.HeavyInfantry", "UnitType.Instrument", "UnitType.Motility"],
+        "column": 0,
+        "row": 2
+    },
+    {
+        "name": "Bandaging II",//包扎
+        "prerequisites": ["Bandaging I","Open Terrain Combat I","Rugged Terrain Combat I"],
+        "uniques": [
+        "[This Unit] heals [2] HP <upon turn start>",
+        "[+5] HP when healing <in [Foreign Land] tiles>",
+        
+        
+        ],
+        "unitTypes": ["UnitType.Militia", "UnitType.LightInfantry", "UnitType.HeavyInfantry", "UnitType.Instrument", "UnitType.Motility"],
+        "column": 1,
+        "row": 2
+    },
+    {
+        "name": "Rugged Terrain Combat I",
+        "uniques": [
+        "[+15]% Strength <when fighting in [Rough terrain] tiles>",
+        
+        ],
+        "unitTypes": ["UnitType.Militia", "UnitType.LightInfantry", "UnitType.HeavyInfantry", "UnitType.Instrument", "UnitType.Motility"],
+        "column": 0,
+        "row": 3
+    },
+    {
+        "name": "Rugged Terrain Combat II",
+        "prerequisites": ["Rugged Terrain Combat I"],
+        "uniques": [
+        "[+15]% Strength <when fighting in [Rough terrain] tiles>",
+        
+        ],
+        "unitTypes": ["UnitType.Militia", "UnitType.LightInfantry", "UnitType.HeavyInfantry", "UnitType.Instrument", "UnitType.Motility"],
+        "column": 1,
+        "row": 3
+    },
+    {
+        "name": "Rugged Terrain Combat III",
+        "prerequisites": ["Rugged Terrain Combat II"],
+        "uniques": [
+        "[+15]% Strength <when fighting in [Rough terrain] tiles>",
+        
+        
+        ],
+        "unitTypes": ["UnitType.Militia", "UnitType.LightInfantry", "UnitType.HeavyInfantry", "UnitType.Instrument", "UnitType.Motility"],
+        "column": 2,
+        "row": 3
+    },
+    {
+        "name": "Concealment I",//隐蔽
+        "uniques": [
+        "[+33]% Strength <vs [Ranged] units> <when defending>",
+        
+        
+        
+        ],
+        "unitTypes": ["UnitType.Militia", "UnitType.LightInfantry", "UnitType.HeavyInfantry", "UnitType.Instrument", "UnitType.Motility"],
+        "column": 0,
+        "row": 4
+    },
+    {
+        "name": "Concealment II",//隐蔽
+        "prerequisites": ["Concealment I"],
+        "uniques": [
+        "[+33]% Strength <vs [Ranged] units> <when defending>",
+        
+        
+        ],
+        "unitTypes": ["UnitType.Militia", "UnitType.LightInfantry", "UnitType.HeavyInfantry", "UnitType.Instrument", "UnitType.Motility"],
+        "column": 1,
+        "row": 4
+    },
+    {
+        "name": "Concealment III",//隐蔽
+        "prerequisites": ["Concealment II"],
+        "uniques": [
+        "[+33]% Strength <vs [Ranged] units> <when defending>",
+        
+        ],
+        "unitTypes": ["UnitType.Militia", "UnitType.LightInfantry", "UnitType.HeavyInfantry", "UnitType.Instrument", "UnitType.Motility"],
+        "column": 2,
+        "row": 4
+    },
+    {
+        "name": "Reconnaissance I",//侦查
+        "uniques": [
+        "[+1] Sight",
+        
+        
+        ],
+        "unitTypes": ["UnitType.Militia", "UnitType.LightInfantry", "UnitType.HeavyInfantry", "UnitType.Instrument", "UnitType.Motility"],
+        "column": 0,
+        "row": 5
+    },
+    {
+        "name": "Reconnaissance II",//侦查
+        "prerequisites": ["Reconnaissance I"],
+        "uniques": [
+        "[+1] Sight",
+        
+        
+        ],
+        "unitTypes": ["UnitType.Militia", "UnitType.LightInfantry", "UnitType.HeavyInfantry", "UnitType.Instrument", "UnitType.Motility"],
+        "column": 1,
+        "row": 5
+    },
+    {
+        "name": "Amphibious Operations",
+        "prerequisites": ["Open Terrain Combat I","Rugged Terrain Combat I"],
+        "uniques": [
+        "Eliminates combat penalty for attacking over a river",
+        "Eliminates combat penalty for attacking across a coast",
+        
+        
+        
+        ],
+        "unitTypes": ["UnitType.Militia", "UnitType.LightInfantry", "UnitType.HeavyInfantry", "UnitType.Instrument", "UnitType.Motility"],
+        "column": 1,
+        "row": 0
+    },
+    {
+        "name": "Looting",
+        "prerequisites": ["Open Terrain Combat II","Rugged Terrain Combat II"],
+        "uniques": [
+        "No movement cost to pillage",
+        "[This Unit] heals [2] HP <in [Enemy Land] tiles> <upon turn start>",
+        
+        ],
+        "unitTypes": ["UnitType.Militia", "UnitType.LightInfantry", "UnitType.HeavyInfantry", "UnitType.Instrument", "UnitType.Motility"],
+        "column": 2,
+        "row": 0
+    },
+    {
+        "name": "Urban Warfare I",
+        "prerequisites": ["Open Terrain Combat II","Rugged Terrain Combat II"],
+        "uniques": [
+        "[+20]% Strength <when fighting in [Friendly Land] tiles>",
+        "[+20]% Strength <when fighting in [Enemy Land] tiles>",
+        ],
+        "unitTypes": ["UnitType.Militia", "UnitType.LightInfantry", "UnitType.HeavyInfantry", "UnitType.Instrument", "UnitType.Motility"],
+        "column": 2,
+        "row": 2
+    },
+    {
+        "name": "Urban Warfare II",
+        "prerequisites": ["Urban Warfare I"],
+        "uniques": [
+        "[+20]% Strength <when fighting in [Friendly Land] tiles>",
+        "[+20]% Strength <when fighting in [Enemy Land] tiles>",
+        
+        ],
+        "unitTypes": ["UnitType.Militia", "UnitType.LightInfantry", "UnitType.HeavyInfantry", "UnitType.Instrument", "UnitType.Motility"],
+        "column": 3,
+        "row": 2
+    },
+    {
+        "name": "Blitzkrieg",
+        "prerequisites": ["Open Terrain Combat III","Rugged Terrain Combat III"],
+        "uniques": [
+        "[1] additional attacks per turn",
+        "Can move after attacking",
+        
+        ],
+        "unitTypes": ["UnitType.Militia", "UnitType.LightInfantry", "UnitType.HeavyInfantry", "UnitType.Instrument", "UnitType.Motility"],
+        "column": 4,
+        "row": 1
+    },
+    {
+        "name": "Wartime Supply",
+        "prerequisites": ["Open Terrain Combat III","Rugged Terrain Combat III","Concealment III"],
+        "uniques": [
+        "Unit will heal every turn, even if it performs an action",
+        
+        ],
+        "unitTypes": ["UnitType.Militia", "UnitType.LightInfantry", "UnitType.HeavyInfantry", "UnitType.Instrument", "UnitType.Motility"],
+        "column": 4,
+        "row": 3
+    },
+    {
+        "name": "Field March",
+        "prerequisites": ["Open Terrain Combat III","Rugged Terrain Combat III","Concealment III","Reconnaissance II"],
+        "uniques": [
+        "[+1] Movement",
+        "Double movement in [Hill]",
+        "Double movement in [Terrain.Abandoned building]",
+        "Double movement in [Forest]",
+        "Double movement in [Marsh]",
+        ],
+        "unitTypes": ["UnitType.Militia", "UnitType.LightInfantry", "UnitType.HeavyInfantry", "UnitType.Instrument", "UnitType.Motility"],
+        "column": 4,
+        "row": 4
+    },
+    
+    
+    {
+        "name": "Equipment improvements",
+        "uniques": [],
+        "unitTypes": ["UnitType.Militia", "UnitType.LightInfantry", "UnitType.HeavyInfantry", "UnitType.Instrument", "UnitType.Motility"],
+        "column": 0,
+        "row": 8
+    },
+    /*{
+        "name": "Emergency Wound Treatment",
+        "prerequisites": [],
+        "uniques": [],
+        "unitTypes": ["UnitType.Militia", "UnitType.LightInfantry", "UnitType.HeavyInfantry", "UnitType.Instrument", "UnitType.Motility"],
+        "column": 0,
+        "row": 0
+    },
+    {
+        "name": "Lightweight Armament",
+        "prerequisites": [],
+        "uniques": [],
+        "unitTypes": ["UnitType.Militia", "UnitType.LightInfantry", "UnitType.HeavyInfantry", "UnitType.Instrument", "UnitType.Motility"],
+        "column": 0,
+        "row": 0
+    },
+    {
+        "name": "Camouflage Uniform",
+        "prerequisites": [],
+        "uniques": [],
+        "unitTypes": ["UnitType.Militia", "UnitType.LightInfantry", "UnitType.HeavyInfantry", "UnitType.Instrument", "UnitType.Motility"],
+        "column": 0,
+        "row": 0
+    },
+    {
+        "name": "Flexible Formation",
+        "prerequisites": [],
+        "uniques": [],
+        "unitTypes": ["UnitType.Militia", "UnitType.LightInfantry", "UnitType.HeavyInfantry", "UnitType.Instrument", "UnitType.Motility"],
+        "column": 0,
+        "row": 0
+    },
+    {
+        "name": "Standing Maintenance",
+        "prerequisites": [],
+        "uniques": [],
+        "unitTypes": ["UnitType.Militia", "UnitType.LightInfantry", "UnitType.HeavyInfantry", "UnitType.Instrument", "UnitType.Motility"],
+        "column": 0,
+        "row": 0
+    },
+    {
+        "name": "Easy-Transfer Design",
+        "prerequisites": [],
+        "uniques": [],
+        "unitTypes": ["UnitType.Militia", "UnitType.LightInfantry", "UnitType.HeavyInfantry", "UnitType.Instrument", "UnitType.Motility"],
+        "column": 0,
+        "row": 0
+    },
+    {
+        "name": "Garrison Preparation",
+        "prerequisites": [],
+        "uniques": [],
+        "unitTypes": ["UnitType.Militia", "UnitType.LightInfantry", "UnitType.HeavyInfantry", "UnitType.Instrument", "UnitType.Motility"],
+        "column": 0,
+        "row": 0
+    },
+    {
+        "name": "Expansion of Ranks",
+        "prerequisites": [],
+        "uniques": [],
+        "unitTypes": ["UnitType.Militia", "UnitType.LightInfantry", "UnitType.HeavyInfantry", "UnitType.Instrument", "UnitType.Motility"],
+        "column": 0,
+        "row": 0
+    },
+    {
+        "name": "Wolf Pack Tactics",
+        "prerequisites": [],
+        "uniques": [],
+        "unitTypes": ["UnitType.Militia", "UnitType.LightInfantry", "UnitType.HeavyInfantry", "UnitType.Instrument", "UnitType.Motility"],
+        "column": 0,
+        "row": 0
+    },
+    {
+        "name": "Night March",
+        "prerequisites": [],
+        "uniques": [],
+        "unitTypes": ["UnitType.Militia", "UnitType.LightInfantry", "UnitType.HeavyInfantry", "UnitType.Instrument", "UnitType.Motility"],
+        "column": 0,
+        "row": 0
+    },
+    {
+        "name": "Lightweight Assault",
+        "prerequisites": [],
+        "uniques": [],
+        "unitTypes": ["UnitType.Militia", "UnitType.LightInfantry", "UnitType.HeavyInfantry", "UnitType.Instrument", "UnitType.Motility"],
+        "column": 0,
+        "row": 0
+    },
+    {
+        "name": "Flanking Tactics",
+        "prerequisites": [],
+        "uniques": [],
+        "unitTypes": ["UnitType.Militia", "UnitType.LightInfantry", "UnitType.HeavyInfantry", "UnitType.Instrument", "UnitType.Motility"],
+        "column": 0,
+        "row": 0
+    },
+    {
+        "name": "Ample Supply",
+        "prerequisites": [],
+        "uniques": [],
+        "unitTypes": ["UnitType.Militia", "UnitType.LightInfantry", "UnitType.HeavyInfantry", "UnitType.Instrument", "UnitType.Motility"],
+        "column": 0,
+        "row": 0
+    },
+    {
+        "name": "Forced March",
+        "prerequisites": [],
+        "uniques": [],
+        "unitTypes": ["UnitType.Militia", "UnitType.LightInfantry", "UnitType.HeavyInfantry", "UnitType.Instrument", "UnitType.Motility"],
+        "column": 0,
+        "row": 0
+    },
+    {
+        "name": "Breach Equipment",
+        "prerequisites": [],
+        "uniques": [],
+        "unitTypes": ["UnitType.Militia", "UnitType.LightInfantry", "UnitType.HeavyInfantry", "UnitType.Instrument", "UnitType.Motility"],
+        "column": 0,
+        "row": 0
+    },
+    {
+        "name": "Coordinated Operations",
+        "prerequisites": [],
+        "uniques": [],
+        "unitTypes": ["UnitType.Militia", "UnitType.LightInfantry", "UnitType.HeavyInfantry", "UnitType.Instrument", "UnitType.Motility"],
+        "column": 0,
+        "row": 0
+    },
+    {
+        "name": "Reinforced Armor",
+        "prerequisites": [],
+        "uniques": [],
+        "unitTypes": ["UnitType.Militia", "UnitType.LightInfantry", "UnitType.HeavyInfantry", "UnitType.Instrument", "UnitType.Motility"],
+        "column": 0,
+        "row": 0
+    },
+    {
+        "name": "Backup Engine",
+        "prerequisites": [],
+        "uniques": [],
+        "unitTypes": ["UnitType.Militia", "UnitType.LightInfantry", "UnitType.HeavyInfantry", "UnitType.Instrument", "UnitType.Motility"],
+        "column": 0,
+        "row": 0
+    },
+    {
+        "name": "Airborne Forces",
+        "prerequisites": [],
+        "uniques": [],
+        "unitTypes": ["UnitType.Militia", "UnitType.LightInfantry", "UnitType.HeavyInfantry", "UnitType.Instrument", "UnitType.Motility"],
+        "column": 0,
+        "row": 0
+    },
+    {
+        "name": "Rapid Maintenance",
+        "prerequisites": [],
+        "uniques": [],
+        "unitTypes": ["UnitType.Militia", "UnitType.LightInfantry", "UnitType.HeavyInfantry", "UnitType.Instrument", "UnitType.Motility"],
+        "column": 0,
+        "row": 0
+    },*/
+
+
+
+
 	//<after discovering [Horseback Riding]>
 	//
 	//

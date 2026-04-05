@@ -7,7 +7,7 @@
                    ]
     },
     {
-        "name": "UnitType.Militia",
+        "name": "UnitType.Militia",//民兵
         "movementType": "Land"
         "uniques": [
         
@@ -37,28 +37,28 @@
                    ]
     },
     {
-        "name": "UnitType.Motility",
+        "name": "UnitType.Motility",//机动
         "movementType": "Land"
         "uniques": [
         "[This Unit] takes [10] damage <upon entering a [TileImprovement.Barbed Wire] tile>",
                    ]
     },
     {
-        "name": "UnitType.Nuclear",
+        "name": "UnitType.Nuclear",//核武器
         "movementType": "Air"
         "uniques": [
         
                    ]
     },
     {
-        "name": "UnitType.Armoured",
+        "name": "UnitType.Armoured",//装甲
         "movementType": "Land"
         "uniques": [
         
                    ]
     },
     {
-        "name": "UnitType.Drone",
+        "name": "UnitType.Drone",//无人机
         "movementType": "Air"
         "uniques": [
         
@@ -71,7 +71,13 @@
         
                    ]
     },
-    
+    {
+        "name": "UnitType.Robot",//机器人
+        "movementType": "Land"
+        "uniques": [
+        
+                   ]
+    },
     
 ]
 //"uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",]

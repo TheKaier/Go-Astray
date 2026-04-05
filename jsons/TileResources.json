@@ -79,7 +79,15 @@
 		"Will not be displayed in Civilopedia",
 		]
 	},
-	
+	{
+		"name": "Number of cities",//城市数
+		"resourceType": "Strategic",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Not shown on world screen",//不显示
+		"Will not be displayed in Civilopedia",
+		]
+	},
 	
 	
     {
@@ -295,7 +303,7 @@
 		
 		
 		
-		"Generated with weight [45] <in [Hill] tiles>",
+		"Generated with weight [50] <in [Hill] tiles>",
 					
 					"Generated with weight [35] <in [Forest] tiles> <in tiles without [Hill]>",
 					"Minor deposits generated with weight [10] <in [Marsh] tiles> <in tiles without [Hill]>",
@@ -328,8 +336,8 @@
 					"Minor deposits generated with weight [10] <in [Forest] tiles>",
 					"Minor deposits generated with weight [10] <in [{Featureless} {Tundra}] tiles>",
 					],
-		"majorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
+		"majorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4},
+		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4}
 	},
     {
 		"name": "Resource.Stone",
@@ -349,13 +357,13 @@
 		"Provides [1] [Resource.Stone] <after discovering [Tech.Pure water]> <hidden from users>",
 		"Comment [[Resource.Stone] additional provides [1] [Resource.Stone] after discovering [Tech.Pure water]]",
 		
-		"Generated on every [15] tiles <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
-		"Generated on every [15] tiles <in [{Featureless} {Plains}] tiles> <in tiles without [Fresh Water]>",
-		"Generated on every [12] tiles <in [{Featureless} {Hill}] tiles>",
-					"Generated on every [12] tiles <in [{Featureless} {Tundra}] tiles>",
-					"Generated on every [15] tiles <in [{Featureless} {Desert}] tiles>"]
-		"majorDepositAmount": {"sparse": 1, "default": 1, "abundant": 2},
-		"minorDepositAmount": {"sparse": 1, "default": 1, "abundant": 2}
+		"Generated on every [12] tiles <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
+		"Generated on every [12] tiles <in [{Featureless} {Plains}] tiles> <in tiles without [Fresh Water]>",
+		"Generated on every [9] tiles <in [{Featureless} {Hill}] tiles>",
+					"Generated on every [9] tiles <in [{Featureless} {Tundra}] tiles>",
+					"Generated on every [10] tiles <in [{Featureless} {Desert}] tiles>"]
+		"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 2},
+		"minorDepositAmount": {"sparse": 2, "default": 2, "abundant": 2}
 	},
 	{
 		"name": "Resource.Wood",
@@ -376,18 +384,18 @@
         "Comment [[Resource.Wood] additional provides [1] [Resource.Wood] after discovering [Tech.Pure water]]",
         
         
-        "Generated on every [12] tiles <in [{Featureless} {Hill}] tiles>",
-        "Generated on every [12] tiles <in [{Featureless} {Plains}] tiles>",
-					"Generated on every [11] tiles <in [{Featureless} {Grassland}] tiles>"]
-		"majorDepositAmount": {"sparse": 1, "default": 1, "abundant": 2},
-		"minorDepositAmount": {"sparse": 1, "default": 1, "abundant": 2}
+        "Generated on every [9] tiles <in [{Featureless} {Hill}] tiles>",
+        "Generated on every [9] tiles <in [{Featureless} {Plains}] tiles>",
+					"Generated on every [9] tiles <in [{Featureless} {Grassland}] tiles>"]
+		"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 2},
+		"minorDepositAmount": {"sparse": 2, "default": 2, "abundant": 2}
 	},
 	{
-		"name": "Resource.Fish",
+		"name": "Resource.Fish",//鱼
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Coast"],
-		//"food": 1,
-		"revealedBy": "Tech.Resource Survey",
+		"food": 1,
+		"revealedBy": "Tech.wasteland environment",
 		"improvedBy": ["TileImprovement.Fishing ground"],
 		"improvementStats": {"food": 1},
 		"uniques": ["Generated on every [8] tiles <in [{Featureless} {Coast}] tiles>"]
@@ -396,22 +404,22 @@
 		"name": "Resource.Herd",//兽群
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Grassland","Forest","Tundra","Hill","Plains"],
-		//"food": 1,
+		"food": 1,
 		"revealedBy": "Tech.wasteland environment",
 		"improvedBy": ["TileImprovement.Ranch"],
-		"improvementStats": {"food": 1},
-		"uniques": ["Generated on every [18] tiles <in [{Featureless} {Grassland}] tiles>",
-					"Generated on every [22] tiles <in [{Featureless} {Grassland}] tiles> <in [Hill] Regions>",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [12] tiles <in [{Featureless} {Grassland}] tiles>",
+					"Generated on every [15] tiles <in [{Featureless} {Grassland}] tiles> <in [Hill] Regions>",
 					
-					"Generated on every [13] tiles <in [Hill] tiles> <in tiles without [Forest]>",
+					"Generated on every [10] tiles <in [Hill] tiles> <in tiles without [Forest]>",
 					"Generated on every [10] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Fresh Water]> <in [Hill] Regions>",
 					
 					"Generated on every [8] tiles <in [{Tundra} {Forest}] tiles>",
 					"Generated on every [12] tiles <in [{Featureless} {Tundra}] tiles>",
-					"Generated on every [25] tiles <in [{Plains} {Forest}] tiles> <in tiles without [Hill]>",
+					"Generated on every [20] tiles <in [{Plains} {Forest}] tiles> <in tiles without [Hill]>",
 					"Generated on every [25] tiles <in [{Grassland} {Forest}] tiles> <in tiles without [Hill]>",
 					"Generated on every [16] tiles <in [{Featureless} {Tundra}] tiles> <in [Hill] Regions>",
-					"Generated on every [28] tiles <in [Forest] tiles> <in [Hill] Regions>"]
+					"Generated on every [20] tiles <in [Forest] tiles> <in [Hill] Regions>"]
 	},
 	{
 		"name": "Resource.Wheat",//小麦
@@ -420,13 +428,29 @@
 		"food": 1,
 		"revealedBy": "Tech.wasteland environment",
 		"improvedBy": ["TileImprovement.Farm"],
-		"uniques": ["Generated on every [27] tiles <in [{Featureless} {Plains}] tiles>",
+		"improvementStats": {"food": 1},
+		"uniques": ["Generated on every [20] tiles <in [{Featureless} {Plains}] tiles>",
 					"Generated on every [10] tiles <in [{Desert} {Fresh Water}] tiles> <in tiles without [Hill]>",
-					"Generated on every [20] tiles <in [{Featureless} {Plains}] tiles> <in [Hill] Regions>",
-					"Generated on every [20] tiles <in [{Fresh Water} {Desert}] tiles> <in tiles without [Hill]> <in [Hill] Regions>"]
+					"Generated on every [15] tiles <in [{Featureless} {Plains}] tiles> <in [Hill] Regions>",
+					"Generated on every [15] tiles <in [{Fresh Water} {Desert}] tiles> <in tiles without [Hill]> <in [Hill] Regions>"]
 	},
 	
-	
+	{
+		"name": "Resource.Ore soil",//矿土
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland","Tundra","Plains","Desert","Hill"],
+		"production": 1,
+		"revealedBy": "Tech.Explore the ruins",
+		"improvedBy": ["TileImprovement.Mine","TileImprovement.Coal Mine"],
+		"improvementStats": {"production": 1},
+		"uniques": [
+		
+		"Generated on every [12] tiles <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
+		"Generated on every [12] tiles <in [{Featureless} {Plains}] tiles> <in tiles without [Fresh Water]>",
+		"Generated on every [9] tiles <in [{Featureless} {Hill}] tiles>",
+					"Generated on every [9] tiles <in [{Featureless} {Tundra}] tiles>",
+					"Generated on every [10] tiles <in [{Featureless} {Desert}] tiles>"]
+	},
 	
 	{
 		"name": "Resource.Natural disasters crystallize",//天灾结晶

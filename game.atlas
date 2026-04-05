@@ -20,28 +20,42 @@ BuildingIcons/Building.Aqueduct
   index: -1
 BuildingIcons/Building.Archives
   rotate: false
-  xy: 1584, 1668
+  xy: 1856, 1804
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Building.Automatic Arsenal
   rotate: false
-  xy: 1856, 1804
+  xy: 1050, 594
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Building.Bomb Shelter
+BuildingIcons/Building.Equipment Design Institute
   rotate: false
   xy: 1050, 594
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Building.Bureau of Culture
+BuildingIcons/Building.Barracks
   rotate: false
   xy: 1420, 1532
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Building.Bomb Shelter
+  rotate: false
+  xy: 1856, 1696
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Building.Bureau of Culture
+  rotate: false
+  xy: 1158, 594
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -160,7 +174,7 @@ ImprovementIcons/TileImprovement.Computing terminal
   index: -1
 BuildingIcons/Building.Draft office
   rotate: false
-  xy: 1692, 1668
+  xy: 1528, 1532
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -174,21 +188,21 @@ BuildingIcons/Building.Electrical installations
   index: -1
 BuildingIcons/Building.Extraction plant
   rotate: false
-  xy: 1158, 594
+  xy: 1266, 594
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Building.Standard factory
   rotate: false
-  xy: 1158, 594
+  xy: 1266, 594
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Building.Granary
   rotate: false
-  xy: 1266, 594
+  xy: 1636, 1532
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -202,89 +216,96 @@ BuildingIcons/Building.Hidden fortifications
   index: -1
 BuildingIcons/Building.Hydroelectric generator
   rotate: false
-  xy: 956, 486
+  xy: 1744, 1532
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Building.Storage Dam
   rotate: false
-  xy: 956, 486
+  xy: 1744, 1532
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/TileImprovement.Hydroelectricity
   rotate: false
-  xy: 956, 486
+  xy: 1744, 1532
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Building.Lumberyard
   rotate: false
-  xy: 956, 378
+  xy: 956, 486
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Building.Workshops
   rotate: false
-  xy: 956, 378
+  xy: 956, 486
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Building.Machine shop
   rotate: false
-  xy: 1064, 486
+  xy: 956, 378
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Building.Medical base
   rotate: false
-  xy: 956, 270
+  xy: 1064, 486
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Building.Monument
   rotate: false
-  xy: 1064, 378
+  xy: 956, 270
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Building.Nuclear power plants
   rotate: false
-  xy: 1172, 486
+  xy: 1064, 378
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Building.Paper Mill
   rotate: false
-  xy: 956, 162
+  xy: 1172, 486
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Building.Propaganda department
   rotate: false
-  xy: 1064, 270
+  xy: 956, 162
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Building.Protective walls
   rotate: false
-  xy: 1172, 378
+  xy: 1064, 270
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Building.Reinforce the fence
+  rotate: false
+  xy: 1172, 378
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Building.Staff Office
   rotate: false
   xy: 1280, 486
   size: 100, 100
@@ -293,7 +314,7 @@ BuildingIcons/Building.Reinforce the fence
   index: -1
 BuildingIcons/Building.Steel Works
   rotate: false
-  xy: 1910, 1394
+  xy: 1370, 1258
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -510,21 +531,21 @@ ImprovementIcons/Remove TileImprovement.Water drilling
   index: -1
 ImprovementIcons/TileImprovement.Barbed Wire
   rotate: false
-  xy: 1978, 1976
+  xy: 1702, 1244
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/TileImprovement.Barbed Wire
   rotate: false
-  xy: 1978, 1976
+  xy: 1702, 1244
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 ImprovementIcons/TileImprovement.Bunkers
   rotate: false
-  xy: 1388, 378
+  xy: 1478, 1316
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -548,6 +569,13 @@ ImprovementIcons/TileImprovement.Quarry
   xy: 524, 1790
   size: 250, 250
   orig: 250, 250
+  offset: 0, 0
+  index: -1
+ImprovementIcons/TileImprovement.Community
+  rotate: false
+  xy: 1694, 1424
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/TileImprovement.Demolition area
@@ -580,7 +608,7 @@ ImprovementIcons/TileImprovement.Farm
   index: -1
 ImprovementIcons/TileImprovement.Fishing ground
   rotate: false
-  xy: 1388, 270
+  xy: 1586, 1316
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -606,6 +634,20 @@ ImprovementIcons/TileImprovement.Ranch
   orig: 250, 250
   offset: 0, 0
   index: -1
+ImprovementIcons/TileImprovement.Recycling yard
+  rotate: false
+  xy: 1694, 1316
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/TileImprovement.Solar Plant
+  rotate: false
+  xy: 1388, 486
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 ImprovementIcons/TileImprovement.Water drilling
   rotate: false
   xy: 4, 476
@@ -615,35 +657,35 @@ ImprovementIcons/TileImprovement.Water drilling
   index: -1
 NationIcons/[Area] [Africa]
   rotate: false
-  xy: 1312, 1640
+  xy: 1584, 1776
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 NationIcons/[Area] [America]
   rotate: false
-  xy: 1448, 1776
+  xy: 1448, 1640
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 NationIcons/[Area] [China]
   rotate: false
-  xy: 1584, 1776
+  xy: 1720, 1776
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 NationIcons/[Area] [Russia]
   rotate: false
-  xy: 1448, 1640
+  xy: 1584, 1640
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 NationIcons/[Area] [Southeast Asia]
   rotate: false
-  xy: 1720, 1776
+  xy: 1720, 1640
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
@@ -1049,14 +1091,14 @@ ResourceIcons/Resource.Iron
   index: -1
 ResourceIcons/Resource.Manpower
   rotate: false
-  xy: 76, 10
+  xy: 1428, 1258
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 ResourceIcons/Resource.Manpower max
   rotate: false
-  xy: 76, 10
+  xy: 1428, 1258
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1068,9 +1110,16 @@ ResourceIcons/Resource.Natural disasters crystallize
   orig: 128, 128
   offset: 0, 0
   index: -1
-ResourceIcons/Resource.Steel
+ResourceIcons/Resource.Ore soil
   rotate: false
   xy: 1280, 162
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Resource.Steel
+  rotate: false
+  xy: 1280, 54
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1091,28 +1140,28 @@ ResourceIcons/Resource.Tools
   index: -1
 ResourceIcons/Resource.Uranium
   rotate: false
-  xy: 1280, 54
+  xy: 1370, 1424
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Resource.Water
   rotate: false
-  xy: 1370, 1424
+  xy: 1370, 1316
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Resource.Water capacity
   rotate: false
-  xy: 1370, 1424
+  xy: 1370, 1316
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Resource.Wheat
   rotate: false
-  xy: 1370, 1316
+  xy: 1478, 1424
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1126,7 +1175,7 @@ ResourceIcons/Resource.Wood
   index: -1
 ResourceIcons/Satellites
   rotate: false
-  xy: 1388, 486
+  xy: 1586, 1424
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1553,7 +1602,7 @@ TileSets/FantasyHex/Tiles/Terrain.Abandoned building
   index: -1
 TileSets/FantasyHex/Tiles/Terrain.Wasteland
   rotate: false
-  xy: 1370, 1252
+  xy: 1978, 1984
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -1623,301 +1672,357 @@ UnitIcons/Unit.Tactical Infantry
   index: -1
 UnitIcons/Unit.Atomic bomb
   rotate: false
-  xy: 1388, 162
+  xy: 1388, 378
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Unit.Battleship
   rotate: false
-  xy: 1388, 54
+  xy: 1388, 270
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Unit.Canoe
-  rotate: false
-  xy: 1528, 1532
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Unit.Catapults
-  rotate: false
-  xy: 1478, 1424
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Unit.Cavalry company
+UnitIcons/Unit.Breaker
   rotate: false
   xy: 820, 36
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitIcons/Unit.Charge the regiment
+UnitIcons/Unit.Canoe
   rotate: false
-  xy: 1478, 1316
+  xy: 1388, 162
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Unit.Light Chariots
+UnitIcons/Unit.Catapults
   rotate: false
-  xy: 1478, 1316
+  xy: 1388, 54
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Unit.Mechanical Chariots
-  rotate: false
-  xy: 1478, 1316
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Unit.Commando Regimen
-  rotate: false
-  xy: 1636, 1560
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Unit.Compound archers
+UnitIcons/Unit.Cavalry company
   rotate: false
   xy: 942, 1110
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitIcons/Unit.Destroyer
+UnitIcons/Unit.Charge the regiment
   rotate: false
-  xy: 1800, 1668
+  xy: 1856, 1588
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Unit.Electromagnetic Infantry
+UnitIcons/Unit.Light Chariots
   rotate: false
-  xy: 1744, 1560
+  xy: 1856, 1588
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Unit.Power Infantry
+UnitIcons/Unit.Mechanical Chariots
   rotate: false
-  xy: 1744, 1560
+  xy: 1856, 1588
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Unit.Expedition
+UnitIcons/Unit.Cluster missiles
+  rotate: false
+  xy: 1852, 1480
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Unit.Commando Regimen
+  rotate: false
+  xy: 1802, 1372
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Unit.Compound archers
   rotate: false
   xy: 942, 974
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitIcons/Unit.Guard
+UnitIcons/Unit.Destroyer
+  rotate: false
+  xy: 1802, 1264
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Unit.Doomsday Mech
+  rotate: false
+  xy: 1910, 1372
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Unit.Electromagnetic Infantry
+  rotate: false
+  xy: 1910, 1264
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Unit.Power Infantry
+  rotate: false
+  xy: 1910, 1264
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Unit.Expedition
   rotate: false
   xy: 1078, 1110
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitIcons/Unit.Guerrillas
+UnitIcons/Unit.Garrison robot
+  rotate: false
+  xy: 1594, 717
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitIcons/Unit.Guard
   rotate: false
   xy: 942, 838
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitIcons/Unit.Gunboat
-  rotate: false
-  xy: 1852, 1560
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Unit.Legion of succeeding generations
-  rotate: false
-  xy: 1586, 1424
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Unit.Light Cavalry
+UnitIcons/Unit.Guerrillas
   rotate: false
   xy: 1078, 974
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitIcons/Unit.Light Cruiser
+UnitIcons/Unit.Gunboat
   rotate: false
-  xy: 1586, 1316
+  xy: 1486, 1208
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Unit.Locomotive regiment
+UnitIcons/Unit.Holder
   rotate: false
-  xy: 1694, 1452
+  xy: 1486, 1100
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Unit.Militia
+UnitIcons/Unit.Laser Mech
   rotate: false
   xy: 1214, 1110
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitIcons/Unit.Mobilizer
+UnitIcons/Unit.Legion of succeeding generations
+  rotate: false
+  xy: 1594, 1208
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Unit.Light Cavalry
   rotate: false
   xy: 942, 702
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitIcons/Unit.Modular Ship
+UnitIcons/Unit.Light Cruiser
+  rotate: false
+  xy: 1486, 992
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Unit.Locomotive regiment
+  rotate: false
+  xy: 1594, 1100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Unit.Militia
   rotate: false
   xy: 1078, 838
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitIcons/Unit.Mortars
-  rotate: false
-  xy: 1694, 1344
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Unit.Motorboat
-  rotate: false
-  xy: 1802, 1451
-  size: 100, 101
-  orig: 100, 101
-  offset: 0, 0
-  index: -1
-UnitIcons/Unit.Outpost engineering team
+UnitIcons/Unit.Mobilizer
   rotate: false
   xy: 1214, 974
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitIcons/Unit.Sentry
-  rotate: false
-  xy: 1214, 974
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-UnitIcons/Unit.Sentry engineering team
-  rotate: false
-  xy: 1214, 974
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-UnitIcons/Unit.Simple outposts
-  rotate: false
-  xy: 1214, 974
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-UnitIcons/Unit.Pioneer
+UnitIcons/Unit.Modular Ship
   rotate: false
   xy: 1078, 702
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitIcons/Unit.Riprap
+UnitIcons/Unit.Mortars
   rotate: false
-  xy: 1802, 1343
+  xy: 1486, 884
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Unit.Sapper
+UnitIcons/Unit.Motorboat
+  rotate: false
+  xy: 1594, 991
+  size: 100, 101
+  orig: 100, 101
+  offset: 0, 0
+  index: -1
+UnitIcons/Unit.Nuclear missile
+  rotate: false
+  xy: 1486, 776
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Unit.Outpost engineering team
   rotate: false
   xy: 1214, 838
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitIcons/Unit.Self-propelled gun
+UnitIcons/Unit.Sentry
+  rotate: false
+  xy: 1214, 838
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Unit.Sentry engineering team
+  rotate: false
+  xy: 1214, 838
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Unit.Simple outposts
+  rotate: false
+  xy: 1214, 838
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Unit.Pioneer
   rotate: false
   xy: 1214, 702
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitIcons/Unit.Special Force
+UnitIcons/Unit.Riprap
   rotate: false
-  xy: 1910, 1452
+  xy: 1594, 883
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Unit.Stormtrooper
+UnitIcons/Unit.Sapper
   rotate: false
   xy: 1350, 1110
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitIcons/Unit.Trench
-  rotate: false
-  xy: 1442, 1258
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-UnitIcons/Unit.Trench builders
-  rotate: false
-  xy: 1442, 1258
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-UnitIcons/Unit.Warden
+UnitIcons/Unit.Self-propelled gun
   rotate: false
   xy: 1350, 974
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitIcons/Unit.Worker
+UnitIcons/Unit.Slayer robot
+  rotate: false
+  xy: 1594, 775
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Unit.Special Force
+  rotate: false
+  xy: 1486, 668
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Unit.Stormtrooper
   rotate: false
   xy: 1350, 838
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-UnitIcons/Unit.World War III Infantry
+UnitIcons/Unit.Trench
+  rotate: false
+  xy: 76, 10
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitIcons/Unit.Trench builders
+  rotate: false
+  xy: 76, 10
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitIcons/Unit.Warden
   rotate: false
   xy: 1350, 702
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Unit.Worker
+  rotate: false
+  xy: 1312, 1776
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Unit.World War III Infantry
+  rotate: false
+  xy: 1312, 1640
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit.World War III Infantry-rang
   rotate: false
-  xy: 1350, 702
+  xy: 1312, 1640
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Unit.World War III tank
   rotate: false
-  xy: 1312, 1776
+  xy: 1448, 1776
   size: 128, 128
   orig: 128, 128
   offset: 0, 0

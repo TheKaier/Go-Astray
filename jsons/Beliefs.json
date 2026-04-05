@@ -336,3 +336,41 @@
         "[+1 Gold] from every [4] global followers [in all cities]"]
     },
 ]
+
+
+
+/*
+{
+    "name": "晋升名字1",
+    "uniques": [
+    "[+xx]% Strength",
+    "[+xx]% Strength <when defending>",
+    "[+xx] Movement",
+    "[+xx] Sight",
+    "[This Unit] heals [xx] HP <upon turn start>",
+    "[+xx]% XP gained from combat",
+    
+    ],
+    "unitTypes": [单位类型许可占位],
+    "column": 0,
+    "row": 20
+},
+{
+    "name": "晋升名字2",
+    "prerequisites": ["晋升名字1"],
+    "uniques": [
+    "[+xx]% Strength",
+    "[+xx]% Strength <when defending>",
+    "[+xx] Movement",
+    "[+xx] Sight",
+    "[This Unit] heals [xx] HP <upon turn start>",
+    "[+xx]% XP gained from combat",
+    ],
+    "unitTypes": [单位类型许可占位],
+    "column": 0,
+    "row": 21
+},
+
+*/
+
+

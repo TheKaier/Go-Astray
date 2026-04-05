@@ -200,14 +200,14 @@
             "Only available <for [[Area] [China]] Civilizations> <when below [0] [Stability bias]> <when above [0] [Radical bias]> <when number of [RN1] is more than [300]> <when number of [RN1] is less than [800]>",
             ],
         },
-        /*{
+        {
             "text":"[Chinese Communist Party] [Choice]",
             "uniques":[
             "Instantly provides [1] [Event-driven] <hidden from users>",
             "Gain a free [Chinese Communist Party] [in capital]",
             "Only available <for [[Area] [China]] Civilizations> <when above [1] [Stability bias]> <when below [1] [Radical bias]> <when number of [RN1] is more than [800]>",//特殊
             ],
-        },*/
+        },
         {
             "text":"[Production and Construction Corps] [Choice]",
             "uniques":[
@@ -281,14 +281,14 @@
             "Only available <for [[Area] [America]] Civilizations> <when below [1] [Stability bias]> <when above [1] [Radical bias]> <when number of [RN1] is more than [800]>",//特殊
             ],
         },
-        /*{
+        {
             "text":"[United Nations] [Choice]",//联合国
             "uniques":[
             "Instantly provides [1] [Event-driven] <hidden from users>",
             "Gain a free [United Nations] [in capital]",
             "Only available <for [[Area] [America]] Civilizations> <when above [1] [Stability bias]> <when above [1] [Radical bias]> <when number of [RN1] is more than [800]>",//特殊
             ],
-        },*/
+        },
         {
             "text":"[Russian Federation] [Choice]",//俄罗斯联邦
             "uniques":[
@@ -390,6 +390,39 @@
         
         
         
+        
+        {
+            "text":"[Gran Colombia] [Choice]",//大哥伦比亚
+            "uniques":[
+            "Instantly provides [1] [Event-driven] <hidden from users>",
+            "Gain a free [Gran Colombia] [in capital]",
+            "Only available <for [[Area] [South America]] Civilizations> <when above [0] [Stability bias]> <when below [0] [Radical bias]> <when number of [RN1] is more than [200]> <when number of [RN1] is less than [700]>",
+            ],
+        },
+        {
+            "text":"[Brazilian Empire] [Choice]",//巴西帝国
+            "uniques":[
+            "Instantly provides [1] [Event-driven] <hidden from users>",
+            "Gain a free [Brazilian Empire] [in capital]",
+            "Only available <for [[Area] [South America]] Civilizations> <when above [0] [Stability bias]> <when below [0] [Radical bias]> <when number of [RN1] is more than [400]> <when number of [RN1] is less than [900]>",
+            ],
+        },
+        {
+            "text":"[Brazilian integrator] [Choice]",//巴西整合国
+            "uniques":[
+            "Instantly provides [1] [Event-driven] <hidden from users>",
+            "Gain a free [Brazilian integrator] [in capital]",
+            "Only available <for [[Area] [South America]] Civilizations> <when below [0] [Stability bias]> <when above [0] [Radical bias]> <when number of [RN1] is more than [200]> <when number of [RN1] is less than [700]>",
+            ],
+        },
+        {
+            "text":"[Great Inca] [Choice]",//大印加国
+            "uniques":[
+            "Instantly provides [1] [Event-driven] <hidden from users>",
+            "Gain a free [Great Inca] [in capital]",
+            "Only available <for [[Area] [South America]] Civilizations> <when below [0] [Stability bias]> <when above [0] [Radical bias]> <when number of [RN1] is more than [400]> <when number of [RN1] is less than [900]>",
+            ],
+        },
         
         
         

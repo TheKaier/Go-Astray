@@ -134,7 +134,6 @@
     
     
     
-    
     {
 		"name": "Building.Command Center",
 		"isNationalWonder": true,
@@ -144,6 +143,7 @@
 		"culture": 1,
 		"cityStrength": 5,
 		"cost": 1,
+		"specialistSlots": {"Infrastructure": 1},
 		"uniques": [
 		"Indicates the capital city",
 		"Instantly provides [140] [Resource.Manpower]",
@@ -585,7 +585,7 @@
 		"Unsellable",
 		"Destroyed when the city is captured",
 		"Automatically built in all cities where it is buildable",
-		"Only available <when below [1] [Progress of Chaos]>",
+		"Only available <in cities without a [City rank VI]> <when below [1] [Progress of Chaos]>",
 		"Nullifies Growth [in this city] <in cities with at least [20] [Population]>",
 		"Triggers a global alert upon completion",
 		"Requires at least [15] population",
@@ -633,6 +633,7 @@
 		"name": "Building.Draft office",
 		"cost": 1,
 		"culture": 1,
+		"specialistSlots": {"Infrastructure": 1},
 		"uniques": [
 		"Unsellable",
 		
@@ -684,6 +685,7 @@
 		"happiness": 2,
 		"cost": 35,
 		//"maintenance": 1,
+		"specialistSlots": {"Educational Personnel": 1, "Administrative Personnel": 1},
 		"uniques": ["Destroyed when the city is captured"]
 		"requiredTech": "Tech.Recycling of building materials"
 	},
@@ -693,6 +695,7 @@
 		"happiness": 2,
 		"cost": 50,
 		"maintenance": 2,
+		"specialistSlots": {"Educational Personnel": 1, "Administrative Personnel": 1},
 		"uniques": ["Destroyed when the city is captured"]
 		"requiredTech": "Tech.The water cycle"
 	},
@@ -702,9 +705,57 @@
 		"happiness": 2,
 		"cost": 100,
 		"maintenance": 4,
+		"specialistSlots": {"Educational Personnel": 1, "Administrative Personnel": 1},
 		"uniques": ["Destroyed when the city is captured"]
 		"requiredTech": "Tech.Dam"
 	},
+	
+	
+	
+	{
+		"name": "Building.Barracks",//兵营
+		"cost": 50,
+		"culture": 1,
+		"happiness": 1,
+		"maintenance": 1,
+		"uniques": [
+		
+		"New [Military] units start with [10] XP [in this city]",
+		  "Destroyed when the city is captured",
+		  ],
+		"requiredTech": "Tech.Rough work"
+	},
+	{
+		"name": "Building.Equipment Design Institute",//装备设计所
+		"cost": 140,
+		"culture": 1,
+		"maintenance": 2,
+		"uniques": [
+		"All newly-trained [All] units [in this city] receive the [Equipment improvements] promotion",
+		"New [Military] units start with [5] XP [in this city]",
+		  "Destroyed when the city is captured",
+		  ],
+		"requiredTech": "Tech.Batch engineering"
+	},
+	{
+		"name": "Building.Staff Office",//参谋所
+		"cost": 220,
+		"culture": 1,
+		"happiness": 1,
+		"maintenance": 3,
+		"uniques": [
+		
+		"New [Military] units start with [20] XP [in this city]",
+		  "Destroyed when the city is captured",
+		  ],
+		"requiredTech": "Tech.Electricity"
+	},
+	
+	
+	
+	
+	
+	
 	{
 		"name": "Building.Granary",//粮仓
 		"food": 2,
@@ -775,6 +826,7 @@
 		//"requiredBuilding": "",
 		//"maintenance": 1,
 		"cost": 40,
+		"specialistSlots": {"Engineering Personnel": 1},
 		"uniques": [
 		"Provides [1] [Resource.Tools] <when above [1] [Resource.Wood]> <when number of [[Production Index] % 10] is equal to [0]>",
 		"Consumes [2] [Resource.Wood] <when above [1] [Resource.Wood]> <when number of [[Production Index] % 10] is equal to [0]>",
@@ -853,6 +905,7 @@
 		//"requiredBuilding": "",
 		"maintenance": 3,
 		"cost": 60,
+		"specialistSlots": {"Engineering Personnel": 1},
 		"uniques": [
 		"Provides [2] [Resource.Tools] <when above [2] [Resource.Wood]> <when number of [[Production Index] % 10] is equal to [0]>",
 		"Consumes [3] [Resource.Wood] <when above [2] [Resource.Wood]> <when number of [[Production Index] % 10] is equal to [0]>",
@@ -903,6 +956,7 @@
 		//"requiredBuilding": "",
 		"maintenance": 2,
 		"cost": 60,
+		"specialistSlots": {"Research Personnel": 1},
 		"uniques": [
 		"[+2 Science] per [3] population [in this city]",
 		//"Provides [2] [Resource.Scientific Research Point]",
@@ -929,6 +983,7 @@
 		//"requiredBuilding": "",
 		"maintenance": 3,
 		"cost": 120,
+		"specialistSlots": {"Engineering Personnel": 2},
 		"uniques": [
 		"Provides [4] [Resource.Gun] <when above [4] [Resource.Iron]> <when number of [[Production Index] % 100 - [Production Index] % 10] is equal to [0]>",
 		"Consumes [5] [Resource.Iron] <when above [4] [Resource.Iron]> <when number of [[Production Index] % 100 - [Production Index] % 10] is equal to [0]>",
@@ -991,6 +1046,7 @@
 		//"requiredBuilding": "",
 		"maintenance": 2,
 		"cost": 120,
+		"specialistSlots": {"Engineering Personnel": 2},
 		"uniques": [
 		"Provides [5] [Resource.Steel] <when above [4] [Resource.Iron]> <when above [2] [Resource.Coal]> <when number of [[Production Index] % 1000 - [Production Index] % 100] is equal to [0]>",
 		"Consumes [5] [Resource.Iron] <when above [4] [Resource.Iron]> <when above [2] [Resource.Coal]> <when number of [[Production Index] % 1000 - [Production Index] % 100] is equal to [0]>",
@@ -1030,6 +1086,7 @@
 		//"requiredBuilding": "",
 		"maintenance": 4,
 		"cost": 200,
+		"specialistSlots": {"Research Personnel": 1},
 		"uniques": [
 		"[+3 Science] per [4] population [in this city]",
 		"[+25]% [Science] [in this city] <when above [1] [Resource.Electricity]>",
@@ -1099,6 +1156,7 @@
 		//"requiredBuilding": "",
 		"maintenance": 6,
 		"cost": 250,
+		"specialistSlots": {"Research Personnel": 2},
 		"uniques": [
 		"[+1 Science] per [1] population [in this city]",
 		"[+33]% [Science] [in this city] <when above [2] [Resource.Electricity]>",
@@ -1140,6 +1198,7 @@
 		//"requiredBuilding": "",
 		"maintenance": 7,
 		"cost": 250,
+		"specialistSlots": {"Research Personnel": 2},
 		"uniques": [
 		"[+1 Science] per [1] population [in this city]",
 		//"[+50]% [Science] [in this city] <when above [2] [Resource.Electricity]>",
@@ -1156,6 +1215,7 @@
 		//"requiredBuilding": "",
 		"maintenance": 7,
 		"cost": 300,
+		"specialistSlots": {"Research Personnel": 2},
 		"uniques": [
 		//"[+1 Science] per [1] population [in this city]",
 		"[+33]% [Science] [in this city]",
@@ -1251,6 +1311,7 @@
 		//"requiredBuilding": "",
 		"maintenance": 12,
 		"cost": 400,
+		"specialistSlots": {"Engineering Personnel": 3},
 		"uniques": [
 		"[+15]% [Production] [in this city]",
 		"[+1 Production] per [1] population [in this city] <when above [3] [Resource.Electricity]>",
@@ -1527,7 +1588,7 @@
         "Remove [People's Front] [in this city] <hidden from users>",
         "Remove [Long March] [in this city] <hidden from users>",
         "Remove [Celestial Empire of China] [in this city] <hidden from users>",
-        //"Remove [Chinese Communist Party] [in this city] <hidden from users>",
+        "Remove [Chinese Communist Party] [in this city] <hidden from users>",
         "Remove [Production and Construction Corps] [in this city] <hidden from users>",
         "Remove [Autonomous Special Zone of Trade] [in this city] <hidden from users>",
         "Remove [National Collective Movement] [in this city] <hidden from users>",
@@ -1538,7 +1599,7 @@
         "Remove [Patriotic Front] [in this city] <hidden from users>",
         "Remove [National Socialist Movement] [in this city] <hidden from users>",
         "Remove [Atomic Division] [in this city] <hidden from users>",
-        //"Remove [United Nations] [in this city] <hidden from users>",
+        "Remove [United Nations] [in this city] <hidden from users>",
         
         //俄罗斯
         "Remove [Russian Federation] [in this city] <hidden from users>",
@@ -1564,7 +1625,10 @@
         "Remove [Southeast Asia Confederation] [in this city] <hidden from users>",
         
         
-        
+        "Remove [Great Inca] [in this city] <hidden from users>",
+        "Remove [Brazilian Empire] [in this city] <hidden from users>",
+        "Remove [Gran Colombia] [in this city] <hidden from users>",
+        "Remove [Brazilian integrator] [in this city] <hidden from users>",
     ]
 },
 {
@@ -1693,7 +1757,7 @@
         "[+1]% Strength <for every [[Faith] % 20]>",
     ]
 },
-/*{
+{
     "name": "Chinese Communist Party",
     "cost": 0,
     "uniques": [
@@ -1703,8 +1767,16 @@
         "Triggers a global alert upon completion",
         "Provides [1] [Progress of Cenozoic]",
         "[+1]% Strength",
+        
+        "[-1 Faith] from all [Gold] buildings <when above [0] [Faith]>",
+        "[+4 Happiness]",
+        //"[+1 Happiness] <for every [sqrt([[Gold] Buildings by [Your] Civilizations] + 1)]>",
+        //城均乐buff翻倍，还没写
+        "Provides [5] [Resource.Manpower max] <for every [Happiness]>",
+        "[+1]% Strength <for every [20 * [Resource.Manpower] / [Resource.Manpower max]]>",
+        
     ]
-},*/
+},
 {
     "name": "Production and Construction Corps",
     "cost": 0,
@@ -1849,7 +1921,7 @@
         "[-25]% [Science] [in all cities]",
     ]
 },
-/*{
+{
     "name": "United Nations",
     "cost": 0,
     "uniques": [
@@ -1859,8 +1931,21 @@
         "Triggers a global alert upon completion",
         "Provides [1] [Progress of Cenozoic]",
         "[+1]% Strength",
+        
+        "Empire enters a [2]-turn Golden Age <upon declaring friendship>",
+        "Gain [-1] [Faith] <for every [Happiness]> <upon declaring friendship>",
+        //无视负城均乐减力，以后要换
+        "[+33]% Strength <for [All] units> <when below [-10] [Happiness]>",
+        
+        "[+1]% Strength <for every [[Resource.Manpower max] / 5 / [Number of cities]]>",
+        //城均乐buff翻倍，还没写
+        "[+10]% [Production] [in all cities] <if [NationWonder.Production Line Planning] is constructed by anybody>",
+        "[+10]% [Food] [in all cities] <if [NationWonder.Wastewater Treatment System] is constructed by anybody>",
+        "[+20]% [Gold] [in all cities] <if [NationWonder.Energy-Efficient Distillation] is constructed by anybody>",
+        "[+66]% [Science] [in this city] <if [NationWonder.Independent Systems Design] is constructed by anybody>",
+        "[+15]% [Production] [in this city] <if [NationWonder.Super Dam Project] is constructed by anybody>",
     ]
-},*/
+},
 //俄罗斯
 //
 //
@@ -2041,6 +2126,81 @@
         "[+50]% Strength for cities <when attacking>",
     ]
     },
+    
+    
+    
+    
+    
+    {
+    "name": "Gran Colombia",//大哥伦比亚
+    "cost": 0,
+    "uniques": [
+        "Moves to new capital when capital changes",
+        "Unbuildable",
+        "Unsellable",
+        "Triggers a global alert upon completion",
+        "Provides [1] [Progress of Successor]",
+        "[+1]% Strength",
+        
+        "[+1] Movement <for [All] units> <when number of [Resource.Manpower] is less than [[Resource.Manpower max] * 3 / 10]>",
+        "[+15]% Production when constructing [All] units [in all cities] <when number of [Resource.Manpower] is more than [[Resource.Manpower max] * 4 / 5]>",
+    ]
+    },
+    {
+    "name": "Brazilian Empire",//巴西帝国
+    "cost": 0,
+    "uniques": [
+        "Moves to new capital when capital changes",
+        "Unbuildable",
+        "Unsellable",
+        "Triggers a global alert upon completion",
+        "Provides [1] [Progress of Successor]",
+        "[+1]% Strength",
+        
+        "[+1 Happiness, +2 Culture, +2 Gold] [in all cities connected to capital]",
+    ]
+    },
+    {
+    "name": "Brazilian integrator",//巴西整合国
+    "cost": 0,
+    "uniques": [
+        "Moves to new capital when capital changes",
+        "Unbuildable",
+        "Unsellable",
+        "Triggers a global alert upon completion",
+        "Provides [1] [Progress of Warlord]",
+        "[+1]% Strength",
+        
+        "[-1 Happiness] [in all cities with a garrison]",
+        "[+30]% Production when constructing [Military] units [in all cities with a garrison]",
+        "[+10]% Strength <vs [{non-[Warlord]} {non-[Chaos]}] units>",
+        "Rebel units may spawn",
+    ]
+    },
+    
+    {
+    "name": "Great Inca",//大印加国
+    "cost": 0,
+    "uniques": [
+        "Moves to new capital when capital changes",
+        "Unbuildable",
+        "Unsellable",
+        "Triggers a global alert upon completion",
+        "Provides [1] [Progress of Warlord]",
+        "[+1]% Strength",
+        
+        "No Maintenance costs for improvements in [Hill] tiles",
+        "[+3 Food] from every [Mountain]",
+    ]
+    },
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     
