@@ -13,7 +13,9 @@
             {
                 "name": "[Successor] I",
                 "uniques": [
-                "Only available <when above [0] [Progress of Successor]>",
+                //"Only available <when above [0] [Progress of Successor]>",
+                "Instantly provides [1] [Stability bias]",
+                
                 "[-10]% unhappiness from the number of cities",
                 ],
                 "row": 1,
@@ -22,7 +24,9 @@
             {
                 "name": "[Successor] II",
                 "uniques": [
-                "Only available <when above [0] [Progress of Successor]>",
+                //"Only available <when above [0] [Progress of Successor]>",
+                "Instantly provides [1] [Stability bias]",
+                
                 "[-10]% unhappiness from the number of cities",
                 ],
                 "row": 2,
@@ -31,7 +35,9 @@
             {
                 "name": "[Successor] III",
                 "uniques": [
-                "Only available <when above [0] [Progress of Successor]>",
+                //"Only available <when above [0] [Progress of Successor]>",
+                "Instantly provides [1] [Stability bias]",
+                
                 "[-10]% unhappiness from the number of cities",
                 ],
                 "row": 3,
@@ -40,7 +46,9 @@
             {
                 "name": "[Successor] IV",
                 "uniques": [
-                "Only available <when above [0] [Progress of Successor]>",
+                //"Only available <when above [0] [Progress of Successor]>",
+                "Instantly provides [1] [Stability bias]",
+                
                     "[-10]% unhappiness from the number of cities",
                 ],
                 "row": 4,
@@ -49,7 +57,9 @@
             {
                 "name": "[Successor] V",
                 "uniques": [
-                "Only available <when above [0] [Progress of Successor]>",
+                //"Only available <when above [0] [Progress of Successor]>",
+                "Instantly provides [1] [Stability bias]",
+                
                     "[-10]% unhappiness from the number of cities",
                 ],
                 "row": 5,
@@ -58,7 +68,9 @@
             {
                 "name": "[Successor][Radical] I",
                 "uniques": [
-                "Only available <when above [0] [Progress of Successor]>",
+                //"Only available <when above [0] [Progress of Successor]>",
+                "Instantly provides [1] [Stability bias]",
+            "Instantly provides [1] [Radical bias]",
                 "[+5]% [Food] [in all cities]",
                 ],
                 "row": 1,
@@ -67,7 +79,9 @@
             {
                 "name": "[Successor][Radical] II",
                 "uniques": [
-                "Only available <when above [0] [Progress of Successor]>",
+                //"Only available <when above [0] [Progress of Successor]>",
+                "Instantly provides [1] [Stability bias]",
+                "Instantly provides [1] [Radical bias]",
                 "[+5]% [Food] [in all cities]",
                 ],
                 "row": 2,
@@ -76,7 +90,9 @@
             {
                 "name": "[Successor][Radical] III",
                 "uniques": [
-                "Only available <when above [0] [Progress of Successor]>",
+                //"Only available <when above [0] [Progress of Successor]>",
+                "Instantly provides [1] [Stability bias]",
+                "Instantly provides [1] [Radical bias]",
                 "[+5]% [Food] [in all cities]",
                 ],
                 "row": 3,
@@ -85,7 +101,9 @@
             {
                 "name": "[Successor][Radical] IV",
                 "uniques": [
-                "Only available <when above [0] [Progress of Successor]>",
+                //"Only available <when above [0] [Progress of Successor]>",
+                "Instantly provides [1] [Stability bias]",
+                "Instantly provides [1] [Radical bias]",
                     "[+5]% [Food] [in all cities]",
                 ],
                 "row": 4,
@@ -94,7 +112,9 @@
             {
                 "name": "[Successor][Radical] V",
                 "uniques": [
-                "Only available <when above [0] [Progress of Successor]>",
+                //"Only available <when above [0] [Progress of Successor]>",
+                "Instantly provides [1] [Stability bias]",
+                "Instantly provides [1] [Radical bias]",
                     "[+5]% [Food] [in all cities]",
                 ],
                 "row": 5,
@@ -103,7 +123,9 @@
             {
                 "name": "[Successor][Stability] I",
                 "uniques": [
-                "Only available <when above [0] [Progress of Successor]>",
+                "Instantly provides [1] [Stability bias]",
+                "Instantly consumes [1] [Radical bias]",
+                //"Only available <when above [0] [Progress of Successor]>",
                 "[+2 Happiness]",
                 ],
                 "row": 1,
@@ -112,7 +134,9 @@
             {
                 "name": "[Successor][Stability] II",
                 "uniques": [
-                "Only available <when above [0] [Progress of Successor]>",
+                "Instantly provides [1] [Stability bias]",
+                "Instantly consumes [1] [Radical bias]",
+                //"Only available <when above [0] [Progress of Successor]>",
                 "[+2 Happiness]",
                 ],
                 "row": 2,
@@ -121,7 +145,9 @@
             {
                 "name": "[Successor][Stability] III",
                 "uniques": [
-                "Only available <when above [0] [Progress of Successor]>",
+                "Instantly provides [1] [Stability bias]",
+                "Instantly consumes [1] [Radical bias]",
+                //"Only available <when above [0] [Progress of Successor]>",
                 "[+2 Happiness]",
                 ],
                 "row": 3,
@@ -130,7 +156,9 @@
             {
                 "name": "[Successor][Stability] IV",
                 "uniques": [
-                "Only available <when above [0] [Progress of Successor]>",
+                //"Only available <when above [0] [Progress of Successor]>",
+                "Instantly provides [1] [Stability bias]",
+                "Instantly consumes [1] [Radical bias]",
                 "[+2 Happiness]",
                 ],
                 "row": 4,
@@ -139,7 +167,9 @@
             {
                 "name": "[Successor][Stability] V",
                 "uniques": [
-                "Only available <when above [0] [Progress of Successor]>",
+                //"Only available <when above [0] [Progress of Successor]>",
+                "Instantly provides [1] [Stability bias]",
+                "Instantly consumes [1] [Radical bias]",
                     "[+2 Happiness]",
                 ],
                 "row": 5,
@@ -148,7 +178,8 @@
             {
                 "name": "[Cenozoic] I",
                 "uniques": [
-                "Only available <when above [0] [Progress of Cenozoic]>",
+                //"Only available <when above [0] [Progress of Cenozoic]>",
+                "Instantly provides [1] [Stability bias]",
                 "[+7]% [Science] [in all non-occupied cities]",
                 "[+7]% [Production] [in all non-occupied cities]",
                 ],
@@ -158,7 +189,8 @@
             {
                 "name": "[Cenozoic] II",
                 "uniques": [
-                "Only available <when above [0] [Progress of Cenozoic]>",
+                //"Only available <when above [0] [Progress of Cenozoic]>",
+                "Instantly provides [1] [Stability bias]",
                 "[+7]% [Science] [in all non-occupied cities]",
                 "[+7]% [Production] [in all non-occupied cities]",
                 ],
@@ -168,7 +200,8 @@
             {
                 "name": "[Cenozoic] III",
                 "uniques": [
-                "Only available <when above [0] [Progress of Cenozoic]>",
+                //"Only available <when above [0] [Progress of Cenozoic]>",
+                "Instantly provides [1] [Stability bias]",
                 "[+7]% [Science] [in all non-occupied cities]",
                 "[+7]% [Production] [in all non-occupied cities]",
                 ],
@@ -178,7 +211,8 @@
             {
                 "name": "[Cenozoic] IV",
                 "uniques": [
-                "Only available <when above [0] [Progress of Cenozoic]>",
+                //"Only available <when above [0] [Progress of Cenozoic]>",
+                "Instantly provides [1] [Stability bias]",
                     "[+7]% [Science] [in all non-occupied cities]",
                     "[+7]% [Production] [in all non-occupied cities]",
                 ],
@@ -188,7 +222,8 @@
             {
                 "name": "[Cenozoic] V",
                 "uniques": [
-                "Only available <when above [0] [Progress of Cenozoic]>",
+                //"Only available <when above [0] [Progress of Cenozoic]>",
+                "Instantly provides [1] [Stability bias]",
                     "[+7]% [Science] [in all non-occupied cities]",
                     "[+7]% [Production] [in all non-occupied cities]",
                 ],
@@ -198,7 +233,9 @@
             {
                 "name": "[Cenozoic][Radical] I",
                 "uniques": [
-                "Only available <when above [0] [Progress of Cenozoic]>",
+                //"Only available <when above [0] [Progress of Cenozoic]>",
+                "Instantly provides [1] [Stability bias]",
+                "Instantly provides [1] [Radical bias]",
                 "[+12]% [Science] [in annexed cities]",
                 "[+12]% [Production] [in annexed cities]",
                 ],
@@ -208,7 +245,9 @@
             {
                 "name": "[Cenozoic][Radical] II",
                 "uniques": [
-                "Only available <when above [0] [Progress of Cenozoic]>",
+                //"Only available <when above [0] [Progress of Cenozoic]>",
+                "Instantly provides [1] [Stability bias]",
+                "Instantly provides [1] [Radical bias]",
                 "[+12]% [Science] [in annexed cities]",
                 "[+12]% [Production] [in annexed cities]",
                 ],
@@ -218,7 +257,9 @@
             {
                 "name": "[Cenozoic][Radical] III",
                 "uniques": [
-                "Only available <when above [0] [Progress of Cenozoic]>",
+                //"Only available <when above [0] [Progress of Cenozoic]>",
+                "Instantly provides [1] [Stability bias]",
+                "Instantly provides [1] [Radical bias]",
                 "[+12]% [Science] [in annexed cities]",
                 "[+12]% [Production] [in annexed cities]",
                 ],
@@ -228,7 +269,9 @@
             {
                 "name": "[Cenozoic][Radical] IV",
                 "uniques": [
-                "Only available <when above [0] [Progress of Cenozoic]>",
+                //"Only available <when above [0] [Progress of Cenozoic]>",
+                "Instantly provides [1] [Stability bias]",
+                "Instantly provides [1] [Radical bias]",
                     "[+12]% [Science] [in annexed cities]",
                 "[+12]% [Production] [in annexed cities]",
                 ],
@@ -238,7 +281,9 @@
             {
                 "name": "[Cenozoic][Radical] V",
                 "uniques": [
-                "Only available <when above [0] [Progress of Cenozoic]>",
+                //"Only available <when above [0] [Progress of Cenozoic]>",
+                "Instantly provides [1] [Stability bias]",
+                "Instantly provides [1] [Radical bias]",
                     "[+12]% [Science] [in annexed cities]",
                 "[+12]% [Production] [in annexed cities]",
                 ],
@@ -248,7 +293,9 @@
             {
                 "name": "[Cenozoic][Stability] I",
                 "uniques": [
-                "Only available <when above [0] [Progress of Cenozoic]>",
+                //"Only available <when above [0] [Progress of Cenozoic]>",
+                "Instantly provides [1] [Stability bias]",
+                "Instantly consumes [1] [Radical bias]",
                 "[+15]% [Science] [in capital]",
                 "[+15]% [Production] [in capital]",
                 ],
@@ -258,7 +305,9 @@
             {
                 "name": "[Cenozoic][Stability] II",
                 "uniques": [
-                "Only available <when above [0] [Progress of Cenozoic]>",
+                //"Only available <when above [0] [Progress of Cenozoic]>",
+                "Instantly provides [1] [Stability bias]",
+                "Instantly consumes [1] [Radical bias]",
                 "[+15]% [Science] [in capital]",
                 "[+15]% [Production] [in capital]",
                 ],
@@ -268,7 +317,9 @@
             {
                 "name": "[Cenozoic][Stability] III",
                 "uniques": [
-                "Only available <when above [0] [Progress of Cenozoic]>",
+                //"Only available <when above [0] [Progress of Cenozoic]>",
+                "Instantly provides [1] [Stability bias]",
+                "Instantly consumes [1] [Radical bias]",
                 "[+15]% [Science] [in capital]",
                 "[+15]% [Production] [in capital]",
                 ],
@@ -278,7 +329,9 @@
             {
                 "name": "[Cenozoic][Stability] IV",
                 "uniques": [
-                "Only available <when above [0] [Progress of Cenozoic]>",
+                //"Only available <when above [0] [Progress of Cenozoic]>",
+                "Instantly provides [1] [Stability bias]",
+                "Instantly consumes [1] [Radical bias]",
                     "[+15]% [Science] [in capital]",
                 "[+15]% [Production] [in capital]",
                 ],
@@ -288,7 +341,9 @@
             {
                 "name": "[Cenozoic][Stability] V",
                 "uniques": [
-                "Only available <when above [0] [Progress of Cenozoic]>",
+                //"Only available <when above [0] [Progress of Cenozoic]>",
+                "Instantly provides [1] [Stability bias]",
+                "Instantly consumes [1] [Radical bias]",
                     "[+15]% [Science] [in capital]",
                 "[+15]% [Production] [in capital]",
                 ],
@@ -302,7 +357,8 @@
             {
                 "name": "[Warlord] I",
                 "uniques": [
-                "Only available <when above [0] [Progress of Warlord]>",
+                //"Only available <when above [0] [Progress of Warlord]>",
+                "Instantly consumes [1] [Stability bias]",
                 "[+5]% Strength",
                 "New [Military] units start with [3] XP [in all cities]",
                 ],
@@ -312,7 +368,8 @@
             {
                 "name": "[Warlord] II",
                 "uniques": [
-                "Only available <when above [0] [Progress of Warlord]>",
+                //"Only available <when above [0] [Progress of Warlord]>",
+                "Instantly consumes [1] [Stability bias]",
                 "[+5]% Strength",
                 "New [Military] units start with [3] XP [in all cities]",
                 ],
@@ -322,7 +379,8 @@
             {
                 "name": "[Warlord] III",
                 "uniques": [
-                "Only available <when above [0] [Progress of Warlord]>",
+                //"Only available <when above [0] [Progress of Warlord]>",
+                "Instantly consumes [1] [Stability bias]",
                 "[+5]% Strength",
                 "New [Military] units start with [3] XP [in all cities]",
                 ],
@@ -332,7 +390,8 @@
             {
                 "name": "[Warlord] IV",
                 "uniques": [
-                "Only available <when above [0] [Progress of Warlord]>",
+                //"Only available <when above [0] [Progress of Warlord]>",
+                "Instantly consumes [1] [Stability bias]",
                     "[+5]% Strength",
                 "New [Military] units start with [3] XP [in all cities]",
                 ],
@@ -342,7 +401,8 @@
             {
                 "name": "[Warlord] V",
                 "uniques": [
-                "Only available <when above [0] [Progress of Warlord]>",
+                //"Only available <when above [0] [Progress of Warlord]>",
+                "Instantly consumes [1] [Stability bias]",
                     "[+5]% Strength",
                 "New [Military] units start with [3] XP [in all cities]",
                 ],
@@ -352,7 +412,9 @@
             {
                 "name": "[Warlord][Radical] I",
                 "uniques": [
-                "Only available <when above [0] [Progress of Warlord]>",
+                //"Only available <when above [0] [Progress of Warlord]>",
+                "Instantly consumes [1] [Stability bias]",
+                "Instantly provides [1] [Radical bias]",
                 "[+15]% Strength <for [Military] units> <for [15] turns>",
                 ],
                 "row": 1,
@@ -361,7 +423,9 @@
             {
                 "name": "[Warlord][Radical] II",
                 "uniques": [
-                "Only available <when above [0] [Progress of Warlord]>",
+                //"Only available <when above [0] [Progress of Warlord]>",
+                "Instantly consumes [1] [Stability bias]",
+                "Instantly provides [1] [Radical bias]",
                 "[+15]% Strength <for [Military] units> <for [15] turns>",
                 ],
                 "row": 2,
@@ -370,7 +434,9 @@
             {
                 "name": "[Warlord][Radical] III",
                 "uniques": [
-                "Only available <when above [0] [Progress of Warlord]>",
+                //"Only available <when above [0] [Progress of Warlord]>",
+                "Instantly consumes [1] [Stability bias]",
+                "Instantly provides [1] [Radical bias]",
                 "[+15]% Strength <for [Military] units> <for [15] turns>",
                 ],
                 "row": 3,
@@ -379,7 +445,9 @@
             {
                 "name": "[Warlord][Radical] IV",
                 "uniques": [
-                "Only available <when above [0] [Progress of Warlord]>",
+                //"Only available <when above [0] [Progress of Warlord]>",
+                "Instantly consumes [1] [Stability bias]",
+                "Instantly provides [1] [Radical bias]",
                     "[+15]% Strength <for [Military] units> <for [15] turns>",
                 ],
                 "row": 4,
@@ -388,7 +456,9 @@
             {
                 "name": "[Warlord][Radical] V",
                 "uniques": [
-                "Only available <when above [0] [Progress of Warlord]>",
+                //"Only available <when above [0] [Progress of Warlord]>",
+                "Instantly consumes [1] [Stability bias]",
+                "Instantly provides [1] [Radical bias]",
                     "[+15]% Strength <for [Military] units> <for [15] turns>",
                 ],
                 "row": 5,
@@ -397,7 +467,9 @@
             {
                 "name": "[Warlord][Stability] I",
                 "uniques": [
-                "Only available <when above [0] [Progress of Warlord]>",
+                //"Only available <when above [0] [Progress of Warlord]>",
+                "Instantly consumes [1] [Stability bias]",
+                "Instantly consumes [1] [Radical bias]",
                 "[+10]% Production when constructing [Military] units [in all cities]",
                 ],
                 "row": 1,
@@ -406,7 +478,9 @@
             {
                 "name": "[Warlord][Stability] II",
                 "uniques": [
-                "Only available <when above [0] [Progress of Warlord]>",
+                //"Only available <when above [0] [Progress of Warlord]>",
+                "Instantly consumes [1] [Stability bias]",
+                "Instantly consumes [1] [Radical bias]",
                 "[+10]% Production when constructing [Military] units [in all cities]",
                 ],
                 "row": 2,
@@ -415,7 +489,9 @@
             {
                 "name": "[Warlord][Stability] III",
                 "uniques": [
-                "Only available <when above [0] [Progress of Warlord]>",
+                //"Only available <when above [0] [Progress of Warlord]>",
+                "Instantly consumes [1] [Stability bias]",
+                "Instantly consumes [1] [Radical bias]",
                 "[+10]% Production when constructing [Military] units [in all cities]",
                 ],
                 "row": 3,
@@ -424,7 +500,9 @@
             {
                 "name": "[Warlord][Stability] IV",
                 "uniques": [
-                "Only available <when above [0] [Progress of Warlord]>",
+                //"Only available <when above [0] [Progress of Warlord]>",
+                "Instantly consumes [1] [Stability bias]",
+                "Instantly consumes [1] [Radical bias]",
                     "[+10]% Production when constructing [Military] units [in all cities]",
                 ],
                 "row": 4,
@@ -433,12 +511,289 @@
             {
                 "name": "[Warlord][Stability] V",
                 "uniques": [
-                "Only available <when above [0] [Progress of Warlord]>",
+                //"Only available <when above [0] [Progress of Warlord]>",
+                "Instantly consumes [1] [Stability bias]",
+                "Instantly consumes [1] [Radical bias]",
                     "[+10]% Production when constructing [Military] units [in all cities]",
                 ],
                 "row": 5,
                 "column": 17
             },
+            
+            {
+                "name": "Political reshuffle",//政治改组
+                "uniques": [
+                "Unavailable <when above [0] [Progress of Chaos]> <when below [1] [Progress of Cenozoic]> <when below [1] [Progress of Warlord]> <when above [-1] [Stability bias]> <when below [1] [Radical bias]>",
+                "Triggers a [Event.8.Title] event",
+                "Remove [Political reshuffle] <hidden from users>",
+                
+                "Remove [Successor] [in this city] <hidden from users>",
+        "Remove [Cenozoic] [in this city] <hidden from users>",
+        "Remove [Warlord] [in this city] <hidden from users>",
+        
+        
+        "Remove [Collective Security Organization] [in this city] <hidden from users>",
+        "Remove [People's Front] [in this city] <hidden from users>",
+        "Remove [Long March] [in this city] <hidden from users>",
+        "Remove [Celestial Empire of China] [in this city] <hidden from users>",
+        "Remove [Chinese Communist Party] [in this city] <hidden from users>",
+        "Remove [Production and Construction Corps] [in this city] <hidden from users>",
+        "Remove [Autonomous Special Zone of Trade] [in this city] <hidden from users>",
+        "Remove [National Collective Movement] [in this city] <hidden from users>",
+        
+        "Remove [United States Constitutional Government] [in this city] <hidden from users>",
+        "Remove [American Union] [in this city] <hidden from users>",
+        "Remove [People's Liberation Army of America] [in this city] <hidden from users>",
+        "Remove [Patriotic Front] [in this city] <hidden from users>",
+        "Remove [National Socialist Movement] [in this city] <hidden from users>",
+        "Remove [Atomic Division] [in this city] <hidden from users>",
+        "Remove [United Nations] [in this city] <hidden from users>",
+        
+        //俄罗斯
+        "Remove [Russian Federation] [in this city] <hidden from users>",
+        "Remove [Tsarist Russia] [in this city] <hidden from users>",
+        "Remove [Soviet Union] [in this city] <hidden from users>",
+        "Remove [Russian State] [in this city] <hidden from users>",
+        
+        
+        /*"Remove [xxxxx] [in this city] <hidden from users>",
+        "Remove [xxxxx] [in this city] <hidden from users>",
+        "Remove [xxxxx] [in this city] <hidden from users>",
+        */
+        
+        //欧洲
+        "Remove [European Union] [in this city] <hidden from users>",
+        "Remove [European Communist International] [in this city] <hidden from users>",
+        "Remove [Davos Forum] [in this city] <hidden from users>",
+        
+        //东南亚
+        "Remove [ASEAN Commonwealth] [in this city] <hidden from users>",
+        "Remove [Archipelagic League] [in this city] <hidden from users>",
+        "Remove [Greater Southeast Asia Co-Prosperity Sphere] [in this city] <hidden from users>",
+        "Remove [Southeast Asia Confederation] [in this city] <hidden from users>",
+        
+        
+        "Remove [Great Inca] [in this city] <hidden from users>",
+        "Remove [Brazilian Empire] [in this city] <hidden from users>",
+        "Remove [Gran Colombia] [in this city] <hidden from users>",
+        "Remove [Brazilian integrator] [in this city] <hidden from users>",
+                ],
+                "row": 1,
+                "column": 21
+            },
+            {
+                "name": "[Political reshuffle]",//政治改组
+                "uniques": [
+                "Unavailable <when above [0] [Progress of Chaos]> <when below [1] [Progress of Successor]> <when below [1] [Progress of Warlord]> <when above [-1] [Stability bias]> <when above [-1] [Radical bias]>",
+                "Triggers a [Event.8.Title] event",
+                "Remove [[Political reshuffle]] <hidden from users>",
+                
+                "Remove [Successor] [in this city] <hidden from users>",
+        "Remove [Cenozoic] [in this city] <hidden from users>",
+        "Remove [Warlord] [in this city] <hidden from users>",
+        
+        
+        "Remove [Collective Security Organization] [in this city] <hidden from users>",
+        "Remove [People's Front] [in this city] <hidden from users>",
+        "Remove [Long March] [in this city] <hidden from users>",
+        "Remove [Celestial Empire of China] [in this city] <hidden from users>",
+        "Remove [Chinese Communist Party] [in this city] <hidden from users>",
+        "Remove [Production and Construction Corps] [in this city] <hidden from users>",
+        "Remove [Autonomous Special Zone of Trade] [in this city] <hidden from users>",
+        "Remove [National Collective Movement] [in this city] <hidden from users>",
+        
+        "Remove [United States Constitutional Government] [in this city] <hidden from users>",
+        "Remove [American Union] [in this city] <hidden from users>",
+        "Remove [People's Liberation Army of America] [in this city] <hidden from users>",
+        "Remove [Patriotic Front] [in this city] <hidden from users>",
+        "Remove [National Socialist Movement] [in this city] <hidden from users>",
+        "Remove [Atomic Division] [in this city] <hidden from users>",
+        "Remove [United Nations] [in this city] <hidden from users>",
+        
+        //俄罗斯
+        "Remove [Russian Federation] [in this city] <hidden from users>",
+        "Remove [Tsarist Russia] [in this city] <hidden from users>",
+        "Remove [Soviet Union] [in this city] <hidden from users>",
+        "Remove [Russian State] [in this city] <hidden from users>",
+        
+        
+        /*"Remove [xxxxx] [in this city] <hidden from users>",
+        "Remove [xxxxx] [in this city] <hidden from users>",
+        "Remove [xxxxx] [in this city] <hidden from users>",
+        */
+        
+        //欧洲
+        "Remove [European Union] [in this city] <hidden from users>",
+        "Remove [European Communist International] [in this city] <hidden from users>",
+        "Remove [Davos Forum] [in this city] <hidden from users>",
+        
+        //东南亚
+        "Remove [ASEAN Commonwealth] [in this city] <hidden from users>",
+        "Remove [Archipelagic League] [in this city] <hidden from users>",
+        "Remove [Greater Southeast Asia Co-Prosperity Sphere] [in this city] <hidden from users>",
+        "Remove [Southeast Asia Confederation] [in this city] <hidden from users>",
+        
+        
+        "Remove [Great Inca] [in this city] <hidden from users>",
+        "Remove [Brazilian Empire] [in this city] <hidden from users>",
+        "Remove [Gran Colombia] [in this city] <hidden from users>",
+        "Remove [Brazilian integrator] [in this city] <hidden from users>",
+                ],
+                "row": 1,
+                "column": 23
+            },
+            {
+                "name": "[[Political reshuffle]]",//政治改组
+                "uniques": [
+                "Unavailable <when above [0] [Progress of Chaos]> <when below [1] [Progress of Successor]> <when below [1] [Progress of Cenozoic]> <when below [1] [Stability bias]>",
+                "Triggers a [Event.8.Title] event",
+                "Remove [[[Political reshuffle]]] <hidden from users>",
+                
+                "Remove [Successor] [in this city] <hidden from users>",
+        "Remove [Cenozoic] [in this city] <hidden from users>",
+        "Remove [Warlord] [in this city] <hidden from users>",
+        
+        
+        "Remove [Collective Security Organization] [in this city] <hidden from users>",
+        "Remove [People's Front] [in this city] <hidden from users>",
+        "Remove [Long March] [in this city] <hidden from users>",
+        "Remove [Celestial Empire of China] [in this city] <hidden from users>",
+        "Remove [Chinese Communist Party] [in this city] <hidden from users>",
+        "Remove [Production and Construction Corps] [in this city] <hidden from users>",
+        "Remove [Autonomous Special Zone of Trade] [in this city] <hidden from users>",
+        "Remove [National Collective Movement] [in this city] <hidden from users>",
+        
+        "Remove [United States Constitutional Government] [in this city] <hidden from users>",
+        "Remove [American Union] [in this city] <hidden from users>",
+        "Remove [People's Liberation Army of America] [in this city] <hidden from users>",
+        "Remove [Patriotic Front] [in this city] <hidden from users>",
+        "Remove [National Socialist Movement] [in this city] <hidden from users>",
+        "Remove [Atomic Division] [in this city] <hidden from users>",
+        "Remove [United Nations] [in this city] <hidden from users>",
+        
+        //俄罗斯
+        "Remove [Russian Federation] [in this city] <hidden from users>",
+        "Remove [Tsarist Russia] [in this city] <hidden from users>",
+        "Remove [Soviet Union] [in this city] <hidden from users>",
+        "Remove [Russian State] [in this city] <hidden from users>",
+        
+        
+        /*"Remove [xxxxx] [in this city] <hidden from users>",
+        "Remove [xxxxx] [in this city] <hidden from users>",
+        "Remove [xxxxx] [in this city] <hidden from users>",
+        */
+        
+        //欧洲
+        "Remove [European Union] [in this city] <hidden from users>",
+        "Remove [European Communist International] [in this city] <hidden from users>",
+        "Remove [Davos Forum] [in this city] <hidden from users>",
+        
+        //东南亚
+        "Remove [ASEAN Commonwealth] [in this city] <hidden from users>",
+        "Remove [Archipelagic League] [in this city] <hidden from users>",
+        "Remove [Greater Southeast Asia Co-Prosperity Sphere] [in this city] <hidden from users>",
+        "Remove [Southeast Asia Confederation] [in this city] <hidden from users>",
+        
+        
+        "Remove [Great Inca] [in this city] <hidden from users>",
+        "Remove [Brazilian Empire] [in this city] <hidden from users>",
+        "Remove [Gran Colombia] [in this city] <hidden from users>",
+        "Remove [Brazilian integrator] [in this city] <hidden from users>",
+                ],
+                "row": 1,
+                "column": 25
+            },
+            
+            
+            {
+                "name": "[Production investment][Stability]",//生产投资
+                "uniques": [
+                "[+10]% Production when constructing [Production] buildings [in all cities]",
+                "[+10]% Production when constructing [Gold] buildings [in all cities]",
+                
+                ],
+                "row": 2,
+                "column": 21
+            },
+            {
+                "name": "Production investment",//生产投资
+                "uniques": [
+                "[+5]% Production when constructing [All] buildings [in all cities]",
+                ],
+                "row": 2,
+                "column": 23
+            },
+            {
+                "name": "[Production investment][Radical]",//生产投资
+                "uniques": [
+                "[+10]% Production when constructing [Science] buildings [in all cities]",
+                "[+10]% Production when constructing [Culture] buildings [in all cities]",
+                
+                ],
+                "row": 2,
+                "column": 25
+            },
+            
+            {
+                "name": "[People's livelihood construction][Administrative Personnel]",//民生建设
+                "uniques": [
+                "[+1 Culture, +1 Happiness] from every [Administrative Personnel]",
+                
+                
+                
+                ],
+                "row": 3,
+                "column": 21
+            },
+            {
+                "name": "[People's livelihood construction][Educational Personnel]",//民生建设
+                "uniques": [
+                "[+1 Culture, -1 Faith] from every [Educational Personnel]",
+                
+                
+                
+                ],
+                "row": 3,
+                "column": 23
+            },
+            {
+                "name": "[People's livelihood construction][Engineering Personnel]",//民生建设
+                "uniques": [
+                "[+2 Production] from every [Engineering Personnel]",
+                
+                
+                
+                ],
+                "row": 3,
+                "column": 25
+            },
+            {
+                "name": "[People's livelihood construction][Research Personnel]",//民生建设
+                "uniques": [
+                "[+2 Science] from every [Research Personnel]",
+                
+                
+                
+                ],
+                "row": 3,
+                "column": 27
+            },
+            {
+                "name": "[People's livelihood construction][Infrastructure]",//民生建设
+                "uniques": [
+                "[+1 Production] from every [Infrastructure]",
+                "Provides a [Infrastructure expansion] in your first [100] cities for free",
+                
+                
+                ],
+                "row": 3,
+                "column": 29
+            },
+            
+            
+            
+            
+            
             {
                 "name": "Reign panel Complete",
                 "uniques": [

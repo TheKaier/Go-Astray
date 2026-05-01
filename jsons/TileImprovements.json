@@ -346,8 +346,10 @@
 		"uniques": [
 			//"Consumes [1] [Resource.Water] <when above [0] [Resource.Water]> <when above [0] [Resource.Coal]>",
 			"Costs [2] [Gold] per turn",
-			"Consumes [1] [Resource.Coal] <when above [0] [Resource.Coal]> <when number of [[Production Index] % 10000 - [Production Index] % 1000] is equal to [0]>",
-			"Provides [3] [Resource.Electricity] <when above [0] [Resource.Coal]> <when number of [[Production Index] % 10000 - [Production Index] % 1000] is equal to [0]>",
+			
+			"Provides [4] [Production [Resource.Electricity]]",
+		"Provides [1] [Consumes [Resource.Coal]]",
+			
 			],
 		"shortcutKey": "J"
 	},
@@ -413,4 +415,42 @@
 	//<when below [0] [Universe Point]>
 	//<hidden from users>
 	//<with [1] to [1] neighboring [The_Great_Wall_Qin] tiles>
+	
+	
+	
+	{
+		"name": "Academy",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"science": 8,
+		"turnsToBuild": 25,
+		"uniques": ["Great Improvement", "Removes removable features when built", ]
+	},
+	{
+		"name": "Landmark",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"culture": 6,
+		"turnsToBuild": 25,
+		"uniques": ["Great Improvement", "Removes removable features when built",]
+	},
+	{
+		"name": "Manufactory",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"production": 6,
+		"turnsToBuild": 25,
+		"uniques": ["Great Improvement", "Removes removable features when built",]
+	},
+	{
+		"name": "Citadel",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 25,
+		"uniques": [
+			"Great Improvement",
+			"Gives a defensive bonus of [100]%",
+			"Adjacent enemy units ending their turn take [15] damage",
+			
+			"Removes removable features when built",
+		]
+	},
+	
+	
 ]

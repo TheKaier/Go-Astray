@@ -3,33 +3,37 @@
 		"name":"Administrative Personnel",//行政
 		"culture":2,
 		"happiness":2,
+		"greatPersonPoints": {"Potential talent":1},
 		"color": [160,32,240]
 	},
 	{
 		"name":"Educational Personnel",//教育
 		"faith":-2,
 		"gold":-2,
+		"greatPersonPoints": {"Potential talent":1},
 		"color": [0,0,255]
 	},
 	{
 		"name":"Research Personnel",//研发
 		"science":4,
 		"gold":-2,
+		"greatPersonPoints": {"Scientist":2},
 		"color": [0,0,255]
 	},
 	{
 		"name":"Engineering Personnel",//工程
 		"production":3,
 		"gold":-1,
+		"greatPersonPoints": {"Engineer":2},
 		"color": [139,69,19]
 	},
 	{
 		"name":"Infrastructure",//基础设施
 		"food":2,
 		"production":1,
+		"greatPersonPoints": {"Potential talent":1},
 		"color": [255,215,0]
 	},
-
 	
 	
 ]

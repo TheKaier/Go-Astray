@@ -102,7 +102,34 @@
 		"uniques": [
 		"Instantly consumes [20] [Resource.Manpower]",
 		"Only available <when above [19] [Resource.Manpower]>",
-		"Can build [All] improvements on tiles",
+		"Can build [TileImprovement.Farm] improvements on tiles",
+		"Can build [TileImprovement.Demolition area] improvements on tiles",
+		"Can build [TileImprovement.Recycling yard] improvements on tiles",
+		"Can build [TileImprovement.Community] improvements on tiles",
+		"Can build [TileImprovement.Logging] improvements on tiles",
+		"Can build [TileImprovement.Mine] improvements on tiles",
+		"Can build [TileImprovement.Ranch] improvements on tiles",
+		"Can build [TileImprovement.Drainage area] improvements on tiles",
+		"Can build [TileImprovement.Bunkers] improvements on tiles",
+		"Can build [TileImprovement.Lumberyard] improvements on tiles",
+		"Can build [TileImprovement.Quarry] improvements on tiles",
+		"Can build [TileImprovement.Water drilling] improvements on tiles",
+		"Can build [TileImprovement.Coal Mine] improvements on tiles",
+		"Can build [TileImprovement.Fossil-fuel power station] improvements on tiles",
+		"Can build [TileImprovement.Barbed Wire] improvements on tiles",
+		"Can build [TileImprovement.Fishing ground] improvements on tiles",
+		"Can build [TileImprovement.Hydroelectricity] improvements on tiles",
+		"Can build [TileImprovement.Solar Plant] improvements on tiles",
+		"Can build [TileImprovement.Computing terminal] improvements on tiles",
+		"Can build [Remove Forest] improvements on tiles",
+		"Can build [Remove Marsh] improvements on tiles",
+		"Can build [Remove Fallout] improvements on tiles",
+		"Can build [Remove Road] improvements on tiles",
+		"Can build [Remove Railroad] improvements on tiles",
+		"Can build [Road] improvements on tiles",
+		"Can build [Railroad] improvements on tiles",
+		"Can build [Repair] improvements on tiles",
+		
 		"Automation is a primary action",
 		],
 	},
@@ -125,7 +152,33 @@
 		"Only available <when above [24] [Resource.Manpower]>",
 		"Instantly consumes [10] [Resource.Tools]",
 		"Only available <when above [9] [Resource.Tools]>",
-		"Can build [All] improvements on tiles",
+		"Can build [TileImprovement.Farm] improvements on tiles",
+		"Can build [TileImprovement.Demolition area] improvements on tiles",
+		"Can build [TileImprovement.Recycling yard] improvements on tiles",
+		"Can build [TileImprovement.Community] improvements on tiles",
+		"Can build [TileImprovement.Logging] improvements on tiles",
+		"Can build [TileImprovement.Mine] improvements on tiles",
+		"Can build [TileImprovement.Ranch] improvements on tiles",
+		"Can build [TileImprovement.Drainage area] improvements on tiles",
+		"Can build [TileImprovement.Bunkers] improvements on tiles",
+		"Can build [TileImprovement.Lumberyard] improvements on tiles",
+		"Can build [TileImprovement.Quarry] improvements on tiles",
+		"Can build [TileImprovement.Water drilling] improvements on tiles",
+		"Can build [TileImprovement.Coal Mine] improvements on tiles",
+		"Can build [TileImprovement.Fossil-fuel power station] improvements on tiles",
+		"Can build [TileImprovement.Barbed Wire] improvements on tiles",
+		"Can build [TileImprovement.Fishing ground] improvements on tiles",
+		"Can build [TileImprovement.Hydroelectricity] improvements on tiles",
+		"Can build [TileImprovement.Solar Plant] improvements on tiles",
+		"Can build [TileImprovement.Computing terminal] improvements on tiles",
+		"Can build [Remove Forest] improvements on tiles",
+		"Can build [Remove Marsh] improvements on tiles",
+		"Can build [Remove Fallout] improvements on tiles",
+		"Can build [Remove Road] improvements on tiles",
+		"Can build [Remove Railroad] improvements on tiles",
+		"Can build [Road] improvements on tiles",
+		"Can build [Railroad] improvements on tiles",
+		"Can build [Repair] improvements on tiles",
 		"Automation is a primary action",
 		],
 	},
@@ -1576,9 +1629,105 @@
 	
 	
 	
+	{
+		"name": "Potential talent",
+		"unitType": "UnitType.Civilian",
+		"uniques": [
+           "[1] free [Strategist] units appear <by consuming this unit>",
+           "[1] free [Engineer] units appear <by consuming this unit>",
+           "[1] free [Scientist] units appear <by consuming this unit>",
+           "[1] free [Archaeologist] units appear <by consuming this unit>",
+           
+           "[1] free [Strategist] units appear <when number of [RN1] is more than [-1]> <when number of [RN1] is less than [250]> <for [AI player] Civilizations> <hidden from users>",
+           "[1] free [Engineer] units appear <when number of [RN1] is more than [249]> <when number of [RN1] is less than [500]> <for [AI player] Civilizations> <hidden from users>",
+           "[1] free [Scientist] units appear <when number of [RN1] is more than [499]> <when number of [RN1] is less than [750]> <for [AI player] Civilizations> <hidden from users>",
+           "[1] free [Archaeologist] units appear <when number of [RN1] is more than [749]> <when number of [RN1] is less than [1001]> <for [AI player] Civilizations> <hidden from users>",
+           "[This Unit] takes [100] damage <upon turn end> <for [AI player] Civilizations> <hidden from users>",
+           
+           
+           
+            "Great Person - [Unknown talent]",
+			"Unbuildable",
+			"Uncapturable",
+			],
+		"movement": 2
+	},
+	{
+		"name": "Strategist",
+		"unitType": "UnitType.Civilian",
+		"uniques": [
+            "[+5]% Strength bonus for [Military] units within [2] tiles",
+            "[+10]% Strength bonus for [Military] units within [0] tiles",
+           
+           "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+           "Can be earned through combat",
+           "[This Unit] gains the [Master Light Infantry Commander] promotion <when number of [RN1] is more than [-1]> <when number of [RN1] is less than [125]>",
+           "[This Unit] gains the [Master Heavy Infantry Commander] promotion <when number of [RN1] is more than [124]> <when number of [RN1] is less than [250]>",
+           "[This Unit] gains the [Master Instrument Commander] promotion <when number of [RN1] is more than [249]> <when number of [RN1] is less than [375]>",
+           "[This Unit] gains the [Master Motility Commander] promotion <when number of [RN1] is more than [376]> <when number of [RN1] is less than [500]>",
+           "[This Unit] gains the [Master Armored Commander] promotion <when number of [RN1] is more than [499]> <when number of [RN1] is less than [625]>",
+           "[This Unit] gains the [Master of Open Terrain Operation] promotion <when number of [RN1] is more than [624]> <when number of [RN1] is less than [750]>",
+           "[This Unit] gains the [Master of Rugged Terrain Operation] promotion <when number of [RN1] is more than [749]> <when number of [RN1] is less than [875]>",
+           "[This Unit] gains the [General strategist] promotion <when number of [RN1] is more than [874]> <when number of [RN1] is less than [1001]>",
+           
+           
+           
+            "Great Person - [Strategist]",
+			"Unbuildable",
+			"Uncapturable",
+			],
+		"movement": 2
+	},
 	
 	
-	
+	{
+		"name": "Engineer",
+		"unitType": "UnitType.Civilian",
+		"uniques": [
+            "Can speed up construction of a building",
+           
+           
+           
+           "[This Unit] gains the [Academy] promotion <when number of [RN1] is more than [-1]> <when number of [RN1] is less than [250]>",
+           "[This Unit] gains the [Landmark] promotion <when number of [RN1] is more than [249]> <when number of [RN1] is less than [500]>",
+           "[This Unit] gains the [Manufactory] promotion <when number of [RN1] is more than [499]> <when number of [RN1] is less than [750]>",
+           "[This Unit] gains the [Citadel] promotion <when number of [RN1] is more than [749]> <when number of [RN1] is less than [1001]>",
+           
+           "Can instantly construct a [Manufactory] improvement <by consuming this unit>",
+           
+           
+            "Great Person - [Engineer]",
+			"Unbuildable",
+			"Uncapturable",
+			],
+		"movement": 2
+	},
+	{
+		"name": "Scientist",
+		"unitType": "UnitType.Civilian",
+		"uniques": [
+            "Can hurry technology research",
+            "Can instantly construct a [Academy] improvement <by consuming this unit>",
+           
+            "Great Person - [Scientist]",
+			"Unbuildable",
+			"Uncapturable",
+			],
+		"movement": 2
+	},
+	{
+		"name": "Archaeologist",
+		"unitType": "UnitType.Civilian",
+		"uniques": [
+            "Can hurry technology research <during the [Era.Revival]>",
+            "Can generate a large amount of culture",
+           "Can instantly construct a [Landmark] improvement <by consuming this unit>",
+            "Great Person - [Archaeologist]",
+			"Unbuildable",
+			"Uncapturable",
+			],
+		"movement": 2
+	},
 	
 	
 	

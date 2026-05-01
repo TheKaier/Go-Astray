@@ -31,9 +31,9 @@
 //"[+1 Culture] [in all cities]",
         //"Instantly provides [300] [Resource.Scientific Research Point]",
         "Provides [40] [Resource.Manpower max]",
-        "Adopt [Reign panel]",
+        "Adopt [Reign panel] <when number of [Event-driven] is equal to [7]> <upon turn start>",
         
-        "Provides [1] [RN1] <for every [([turns] * 184 * [[Plains] Tiles] + [Gold] * 106 * [[Grassland] Tiles] + [Culture] * 178 * [[Plains] Tiles] + [Happiness] * 141 * [[City center] Tiles] + 213 * [[Barbarian encampment] Tiles]) % 1000]>",
+        "Provides [1] [RN1] <for every [([turns] * 124 * [[Plains] Tiles] + [Gold] * 166 * [[Grassland] Tiles] + [Culture] * 148 * [[Plains] Tiles] + [Happiness] * 149 * [[City center] Tiles] + 217 * [[Barbarian encampment] Tiles]) % 1000]>",
         
         
         "Gain [-1] [Gold] <for every [[Gold] - [Resource.Water capacity]]> <upon turn start> <when number of [Gold] is more than [Resource.Water capacity]>",
@@ -61,6 +61,71 @@
         //Pantheon
         //Follower
         //Founder
+        
+        
+        //<when number of [Resource.Wood] is more than [[Consumes [Resource.Wood]] * [Production Coefficient of [Resource.Tools]]]>
+        //<when number of [Resource.Iron] is more than [[Consumes [Resource.Iron] to produce [Resource.Steel]] * [Production Coefficient of [Resource.Steel]]]>
+        //<when number of [Resource.Iron] is more than [[Consumes [Resource.Iron] to produce [Resource.Gun]] * [Production Coefficient of [Resource.Gun]]]>
+        
+        
+        "Provides [-1] [Resource.Iron] <for every [[Consumes [Resource.Iron] to produce [Resource.Steel]] / 100 * [Production Coefficient of [Resource.Steel]]]> <when number of [Resource.Iron] is more than [[Consumes [Resource.Iron] to produce [Resource.Steel]] / 100 * [Production Coefficient of [Resource.Steel]]]>",//铁产钢
+        "Provides [-1] [Resource.Iron] <for every [[Consumes [Resource.Iron] to produce [Resource.Gun]] / 100 * [Production Coefficient of [Resource.Gun]]]> <when number of [Resource.Iron] is more than [[Consumes [Resource.Iron] to produce [Resource.Gun]] / 100 * [Production Coefficient of [Resource.Gun]]]>",//消耗铁产枪
+        
+        "Provides [-1] [Resource.Wood] <for every [[Consumes [Resource.Wood]] / 100 * [Production Coefficient of [Resource.Tools]]]> <when number of [Resource.Wood] is more than [[Consumes [Resource.Wood]] / 100 * [Production Coefficient of [Resource.Tools]]]>",//工具
+        "Provides [-1] [Resource.Stone] <for every [[Consumes [Resource.Stone]] / 100 * [Production Coefficient of [Resource.Gun]]]> <when number of [Resource.Stone] is more than [[Consumes [Resource.Stone]] / 100 * [Production Coefficient of [Resource.Gun]]]>",//石头枪
+        "Provides [-1] [Resource.Coal] <for every [[Consumes [Resource.Coal]] / 100 * [Production Coefficient of [Resource.Electricity]]]> <when number of [Resource.Coal] is more than [[Consumes [Resource.Coal]] / 100 * [Production Coefficient of [Resource.Electricity]]]>",//煤炭电
+        "Provides [-1] [Resource.Uranium] <for every [[Consumes [Resource.Uranium]] / 100 * [Production Coefficient of [Resource.Electricity]]]> <when number of [Resource.Uranium] is more than [[Consumes [Resource.Uranium]] / 100 * [Production Coefficient of [Resource.Electricity]]]>",//核电
+        //
+        //
+        //
+        //
+        //
+        //
+        "Provides [1] [Resource.Tools] <for every [[Production [Resource.Tools]] / 100 * [Production Coefficient of [Resource.Tools]]]> <when number of [Resource.Wood] is more than [[Consumes [Resource.Wood]] / 100 * [Production Coefficient of [Resource.Tools]]]>",
+        "Provides [1] [Resource.Gun] <for every [[Production [Resource.Gun]] / 100 * [Production Coefficient of [Resource.Gun]]]> <when number of [Resource.Stone] is more than [[Consumes [Resource.Stone]] / 100 * [Production Coefficient of [Resource.Gun]]]> <when number of [Resource.Iron] is more than [[Consumes [Resource.Iron] to produce [Resource.Gun]] / 100 * [Production Coefficient of [Resource.Gun]]]>",
+        "Provides [1] [Resource.Electricity] <for every [[Production [Resource.Electricity]] / 100 * [Production Coefficient of [Resource.Electricity]]]> <when number of [Resource.Uranium] is more than [[Consumes [Resource.Uranium]] / 100 * [Production Coefficient of [Resource.Electricity]]]> <when number of [Resource.Coal] is more than [[Consumes [Resource.Coal]] / 100 * [Production Coefficient of [Resource.Electricity]]]>",
+        "Provides [1] [Resource.Steel] <for every [[Production [Resource.Steel]] / 100 * [Production Coefficient of [Resource.Steel]]]> <when number of [Resource.Iron] is more than [[Consumes [Resource.Iron] to produce [Resource.Steel]] / 100 * [Production Coefficient of [Resource.Steel]]]>",
+        
+        
+        //上方为百分比计算
+        
+        
+        
+        //真是绕了好大一圈。
+        //
+        //
+        /*
+        "Provides [-1] [Resource.Iron] <for every [Consumes [Resource.Iron] to produce [Resource.Steel]]> <when number of [Resource.Iron] is more than [Consumes [Resource.Iron] to produce [Resource.Steel]]>",//铁产钢
+        "Provides [-1] [Resource.Iron] <for every [Consumes [Resource.Iron] to produce [Resource.Gun]]> <when number of [Resource.Iron] is more than [Consumes [Resource.Iron] to produce [Resource.Gun]]>",//消耗铁产枪
+        
+        "Provides [-1] [Resource.Wood] <for every [Consumes [Resource.Wood]]> <when number of [Resource.Wood] is more than [Consumes [Resource.Wood]]>",//工具
+        "Provides [-1] [Resource.Stone] <for every [Consumes [Resource.Stone]]> <when number of [Resource.Stone] is more than [Consumes [Resource.Stone]]>",//石头枪
+        "Provides [-1] [Resource.Coal] <for every [Consumes [Resource.Coal]]> <when number of [Resource.Coal] is more than [Consumes [Resource.Coal]]>",//煤炭电
+        "Provides [-1] [Resource.Uranium] <for every [Consumes [Resource.Uranium]]> <when number of [Resource.Uranium] is more than [Consumes [Resource.Uranium]]>",//核电
+        
+        //
+        //
+        //
+        //
+        //
+        //
+        "Provides [1] [Resource.Tools] <for every [[Production [Resource.Tools]]]> <when number of [Resource.Wood] is more than [[Consumes [Resource.Wood]]]>",
+        "Provides [1] [Resource.Gun] <for every [[Production [Resource.Gun]]]> <when number of [Resource.Stone] is more than [Consumes [Resource.Stone]]> <when number of [Resource.Iron] is more than [Consumes [Resource.Iron] to produce [Resource.Gun]]>",
+        "Provides [1] [Resource.Electricity] <for every [Production [Resource.Electricity]]> <when number of [Resource.Uranium] is more than [Consumes [Resource.Uranium]]> <when number of [Resource.Coal] is more than [Consumes [Resource.Coal]]>",
+        "Provides [1] [Resource.Steel] <for every [Production [Resource.Steel]]> <when number of [Resource.Iron] is more than [Consumes [Resource.Iron] to produce [Resource.Steel]]>",
+        
+        */
+        
+        
+        
+        
+        
+        
+        //生产初始化
+        "Instantly provides [100] [Production Coefficient of [Resource.Tools]]",
+        "Instantly provides [100] [Production Coefficient of [Resource.Gun]]",
+        "Instantly provides [100] [Production Coefficient of [Resource.Electricity]]",
+        "Instantly provides [100] [Production Coefficient of [Resource.Steel]]",
         
         
     ],

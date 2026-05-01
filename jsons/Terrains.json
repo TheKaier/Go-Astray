@@ -379,13 +379,100 @@
             
         ]
     },
-
-
-	
-	
-	
-	
-	
+    
+    
+    
+	{
+		"name": "Terrain.The temple of the deep sea",
+		"type": "NaturalWonder",
+		"faith": 6,
+		"science": 6,
+		"occursOn": ["Ocean"],
+		"uniques": ["Must be adjacent to [2] to [6] [Coast] tiles",
+			//"Must be adjacent to [0] [Ice] tiles",
+			"Neighboring tiles will convert to [Coast]"
+			"Grants [+10 Faith] to the first civilization to discover it",
+			
+			],
+		"turnsInto": "Ocean",
+		"overrideStats": true,
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
+	{
+		"name": "Terrain.The abandoned nest",
+		"type": "NaturalWonder",
+		"faith": 4,
+		"science": 4,
+		"culture": 4,
+		"occursOn": ["Desert"],
+		"uniques": [
+			"Must be adjacent to [6] [Desert] tiles",
+			"Grants [+10 Faith] to the first civilization to discover it",
+			
+			],
+		"turnsInto": "Desert",
+		"overrideStats": true,
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
+	{
+		"name": "Terrain.The damaged Crystal column",
+		"type": "NaturalWonder",
+		"faith": 5,
+		"happiness": 4,
+		"occursOn": ["Plains"],
+		"uniques": [
+			"Must be adjacent to [6] [Plains] tiles",
+			"Grants [+10 Faith] to the first civilization to discover it",
+			
+			],
+		"turnsInto": "Plains",
+		"overrideStats": true,
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
+	{
+		"name": "Terrain.The remains of a monster",
+		"type": "NaturalWonder",
+		"faith": 3,
+		"food": 3,
+		"production": 3,
+		"occursOn": ["Plains"],
+		"uniques": [
+			"Must be adjacent to [6] [Plains] tiles",
+			"Grants [+10 Faith] to the first civilization to discover it",
+			
+			],
+		"turnsInto": "Plains",
+		"overrideStats": true,
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
+	{
+		"name": "Terrain.The strange realm of God's death",
+		"type": "NaturalWonder",
+		"faith": 2,
+		"gold": 2,
+		"food": 2,
+		"culture": 2,
+		"occursOn": ["Grassland"],
+		"uniques": [
+			"Must be adjacent to [6] [Grassland] tiles",
+			"Occurs in groups of [1] to [3] tiles",
+			"Grants [+10 Faith] to the first civilization to discover it",
+			
+			],
+		"turnsInto": "Grassland",
+		"overrideStats": true,
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
 	
 	
 	

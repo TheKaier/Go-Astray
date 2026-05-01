@@ -291,7 +291,7 @@
     {
         "columnNumber": 6,
         "era": "Era.Revival",
-        "techCost": 275,
+        "techCost": 325,
         "buildingCost": 40,
         "wonderCost": 185,
         "techs": [
@@ -341,7 +341,7 @@
 {
         "columnNumber": 7,
         "era": "Era.Revival",
-        "techCost": 300,
+        "techCost": 400,
         "buildingCost": 40,
         "wonderCost": 185,
         "techs": [
@@ -392,7 +392,7 @@
     {
         "columnNumber": 8,
         "era": "Era.Glory",
-        "techCost": 400,
+        "techCost": 500,
         "buildingCost": 40,
         "wonderCost": 185,
         "techs": [
@@ -455,7 +455,7 @@
     {
         "columnNumber": 9,
         "era": "Era.Revival",
-        "techCost": 525,
+        "techCost": 600,
         "buildingCost": 40,
         "wonderCost": 185,
         "techs": [
@@ -506,7 +506,7 @@
 {
         "columnNumber": 10,
         "era": "Era.Revival",
-        "techCost": 775,
+        "techCost": 850,
         "buildingCost": 40,
         "wonderCost": 185,
         "techs": [
@@ -566,7 +566,7 @@
     {
         "columnNumber": 11,
         "era": "Era.Glory",
-        "techCost": 850,
+        "techCost": 1000,
         "buildingCost": 40,
         "wonderCost": 185,
         "techs": [
@@ -615,7 +615,7 @@
     {
         "columnNumber": 12,
         "era": "Era.Glory",
-        "techCost": 1000,
+        "techCost": 1500,
         "buildingCost": 40,
         "wonderCost": 185,
         "techs": [
@@ -674,7 +674,7 @@
 {
         "columnNumber": 13,
         "era": "Era.Glory",
-        "techCost": 1450,
+        "techCost": 2500,
         "buildingCost": 40,
         "wonderCost": 185,
         "techs": [
@@ -715,7 +715,7 @@
     {
         "columnNumber": 14,
         "era": "Era.Glory",
-        "techCost": 1950,
+        "techCost": 4000,
         "buildingCost": 40,
         "wonderCost": 185,
         "techs": [
@@ -754,7 +754,7 @@
     {
         "columnNumber": 15,
         "era": "Era.Glory",
-        "techCost": 2500,
+        "techCost": 7500,
         "buildingCost": 40,
         "wonderCost": 185,
         "techs": [

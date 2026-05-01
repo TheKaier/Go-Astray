@@ -61,4 +61,140 @@
             },
         ]
     },
+    
+    
+    
+    {
+        "name":"1.0 Preface",
+        "civilopediaText":[
+            { 
+                "text": "Welcome to the Go Astray mod. Compared to the “Gods and Kings” rule set, this mod has significant changes. It is recommended that you read the following information before playing.",
+                "size":30
+            },
+            {
+                "separator":true,
+                "color":"#FFFFFF",
+                "size":1
+            },
+        ]
+    },
+    {
+        "name":"1.1 Resource processing",
+        "civilopediaText":[
+            { 
+                "text": "In this mod, most of the resources extracted from plots cannot be directly used for unit construction, like coal and aluminum in the Gods and Kings rule set. Instead, they must be processed using specialized construction facilities. Only after processing can these resources be utilized for unit construction.",
+                "size":30
+            },
+            {
+                "separator":true,
+                "color":"#FFFFFF",
+                "size":1
+            },
+        ]
+    },
+    {
+        "name":"1.2 Production adjustment",
+        "civilopediaText":[
+            { 
+                "text": "Limited resources need to be allocated reasonably by adjusting the processing rates of various resources and phasing out outdated production capacity. This allows for more efficient use of resources.",
+                "size":30
+            },
+            {
+                "separator":true,
+                "color":"#FFFFFF",
+                "size":1
+            },
+        ]
+    },
+    {
+        "name":"1.3 City Level",
+        "civilopediaText":[
+            { 
+                "text": "Unlike the rulesets of the gods and kings, in this mod, population and cities do not directly consume happiness. Instead, city level is used to represent these factors. When the city’s population reaches a certain threshold, its level increases automatically. As the city level rises, the city gains percentage bonuses in terms of production capacity, technology, culture, and wealth. However, the city’s happiness consumption also increases. If the population decreases after the city level has been raised, the city level won’t drop accordingly. Players can control population growth by constructing buildings that halt population increase.",
+                "size":30
+            },
+            {
+                "separator":true,
+                "color":"#FFFFFF",
+                "size":1
+            },
+        ]
+    },
+    {
+        "name":"1.4 Natural disaster pollution",
+        "civilopediaText":[
+            { 
+                "text": "Faith represents the extent of your faction’s fanatical worship of natural disasters. When faith reaches a certain level, your faction will be replaced by the forces of chaos, and some ways to achieve victory will be restricted and become unattainable.",
+                "size":30
+            },
+            {
+                "separator":true,
+                "color":"#FFFFFF",
+                "size":1
+            },
+        ]
+    },
+    {
+        "name":"1.5 Manpower and Resource",
+        "civilopediaText":[
+            { 
+                "text": "In this module, most units share a common resource requirement: manpower. The number of people represents the size of your available reserve force. The top 20 citizens in the city provide 1 unit of manpower per turn, with a maximum of 10 units available.",
+                "size":30
+            },
+            { 
+                "text": "Most resources can be accumulated over time, just like human labor. However, a few types of resources have an accumulation limit. Once the accumulated quantity reaches a certain level, those resources will be hidden from the resource bar, allowing other resources to be displayed more clearly.",
+                "size":30
+            },
+            {
+                "separator":true,
+                "color":"#FFFFFF",
+                "size":1
+            },
+        ]
+    },
+    {
+        "name":"1.6 Space Orbit",
+        "civilopediaText":[
+            { 
+                "text": "After building a space orbit, players can build and launch satellites to capture the space orbit. After the construction of the space orbit panel, the space orbit panel shows the space orbit device that we can use, The larger our share of all orbiting satellites, the more devices we can use",
+                "size":30
+            },
+            {
+                "separator":true,
+                "color":"#FFFFFF",
+                "size":1
+            },
+        ]
+    },
+    {
+        "name":"1.7 Power Route",
+        "civilopediaText":[
+            { 
+                "text": "After completing the series of events at the beginning, players can choose one faction to play as. There are four categories of factions: Successor, Cenozoic, Warlord, and Chaos. During the opening events, players can select from Successor, Cenozoic, or Warlord.",
+                "size":30
+            },
+            {
+                "separator":true,
+                "color":"#FFFFFF",
+                "size":1
+            },
+        ]
+    },
+    {
+        "name":"1.8 Great Person",
+        "civilopediaText":[
+            { 
+                "text": "In the process of power development, the emergence of talented individuals is inevitable. Different types of great people possess their own fundamental abilities, along with additional random skills as well.",
+                "size":30
+            },
+            {
+                "separator":true,
+                "color":"#FFFFFF",
+                "size":1
+            },
+        ]
+    },
+    
+    
+    
 ]

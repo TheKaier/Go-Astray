@@ -125,7 +125,16 @@
     
     
     
-    
+    {
+		"name": "Infrastructure expansion",//基础设施拓展
+		"cost": 1,
+		"specialistSlots": {"Infrastructure": 1},
+		"uniques": [
+		
+		
+		
+		]
+	},
     
     
     
@@ -654,7 +663,11 @@
 		"Provides [1] [Resource.Manpower] <in cities with at least [14] [Population]> <when number of [Resource.Manpower] is less than [Resource.Manpower max]> <hidden from users>",
 		"Provides [1] [Resource.Manpower] <in cities with at least [15] [Population]> <when number of [Resource.Manpower] is less than [Resource.Manpower max]> <hidden from users>",
 		
-		
+		"Provides [1] [Resource.Manpower] <in cities with at least [16] [Population]> <when number of [Resource.Manpower] is less than [Resource.Manpower max]> <hidden from users>",
+		"Provides [1] [Resource.Manpower] <in cities with at least [17] [Population]> <when number of [Resource.Manpower] is less than [Resource.Manpower max]> <hidden from users>",
+		"Provides [1] [Resource.Manpower] <in cities with at least [18] [Population]> <when number of [Resource.Manpower] is less than [Resource.Manpower max]> <hidden from users>",
+		"Provides [1] [Resource.Manpower] <in cities with at least [19] [Population]> <when number of [Resource.Manpower] is less than [Resource.Manpower max]> <hidden from users>",
+		"Provides [1] [Resource.Manpower] <in cities with at least [20] [Population]> <when number of [Resource.Manpower] is less than [Resource.Manpower max]> <hidden from users>",
 		
 		
 		
@@ -676,7 +689,11 @@
 		"Provides [10] [Resource.Manpower max] <in cities with at least [14] [Population]> <hidden from users>",
 		"Provides [10] [Resource.Manpower max] <in cities with at least [15] [Population]> <hidden from users>",
 		
-		
+		"Provides [10] [Resource.Manpower max] <in cities with at least [16] [Population]> <hidden from users>",
+		"Provides [10] [Resource.Manpower max] <in cities with at least [17] [Population]> <hidden from users>",
+		"Provides [10] [Resource.Manpower max] <in cities with at least [18] [Population]> <hidden from users>",
+		"Provides [10] [Resource.Manpower max] <in cities with at least [19] [Population]> <hidden from users>",
+		"Provides [10] [Resource.Manpower max] <in cities with at least [20] [Population]> <hidden from users>",
 		]
 		},
 		{
@@ -828,10 +845,15 @@
 		"cost": 40,
 		"specialistSlots": {"Engineering Personnel": 1},
 		"uniques": [
-		"Provides [1] [Resource.Tools] <when above [1] [Resource.Wood]> <when number of [[Production Index] % 10] is equal to [0]>",
-		"Consumes [2] [Resource.Wood] <when above [1] [Resource.Wood]> <when number of [[Production Index] % 10] is equal to [0]>",
-		"Provides [3] [Resource.Gun] <when above [1] [Resource.Stone]> <when number of [[Production Index] % 100 - [Production Index] % 10] is equal to [0]>",
-		"Consumes [2] [Resource.Stone] <when above [1] [Resource.Stone]> <when number of [[Production Index] % 100 - [Production Index] % 10] is equal to [0]>",
+		
+		
+		"Provides [1] [Production [Resource.Tools]]",
+		"Provides [2] [Consumes [Resource.Wood]]",
+		
+		"Provides [3] [Production [Resource.Gun]]",
+		"Provides [4] [Consumes [Resource.Stone]]",
+		
+		
 		],
 		"requiredTech": "Tech.Pipe making"
 	},
@@ -907,10 +929,12 @@
 		"cost": 60,
 		"specialistSlots": {"Engineering Personnel": 1},
 		"uniques": [
-		"Provides [2] [Resource.Tools] <when above [2] [Resource.Wood]> <when number of [[Production Index] % 10] is equal to [0]>",
-		"Consumes [3] [Resource.Wood] <when above [2] [Resource.Wood]> <when number of [[Production Index] % 10] is equal to [0]>",
-		"Provides [2] [Resource.Gun] <when above [2] [Resource.Iron]> <when number of [[Production Index] % 100 - [Production Index] % 10] is equal to [0]>",
-		"Consumes [3] [Resource.Iron] <when above [2] [Resource.Iron]> <when number of [[Production Index] % 100 - [Production Index] % 10] is equal to [0]>",
+		
+		"Provides [2] [Production [Resource.Tools]]",
+		"Provides [3] [Consumes [Resource.Wood]]",
+		
+		"Provides [2] [Production [Resource.Gun]]",
+		"Provides [4] [Consumes [Resource.Iron] to produce [Resource.Gun]]",
 		],
 		"requiredTech": "Tech.Workshop production"
 	},
@@ -985,8 +1009,9 @@
 		"cost": 120,
 		"specialistSlots": {"Engineering Personnel": 2},
 		"uniques": [
-		"Provides [4] [Resource.Gun] <when above [4] [Resource.Iron]> <when number of [[Production Index] % 100 - [Production Index] % 10] is equal to [0]>",
-		"Consumes [5] [Resource.Iron] <when above [4] [Resource.Iron]> <when number of [[Production Index] % 100 - [Production Index] % 10] is equal to [0]>",
+		"Provides [5] [Production [Resource.Gun]]",
+		"Provides [8] [Consumes [Resource.Iron] to produce [Resource.Gun]]",
+		
 		],
 		"requiredTech": "Tech.Batch engineering"
 	},
@@ -1048,9 +1073,11 @@
 		"cost": 120,
 		"specialistSlots": {"Engineering Personnel": 2},
 		"uniques": [
-		"Provides [5] [Resource.Steel] <when above [4] [Resource.Iron]> <when above [2] [Resource.Coal]> <when number of [[Production Index] % 1000 - [Production Index] % 100] is equal to [0]>",
-		"Consumes [5] [Resource.Iron] <when above [4] [Resource.Iron]> <when above [2] [Resource.Coal]> <when number of [[Production Index] % 1000 - [Production Index] % 100] is equal to [0]>",
-		"Consumes [3] [Resource.Coal] <when above [4] [Resource.Iron]> <when above [2] [Resource.Coal]> <when number of [[Production Index] % 1000 - [Production Index] % 100] is equal to [0]>",
+		
+		"Provides [7] [Production [Resource.Steel]]",
+		//"Provides [2] [Consumes [Resource.Coal]]",
+		"Provides [4] [Consumes [Resource.Iron] to produce [Resource.Steel]]",
+		
 		],
 		"requiredTech": "Tech.Mining"
 	},
@@ -1105,8 +1132,9 @@
 		"cost": 200,
 		"uniques": [
 		"[+10]% [Production] [in this city] <when above [3] [Resource.Coal]>",
-		"Provides [10] [Resource.Electricity] <when above [3] [Resource.Coal]> <when number of [[Production Index] % 10000 - [Production Index] % 1000] is equal to [0]>",
-		"Consumes [4] [Resource.Coal] <when above [3] [Resource.Coal]> <when number of [[Production Index] % 10000 - [Production Index] % 1000] is equal to [0]>",
+		
+		"Provides [10] [Production [Resource.Electricity]]",
+		"Provides [4] [Consumes [Resource.Coal]]",
 		],
 		"requiredTech": "Tech.Coal-fired generator"
 	},
@@ -1271,8 +1299,10 @@
 		"cost": 400,
 		"uniques": [
 		"[+15]% [Production] [in this city]",
-		"Provides [10] [Resource.Electricity] <when above [0] [Resource.Uranium]> <when number of [[Production Index] % 10000 - [Production Index] % 1000] is equal to [0]>",
-		"Consumes [1] [Resource.Uranium] <when above [0] [Resource.Uranium]> <when number of [[Production Index] % 10000 - [Production Index] % 1000] is equal to [0]>",
+		
+		"Provides [10] [Production [Resource.Electricity]]",
+		"Provides [1] [Consumes [Resource.Uranium]]",
+		
 		],
 		"requiredTech": "Tech.Nuclear Recycling"
 	},

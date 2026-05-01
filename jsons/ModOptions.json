@@ -10,8 +10,8 @@
     "cityExpandRange":4,
     "riverCountMultiplier": 0.02,
     "religionLimitMultiplier": 1.0,
-    "naturalWonderCountMultiplier": 0.3,
-    "naturalWonderCountAddedConstant": 1,
+    "naturalWonderCountMultiplier": 0.2,
+        "naturalWonderCountAddedConstant": 5,
     },
     "uniques":[
     //"Can trade civilization introductions for [10] Gold",

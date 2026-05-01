@@ -74,8 +74,125 @@
     "column": 2,
     "row": 2
 },*/
-
-
+    
+    {
+		"name": "Heal Instantly",
+		"uniques": ["[This Unit] heals [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
+    },
+    
+    {
+		"name": "Master Light Infantry Commander",
+		"uniques": [
+		"[+15]% Strength bonus for [UnitType.LightInfantry] units within [2] tiles",
+		
+		
+		],
+    },
+    {
+		"name": "Master Heavy Infantry Commander",
+		"uniques": [
+		"[+15]% Strength bonus for [UnitType.HeavyInfantry] units within [2] tiles",
+		
+		
+		],
+    },
+    {
+		"name": "Master Instrument Commander",
+		"uniques": [
+		"[+25]% Strength bonus for [UnitType.Instrument] units within [2] tiles",
+		
+		
+		],
+    },
+    {
+		"name": "Master Motility Commander",
+		"uniques": [
+		"[+15]% Strength bonus for [UnitType.Motility] units within [2] tiles",
+		"[+1] Movement",
+		
+		],
+    },
+    {
+		"name": "Master Armored Commander",
+		"uniques": [
+		"[+15]% Strength bonus for [UnitType.Armoured] units within [2] tiles",
+		"[+1] Movement",
+		
+		],
+    },
+    {
+		"name": "Master of Open Terrain Operation",
+		"uniques": [
+		"[+15]% Strength bonus for [Military] units within [1] tiles <in [Open terrain] tiles>",
+		
+		],
+    },
+    {
+		"name": "Master of Rugged Terrain Operation",
+		"uniques": [
+		"[+15]% Strength bonus for [Military] units within [1] tiles <in [Rough terrain] tiles>",
+		
+		],
+    },
+    {
+		"name": "General strategist",
+		"uniques": [
+		"[+10]% Strength bonus for [Military] units within [2] tiles",
+		
+		],
+    },
+    
+    
+    
+    
+    {
+		"name": "Academy",
+		"uniques": [
+		"Can build [Academy] improvements on tiles",
+		
+		],
+    },
+    {
+		"name": "Landmark",
+		"uniques": [
+		"Can build [Landmark] improvements on tiles",
+		
+		],
+    },
+    {
+		"name": "Manufactory",
+		"uniques": [
+		"Can build [Manufactory] improvements on tiles",
+		
+		],
+    },
+    {
+		"name": "Citadel",
+		"uniques": [
+		"Can build [Citadel] improvements on tiles",
+		
+		],
+    },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     {
         "name": "Open Terrain Combat I",
         "uniques": [
